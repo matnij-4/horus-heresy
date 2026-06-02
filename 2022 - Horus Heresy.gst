@@ -9925,7 +9925,26 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9938-d8d4-e0cc-b883" name="Gravis Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
+    
+    <selectionEntry id="c7d8-e9f0-a1b2-c3d4-5e6f70819901" name="Gravis Heavy Flamer" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d8e9-f0a1-b2c3-d4e5f60718293" name="Gravis Heavy Flamer" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (12&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e9f0-a1b2-c3d4-e5f6-70819902" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+<selectionEntry id="9938-d8d4-e0cc-b883" name="Gravis Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="6530-b761-55ce-eec5" name="Gravis Multi-Laser" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
@@ -11603,6 +11622,68 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d8e9-f0a1-b2c3-4d5e-6f70819902" name="Pintle-Mounted Auto-Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d8e9-f0a1-b2c3-4d5e-6f70819902f" name="Pintle-Mounted Auto-Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Pinning, Auto-Launcher</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d8e9-f0a1-b2c3-4d5e-6f70819902k" name="Pintle-Mounted Auto-Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Auto-Launcher</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d8e9-f0a1-b2c3-4d5e-6f70819902b" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d8e9-f0a1-b2c3-4d5e-6f70819902p" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e9f0-a1b2-c3d4-5e6f70819903" name="Sentinel Powerlifter" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e9f0-a1b2-c3d4-5e6f70819903p" name="Sentinel Powerlifter" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Replaces the model&apos;s arm-mounted weapon. When making Melee attacks, a model with a Sentinel Powerlifter increases its Strength Characteristic by 2 and gains the Smash Attack special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b8c9-d0e1-f203-4151-62738495a6b7" name="Militia Lance and Lascarbine" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="b8c9-d0e1-f203-4151-62738495a6b8" name="Militia Lance" hidden="false" collective="false" import="true" targetId="2304-c98f-01a8-f0c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8c9-d0e1-f203-4151-62738495a6b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8c9-d0e1-f203-4151-62738495a6ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b8c9-d0e1-f203-4151-62738495a6bb" name="Lascarbine" hidden="false" collective="false" import="true" targetId="d68e-ce5a-000c-c322" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8c9-d0e1-f203-4151-62738495a6bc" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b8c9-d0e1-f203-4151-62738495a6bd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -20819,6 +20900,94 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
         <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One on each side of the hull and one at the front.</characteristic>
       </characteristics>
     </profile>
+
+    <selectionEntry id="a1b2-c3d4-5e6f70819921" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819922" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Militia Sabre Platform equipped with a Sabre Searchlight follows the rules for Searchlights.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819930" name="Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819931" name="Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Large Blast (5&quot;)" targetId="1d9a-73ef-5f4f-8bd8" type="rule" hidden="false" id="a1b2-mm-blast"/>
+        <infoLink name="Barrage" targetId="7255-b5ee-c3f4-3037" type="rule" hidden="false" id="a1b2-mm-barr"/>
+        <infoLink name="Pinning" targetId="1c96-205c-59a0-3cf2" type="rule" hidden="false" id="a1b2-mm-pin"/>
+        <infoLink name="Ignores Cover" targetId="fdb5-59e2-c446-1cbc" type="rule" hidden="false" id="a1b2-mm-ic"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819932" name="Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819933" name="Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks><infoLink name="Sunder" targetId="20e2-75cf-bc16-cd8f" type="rule" hidden="false" id="a1b2-sem-s"/></infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819934" name="Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819935" name="Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Large Blast (5&quot;)" targetId="1d9a-73ef-5f4f-8bd8" type="rule" hidden="false" id="a1b2-pim-b"/>
+        <infoLink name="Barrage" targetId="7255-b5ee-c3f4-3037" type="rule" hidden="false" id="a1b2-pim-br"/>
+        <infoLink name="Pinning" targetId="1c96-205c-59a0-3cf2" type="rule" hidden="false" id="a1b2-pim-p"/>
+        <infoLink name="Ignores Cover" targetId="fdb5-59e2-c446-1cbc" type="rule" hidden="false" id="a1b2-pim-i"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819936" name="Manticore Missile Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink name="Manticore Missile" hidden="false" id="a1b2-mml-m" targetId="a1b2-c3d4-5e6f70819930" type="selectionEntry" import="true" collective="false">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a1b2-mml-m-min" includeChildSelections="false"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-m-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Storm Eagle Missile" hidden="false" id="a1b2-mml-s" targetId="a1b2-c3d4-5e6f70819932" type="selectionEntry" import="true" collective="false">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-s-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink name="Phosphor Incendiary Missile" hidden="false" id="a1b2-mml-p" targetId="a1b2-c3d4-5e6f70819934" type="selectionEntry" import="true" collective="false">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-p-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-tot-min" includeChildSelections="true"/>
+        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-tot-max" includeChildSelections="true"/>
+      </constraints>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
   </sharedProfiles>
   <infoLinks>
     <infoLink id="cf3c-4951-8835-0aeb" name="Fast Vehicles" targetId="2cbf-c1a1-844a-6456" type="rule"/>
