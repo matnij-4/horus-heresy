@@ -32,6 +32,7 @@
     <publication name="Campaigns in the Age of Darkness - Martian Civil War" id="4934-46f7-208b-b4af" hidden="false" shortName="CotAoD - MCW" publicationDate="Sept 2024"/>
     <publication name="Legion Tarantula Sentry Gun Battery" id="5b2d-881e-a870-a7d1" hidden="false" publisherUrl="https://assets.warhammer-community.com/eng_jun25_thehorusheresy_additionalrules_tarantula-nq1r50lr4a-ec6sail0d9.pdf" publicationDate="June 2025"/>
     <publication name="Most New Units" hidden="false" id="f1a8-3c2d-4e5b-9a6f" shortName="MNU" publicationDate="2024"/>
+    <publication name="Liber Imperatus (Panoptica)" hidden="false" id="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" shortName="Liber Imperatus" publicationDate="Panoptica v1.2"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -18293,6 +18294,375 @@ When assigning additional models to units using the Among the Ranks and Militia 
       <description>An attack that has this special rule does not roll to Wound using the normal rules, instead roll To Wound by comparing the Attack’s Strength to the target’s Strength Characteristic, using the Strength Characteristic in place of Toughness on the To Wound table. If any Attacks with this special rule inflict Wounds, do not make Armour Saves or Damage Mitigation rolls for those Wounds – instead for each Wound inflicted by an Attack with this special rule, reduce the Movement Characteristic of all models in the target unit by the number in brackets that is included as part of this special rule (to a minimum of 1) until the end of the controlling player’s next turn. The Wounds caused by Attacks with this special rule are then discarded and neither reduce the target model’s Wounds Characteristic nor cause any models to be removed as casualties (this does not affect Wounds inflicted by Attacks without this special rule that are part of the same Shooting Attack).
 
 Attacks with this special rule have no effect on models with the Vehicle or Primarch Unit Type, or on any model that starts the battle with 6 or more Wounds. Do not roll To Wound if Hits from an attack with this special rule are allocated to such a model and simply discard those Hits. Similarly, models of these Types are not affected by the modifiers to Movement inflicted by the Entangle special rule, regardless of whether other models in the same unit are affected.</description>
+    </rule>
+    <rule id="8f92-8a4d-9b3f-4fdc-8f5c9740dd0fa689" name="Abominant Aura" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Models with the Traitor Allegiance suffer a penalty of -1 to their Initiative and Leadership Characteristics whilst within 6” of a unit containing a model with this Special Rule. This penalty is cumulative with other effects, and units with the Stubborn Special Rule do suffer penalties to their Leadership from the effects of this Special Rule (note that this only applies to the Stubborn Special Rule, and other Special Rules that ignore penalties to Leadership ignore the effects of the Abominant Aura Special Rule).</description>
+    </rule>
+    <rule id="de12-a28b-e820-46f4-b4eb693ed0199904" name="Aerial Interception" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule which performs the Interceptor Advanced Reaction may fire a single Battle Weapon it is equipped with when shooting at a unit with the Flyer Unit Sub-Type.</description>
+    </rule>
+    <rule id="3a18-7d8f-1667-419b-86c68ddc07649f19" name="Among the Flock" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>An Imperialis Militia Demagogue Cadre is selected like any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in an Imperialis Militia Demagogue Cadre must be assigned to another unit from the same Detachment of the army they were selected as part of. Demagogues may only be assigned to units composed entirely of models with the Infantry Unit Type, and either the Militia or Artillery Unit Sub-Types, unless upgraded to a Mounted Demagogue, in which case that model must be assigned to a Unit with the Cavalry Unit Type and the Militia Unit Sub-Type.
+
+Once assigned to a unit, the Demagogue is considered part of that unit and may not leave it under any circumstances - if that unit is removed as a casualty then the Demagogue is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Demagogue as a casualty. When assigned to a unit, an Demagogue gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty Special Rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+    </rule>
+    <rule id="3b2a-7512-89ba-4d2c-b04e23780ad956a7" name="Amphibious" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule treats all water-based terrain as Open Terrain when it moves.</description>
+    </rule>
+    <rule id="5be8-6c74-6db3-49bb-899cd0b576f19106" name="Agripinaan Guidance System" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A weapon with this Special Rule may toll two Scatter Dice when firing a weapon with the Blast (X) Special Rule; and may select one of those dice to discard when resolving that weapons scatter. When firing a weapon with this Special Rule, if this model re-rolls its scatter die then it must re-roll both.</description>
+    </rule>
+    <rule id="942d-bb5a-1ec9-4691-b481c77b86662939" name="Alpha Psyker" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule gains the Anathemata Psychic Discipline (see page 264). In addition, they may select a single Psychic Discipline from the following list: Biomancy, Pyromancy, Telekinesis (see the Horus Heresy: Age of Darkness Core Rulebook, page 322), Diabolism (see page 269).</description>
+    </rule>
+    <rule id="a179-d9a0-b55c-4274-83727c233e22b262" name="Armoured Doors" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>At the beginning of the Controlling Player&apos;s Movement phase, the Controlling Player must decide if the Otos Transport&apos;s Armoured Doors will be opened. If the doors are declared to be open, then the Otos Transport gains the Open-Topped (4) and Assault Vehicle Special Rules until the beginning of the Controlling Player&apos;s next Movement phase, where they are assumed to automatically close.</description>
+    </rule>
+    <rule id="8fbb-baeb-668a-4162-b279c045f18f66d3" name="Armoured Superstructure" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Whenever a roll is made on the Vehicle Damage Table against a model with this Special Rule, subtract -1 from the result rolled.</description>
+    </rule>
+    <rule id="3990-26f4-34ba-4db4-81c86c25213c0738" name="Array Fire (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A weapon with this Special Rule may only be fired if the model equipped with it is a Transport with at least one model embarked upon it. For each model embarked, the weapon may be fired again as part of the same Shooting Attack, up to a total number of times equal to the value in brackets. Models with the Bulky (X) Special Rule count as a single model for the purposes of this Special Rule.</description>
+    </rule>
+    <rule id="5587-3961-fa0b-4f48-8df9763ea8f3774d" name="Artillery Spotters" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit with this Special Rule may grant the benefits of a Cognis Signum it has purchased to a single unit with at least one model within 6” of a model from this unit, instead of using the benefit itself.
+
+Note that the unit must be from the same Tercio as it to grant it the benefits of the Cognis Signum in this way.</description>
+    </rule>
+    <rule id="f71c-553b-3fa6-4b8c-96db109fef5a708b" name="Astra Telepathica" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule and the Psyker Sub-type must select a single Psychic Discipline from the following list: Divination, Telepathy, Telekinesis (see the Horus Heresy: Age of Darkness Core Rulebook, page 322).</description>
+    </rule>
+    <rule id="5f05-33b0-fb3b-4866-9b6c062fcf3058e1" name="Auxilia Rangers" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit that includes any models with this Special Rule may not join or be joined by any model that does not also have this Special Rule, and a unit that includes any models with this Special Rule may never count as a Scoring unit or a Denial unit regardless of any other Special Rule or Mission rules in use.
+
+In addition, models with this Special Rule may re-roll all failed Shrouded Damage Mitigation saves.</description>
+    </rule>
+    <rule id="ba61-482b-ad76-450a-bb046e419d917d45" name="Battle Focus" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit composed entirely of models with this Special Rule may choose to Advance in the Controlling Player&apos;s Movement Phase and still shoot in the following Shooting Phase. If they choose to Advance in the Movement Phase, all shooting attacks the unit makes in the following Shooting Phase are resolved at a Ballistic Skill Characteristic of 2.</description>
+    </rule>
+    <rule id="d108-d3ca-27f0-42cf-94a4a555f160babb" name="Astropathic Communication" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>As long as a model with this Special Rule is on the battlefield (but not in Reserves) then all Reserve rolls made by the Controlling Player may be re-rolled.</description>
+    </rule>
+    <rule id="c22d-4ee6-fcbe-43c3-aafeb7ddad5a6460" name="Battle Psyker" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>An Auxilia Battle Psyker may select a single Core Psychic Discipline from the following list: Biomancy, Divination, Pyromancy, Telekinesis, Telepathy, Thaumaturgy (see the Horus Heresy: Age of Darkness Core Rulebook, page 322).</description>
+    </rule>
+    <rule id="2b6e-d7a4-51fe-4bd3-b079dcaa1b279d70" name="Attack Wing" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this Special Rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+    </rule>
+    <rule id="e6d8-fbd9-e4f7-4ee1-80974606a1418a5a" name="Auramite Talon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this Special Rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.
+
+Battlefield psykers were rare among the Solar Auxilia, but the cohorts who enlisted them could call upon a range of powers to devastate enemy ranks and support their Tercios.
+
+An Auxilia Battle Psyker may select a single Core Psychic Discipline from the following list: Biomancy, Divination, Pyromancy, Telekinesis, Telepathy, Thaumaturgy (see the Horus Heresy: Age of Darkness Core Rulebook, page 322).</description>
+    </rule>
+    <rule id="9049-5b48-2f95-43bc-b6d0d35b35b047e3" name="Battle-Automata" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>For every model in a Detachment with this Special Rule that is also equipped with a Cortex Controller, a single Thallax Cohort or Castellax Battle-Automata Maniple (see Liber Mechanicum) may be included in the army as an Elites choice. A Thallax Cohort selected in this way may not select a Dedicated Transport.</description>
+    </rule>
+    <rule id="1557-c6bb-ea50-4ae7-b8eae4f082fac11e" name="Bunker Drop" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule starts the game carrying a single Deployable Bunker, which does not use up any Force Organisation slot. This bunker is a Fortification (Building) and has Access Points on each side. It has Front, Side, and Rear Armour Values of 12, a Hull Points value of 4, a Fire Points value of (Front, 6), and a Transport Capacity of 12. This Deployable Bunker may also choose to select two Emplacement Mounted Heavy Stubbers at no additional points cost. Models may start the battle Embarked within the Deployable Bunker, but may not disembark until the Deployable Bunker is deployed, and the Deployable Bunker or its Embarked unit may not act until the Deployable Bunker is deployed.
+
+Whenever the Kelaino Sky-Talon is eligible to have models Disembark, it may instead choose to deploy the Deployable Bunker. Place the Deployable Bunker within base contact of the Kelaino Sky-Talon. If there is no location in which the Deployable Bunker can be placed on the battlefield in which its final position is not within 1” of an enemy model, Objective Marker, or Impassable Terrain, then the Deployable Bunker may not be deployed. If the Deployable Bunker may be deployed, and the model&apos;s final position has been decided, the Deployable Bunker remains in that location for the duration of the game and is now treated as a Fortification, following all usual rules that Fortifications follow.
+
+If a Kelaino Sky-Talon suffers the Crash and Burn damage result whilst it is carrying a Deployable Bunker, after resolving the initial Crash and Burn result (as shown on the Vehicle Damage table), resolve an additional Small Blast (3”) marker using the Crash and Burn rules. The Flyer, the Deployable Bunker, and any unit that was embarked within it, are then removed from play.
+
+Designer&apos;s Note: The Bunker should be roughly of a size which allows it to fit on a 120 x 92mm base.</description>
+    </rule>
+    <rule id="24c5-754d-ac9d-4e80-af26dfeb35f6c914" name="Burst (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>If this weapon inflicts a Hit then instead of one Hit it inflicts a number of Hits equal to the number in brackets included as part of the Special Rule.</description>
+    </rule>
+    <rule id="0570-559a-50cd-4a30-a4231792a77c9155" name="By His Sanction Alone" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may only be selected in a Detachment that also contains the Army&apos;s Warlord, and in games of 2,500 points or above.</description>
+    </rule>
+    <rule id="38f9-0f4c-ea9b-480b-ab309590df0a1c97" name="Combat Transporter" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>If a model with this Special Rule is carrying a Vehicle or any Dreadnoughts in its Auxiliary Vehicle Bay, reduce any rolls for Countermeasures Saves it makes by -1.</description>
+    </rule>
+    <rule id="ec18-484f-940e-4057-b1380e447455aeda" name="Countdown to Launch…" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A Deathstrike Missile Platform may not fire its Deathstrike Missile normally for any reason. Instead, in order to fire a Deathstrike Missile, the Controlling Player should roll a D6 and add the current Turn Number during the Controlling Player&apos;s Shooting Phase. If the total is 7 or higher, the Deathstrike Missile is immediately launched!
+
+The Controlling Player must laugh maniacally, then proceed to resolve their selected Warhead anywhere on the battlefield - It should be noted that the Warheads do not have a Range as the Blast Marker can be placed anywhere the battlefield! This Blast Marker must still be Scattered following the usual Rules, reducing the distance scattered by the model&apos;s own unmodified Ballistic Skill.
+
+Once fired, a Deathstrike Missile may not be fired again for the remainder of the game for any reason, and is counted as having suffered an irreparable Weapon Destroyed Result. A Deathstrike Missile cannot suffer the effects of Weapon Destroyed results for any other reason, and is immune to any effects which would allow another player to fire a weapon belonging to an enemy model.</description>
+    </rule>
+    <rule id="3f59-eb9a-af5c-4653-9d9219aee144ab25" name="Crew-Served Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may Embark on models with the Transport Unit Sub-Type and Infantry Transport Special Rule, contrary to the restriction on models with the Bulky (X) Special Rule rule, but still must take into account their size due to the Bulky (X) Special Rule.</description>
+    </rule>
+    <rule id="0278-cb5e-874b-410e-a56b7ed1bcbfd6cc" name="Defender" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit hit by one or more models or weapons with this Special Rule from attacks made during an Overwatch Reaction resolve their attacks in the following Assault Phase with a negative modifier of -1 to their to-Hit rolls.</description>
+    </rule>
+    <rule id="bde0-4e90-b4f2-4a54-a46fb1dd810b5935" name="Dimensional Edge (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Weapons with this Special Rule can only ever cause a Wound on the number indicated in brackets. No Saves or Damage Mitigation rolls of any kind may be taken against Wounds caused by this weapon.</description>
+    </rule>
+    <rule id="04a5-1239-5c08-454b-babaf56e04b23f5f" name="Embrace of Death (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>On a turn in which a model equipped with a weapon with this Special Rule charges, or are themselves charged, they may make a number of attacks indicated in brackets at Initiative step 10 with it, but may not assign or make any further attacks to or with it. Note this attack does not grant an additional Pile In move, and a weapon with this Special Rule may not be used in subsequent turns of the same combat, but may be used even if the charge made was Disordered.</description>
+    </rule>
+    <rule id="52ce-8883-81c4-4ce1-acd0978c5230f73d" name="Emplaced Position" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit that includes any models with this Special Rule may only make the Return Fire or Overwatch Core Reactions, or the Interceptor Advanced Reaction - no other Reaction of any kind may be made.</description>
+    </rule>
+    <rule id="7a21-fbbc-19b4-4e85-b70dbf5ae5aa5085" name="Faceless Mask" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may be included in a Detachment which is not a Saedathii Detachment, in exception to the normal restriction imposed by the Rillietann Sub-type.</description>
+    </rule>
+    <rule id="2aab-ad80-5254-4b03-8c3e0e19f588970a" name="Feeding Frenzy" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>At the end of an Initiative Step in which an enemy model is slain in close combat as a result of attacks made by a model with this Special Rule, the Controlling Player may roll a D6 for each model slain. On a result of a 6 a model with this Special Rule in the attacking unit immediately regains 1 Wound, up to its starting Wounds Characteristic.</description>
+    </rule>
+    <rule id="e5b5-6543-d5bf-4811-a875c4a245a64252" name="Field Officer" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When this model with this Special Rule joins a unit with the CloseOrder Unit Sub-Type, it automatically gains the Close-Order Unit Sub-Type for as long as it remains part of that unit.</description>
+    </rule>
+    <rule id="6c0a-c2d3-98ef-4108-b7dbed37a6a9b032" name="Follow-Up Attack" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Before the game begins, you may assign a single Infantry unit from the same Detachment as a model with this Special Rule to each Auxilia Hades Drill or Militia Hades Drill as though it had the Transport Unit Sub-Type, and the unit was embarked upon it. The Auxilia Hades Drill or Militia Hades Drill is assumed to have a Transport Capacity big enough to fit any unit assigned to it. A unit with any version of the Bulky (X) Special Rule may not be assigned to either an Auxilia Hades Drill or Militia Hades Drill.
+
+When an Auxilia Hades Drill or Militia Hades Drill arrives as part of a Subterranean Assault, place a 3&quot; Blast Marker directly beneath the model. This marker is now treated as Difficult Terrain, and the Blast Marker remains in play for the rest of the game. The Auxilia Hades Drill or Militia Hades Drill gains the Shrouded (5+) Special Rule for the duration of the turn it arrives.
+
+In any of the Controlling Player&apos;s following Movement Phases, the unit embarked upon the Auxilia Hades Drill or Militia Hades Drill may be deployed as though it was disembarking, measuring from any point of the Blast Marker. The unit may move up to their Movement Characteristic and may choose to Run. A unit deploying in this way cannot be the target of the Interceptor Advanced Reaction if it deploys in the Controlling Player&apos;s first Movement Phase after the Auxilia Hades Drill or Militia Hades Drill has arrived. A unit can still be deployed in this way even if the Auxilia Hades Drill or Militia Hades Drill is destroyed after it has been deployed. If there is not sufficient room to deploy the unit, then it must remain in Reserve and move onto the battlefield in their Controlling Player&apos;s next turn.</description>
+    </rule>
+    <rule id="44f5-fd1c-fdd9-4b89-89823c07abb8a258" name="Engine Overcharge" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Whenever a unit with this Special Rule moves as part of a Reaction, the distance may be increased by +6”, but if the unit chooses to do so, all models in the unit must immediately make a Dangerous Terrain Test once the move is complete.
+
+Rather than carrying any passengers, troops followed behind Hades Drills as they cleared a path to the surface.
+
+Before the game begins, you may assign a single Infantry unit from the same Detachment as a model with this Special Rule to each Auxilia Hades Drill or Militia Hades Drill as though it had the Transport Unit Sub-Type, and the unit was embarked upon it. The Auxilia Hades Drill or Militia Hades Drill is assumed to have a Transport Capacity big enough to fit any unit assigned to it. A unit with any version of the Bulky (X) Special Rule may not be assigned to either an Auxilia Hades Drill or Militia Hades Drill.</description>
+    </rule>
+    <rule id="87da-16b7-1ff5-4ea6-b21a4fc28015295c" name="Exposed Compartment" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Any rolls on the Vehicle Damage Table that target a model with this Special Rule add +1 to the result.</description>
+    </rule>
+    <rule id="39f1-d6e8-000d-4b7f-aa1b04ea64c6f4bb" name="Exposed Plasma Conduits" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Each time a model with this Special Rule suffers a Penetrating hit, add an additional +1 to all rolls on the Vehicle Damage chart.</description>
+    </rule>
+    <rule id="4c6a-7bb5-3474-4317-9afaffcb6f9e4ecc" name="Forward Defences" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>The Controlling Player of a model with this Special Rule may select a single Defence Line for each Solar Auxilia Pioneer Section in the army without a Dedicated Transport, for the appropriate points cost before the game begins, as long as they have points remaining to do so. This Defence Line takes up no Force Organisation choices for the army and may be upgraded normally. If this option is taken, the unit must be deployed on the table at the start of the game and may not be held in Reserves.</description>
+    </rule>
+    <rule id="deb0-5c2c-c9fe-42b4-845a1ecb6cf107ec" name="Fragile Alliance" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>As long as a model with this Special Rule has not been removed as a casualty and is your army&apos;s Warlord, all models in an army that contains them count their Level of Alliance as Fellow Warriors, unless they are already Sworn Brothers.</description>
+    </rule>
+    <rule id="cdcd-38e9-5301-48d8-b22d6c03434e80f3" name="Furibundus Talon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+    </rule>
+    <rule id="d119-1686-6a64-4e1e-891f0dff3e66ca30" name="Gravitic Implosion" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Instead of rolling To Wound normally with this weapon, any nonVehicle model that suffers a Hit from a weapon with this Special Rule must instead roll under their Strength on a 2D6 or suffer a Wound (a roll of double &apos;6&apos; always counts as a failure). Armour Saves and Damage Mitigation rolls may be taken as normal - except Shrouded rolls which may not be used. Against targets with an Armour Value, the attacking player rolls 4D6 for Armour Penetration instead.
+
+If a Graviton Pulse weapon also has the Blast type, then leave the Blast marker in place after resolving all Wounds, or otherwise mark the area. This area now counts as both Difficult Terrain and Dangerous Terrain until the start of the next turn of the player that made the attack.</description>
+    </rule>
+    <rule id="9c61-14a6-6c72-4f9c-a85db4ce56f83ed2" name="Gravitic Repulsion" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Whenever a charge is declared against a model with this Special Rule, the Charging unit suffers a -2 penalty to their Charge roll.</description>
+    </rule>
+    <rule id="c488-32c1-211f-4706-8f6fe1116e5495f6" name="Guardian Retainers" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A Retainers Militant unit may only be selected as part of a Detachment that includes at least one model with the Warrant of Trade Special Rule. A unit selected in this manner is considered a &apos;Retinue Squad&apos; and the model with the Warrant of Trade Special Rule is referred to as the Retinue Squad&apos;s Leader for the purposes of this Special Rule (if the Detachment includes more than one model with the Warrant of Trade Special Rule then the Controlling Player selects one as the unit&apos;s Leader).
+
+The Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. The Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play. A Retainers Militant unit may not be selected as part of an army without a Leader.</description>
+    </rule>
+    <rule id="ffb1-fe8c-7d18-4ef4-a58c38c8ff265962" name="Harbingers of Judgement" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit that includes any models with this Special Rule may not join or be joined by any model that does not also have this Special Rule.
+
+In addition, a unit that includes any models with this Special Rule never counts as a Scoring or Denial unit regardless of any other Special Rule or Mission rules in use - however, a model with this Special Rule may re-roll all failed Shrouded Damage Mitigation rolls.</description>
+    </rule>
+    <rule id="410d-e5dd-7218-4e63-a48e602876fd4a07" name="Heavy Walker" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may not Embark on a model unless it has the Transport Bay Special Rule.</description>
+    </rule>
+    <rule id="b8fe-6552-4be7-4e40-9702f61e0a398d0a" name="Heralds of the Advance" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit that includes any models with this Special Rule may not join or be joined by any model that does not also have this Special Rule.
+
+In addition, a unit that includes any models with this Special Rule never counts as a Scoring unit or a Denial unit regardless of any other Special Rules or Mission rules in use - however, a model with this Special Rule may re-roll all failed Shrouded Damage Mitigation rolls.</description>
+    </rule>
+    <rule id="8b29-0d4b-4934-4e95-9cbd1d5ac8792958" name="Honour-Bound, Honour-Defined" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>If possible, a unit that includes a model with this Special Rule must issue a Challenge when Engaged in combat, and if an enemy player issues a Challenge to a unit including one or more models with this Special Rule then a model with this Special Rule must accept. In addition, during any Assault phase where this model begins the Fight sub-phase Engaged in a Challenge, or enters into a Challenge with an enemy model, this model and all friendly models in the same combat gain the Fearless Special Rule until the end of that Assault phase.</description>
+    </rule>
+    <rule id="4fdc-b83a-4192-405a-8df9cfade777b496" name="Immobile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may not move for any reason, including making Run moves, declaring or otherwise making Charge moves, falling back, or make Reactions which would allow it to move. If it would be forced to do so, the model is immediately destroyed.</description>
+    </rule>
+    <rule id="7931-67ba-3a28-4c5c-a49b3a57236547cf" name="Impact Flash" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Any unit which can draw direct Line of Sight to any part of the Blast Marker used to resolve a weapon with this Special Rule&apos;s Shooting Attack at its final position must immediately take a Blind test.
+
+No matter the odds, some warriors refused to halt their advance.</description>
+    </rule>
+    <rule id="715c-8587-1d27-4e23-ac6e673b15a61396" name="Inspiring Rhetoric" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit containing a model with this Special Rule rolls an additional dice when making a Morale Check or Pinning Check (but not Psychic Checks) and discards the dice with the highest result before determining the result of the Check.</description>
+    </rule>
+    <rule id="efc7-c1bf-b841-4f80-b0b03d4bb68e650d" name="It&apos;s Dark In Dere!" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Imperialis Militia Ogryn Brute Squads of no more than 3 models in a Detachment with this special rule may take an Imperialis Militia Chimera Transport or a Vehicle upgraded with an Auxiliary Crew Bay as a Dedicated Transport. All Discipline Masters, Militia Medicae, Force Commanders, Rogue Psykers, Ascendant Rogue Psykers, Astropaths, and Demagogues selected as part of the same Detachment may join Imperialis Militia Ogryn Brute Squads and Imperialis Militia Ogryn Beastmasters, ignoring the usual restrictions for joining a unit with the Monstrous Unit Sub-type.</description>
+    </rule>
+    <rule id="37c7-a080-40cc-4f31-843729509d0a2b96" name="Light Command Tank" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule is selected as a separate unit, but during deployment must be assigned to another unit from the same Tercio and may not be deployed as a separate unit. If multiple appropriate units are available, the Controlling Player chooses which unit a model with this Special Rule is assigned to. Once assigned to a unit, a model with this Special Rule counts as a part of that unit and may not leave the unit during play for any reason.</description>
+    </rule>
+    <rule id="d7ba-a5da-c698-4239-ae2a3d89167d7db3" name="Makeshift Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model equipped with a weapon with this Special Rule may only make a single attack at Initiative Step 1 with it, and may not gain a bonus attack for Charging or from any Special Rules that would normally grant additional Attacks.</description>
+    </rule>
+    <rule id="f7d8-27ba-ffd7-457e-9790b0c6c0e51a44" name="Master of the Shield-Hosts" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>If a unit with this Special Rule selects a Dedicated Transport, a model without this Special Rule (such as a Discipline Master) must be assigned to them before the game begins. So long as a model without this Special Rule is part of the unit, models with this Special Rule may Embark upon a Vehicle with the Transport Unit Sub-Type and the Infantry Transport Special Rule, ignoring the usual restriction on models with the Bulky (X) Special Rule being ineligible to Embark, but must still adhere to Bulky (X) for the purposes of Transport Capacity.</description>
+    </rule>
+    <rule id="1459-3b77-82e8-4781-9e1597b02e33315e" name="Launch System Failure" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Whenever a model with this Special Rule loses its last Hull Point, if it has not already fired its Deathstrike Missile during the game, the Vehicle will suffer Catastrophic Damage in the manner of a Vehicle with the Super-Heavy Sub-type, and will immediately explode regardless of any other factor. Note that if this result is applied, the Vehicle cannot suffer an Explodes result from any other source.</description>
+    </rule>
+    <rule id="8c4f-f74c-a111-4452-9ab4ca54eb18d8e1" name="Legacies of the Fall" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule has the Hatred (Daemons) Special Rule.
+
+In addition, a unit with this Special Rule suffers a -1 penalty to their Leadership whilst locked in a combat which includes at least one model with the Daemon Unit Type. This penalty is cumulative with other penalties applied to the unit&apos;s Leadership Characteristic.
+
+Among the Legio Custodes, many distinctive and recognisable differences in how different Shield-Hosts waged war existed, even before the outbreak of the Horus Heresy. These Shield-Hosts would often take immense pride in their unique methods of war; seeing their prowess and traditions as their own personal dedication to the Emperor made manifest. Foremost in the Legio Custodes in shaping and maintaining these traditions were the Host-Masters, and when an army of Custodes sallied forth in His name, they often included these representatives of a Shield-Host.
+
+A model with this Special Rule is required to select a single ShieldHost upgrade. However, no model may take more than one such upgrade, and no model in your army may select the same ShieldHost upgrade option as another. Each Shield-Host upgrade must be paid for at a cost in points, indicated as part of the army list entry for the unit. Shield-Host upgrades may provide Special Rules, Wargear, Unit Sub-types, or other effects; these are noted in their description, along with any other benefits or restrictions. In all cases, the Shield-Host&apos;s description will indicate all changes, benefits and restrictions.</description>
+    </rule>
+    <rule id="d393-ee74-3e21-40e0-b351db79055828f8" name="Militia Venetaris" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in a unit with this Special Rule must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Units Destroyed or similar rules.</description>
+    </rule>
+    <rule id="9c54-66ff-cdf8-4ec3-8f433d4145f85191" name="Mindless Aggression" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit with this Special Rule must always Charge in the Assault phase, if possible. If multiple targets are available, the Controlling Player may choose their Charge target. The unit must always attempt to Sweeping Advance, if able.</description>
+    </rule>
+    <rule id="3014-2aad-29e7-4d5c-a75f68888a624264" name="Navigis Astrologica" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule and the Psyker Sub-type automatically knows the Thaumaturgy (see the Horus Heresy: Age of Darkness Core Rulebook, page 322) and Navis Astrologis (see page 269) Psychic Disciplines.</description>
+    </rule>
+    <rule id="7259-4f00-e3a0-4380-bfd930349f8de863" name="Null-Soul" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may not be included in a unit that contains any models with the Psyker Sub-type, but does not apply the Leadership Characteristic Penalties from the Anathema Subtype to a unit it has joined which does not have the Anathema Subtype.</description>
+    </rule>
+    <rule id="0c29-b852-8ef8-49f0-b827064c4d1f589e" name="Open-Topped (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Up to X number of models in a unit Embarked upon a Transport with this Special Rule may make a Shooting Attack in the Controlling Player&apos;s Shooting Phase (where X is the number in brackets next to the Special Rule), measuring from the Transport&apos;s Hull. If a model chooses to fire in this way, they are counted as having moved - note that this may prevent them from shooting certain weapon types. It should be noted that any ability which replaces a Shooting Attack (such as, but not limited to, casting a Psychic Power or Cybertheurgic Rite) may not be used. Shooting Attacks made in this manner may target a different unit to ones made by the Transport, but any Reactions made to these target the Transport as normal. Units with any Special Rule that allows them to count as stationary for the purposes of Shooting attacks (such as Relentless, Legiones Astartes (Death Guard), etc) may not benefit from them whilst embarked on a Transport with this Special Rule.
+
+In addition, any rolls on the Vehicle Damage Table that target a model with this Special Rule add +1 to the result.</description>
+    </rule>
+    <rule id="0318-f357-665b-4729-a84754cc8e597217" name="Overload (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Whenever a weapon with this Special Rule causes a successful hit, a hit roll of X instead inflicts three automatic hits. On weapons which use a Blast Marker or Template to hit, every successful hit inflicted is instead counted as three successful hits against the unit.</description>
+    </rule>
+    <rule id="3901-bff3-68ab-4cfa-aec288bb76830be9" name="Paired Weapons" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model armed with a weapon with this Special Rule gains an extra Attack.</description>
+    </rule>
+    <rule id="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" name="Ponderous Aim" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A weapon with this Special Rule cannot be fired as part of a Reaction or used to Snap Shoot.</description>
+    </rule>
+    <rule id="940f-01c7-d512-4cae-8fe6f81c2e500408" name="Provenance (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit with this Special Rule may only be selected in a Detachment with the corresponding Provenance of War that matches the option indicated in brackets - for example, a unit with the Provenance (Survivors of the Dark Age) Special Rule could only be selected in a Detachment which had that Provenance of War selected for it during Army Selection.</description>
+    </rule>
+    <rule id="bc7c-f3b9-d161-4ece-86ecaf3a2ade3eeb" name="Psychic Mastery (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may cast an amount of Psychic Powers per phase, up to the number indicated in brackets, in spite of the normal limitations on doing so. Note that a Psychic Power counted as a Shooting Attack counts as a single power for the purposes of this Special Rule.</description>
+    </rule>
+    <rule id="25b2-cf30-389f-43ee-ae352686dac30209" name="Psykana Militis" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule and the Psyker Sub-type must select a single Psychic Discipline from the following list: Biomancy, Divination, Pyromancy, Telekinesis (see the Horus Heresy: Age of Darkness Core Rulebook, page 322), or Anathemata (see page 268).</description>
+    </rule>
+    <rule id="9da6-281a-6cee-47ee-9f9a5ee852d1d4fe" name="Psykana-Battery" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Wherever a model equipped with a weapon with this Special Rule suffers a wound as a result of the Gets Hot Special Rule whilst firing the weapon with this Special Rule, the Controlling Player must make a Leadership Check for the model. If this is failed, the weapon has suffered catastrophic psychic feedback - the firing model is instantly slain by the rampant psychic energies! In addition, a Blast (3”) marker should be placed as close as possible to the model&apos;s final position - this marker is then treated as if it had been placed as a result of the Vortex Special Rule.</description>
+    </rule>
+    <rule id="6159-40f3-0150-49fc-b3338a950e4206c4" name="Rapid Insertion" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>If a model with this Special Rule has moved at Cruising speed or has otherwise made a Zoom move, passengers may still disembark in spite of the normal restrictions, via the following procedure.
+
+Nominate any point over which this model moved this turn, and place a single model from the disembarking unit onto that point, then scatter that model. If the unit scatters, every model in the disembarking unit must immediately take a Dangerous Terrain test. In the case of a unit split across multiple transports (such as via the Unified Assault Special Rule) only a single Scatter roll should be made for the entire unit, with the same result applied to the models as a unit.
+
+Once the final position of the placed model is determined, deploy the rest of the unit in coherency with it. Any models that cannot be placed into coherency and at least 1” away from enemy models are destroyed.</description>
+    </rule>
+    <rule id="27f0-0500-8c8d-421a-85a7ed190ecdb300" name="Regenerating Horror" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Any model with this Special Rule and a Wounds Characteristic which suffers an Unsaved Wound with the Instant Death Special Rule is not immediately removed as a casualty, but instead loses 3 Wounds instead of 1 for each Unsaved Wound with the Instant Death Special Rule inflicted upon it.</description>
+    </rule>
+    <rule id="b2c9-85d8-3342-457c-b3510be1cbb230b2" name="Representative of the Legion" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule must have the same variant of the Legiones Astartes (X) Special Rule as the Detachment which allowed you to select it. In addition, a Legion Presage may select any Legion-Specific options permitted by their variant of the Legiones Astartes (X) Special Rule, counting as having the Character Sub-type for the purposes of selecting them, and is affected by any effects of such rules, despite not being in a unit entirely composed of models with that Special Rule.</description>
+    </rule>
+    <rule id="69ed-63b1-5e3b-4062-b2dccc98c8763379" name="Resonance (X)" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When rolling To Wound and for Armour Penetration for a model that has the Resonance (X) Special Rule, or is attacking with a weapon that has the Resonance (X) Special Rule, for each To Wound roll equal to or higher than the value listed in brackets, the Controlling Player must resolve these wounds at AP 1 instead of the weapon&apos;s normal AP value. Against any building or Fortification with a Hull Points value this Special Rule is triggered on a Armour Penetration Roll of 2+ instead.</description>
+    </rule>
+    <rule id="3078-5e92-9dec-4c4d-b11739d7727e1122" name="Restricted Trajectory" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A weapon with this Special Rule may not be fired directly.</description>
+    </rule>
+    <rule id="8b95-2104-22e8-4ce3-af352a8e894afec2" name="Severax Talon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>In any of the Controlling Player&apos;s Shooting phases, instead of making any Shooting Attacks with a model with this Special Rule, the controlling player may instead roll a D6. On the roll of a &apos;4&apos; or more, a damage result of Immobilised that has been inflicted on this model may be removed but no Hull Points are returned.
+
+The Carnodon crews of those who travelled with the Traders Militant were trained to rove ahead of the main force, working in smaller groups to ensure they could outmanoeuvre and entrap the forces of foes much larger than themselves.
+
+Before deploying a unit with this Special Rule (either at the start of the battle or when arriving from Reserves), the unit must be split into two separate units, with models split as evenly as possible. These units are then deployed separately, with the two separate units being allowed to be placed anywhere permitted, but having to follow all normal restrictions for models within each unit for being placed within unit coherency and so on. Once a unit with this Special Rule has separated, each unit counts separately for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+    </rule>
+    <rule id="7fd3-6135-d0ee-41da-b9cd8aa92a56a88b" name="Shoot Sharp and Scarper" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Shooting Attacks made as part of a Reaction in the Shooting Phase targeting a unit composed entirely of models with this Special Rule are resolved as Snap Shots.</description>
+    </rule>
+    <rule id="c703-f116-e578-430b-bd9666ac8394b2c2" name="Shieldbreaker" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Invulnerable saves may not be taken against Wounds or Hull points of damage inflicted by a Weapon with this Special Rule. In addition, a weapon with this Special Rule ignores the effects of both the Void Shields (X) Special Rule, and Flare Shields wargear.</description>
+    </rule>
+    <rule id="2a99-710d-ec63-4307-9d1f2e9b898dd061" name="Silence Descends" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit or model with this Special Rule may be placed into Combat Air Patrol at the start of the battle, before any models are deployed onto the battlefield. Models assigned to Combat Air Patrol are not deployed onto the battlefield and remain in Reserves - however, no Reserves rolls are made for these models.
+
+Instead, the Controlling Player gains access to the Combat Air Patrol Advanced Reaction:</description>
+    </rule>
+    <rule id="3967-1d68-4270-4f3f-a2d6c5ee74d93d75" name="Advanced Reaction: Combat Air Patrol" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Advanced Reactions are available to specific players as noted in their description. Unlike Core Reactions they are activated in unique and specific circumstances, and can often have game changing effects. Advanced Reactions use up points of a Reactive player&apos;s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.</description>
+    </rule>
+    <rule id="ef02-486e-ade1-415c-97456b93d22c4832" name="Combat Air Patrol" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>This Advanced Reaction may be made whenever any enemy model that has the Vehicle Unit Type and the Flyer Sub-type enters the battlefield from Reserves. The Reactive player may nominate any one model that has been assigned to Combat Air Patrol. Once the enemy model with the Vehicle Unit Type and Flyer Sub-type that triggered this Reaction has finished any and all Movement as it is brought into play, the chosen model assigned to Combat Air Patrol is brought into play from any point on the edge of the battlefield, moving into play as if it had entered play from Reserves. Once the Combat Air Patrol model has finished its Movement it may immediately make a Shooting Attack targeting the enemy model that triggered this Reaction - as long as it has finished its Movement with line of sight to that model.
+
+Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Air Patrol Reaction.</description>
+    </rule>
+    <rule id="b62e-e0f3-d9da-4029-9e7a2c2db902bb45" name="Skilled Rider" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may opt to run in the Movement Phase and still fire a single ranged weapon in the Shooting Phase. These shots are made at BS2. The To-Hit rolls for these shots cannot be improved by any source.
+
+Note that if a unit makes use of this Special Rule, they may not claim the benefits of the Firing Protocols (X) Special Rule in the same Game Turn.</description>
+    </rule>
+    <rule id="d8bb-e5b2-a6dc-45c9-a610ca1829fae93b" name="Slayer of Kings" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule gains the Preferred Enemy (Independent Characters) Special Rule, but this Special Rule is not conferred to any model that does not have the Slayer of Kings Special Rule.</description>
+    </rule>
+    <rule id="15b6-321e-670c-44eb-9836bc9635541dd5" name="Solar Auxilia Command Tank" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule is selected as a separate unit, but during deployment must be assigned to another unit and may not be deployed as a separate unit. If multiple appropriate units are available, the Controlling Player chooses which unit a model with this Special Rule is assigned to. Once assigned to a unit, a model with this Special Rule counts as a part of that unit and may not leave the unit during play for any reason.
+
+A model with this Special Rule must be assigned to another unit made up entirely of models with the Vehicle Unit Type purchased as part of the same Tercio.
+
+In addition, a model with this Special Rule may still make Shooting Attacks as normal in a turn in which they use their Cognis-Signum to provide +1 Ballistic Skill to all other models in their unit, even though this would normally be prevented by using this Wargear.</description>
+    </rule>
+    <rule id="bcb7-1ace-7a5e-4fb6-b13ba63e90a4fd9d" name="Sonic Pulse" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>When making a Shooting Attack with this weapon, place the Blast (3”) marker so that its edge touches the barrel of the firing model&apos;s weapon. Instead of scattering this Blast marker, move the marker in a direct line away from the firing model, travelling in any direction within the weapon&apos;s 45° forward firing arc until its maximum range is reached or the template leaves the battlefield. All models the template passes over suffer a single automatic Hit. Flyers cannot be hit by this attack. Should a model with the Knight, Titan, Super-Heavy Vehicle, Building or Fortification Unit Type be Hit by this attack, increase the Strength of the attack to 8.</description>
+    </rule>
+    <rule id="138b-a2ff-f28c-4f5e-99ec461dc04457cf" name="Spotted!" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model equipped with a weapon with this Special Rule gains the Split Fire Special Rule, and also ignores all penalties imposed by the Night Fighting rules when making Shooting Attacks. However, enemy units ignore the 24” line of sight limitation when making Shooting Attacks that target a unit including a model equipped with a weapon with this Special Rule.
+
+In addition, any unit that has received any amount of hits from a weapon with this Special Rule may be freely targeted for Shooting Attacks by any other unit in the same Shooting phase, ignoring the Ballistic Skill Penalty and 24” restriction to line of sight imposed by the Night Fighting rules.</description>
+    </rule>
+    <rule id="c9f4-409a-38ac-4ebd-a2e34e00492e5e23" name="Sworn to Serve" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A model with this Special Rule may only be selected as part of a Retainers Militant unit by paying the cost indicated in that unit&apos;s options, and may not be selected in any other manner.</description>
+    </rule>
+    <rule id="9137-c639-f3d7-4b6e-b74313f6a67cbcf8" name="Techno-Arcana: Enginseer" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>While the unit contains any number of Servo-Automata, Enginseer Adepts in the unit improve their Battlesmith (X) Special Rule to Battlesmith (4+).</description>
+    </rule>
+    <rule id="4093-c012-8935-4729-85db32d5f7431fb9" name="Thermal Runaway" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Whenever a model with this Special Rule rolls a dice to determine an explosion radius, add +3” to the result rolled.</description>
+    </rule>
+    <rule id="bf2b-a394-ff8c-4ce6-a040af9157e49552" name="Titanic Weight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A weapon with this Special Rule always strikes at Initiative 1, regardless of other modifiers.</description>
+    </rule>
+    <rule id="c6e5-2523-ddc3-442a-89727a066e67edb7" name="Tremor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A unit successfully hit by a weapon with this Special Rule treats all Terrain, including open Terrain, as Difficult and Dangerous Terrain until the end of their Controlling Player&apos;s Next Game Turn.
+
+In addition, for the purposes of line of sight, a weapon with this Special Rule should be treated as if it had the Barrage Special Rule, but note that it can still be fired even in Zone Mortalis Games without Line of Sight, despite this normally being prevented.</description>
+    </rule>
+    <rule id="95d5-8ba1-e4db-4dfe-921206d04dee261c" name="Underground Advance" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>During Deployment, a unit with this Special Rule may be given the Subterranean Assault Special Rule and placed into Reserve.</description>
+    </rule>
+    <rule id="1db7-7049-d534-47df-9ea64da03ddb2863" name="Unified Assault" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>During Deployment, a unit may elect to split itself across a unit with this Special Rule&apos;s transport capacity, rather than all in a single Transport as is the norm. The squad must not exceed the total Transport Capacity of the transports in the squadron in order to do so. If a unit elects to do so, the models with this Special Rule must remain in unit coherency, effectively negating the effects of any Special Rules which would normally allow them to separate, until the squad has disembarked from all transports.
+
+Note that the transported unit must observe coherency requirements despite disembarking from separate transports - meaning if the contents of one transport elects to disembark, all other members of the unit carried in other transports must elect to do so within coherency of the other members of the unit in the same phase. If a model transporting a unit across multiple models has one suffer a Crash and Burn result on the damage table, all models inside the destroyed transport are automatically counted as destroyed - Any models spread across other multiple models in the Squadron&apos;s Transport Capacity must still disembark within normal unit coherency as normal. Note that no Leadership tests can be inflicted for models removed from play in this way.</description>
+    </rule>
+    <rule id="f709-4974-34cb-4db5-b7d7f6bd2a487f8a" name="Unrestrained Power" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>If a model with this Special Rule suffers Perils of the Warp, it receives D6 Wounds instead of D3.
+
+In addition, the first time in each Game Turn a model with this Special Rule makes a Psychic Check, they may choose to roll three dice instead of two, discarding the die with the highest roll when determining the result of the check. If they do this, when making any further Psychic Checks in the same Game Turn, they must roll three dice instead of two, discarding the die with the lowest roll, when determining the result of the check.</description>
+    </rule>
+    <rule id="016c-e63b-67e3-4b72-999931dd66a0de53" name="Vigilant Covenant" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A Vigilant Covenant is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins, all models in a Vigilant Covenant must be assigned to another unit from another unit from the same detachment if the army they were selected as part of. Knight Vestals may only be assigned to units entirely composed of models with the Infantry Unit Type and the Silent Sisterhood (X) Special Rule.</description>
+    </rule>
+    <rule id="e36d-75f7-6587-498b-8d8e5c2aa202948a" name="Vortex" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Once an attack with this special rule has been fully resolved, any Blast markers placed as part of that attack are not removed from play and instead are left in place for the remainder of the battle. Such a Blast marker is then referred to as the Vortex marker. The area under a Vortex marker is treated as Area Terrain for the remainder of the battle, and applies the following effects to all models that enter its boundaries:
+
+No line of sight may be drawn through, into, or out of the area covered by the Vortex marker (as such, models within such an area of terrain cannot draw line of sight to any other model, nor can other models draw a line of sight to them).
+
+Any models that enter the boundary of this area of terrain, or begin the Movement phase of the model&apos;s Controlling Player within its boundaries, immediately suffer one Str 10, AP 1 Hit and the Instant Death and Armourbane (Melee) special rules. If the model has the Vehicle Unit Type and suffers a Penetrating Hit due to this effect then it adds a modifier of +3 to that roll on the Vehicle Damage table.
+
+This area of terrain does not confer a Cover Save and no model within its boundary may use a Cover Save granted by any other rule or effect.</description>
+    </rule>
+    <rule id="959e-bf9c-3e7c-4057-a605337bf3451ad2" name="Warrant of Trade" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>A Knight Vestal cannot be assigned to any unit that includes one or more models with the Independent Character Special Rule or Unique Unit Sub-type (but such models may join a unit that includes a Knight Vestal as normal during either deployment or any following turn).
+
+No more than one Knight Vestal may be assigned to any given unit. Once assigned to a unit, the Knight Vestal is considered part of that unit and may not leave under any circumstances - if that unit is removed as a casualty then the Knight Vestal is removed as well. In battles using Victory Points, no Victory Points are ever scored for removing a Knight Vestal as a casualty. When assigned to a unit, a Knight Vestal gains all of the Special Rules (with the exception of those that specifically forbid it, such as the Bitter Duty Special Rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional wargear options available to the unit to which it is assigned.
+
+Written and signed most often by the Emperor&apos;s hand Himself, these Warrants were worth more than entire sub-sectors to those intelligent enough to understand them; though some among those handed these documents of authorisation understood that they were in effect also orders of banishment; permanent exile formalised and sealed with a wax crest.
+
+During Army Selection, a model with the Warrant of Trade Special Rule must select one of the following Warrants; these may grant certain additional effects to the Detachment containing the model with this Special Rule, as well as affecting which Factions and Subfactions may be included in the same army, and at what Level of Alliance.</description>
+    </rule>
+    <rule id="b987-9bc2-d5a4-4667-8559d234dd4af238" name="Weaponsmith&apos;s Ingenuity" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+      <description>Once per game turn, at the start of the Controlling Player&apos;s Shooting Phase, the Controlling Player may choose to roll on the below chart. The result rolled applies to all models in the unit with the Trader Militant Sub-faction until the start of the Controlling Player&apos;s next Shooting Phase.
+
+----- Start of picture text -----&lt;br&gt;
+D6 Result Description&lt;br&gt;1 Oops! The weapons of all models affected gain&lt;br&gt;the Gets Hot Special Rule, or if they&lt;br&gt;already have it, a to-Hit roll of a 1 or a 2&lt;br&gt;triggers the effects of the Special Rule&lt;br&gt;instead.&lt;br&gt;2 Aesthetic The modifications have no noticeable&lt;br&gt;Modifications effect.&lt;br&gt;3 Rangefinder All Ranged weapons in the unit increase&lt;br&gt;Calibration their Range Characteristic by 12“.&lt;br&gt;4 Armour Repairs All models affected may re-roll Armour&lt;br&gt;Save rolls of 1.&lt;br&gt;5 Cooling Coils All models affected&apos;s Ranged Weapons&lt;br&gt;increase the number of shots they fire by&lt;br&gt;1 (for example, a weapon with Assault 2&lt;br&gt;becoming Assault 3), and may ignore the&lt;br&gt;effects of the Gets Hot Special Rule on&lt;br&gt;their weapons, if they have it.&lt;br&gt;6 Complete The Controlling Player may choose two&lt;br&gt;Overhaul different results from this table and apply&lt;br&gt;them to the unit.&lt;br&gt;----- End of picture text -----&lt;br&gt;</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
