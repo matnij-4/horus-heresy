@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="50" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -256,6 +256,18 @@
       <categoryLinks>
         <categoryLink id="c4d5-e6f7-8091-a234" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="d5e6-f708-91a2-b3c4" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e7f8-8091-a2b3-c4d5" name="IM - Achilles Light Vehicle Squadron" hidden="false" collective="false" import="false" targetId="c1a2-3b4d-5e6f-7081" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e7f8-cat1" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e7f8-cat2" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f809-91a2-b3c4-d5e6" name="IM - Venator Medium Vehicle Squadron" hidden="false" collective="false" import="false" targetId="d2b3-4c5d-6e7f-8192" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f809-cat1" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="f809-cat2" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4de9-1451-51a2-1627" name="IM - Beastmasters" hidden="false" collective="false" import="false" targetId="173c-2148-c3ce-9c5c" type="selectionEntry">
@@ -7941,6 +7953,416 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
     </selectionEntry>
+
+    <selectionEntry id="c1a2-3b4d-5e6f-7081" name="IM - Achilles Light Vehicle Squadron" publicationId="48c2-d023-0069-001a" page="237" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ach1-cat1-0001-0001" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="ach1-cat2-0001-0002" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="ach1-cat3-0001-0003" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+        <categoryLink id="ach1-cat4-0001-0004" name="Fast Sub-type" hidden="false" targetId="0ea2-efb5-b7af-226e" primary="false"/>
+        <categoryLink id="ach1-cat5-0001-0005" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c1a2-3b4d-5e6f-7082" name="Achilles Light Vehicle" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ach1-min-0001" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ach1-max-0001" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ach1-prof-0001" name="Achilles Light Vehicle" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Fast, Third-line)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">2</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="ach1-scout-01" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
+            <infoLink id="ach1-mtc-01" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
+            <infoLink id="ach1-eng-01" name="Engine Overcharge" hidden="false" targetId="e1f2-3a4b-5c6d-7e8f" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="ach1-smoke-01" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-smoke-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-smoke-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ach1-turret-grp" name="1) May exchange Turret Mounted Twin-linked Heavy Stubber for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ach1-tl-hs-def">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-turret-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-turret-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ach1-tl-hs-def" name="Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" targetId="a3b4-5c6d-7e8f-9012" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-linked Heavy Stubber"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="ach1-hf-01" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Flamer"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-hb-01" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Bolter"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-ml-01" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Multi-Laser"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-ac-01" name="Autocannon" hidden="false" collective="false" import="true" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Autocannon"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-gl-01" name="Twin-linked Grenade Launcher (with Frag and Krak rounds)" hidden="false" collective="false" import="true" targetId="e0f3-3743-a9d0-f5f1" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-linked Grenade Launcher (with Frag and Krak rounds)"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink id="ach1-gl-01-tl" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-mlr-01" name="Twin-linked Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-linked Missile Launcher (with Frag, Krak, and Flak Missiles)"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink id="ach1-mlr-01-tl" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-hm-01" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="9012-a345-b678-c9de" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Mortar"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-hml-01" name="Heavy Mining Laser" hidden="false" collective="false" import="true" targetId="d6e7-8f90-a123-b456" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Mining Laser"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ach1-may-take" name="2) May take any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="ach1-sl-01" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-sl-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-hk-01" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Hunter-Killer Missile"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-hk-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-cl-01" name="Centreline Mounted Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" targetId="4567-8901-abcd-ef34" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-cl-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ach1-aug-01" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ach1-aug-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="ach1-mcat1" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="cdaa-645b-fda7-8556" id="ach1-mcat2" name="Third-line Unit Sub-type" primary="false"/>
+            <categoryLink targetId="0ea2-efb5-b7af-226e" id="ach1-mcat3" name="Fast Sub-type" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+
+    <selectionEntry id="d2b3-4c5d-6e7f-8192" name="IM - Venator Medium Vehicle Squadron" publicationId="48c2-d023-0069-001a" page="238" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="ven1-cat1-0001" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="ven1-cat2-0001" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="ven1-cat3-0001" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+        <categoryLink id="ven1-cat4-0001" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink id="ven1-venetaris" name="Militia Venetaris" hidden="false" targetId="f2a3-4b5c-6d7e-8f90" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="d2b3-4c5d-6e7f-8193" name="Venator Medium Vehicle" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ven1-min" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ven1-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ven1-prof" name="Venator Medium Vehicle" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Third-line)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="ven1-turret-grp" name="1) May exchange Turret Mounted Gravis Multi-Laser for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ven1-gml-def">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-turret-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-turret-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ven1-gml-def" name="Gravis Multi-Laser" hidden="false" collective="false" import="true" targetId="9938-d8d4-e0cc-b883" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Gravis Multi-Laser"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="ven1-2hs" name="Two Turret Mounted Twin-linked Heavy Stubbers" hidden="false" collective="false" import="true" targetId="3456-789a-0bcd-ef23" type="selectionEntry"/>
+                <entryLink id="ven1-gac" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Gravis Autocannon"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-kac" name="Kheres Assault Cannon" hidden="false" collective="false" import="true" targetId="fe77-2e74-160d-c7af" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Kheres Assault Cannon"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-enc" name="Eradicator Nova Cannon" hidden="false" collective="false" import="true" targetId="b456-c789-d0ef-e123" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Eradicator Nova Cannon"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-srb" name="Skyreaper Battery" hidden="false" collective="false" import="true" targetId="b871-3399-9d59-838f" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Skyreaper Battery"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-glc" name="Gravis Lascannon" hidden="false" collective="false" import="true" targetId="1fe0-7c96-5200-0e39" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Gravis Lascannon"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry id="ven1-cyclone" name="Centreline Mounted Cyclone Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="ven1-cyclone-link" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" targetId="3e5a-ad5d-4607-7489" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Centreline Mounted Cyclone Missile Launcher (with Frag, Krak, and Flak Missiles)"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-cyc-min" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-cyc-max" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ven1-gml-aux" name="Turret Mounted Gravis Multi-Laser and Auxiliary Crew Bay" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="ven1-gml-aux-w" name="Gravis Multi-Laser" hidden="false" collective="false" import="true" targetId="9938-d8d4-e0cc-b883" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Turret Mounted Gravis Multi-Laser"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gml-aux-w-min" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gml-aux-w-max" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="ven1-gml-aux-b" name="Auxiliary Crew Bay" hidden="false" collective="false" import="true" targetId="2345-6789-0abc-def2" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gml-aux-b-min" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gml-aux-b-max" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="ven1-gac-aux" name="Turret Mounted Gravis Autocannon and Auxiliary Crew Bay" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="ven1-gac-aux-w" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Turret Mounted Gravis Autocannon"/>
+                      </modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gac-aux-w-min" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gac-aux-w-max" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="ven1-gac-aux-b" name="Auxiliary Crew Bay" hidden="false" collective="false" import="true" targetId="2345-6789-0abc-def2" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gac-aux-b-min" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-gac-aux-b-max" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ven1-crew-grp" name="2) If not equipped with an Auxiliary Crew Bay, may select:" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="d2b3-4c5d-6e7f-8193" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2345-6789-0abc-def2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <entryLinks>
+                <entryLink id="ven1-ccb" name="Command Crew Bay" hidden="false" collective="false" import="true" targetId="f456-0789-0abc-def1" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-ccb-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ven1-may-take" name="3) May take any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="ven1-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-sl-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-smoke-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-hk" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Hunter-Killer Missile"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-hk-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-pf" name="Pathfinder" hidden="false" collective="false" import="true" targetId="6789-abcd-ef01-2345" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-pf-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="ven1-hsv" name="Two Centreline Mounted Hot-Shot Volley Guns" hidden="false" collective="false" import="true" targetId="5678-9012-bcde-f456" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ven1-hsv-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="ven1-mcat1" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="cdaa-645b-fda7-8556" id="ven1-mcat2" name="Third-line Unit Sub-type" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="173c-2148-c3ce-9c5c" name="IM - Beastmasters" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <selectionEntryGroups>
         <selectionEntryGroup id="bde6-309c-ecbe-8a2e" name="2) War Beasts" hidden="false" collective="false" import="true">
@@ -12153,6 +12575,181 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <categoryLink targetId="dfbc-8edd-e14f-fd80" id="c4b9-8655-4fb0-a12f" primary="false" name="Forge Remnants - Militia Krios Squadron"/>
       </categoryLinks>
     </selectionEntry>
+
+    <selectionEntry id="a3b4-5c6d-7e8f-9012" name="Twin-linked Heavy Stubber" publicationId="48c2-d023-0069-001a" page="237" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b4c5-6d7e-8f90-a123" name="Twin-linked Heavy Stubber" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c5d6-7e8f-9012-a345" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d6e7-8f90-a123-b456" name="Heavy Mining Laser" publicationId="48c2-d023-0069-001a" page="297" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e7f8-9012-a345-c678" name="Heavy Mining Laser" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Exoshock (6+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f890-a123-b456-c789" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Exoshock (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9012-a345-b678-c9de" name="Heavy Mortar" publicationId="48c2-d023-0069-001a" page="297" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a123-b456-c789-d0ef" name="Heavy Mortar" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Barrage, Pinning, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b456-c789-d0ef-e123" name="Eradicator Nova Cannon" publicationId="48c2-d023-0069-001a" page="296" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c789-d0ef-e123-f456" name="Eradicator Nova Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Agripinaan Guidance System, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0ef-e123-f456-0789" name="Hot-Shot Volley Gun" publicationId="48c2-d023-0069-001a" page="297" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e123-f456-0789-0abc" name="Hot-Shot Volley Gun" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f456-0789-0abc-def1" name="Command Crew Bay" publicationId="48c2-d023-0069-001a" page="307" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0789-0abc-def1-2345" name="Command Crew Bay" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with a Command Crew Bay gains the Transport Sub-type, a Transport Capacity of 8 models (or otherwise increases its existing Transport Capacity to 8), Access Points on both of its sides (if it did not already have these), and the Infantry Transport special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0abc-def1-2345-6789" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="def1-2345-6789-0abc" name="Transport Sub-type" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2345-6789-0abc-def2" name="Auxiliary Crew Bay" publicationId="48c2-d023-0069-001a" page="307" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6789-0abc-def2-3456" name="Auxiliary Crew Bay" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with an Auxiliary Crew Bay gains the Transport Sub-type, a Transport Capacity of 14 models (or otherwise increases its existing Transport Capacity to 14), Access Points on both of its sides and rear (if it did not already have these), and the Infantry Transport special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0abc-def2-3456-789a" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="def2-3456-789a-0bcd" name="Transport Sub-type" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3456-789a-0bcd-ef23" name="Two Turret Mounted Twin-linked Heavy Stubbers" publicationId="48c2-d023-0069-001a" page="238" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="789a-0bcd-ef23-4567" name="Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" targetId="a3b4-5c6d-7e8f-9012" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bcd-ef23-4567-8901" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef23-4567-8901-abcd" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4567-8901-abcd-ef34" name="Centreline Mounted Twin-linked Heavy Stubber" publicationId="48c2-d023-0069-001a" page="237" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="8901-abcd-ef34-5678" name="Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" targetId="a3b4-5c6d-7e8f-9012" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Centreline Mounted Twin-linked Heavy Stubber"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcd-ef34-5678-9012" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef34-5678-9012-bcde" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6789-abcd-ef01-2345" name="Pathfinder" publicationId="48c2-d023-0069-001a" page="238" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="789a-bcde-f012-3456" name="Pathfinder" hidden="false" targetId="ec97-7aa8-49f5-b298" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5678-9012-bcde-f456" name="Two Centreline Mounted Hot-Shot Volley Guns" publicationId="48c2-d023-0069-001a" page="238" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="9012-bcde-f456-6789" name="Hot-Shot Volley Gun" hidden="false" collective="false" import="true" targetId="d0ef-e123-f456-0789" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Centreline Mounted Hot-Shot Volley Gun"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcde-f456-6789-0abc" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f456-6789-0abc-def3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="088d-527f-114b-afd4" name="Warlord Traits" hidden="true" collective="false" import="true">
@@ -12481,6 +13078,13 @@ A model with the Infantry Unit Type that selects a Militia cavalry mount as an u
     </rule>
     <rule id="f0a1-2b3c-4d5e-6f70" name="Shredder Prow" publicationId="48c2-d023-0069-001a" page="236" hidden="false">
       <description>A model with this upgrade does an additional +D3 hits when resolving Hammer of Wrath attacks. In addition, all Hammer of Wrath attacks made by a unit with this upgrade are resolved at an AP value of 3.</description>
+    </rule>
+
+    <rule id="e1f2-3a4b-5c6d-7e8f" name="Engine Overcharge" publicationId="48c2-d023-0069-001a" page="281" hidden="false">
+      <description>Whenever a unit with this special rule moves as part of a Reaction, the distance may be increased by +6", but if the unit chooses to do so, all models in the unit must immediately make a Dangerous Terrain Test once the move is complete.</description>
+    </rule>
+    <rule id="f2a3-4b5c-6d7e-8f90" name="Militia Venetaris" publicationId="48c2-d023-0069-001a" page="284" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in a unit with this special rule must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Once a unit with this special rule has separated, each model counts as its own unit for the purposes of Units Destroyed or similar rules.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
