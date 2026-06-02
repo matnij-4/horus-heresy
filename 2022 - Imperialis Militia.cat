@@ -5624,6 +5624,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <categoryLink id="f8bf-e373-7088-1dca" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="2dff-278b-2bbe-fe45" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
         <categoryLink id="36e0-ac5f-3884-fb95" name="Light Sub-type" hidden="false" targetId="bff2-ae16-74a8-8712" primary="false"/>
+        <categoryLink id="a4d2-6f13-3c9b-9e11" name="Skirmish Sub-type" hidden="false" targetId="59a4-7b61-600a-c457" primary="false"/>
         <categoryLink name="SA or IM Unit" hidden="false" id="3fe0-25b6-794c-a207" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -5668,7 +5669,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </modifierGroup>
               </modifierGroups>
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Light)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Light, Skirmish)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -5689,6 +5690,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b33e-d51f-4da5-b29d" name="Infantry Unit Type" primary="false"/>
             <categoryLink targetId="66b2-c457-4d5e-8041" id="ee74-71a4-4846-8a2c" name="Militia Unit Sub-type" primary="false"/>
             <categoryLink targetId="bff2-ae16-74a8-8712" id="20d5-00e8-4d40-9d8e" name="Light Sub-type" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="f8a1-2c4d-9b6e-4a3d" name="Skirmish Sub-type" primary="false"/>
           </categoryLinks>
         </selectionEntry>
         <selectionEntry id="73bd-73fb-8c08-283b" name="Scout Sergeant" hidden="false" collective="false" import="true" type="model">
@@ -5732,7 +5734,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </modifierGroup>
               </modifierGroups>
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Light, Character)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Light, Skirmish, Character)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -5773,6 +5775,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="4ea9-82e2-4394-936b" name="Infantry Unit Type" primary="false"/>
             <categoryLink targetId="66b2-c457-4d5e-8041" id="9f81-b7f4-4619-ade9" name="Militia Unit Sub-type" primary="false"/>
             <categoryLink targetId="bff2-ae16-74a8-8712" id="d5b1-ff57-4159-8820" name="Light Sub-type" primary="false"/>
+            <categoryLink targetId="59a4-7b61-600a-c457" id="c2e8-4f1a-8b7d-5e92" name="Skirmish Sub-type" primary="false"/>
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6527,6 +6530,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <categoryLink id="6a6e-34c6-73fb-264d" name="Cavalry Unit Type" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
         <categoryLink id="7893-6300-4c6a-c56d" name="Light Sub-type" hidden="false" targetId="bff2-ae16-74a8-8712" primary="false"/>
         <categoryLink id="82a5-2fe3-a1b8-fda6" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
+        <categoryLink id="9c6e-1f2b-4d8a-b330" name="Skirmish Sub-type" hidden="false" targetId="59a4-7b61-600a-c457" primary="false"/>
         <categoryLink name="SA or IM Unit" hidden="false" id="1792-f720-e57-a0d" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -6581,13 +6585,13 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </modifierGroup>
               </modifierGroups>
               <characteristics>
-                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Light, Militia, Character)</characteristic>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Light, Militia, Skirmish, Character)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">14</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
                 <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
                 <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
-                <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
@@ -6804,7 +6808,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1d96-081c-a63d-229b" name="2) One Militia Outrider in the unit may take one of the following:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1d96-081c-a63d-229b" name="2) For every five models in the unit, one Militia Outrider in the unit may take one of the following:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9479-cc12-2df3-8251" type="max"/>
             <constraint field="selections" scope="ffb1-4b4b-b88c-832c" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7333-6de7-5cb5-9399" type="max"/>
@@ -6930,13 +6934,13 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     </modifierGroup>
                   </modifierGroups>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Light, Militia)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Light, Militia, Skirmish)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">14</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
                     <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
-                    <characteristic name="W" typeId="57ee-1126-32a9-5672">1</characteristic>
+                    <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                     <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
@@ -7154,7 +7158,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </infoLink>
                 <infoLink id="58ad-8531-9c7a-069b" name="Rage (X)" hidden="false" targetId="564d-3550-ae44-2f99" type="rule">
                   <modifiers>
-                    <modifier type="set" field="name" value="Rage (1)"/>
+                    <modifier type="set" field="name" value="Rage (2)"/>
                   </modifiers>
                 </infoLink>
               </infoLinks>
@@ -7280,6 +7284,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ec5e-00ea-dd9c-3313" type="equalTo"/>
                   </conditions>
                 </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="0a4f-6f7b-8c9d-1e2f" name="Fleet (X)" hidden="false" targetId="ddc9-0b4b-78da-bbd2" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Fleet (1)"/>
               </modifiers>
             </infoLink>
             <infoLink id="3b49-42e5-73a1-f669" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
@@ -7429,7 +7438,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     </modifierGroup>
                   </modifierGroups>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Skirmish)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Light, Skirmish)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -7574,7 +7583,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="26"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
       <categoryLinks>
         <categoryLink name="SA or IM Unit" hidden="false" id="82a2-cd04-8cb1-47a6" targetId="4aca-2849-7f41-0200" primary="false"/>
