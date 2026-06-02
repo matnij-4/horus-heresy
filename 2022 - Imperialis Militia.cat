@@ -1738,7 +1738,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <description>If a unit that includes a model with this special rule fails a Morale check, a re-roll can be made – if this is done, the unit suffers D3 Wounds at AP -. These Wounds are allocated by the unit’s controlling player, but may not be inflicted on Independent Characters, the Discipline Master themselves or Militia Medicae who have joined the unit.</description>
             </rule>
             <rule id="c4fc-6361-79b1-0c04" name="Among the Ranks" publicationId="48c2-d023-0069-001a" page="13" hidden="false">
-              <description>An Imperialis Militia Discipline Master Cadre is selected like any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in an Imperialis Militia Discipline Master Cadre must be assigned to another unit from the same Detachment of the army they were selected as part of. Discipline Masters may only be assigned to units composed entirely of models with the Infantry Unit Type and Militia Unit Sub-type, unless upgraded to a Mounted Discipline Master, in which case that model must be assigned to an Imperialis Militia Cavalry Squad. No more than one Discipline Master may be assigned to any given unit. Once assigned to a unit, the Discipline Master is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Discipline Master is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Discipline Master as a casualty. When assigned to a unit, a Discipline Master gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+              <description>An Imperialis Militia Discipline Master Cadre is selected like any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in an Imperialis Militia Discipline Master Cadre must be assigned to another unit from the same Detachment of the army they were selected as part of. Discipline Masters may only be assigned to units composed entirely of models with the Infantry Unit Type, and either the Militia or Artillery Unit Sub-types, unless upgraded to a Mounted Discipline Master, in which case that model must be assigned to a Unit with the Cavalry Unit Type and the Militia Unit Sub-type. No more than one Discipline Master may be assigned to any given unit. Once assigned to a unit, the Discipline Master is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Discipline Master is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Discipline Master as a casualty. When assigned to a unit, a Discipline Master gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -5205,11 +5205,13 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <modifier type="set" field="name" value="Furious Charge (1)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="d1e8-4f92-a6b3-8c17" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="544a-d5de-ad24-ccf1" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="ff5e-7826-a07c-580b" name="Heavy Sub-type" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
         <categoryLink id="757a-017f-0c23-8007" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
+        <categoryLink id="c8f4-2a1b-9e3d-5f70" name="Skirmish Sub-type" hidden="false" targetId="59a4-7b61-600a-c457" primary="false"/>
         <categoryLink name="SA or IM Unit" hidden="false" id="e0c9-5208-41a0-6e1" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -5225,6 +5227,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="d534-6ca0-d86b-4d03" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="e2f3-5a6b-7c8d-9012" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
                 <infoLink id="4098-3c22-904d-c447" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <entryLinks>
@@ -5245,6 +5248,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5537-0c68-4499-972c" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="868b-2ec9-4231-a6e0" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="2a09-7ca6-43fa-879a" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="a1b2-3c4d-5e6f-7890" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="9643-3e33-55ed-e9f1" name="Militia Fire Team w/ Autocannon" hidden="false" collective="false" import="true" type="model">
@@ -5253,6 +5257,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="90d3-251a-c9d8-5e01" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="b3c4-5d6e-7f80-9123" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
                 <infoLink id="9f72-c31f-e78a-11fd" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <selectionEntries>
@@ -5289,6 +5294,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2b1f-3565-4790-861f" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="95c8-b9f1-4ebd-93fe" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="ba52-9558-49bd-b8ac" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="b2c3-4d5e-6f70-8191" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="5ff1-5b17-ca8b-0676" name="Militia Fire Team w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
@@ -5331,7 +5337,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     </modifierGroup>
                   </modifierGroups>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Militia)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Militia, Skirmish)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">4</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -5347,6 +5353,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </profiles>
               <infoLinks>
                 <infoLink id="47cd-75e6-5980-be11" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="c4d5-6e7f-8091-a234" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="b708-9e31-03af-c9c9" name="Heavy Stubber" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" collective="true" import="true" type="upgrade">
@@ -5377,6 +5384,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5a1d-95f6-4db4-8836" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="5dcb-25b5-487b-9ebc" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="eb2f-8d44-4b2d-9e59" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="c3d4-5e6f-7081-92a3" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="ffb6-7ae4-9f04-7c7d" name="Militia Fire Team w/ Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" type="model">
@@ -5385,6 +5393,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="3fc5-d586-6a97-069d" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="d5e6-7f80-91a2-b345" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
                 <infoLink id="0df7-197e-d848-00be" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <selectionEntries>
@@ -5418,6 +5427,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="53cf-4e7c-4b0f-b16e" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="3dc5-e564-4ef9-a4d5" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="d5c5-5d8f-44f3-8425" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="d4e5-6f70-8192-a3b4" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="237e-5215-928f-a38f" name="Militia Fire Team w/ Mortar" hidden="false" collective="false" import="true" type="model">
@@ -5426,6 +5436,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="0730-9cb8-9ab9-243a" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="e6f7-8091-a2b3-c456" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
                 <infoLink id="fc27-815b-2b49-6593" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <selectionEntries>
@@ -5460,6 +5471,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6849-022b-4f86-a5dc" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="1212-8194-4301-a810" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="6f7d-c4dd-45b1-8de0" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="1829-3a4b-5c6d-e7f8" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="e5fc-9d18-110f-569b" name="Militia Fire Team w/ Multilaser" hidden="false" collective="false" import="true" type="model">
@@ -5468,6 +5480,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="8afe-269b-9687-10b8" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="f708-91a2-b3c4-d567" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
                 <infoLink id="cf21-01eb-f09b-2e78" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <selectionEntries>
@@ -5499,6 +5512,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7d70-7d41-41d5-963e" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="45ad-fe95-48c7-985a" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="150c-1f22-47ce-8335" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="f607-8192-a3b4-c5d6" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="0170-77fa-0994-bbe7" name="Militia Fire Team w/ Heavy Bolter" hidden="false" collective="false" import="true" type="model">
@@ -5507,6 +5521,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </constraints>
               <infoLinks>
                 <infoLink id="820b-7bd3-c3b3-1294" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="0819-2a3b-4c5d-e678" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
                 <infoLink id="3559-a290-e199-cd6d" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <entryLinks>
@@ -5533,6 +5548,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7758-9588-4f1e-9fd7" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="d928-1eac-4c4d-90b5" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="b2b2-2c94-439e-bc1c" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="0718-92a3-b4c5-d6e7" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -6020,6 +6036,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <categoryLink id="c0a5-6e17-90e1-9b34" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
         <categoryLink id="c254-7761-dbf3-9329" name="Heavy Sub-type" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
         <categoryLink id="6748-d0c8-4f36-f942" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
+        <categoryLink id="f3a8-1b2c-4d5e-6f70" name="Skirmish Sub-type" hidden="false" targetId="59a4-7b61-600a-c457" primary="false"/>
         <categoryLink name="SA or IM Unit" hidden="false" id="1287-bd1c-809-f3e3" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
@@ -6092,7 +6109,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     </modifierGroup>
                   </modifierGroups>
                   <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Militia)</characteristic>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Militia, Skirmish)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">4</characteristic>
                     <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
@@ -6136,6 +6153,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="298a-0b27-4850-9852" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="cc2f-af5d-4690-8887" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="3b4b-3e9c-4821-af75" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="3a4b-5c6d-7e8f-9012" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="5ea0-e933-72fe-17a5" name="Militia Field Gun w/ Kalliope Mortar" hidden="false" collective="false" import="true" type="model">
@@ -6180,6 +6198,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="61d5-868d-4e3a-90ab" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="38f4-3543-4be4-940a" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="3fba-9099-4a95-a1c1" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="4b5c-6d7e-8f90-a123" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
             <selectionEntry id="1568-3730-cce3-342a" name="Militia Field Gun w/ Thunderblast Cannon" hidden="false" collective="false" import="true" type="model">
@@ -6219,6 +6238,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="602d-2f20-45bb-9d9e" name="Infantry Unit Type" primary="false"/>
                 <categoryLink targetId="9231-183c-b97b-63f9" id="9c68-3362-410d-98df" name="Heavy Sub-type" primary="false"/>
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="25f2-a1be-476a-b49e" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="5c6d-7e8f-9012-a345" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -6272,6 +6292,21 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c7a-3931-5426-4a8c" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c16-a692-1008-296b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a8f1-2b3c-4d5e-6f70" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Hull (Front) Mounted Heavy Stubber"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1c2-3d4e-5f60-7182" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2d3-4e5f-6071-8293" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d4e5-6f70-8192-a3b4" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5f6-7081-92a3-b4c5" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f607-8192-a3b4-c5d6" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -7734,6 +7769,8 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </profiles>
       <infoLinks>
         <infoLink id="32ca-4d47-eb6b-d372" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+        <infoLink id="c9d0-1e2f-3a4b-5c6d" name="Divisio Aeronautica Air Superiority" hidden="false" targetId="b7e2-9a14-c4d8-6f31" type="rule"/>
+        <infoLink id="d0e1-2f3a-4b5c-6d7e" name="Advanced Reaction: Combat Air Patrol" hidden="false" targetId="0ab2-3765-d019-2730" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ac47-05ee-1ca8-0518" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
@@ -9245,6 +9282,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b192-2b6f-ad8c-959f" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="ddd7-6f5c-a939-b69e" value="Infantry (Militia, Monstrous, Character, Heavy)">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c0f-f751-cc4e-4951" type="atLeast"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <modifierGroups>
                 <modifierGroup>
@@ -9347,7 +9389,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="4bdb-22e5-ea96-f338" name="Boarding Shield" hidden="false" collective="false" import="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
+                <entryLink id="4bdb-22e5-ea96-f338" name="Boarding Shield (and the Heavy Sub-type)" hidden="false" collective="false" import="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
@@ -9563,7 +9605,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
               </costs>
             </entryLink>
-            <entryLink id="f673-e9b0-d924-8fe8" name="Boarding Shield" hidden="false" collective="false" import="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
+            <entryLink id="f673-e9b0-d924-8fe8" name="Boarding Shield (and the Heavy Sub-type)" hidden="false" collective="false" import="true" targetId="0c0f-f751-cc4e-4951" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8b04-73a5-1fc7-17a7" type="max"/>
               </constraints>
@@ -9608,6 +9650,11 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <modifier type="increment" field="e8a6-1da9-d384-8727" value="1">
                       <conditions>
                         <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b192-2b6f-ad8c-959f" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="ddd7-6f5c-a939-b69e" value="Infantry (Militia, Monstrous, Heavy)">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0c0f-f751-cc4e-4951" type="atLeast"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -11540,7 +11587,13 @@ A model with the Infantry Unit Type that selects a Militia cavalry mount as an u
       <description>Provenance</description>
     </rule>
     <rule id="976f-9e14-413c-5bea" name="Emplaced" publicationId="48c2-d023-0069-001a" page="24" hidden="false">
-      <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties.</description>
+      <description>A unit that includes any models with this special rule may only make the Return Fire or Overwatch Core Reactions or the Interceptor Advanced Reaction – no other Reaction of any kind may be made. Additionally, if forced to Fall Back for any reason, all models in the unit are immediately removed as casualties. If taken as part of a Mortalis Assault Force Organisation Chart, a unit that includes any models with this Special Rule may only make the Suppress Reaction.</description>
+    </rule>
+    <rule id="a8c3-4e21-b9f6-7d12" name="Crew-Served Weapon" publicationId="48c2-d023-0069-001a" page="20" hidden="false">
+      <description>A model with this special rule may Embark on models with the Transport Unit Sub-Type and Infantry Transport Special Rule, contrary to the restriction on models with the Bulky (X) Special Rule, but still must take into account their size due to the Bulky (X) Special Rule.</description>
+    </rule>
+    <rule id="b7e2-9a14-c4d8-6f31" name="Divisio Aeronautica Air Superiority" publicationId="48c2-d023-0069-001a" page="30" hidden="false">
+      <description>A unit or model with this special rule may be placed into Combat Air Patrol at the beginning of the battle, before any models are deployed onto the table. Models assigned to Combat Air Patrol are not deployed onto the battlefield and remain in Reserves – however, no Reserves rolls are made for these models. Instead, the controlling player gains access to the Combat Air Patrol Advanced Reaction.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>
