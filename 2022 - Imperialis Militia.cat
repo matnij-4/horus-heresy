@@ -4782,6 +4782,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </selectionEntries>
               <entryLinks>
                 <entryLink id="6794-a876-0d5c-ad0c" name="Lasgun" hidden="false" collective="false" import="true" targetId="376e-c5d6-99c3-49c9" type="selectionEntry"/>
+                <entryLink id="imper-grn-hslas" name="Hot-Shot Lasgun (Imperatus)" hidden="false" collective="false" import="true" targetId="e827-1423-0d70-4bc6-bb5fc898999b8e4e" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
                 <entryLink id="092d-4b40-4534-314f" name="Autorifle" hidden="false" collective="false" import="true" targetId="57dd-dff6-d173-3bf1" type="selectionEntry"/>
                 <entryLink id="7f65-d73c-b52a-6abc" name="Autorifle with Bayonet" hidden="false" collective="false" import="true" targetId="786b-153b-0c77-370e" type="selectionEntry">
                   <costs>
@@ -4918,6 +4921,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
+                </entryLink>
+                <entryLink id="imper-grn-hsvol" name="Hot-Shot Volley Gun (Imperatus, replaces Plasma Gun)" hidden="false" collective="false" import="true" targetId="5da4-f62e-6cbe-467e-9a1b2bf13b6423d3" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
                 </entryLink>
                 <entryLink id="ae42-7e20-59d9-3d62" name="Needle Vulnus" hidden="true" collective="false" import="true" targetId="69b0-3b27-e0fc-c87c" type="selectionEntry">
                   <modifiers>
@@ -5102,6 +5108,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <entryLinks>
                 <entryLink id="aa16-ee60-9ce2-29c5" name="Autopistol" hidden="false" collective="false" import="true" targetId="6ae1-a373-ee8e-79e5" type="selectionEntry"/>
                 <entryLink id="1465-584d-ddc3-50de" name="Laspistol" hidden="false" collective="false" import="true" targetId="654d-be88-b0a8-7ae5" type="selectionEntry"/>
+                <entryLink id="imper-grn-hslasp" name="Hot-Shot Laspistol (Imperatus)" hidden="false" collective="false" import="true" targetId="a0e5-b90c-111a-4c24-b12f62413b60aec1" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
                 <entryLink id="a3fa-db39-e650-950f" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
@@ -5835,6 +5844,17 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </selectionEntries>
         </selectionEntryGroup>
       
+
+        <selectionEntryGroup id="imper-fs-armour-4a2b" name="4) Unit Armour (Imperatus)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="imper-fs-armour-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="imper-fs-carapace-el" name="Carapace Armour (Imperatus)" hidden="false" collective="false" import="true" targetId="9ba1-7b0c-23d0-2e6b" type="selectionEntry">
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/></costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
         <selectionEntryGroup id="588a-0b1f-3113-451a-a3530683d21a86ef" name="4) Dedicated Transport" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca17-b216-6daa-4640-bb055219e5dbf705" type="max"/>
@@ -6272,6 +6292,17 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </entryLinks>
         </selectionEntryGroup>
       
+
+        <selectionEntryGroup id="imper-recon-opt-5a1c" name="5) Unit Options (Imperatus)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="imper-recon-opt-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="imper-recon-shroud" name="Shroud Bombs (Imperatus)" hidden="false" collective="false" import="true" targetId="5d4d-36b7-6bf5-fc92" type="selectionEntry">
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/></costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
         <selectionEntryGroup id="721d-3191-1aea-492d-9bcf5410dc000971" name="4) Dedicated Transport" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81ae-6480-a7a7-4f63-b0c25c712b800e76" type="max"/>
