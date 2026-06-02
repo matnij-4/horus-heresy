@@ -3044,7 +3044,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
           
-            <entryLink id="f780-4587-dcf0-4173-93dfad57213d94e2" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-b179-24b" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="b179-24bb-a4b0-3eb4" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a98a-ca6c-c8f8-4d18" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-b179-24b" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="b179-24bb-a4b0-3eb4" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a98a-ca6c-c8f8-4d18" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5353,7 +5370,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
           
-            <entryLink id="f780-4587-dcf0-4173-93dfad57213d94e2" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-c201-6fb" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="c201-6fbc-a792-0509" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dbf-09bf-2bbc-278d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-c201-6fb" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="c201-6fbc-a792-0509" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6dbf-09bf-2bbc-278d" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5820,7 +5854,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
 
-            <entryLink id="cadf-4fc6-e2b0-4d06-bbd05ab444016a00" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-3f92-41d" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3f92-41db-02f5-d0cd" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-7bd2-170a-9808" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-3f92-41d" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3f92-41db-02f5-d0cd" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-7bd2-170a-9808" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup></selectionEntryGroups>
       <entryLinks>
@@ -6240,7 +6291,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
 
-            <entryLink id="d1d5-0871-45ed-419d-bc3a369ab8ef8773" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-6a90-6dc" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9915-15d5-5790-f904" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-6a90-6dc" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9915-15d5-5790-f904" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup></selectionEntryGroups>
       <entryLinks>
@@ -9630,7 +9698,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
 
-            <entryLink id="0fb1-0c49-2d12-447d-a0b92bf2a1110b4f" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-173c-214" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="173c-2148-c3ce-9c5c" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e6b-6afd-d7c5-4c66-b719b5dce3b0a735" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-173c-214" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="173c-2148-c3ce-9c5c" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e6b-6afd-d7c5-4c66-b719b5dce3b0a735" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -12336,7 +12421,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
 
-            <entryLink id="1e3b-8577-264c-4036-b02d7f4a26b4027c" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-5fd6-837" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="5fd6-8371-e5e5-7f0f" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c449-8722-a7ab-4f45" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-5fd6-837" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="5fd6-8371-e5e5-7f0f" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c449-8722-a7ab-4f45" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -15039,7 +15141,24 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </modifiers>
             </entryLink>
           
-            <entryLink id="e8f1-0a2b-4c3d-5e6f-7890abcdef01" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry"/>
+            <entryLink id="chim-dt-a1b2-c3d" name="Militia Chimera Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e806" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="a1b2-c3d4-e5f6-a703" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e6b-6afd-d7c5-4c66-b719b5dce3b0a735" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="aurox-dt-a1b2-c3d" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="a1b2-c3d4-e5f6-a703" value="10" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e6b-6afd-d7c5-4c66-b719b5dce3b0a735" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -17051,6 +17170,12 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ab6-39a4-96a1-44af-acacf206bb5d0c4f" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="f1a2-b3c4-d5e6-f708-192a3b4c5d6e" name="Two Sponson Mounted Lasgun Arrays" hidden="false" collective="false" import="true" targetId="b3c4-d5e6-f708-192a-3b4c5d6e7f80" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-e5f6-e806-las-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-e5f6-e806-las-max" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="57cb-b9ab-4b21-495f-ba5a796928054fe4" name="1) Exchange Turret Multi-Laser" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe18-09aa-4998-4d43-8512926abfe47dbb">
@@ -17134,6 +17259,87 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3c4-d5e6-f708-192a-3b4c5d6e7f80" name="Two Sponson Mounted Lasgun Arrays" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <entryLinks>
+        <entryLink id="c4d5-e6f7-8091-a2b3-4c5d6e7f8091a2" name="Lasgun Array" hidden="false" collective="false" import="true" targetId="c8d9-e0f1-a2b3-4c5d-6e7f8091" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Sponson Mounted Lasgun Array"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d5e6-f708-192a-3b4c-min" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e6f7-8091-a2b3-4c5d-max" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-e5f6-e807" name="IM - Militia Aurox Transport" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e807-2f53-630f-46b3-90486fcee488d1b7" name="Militia Aurox Transport" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Third-Line, Transport)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">15</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">12</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One Access Point on each side of the hull and one at the rear.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e807-e4c9-42f3-53a7-404b-846a1ca01e8c" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e807-fb15-0615-463b-bab7" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="e807-e376-6fb15-0615-463b" name="Transport Sub-type" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+        <categoryLink id="e807-86fe-b1ce-1631-4546" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e807-6430-f773-6ee4-760b" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e807-b602-6a30-115d-6b23" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e807-e65e-b0f5-b57a-c72b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e807-386a-7e41-2c22-96fe" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e807-d0a1-e819-2271-e987" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e807-89bb-3c4f-756f-74a8" name="1) May select one pintle weapon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e807-5303-2457-4f28-8f03" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e807-1b0b-12bb-4f57-2c05" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry">
+              <modifiers><modifier type="set" field="name" value="Pintle Mounted Heavy Stubber"/></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="e807-6079-3afe-0022-4089" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+              <modifiers><modifier type="set" field="name" value="Pintle Mounted Heavy Flamer"/></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="e807-396e-8024-df29-df74" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+              <modifiers><modifier type="set" field="name" value="Pintle Mounted Multi-Laser"/></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

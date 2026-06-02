@@ -4277,6 +4277,28 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c8d9-e0f1-a2b3-4c5d-6e7f8091" name="Lasgun Array" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d9e0-f1a2-b3c4-5d6e-7f8091a2b3" name="Lasgun Array" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Rapid Fire, Array Fire (3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e0f1-a2b3-c4d5-6e7f-8091a2b3c4d5" name="Array Fire (X)" hidden="false" targetId="3990-26f4-34ba-4db4-81c86c25213c0738" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Array Fire (3)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="4a9c-5e3d-22c9-361a" name="Arachnus Heavy Lascannon Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="d569-2bf5-771f-7fb4" name="Arachnus Heavy Lascannon Battery" publicationId="a716-c1c4-7b26-8424" page="132" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
