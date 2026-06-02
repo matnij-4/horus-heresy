@@ -5722,9 +5722,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2d9d-480e-7c14-1a6f" name="Power Armour" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2d9d-480e-7c14-1a6f" name="Power Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="6c84-1420-7bb8-1026" name="Power Armour" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="6c84-1420-7bb8-1026" name="Power Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
             <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Power armour provides a 3+ Armour Save.</characteristic>
           </characteristics>
@@ -5774,12 +5774,11 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0c0f-f751-cc4e-4951" name="Boarding Shield" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0c0f-f751-cc4e-4951" name="Boarding Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="961a-59a2-2fae-a5dd" name="Boarding Shield" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="961a-59a2-2fae-a5dd" name="Boarding Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Boarding shields confer a 5+ Invulnerable Save, but a model with a boarding shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed special rule.
-Invulnerable saves granted by a combat shield or boarding shield do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Boarding Shields confer a 5+ Invulnerable Save, but a model with a Boarding Shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-handed Special Rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5802,12 +5801,11 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="472a-8297-2c71-3a9c" name="Combat Shield" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="472a-8297-2c71-3a9c" name="Combat Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="8af0-f3d4-85fb-239a" name="Combat Shield" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="8af0-f3d4-85fb-239a" name="Combat Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Combat shields confer a 6+ Invulnerable Save.
-Invulnerable saves granted by a combat shield or boarding shield do not stack with other Invulnerable Saves, but can benefit from rules (like cyber-familiar) that specifically increase existing saves. If a model has another Invulnerable Save then the controlling player must choose which one to use.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Combat Shields confer a 6+ Invulnerable Save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5815,11 +5813,11 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2fda-455f-d34d-97e0" name="Cortex Controller" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2fda-455f-d34d-97e0" name="Cortex Controller" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ea6d-fcba-ee59-0400" name="Cortex Controller" publicationId="a716-c1c4-7b26-8424" page="141" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="ea6d-fcba-ee59-0400" name="Cortex Controller" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit that includes one of more modesl with the Cybernetica Sub-type may ignore the Programmed Behaviour provision described as part of that Sub-type.while within 12&quot; of a model with a cortex controller.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any unit that includes one or more models with the Cybernetica Unit Sub-type may ignore the Programmed Behaviour provision described as part of that Sub-type while within 12” of a friendly model with a Cortex Controller.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5875,11 +5873,11 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4df2-d42b-504d-3ec5" name="Psychic Hood" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4df2-d42b-504d-3ec5" name="Psychic Hood" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="fd98-bba9-e8fe-b91c" name="Psychic Hood" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="fd98-bba9-e8fe-b91c" name="Psychic Hood" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18&quot; and line of sight of a model with a psychic hood must reduce its Leadership by -2 when making Psychic checks. This modifier is not cumulative and no model may suffer from penalties from more than one psychic hood.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18&quot; and line of sight of a model with a Psychic Hood must reduce its Leadership by -2 when making Psychic checks. This modifier is not cumulative and no model may suffer from penalties from more than one Psychic Hood.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5887,17 +5885,14 @@ Invulnerable saves granted by a combat shield or boarding shield do not stack wi
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1b0b-3dfc-9521-b27e" name="Rad Grenades" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1b0b-3dfc-9521-b27e" name="Rad Grenades" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5ecf-40ba-be56-0d11" name="Rad Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="5ecf-40ba-be56-0d11" name="Rad Grenades" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">During a turn in which a unit with at least one model with rad grenades successfully Charges, or is themselves successfully Charged, all models in the enemy unit(s) suffer a -1 penalty to their Toughness Characteristic (to a minimum of toughness 1) until the end of the Fight Sub-phase that follows the successful Charge. Note: This does affect Instant Death thresholds.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">During a turn in which a unit with at least one model with Rad Grenades successfully Charges, or is themselves successfully Charged, all models in the enemy unit(s) suffer a -1 penalty to their Toughness Characteristic, to a minimum of Toughness 1, until the end of the Fight Sub-phase that follows the successful Charge.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="287a-ecc6-2759-4e29" name="Grenades" hidden="false" targetId="6f5f-8f7c-d18b-cd42" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -5953,17 +5948,14 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5d4d-36b7-6bf5-fc92" name="Shroud Bombs" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5d4d-36b7-6bf5-fc92" name="Shroud Bombs" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="fb63-1d83-d992-80a6" name="Shroud Bombs" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="fb63-1d83-d992-80a6" name="Shroud Bombs" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit that includes at least one model with shroud bombs is considered to be 6&quot; further than the actual range between the two units – enemy models with the Night Vision special rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage special rule, a unit that includes at least one model with shroud bombs is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit that includes at least one model with Shroud Bombs is considered to be 6” further than the actual range between the two units - enemy models with the Night Vision Special Rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage Special Rule, a unit that includes at least one model with Shroud Bombs is always treated as though it was out of Line of Sight when scattering any attacks.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="e493-1f52-eff9-e144" name="Grenades" hidden="false" targetId="6f5f-8f7c-d18b-cd42" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -5980,12 +5972,15 @@ Searchlights do not count as weapons and may not be targeted by the Weapon Destr
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6472-db7f-08b0-d7c7" name="Suspensor Web" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6472-db7f-08b0-d7c7" name="Suspensor Web" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="457c-1f2c-ca90-1bf3" name="Suspensor Web" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="457c-1f2c-ca90-1bf3" name="Suspensor Web" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A heavy weapon with a suspensor web may be treated as having the type Assault rather than Heavy when used to attack as part of any Shooting Attack at targets at up to half the weapon’s usual maximum range.
-Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; Heavy 4 weapon, can instead be used as if it were a Range 18&quot; Assault 4 weapon if the controlling player wishes.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Heavy Weapon with a Suspensor Web may be treated as having the type Assault rather than Heavy when used to attack as part of any Shooting Attack at targets at up to half the weapon&apos;s usual maximum range.
+
+For example, a Heavy Bolter with a Suspensor Web, which is usually a Range 36&quot; Heavy 4 weapon, can instead be used as if it were a Range 18&quot; Assault 4 weapon if the Controlling Player wishes.
+
+A weapon with a Suspensor Web may be fired as an Assault weapon at half range or less. If a weapon fired in this manner has any Special Rules that rely on range (such as Armourbane (Melta)) then the range required to trigger this Special Rule is calculated based on the weapon&apos;s original range, not the modified range from the Suspensor Web&apos;s effects.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6017,17 +6012,14 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9622-f67e-4afe-09f3" name="Breacher Charge" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9622-f67e-4afe-09f3" name="Breacher Charge" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d485-964d-e032-8d56" name="Breacher Charge" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="d485-964d-e032-8d56" name="Breacher Charge" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with a breacher charge that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification model, inflict one automatic Str 10 AP 2 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using breacher charges may not otherwise attack or make use of any other special rules or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Controlling Player may choose to have a model with a Breacher Charge that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification model, inflict one automatic Str 10, AP 2 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using breacher charges may not otherwise attack or make use of any other Special Rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="89d2-37fd-1342-7772" name="Grenades" hidden="false" targetId="6f5f-8f7c-d18b-cd42" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -6065,13 +6057,11 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f8f8-417b-ed9d-544c" name="Explorator Augury Web" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="f8f8-417b-ed9d-544c" name="Explorator Augury Web" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b4a1-b551-49a8-73dc" name="Explorator Augury Web" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="b4a1-b551-49a8-73dc" name="Explorator Augury Web" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of each of the controlling player’s turns, that player may choose to activate the explorator augury web in either Disruption or Relay mode, the effects of which last until the beginning of the controlling player’s next turn:
-• Disruption Mode: Any Reserves rolls made by an enemy player to bring units into play from Reserve are modified by -1 while this mode is active. This modifier does not stack with any other negative modifiers to Reserves rolls – use the highest single modifier instead. However, once the final negative modifier to a Reserves roll is determined, it can be reduced by any positive modifiers applied to the roll (for example if a Reserves roll was affected by both a -1 and +1 modifier then they would cancel each other and no modifier would be applied).
-• Relay Mode: Any Reserves rolls made by the controlling player to bring units into play from Reserves may be rerolled while this mode is active.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At the start of each of the Controlling Player&apos;s turns, that player may choose to activate the Explorator Augury Web in either Disruption or Relay mode, the effects of which last until the beginning of the Controlling Player&apos;s next turn:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6091,11 +6081,11 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9333-3d3a-1c13-c602" name="Geo-locator Beacon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="9333-3d3a-1c13-c602" name="Geo-locator Beacon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="ca02-0f2e-ea7b-ce89" name="Geo-locator Beacon" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="ca02-0f2e-ea7b-ce89" name="Geo-locator Beacon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">As long as a model with this special rule is deployed on the battlefield, the controlling player may choose to re-roll all failed Reserves roll they make.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">As long as a model equipped with a Geo-Locator Beacon is deployed on the battlefield, the Controlling Player may choose to re-roll all failed Reserves rolls they make.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6115,16 +6105,15 @@ Example: A heavy bolter with a suspensor web, which is usually a Range 36&quot; 
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff29-460e-a589-a376" name="Helical Targeting Array" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ff29-460e-a589-a376" name="Helical Targeting Array" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5097-7577-6026-5969" name="Helical Targeting Array" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="5097-7577-6026-5969" name="Helical Targeting Array" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player of a model with a helical targeting array may activate it at the start of any of their own turns, or, if the controlling player is not taking the first turn of the battle, at the start of the battle, before the beginning of the opposing player&apos;s first turn. Once the helical targeting array is activated, this model is affected by the following conditions until the beginning of the controlling player’s next turn:
-• The model may not move, Run or declare or make any Reactions other than the Interceptor or Overwatch Reaction.
-• The controlling player may choose to use the Skyfire special rule when making any Shooting Attacks with the model.
-• No model may make a Damage Mitigation roll provided by the Shrouded special rule against an attack made by a model with a helical targeting array while it is active.
-• When the model makes a Shooting Attack as part of the Interceptor Reaction, the Reaction does not cost the controlling player a point from their Reaction Allotment. This does not allow the unit to make more than one Reaction per phase, but does allow the controlling player to exceed the normal three Reactions limit in a given phase.
-• When a model with the Vehicle Unit Type and a helical targeting array makes a Shooting Attack as part of the Interceptor Reaction, that model may fire all of its weapons, not just Defensive Weapons, as part of the Shooting Attack.</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Controlling Player of a model with a Helical Targeting Array may activate it at the start of any of their own turns, or, if the Controlling Player is not taking the first turn of the battle, at the start of the battle, before the beginning of the Opposing Player&apos;s first turn. Once the Helical Targeting Array is activated, the model is affected by the following conditions until the beginning of the Controlling Player&apos;s next turn:
+
+• No model may make a Damage Mitigation Roll provided by the Shrouded Special Rule against an attack made by a model with a Helical Targeting Array while it is active.
+
+• When a model with the Vehicle Unit Type and a Helical Targeting Array makes a Shooting Attack as part of the Interceptor Reaction, that model may fire all of its weapons, not just Defensive Weapons, as part of the Shooting Attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -12800,6 +12789,452 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3d5f-e0a1-7b6d-4b76-bac256195b8be960" name="Forceshield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f0f2-c118-edf9-42af-abae95f13da367e3" name="Forceshield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Forceshield confers a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9df-f0fc-f816-4ce7-b972a06799d3705a" name="Improved Forceshield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cebd-e542-e703-42c7-adb01f79fda46c29" name="Improved Forceshield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Improved Forceshield confers a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ab64-f164-6c92-4bde-8a9812bf038728b3" name="Holo-Suit" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cce5-82f8-6a12-4fcb-b2995ca43746765f" name="Holo-Suit" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Holo-Suit confers a 4+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d9a8-b3f4-5e0a-4f66-8408a0e246984664" name="Aetherlabe Instrumenta" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c9a5-da0d-f80b-4b57-89dd14ef315b2b58" name="Aetherlabe Instrumenta" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Controlling Player of an enemy unit that arrives via Deep Strike Assault within 12&quot; of a model with this Special Rule must roll an additional D6 when rolling to Scatter that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b98e-8419-911e-4baf-83bc1e388e620d9e" name="Asuryani Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1714-23ca-3480-418a-bac826143abd700b" name="Asuryani Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Controlling Player of an enemy unit that arrives via Deep Strike Assault within 12&quot; of a model with this Special Rule must roll an additional D6 when rolling to Scatter that unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b996-8e14-8d32-4652-a032bc03a8138b7d" name="Heavy Mesh Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7ef4-af57-342b-49f9-a461aa42526b95fa" name="Heavy Mesh Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Heavy Mesh Armour confers a 4+ Armour Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e994-98aa-5c65-469a-9aa0a48cb38745b5" name="Allarus Terminator Armor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7eda-36d0-7017-439e-886f52ea1412bbfe" name="Allarus Terminator Armor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Allarus Terminator Armour confers a 2+ Armour Save and a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="10ce-7352-71e4-4829-8074bab22f5869ba" name="Auspex Surveyor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8b6f-e17a-caef-41a7-91c3de38adc1160d" name="Auspex Surveyor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an Auspex Surveyor makes Shooting Attacks as if they had the Ignores Cover Special Rule. In addition, they gain the following benefits:
+
+• Enemy models cannot be deployed using the Infiltrate special rule within 24” of a model with an Auspex Surveyor.
+
+• A unit that includes at least one model with an Auspex Surveyor ignores the 24” limit to line of sight and the -1 penalty to Ballistic Skill when making Shooting Attacks while the Night Fighting rules are in effect.
+
+• When any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with an Auspex Surveyor may make the Interceptor Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 309) without expending a point of the Reactive player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2164-09df-a29e-4803-9d295ed1821f5e70" name="Auxilia Tempestor Land Speeder" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="941f-f03d-b7d6-4407-b551945d67aa2ae3" name="Auxilia Tempestor Land Speeder" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Auxilia Tempestor Land Speeder has a Multi-Laser and a Havoc Launcher.
+
+In addition, a model equipped with an Auxilia Tempestor Land Speeder that chooses to Run gains the Shrouded (5+) Special Rule until the start of the Controlling Player&apos;s next turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a420-0335-0b1c-4e38-a044b554b1b254c1" name="Command Crew Bay" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8042-0ca6-ef7a-4556-91f5c0f903ae23da" name="Command Crew Bay" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with an Command Crew Bay gains the Transport Sub-type, a Transport Capacity of 8 models (or otherwise increases its existing Transport Capacity to 8), Access Points on both of its sides (if it did not already have these), and the Infantry Transport Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfa2-85f7-4a3f-4fb0-80c2f880b6c3688d" name="Auxiliary Crew Bay" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="58ea-8a6a-2fb8-4eff-ae274aa383ef859b" name="Auxiliary Crew Bay" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with an Auxiliary Crew Bay gains the Transport Sub-type, a Transport Capacity of 14 models (or otherwise increases its existing Transport Capacity to 14), Access Points on both of its sides and rear (if it did not already have these), and the Infantry Transport Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7cdf-1176-d8ac-4193-ac69cf69130fb8cc" name="Battle Servitor Control" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7d3-76a1-186e-4feb-82138031e12fa25f" name="Battle Servitor Control" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with Battle Servitor Control gains the Sunder Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1d1-bca1-f9d9-4cbb-a63dae5c8f8a2a00" name="Custodes Dawneagle Jetbike" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5419-77f3-d8ab-4458-b1edbf4f80c56a67" name="Custodes Dawneagle Jetbike" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Custodes Dawneagle Jetbike has Two Lastrum Storm Bolters.
+
+In addition, a model with a Custodes Dawneagle Jetbike that chooses to Run gains the Shrouded (5+) Special Rule until the start of the Controlling Player&apos;s next turn.
+
+A model that is equipped with a Custodes Dawneagle Jetbike must change its unit type to Cavalry (Antigrav, Skirmish), if it does not already have this Unit Type and Sub-types, keeping any other unit Sub-types it had. Additionally, the model must change its Movement Characteristic to 14”, and gains the Hammer of Wrath (1), Skilled Rider, Firing Protocols (2) and Deep Strike Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ada4-0ce2-14e6-4923-ae9198e3f995e1e8" name="Exo-Driller Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6133-f619-f112-413e-9516f060a3318ba4" name="Exo-Driller Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Exo-Driller Armour confers a 2+ Armour Save and a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f29f-9d21-5665-44b2-9512a6d7ceca2da9" name="Flip Belt" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="533e-59c3-59e4-4076-b0e03aa2f3e49881" name="Flip Belt" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models equipped with Flip Belts may choose to ignore terrain and intervening friendly units while Moving, including Charges, Fall Back moves, Advancing, and during Reactions. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, though they entirely ignore the effects of Difficult Terrain.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="98c3-b166-435c-4f5d-9f68f84a12a7958e" name="Halian Heavy Jetbike" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bb9b-1042-a2d1-4771-9bd7854db0ef8345" name="Halian Heavy Jetbike" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Halian Heavy Jetbike has a Heavy Snare Cannon.
+
+In addition, a model with a Halian Heavy Jetbike gains the Shrouded (6+) Special Rule on any turn in which it has moved, or the Shrouded (5+) Special Rule if it has Run in that turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2828-c373-5e13-4c8f-a80a30276f02ee93" name="Indomitus Terminator Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a49c-a93f-8ec0-4038-bba05c7dff7030a5" name="Indomitus Terminator Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Indomitus Terminator Armour confers a 2+ Armour Save and a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e64-3384-0665-44f1-b5f07262829f1e9b" name="Jokaero Armaments" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="75d2-c208-cb41-4a9d-a9b70e2acfd8b417" name="Jokaero Armaments" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever a model armed with Jokaero Armaments makes a Shooting Attack, the Controlling Player may choose a single weapon from the following list for the model to make their Shooting Attack with:</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ae5-db1e-5d29-43ab-ba2a6ce5055689ec" name="Mechanicum Protectiva" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b760-e71a-eb15-427c-8811c3295e49bf18" name="Mechanicum Protectiva" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Mechanicum Protectiva gains a 4+ Invulnerable Save.
+
+Invulnerable Save granted by a Mechanicum Protectiva do not stack with other Invulnerable Saves, but can benefit from rules (like Cyber-Familiar wargear) that specifically increase existing saves. If a model has another Invulnerable Save then the Controlling Player must choose which one to use.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c3bf-56de-b92e-43a8-83046d34d40e530b" name="Plasma Grenades" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="571f-9ff6-8604-49c0-90fee998c875966a" name="Plasma Grenades" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with Plasma Grenades makes attacks at its normal Initiative Step during an Assault after it has successfully Charged through Difficult Terrain or Dangerous Terrain, but still suffers any penalties to Charge rolls imposed by Difficult Terrain or Dangerous Terrain when resolving a Charge through Difficult Terrain or Dangerous Terrain.
+
+In addition, the Controlling Player may choose to have a model with Plasma Grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 5, AP 4 Hit with the Breaching (6+) Special Rule, on the target in Initiative Step 1 instead of attacking normally. If this option is selected, the unit makes its Pile In move at the Initiative 1 step. Any model in a unit that is chosen to inflict Hits using Plasma Grenades may not otherwise attack or make use of any other Special Rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6d3-9920-c4e9-4779-ac5b85dade5931c8" name="Praesidium Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dbf1-d178-cecd-4d42-87f18b15c03bfbe4" name="Praesidium Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Praesidium Shield adds +1 to its Invulnerable Save (to a maximum of 3+) or an Invulnerable Save of 6+ if they do not already possess one. In addition, a model with a Praesidium Shield cannot claim bonus attacks for having more than one melee weapon, or make attacks during the Assault phase using a weapon with the Two-Handed Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="625e-303d-d641-4ae8-94231e986d90a90f" name="Proteus Pattern Storm Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dc1b-8265-703c-4ff2-a77e67bb36dde263" name="Proteus Pattern Storm Shield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Proteus Pattern Storm Shield gains a 4+ Invulnerable Save, Invulnerable Saves granted by a Proteus Pattern Storm Shield do not stack with other Invulnerable Saves, and cannot be modified by any other Special Rule. If a model has another Invulnerable Save then the Controlling Player must choose one to use. A model with a Proteus Pattern Storm Shield may never gain an additional Attack for being armed with two close combat weapons or make attacks using a weapon with the Two-Handed Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6384-e596-56bc-4673-a82632079f97936f" name="Rad Furnace" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f9b5-e56e-cc58-4552-a8adf005d8fc0d59" name="Rad Furnace" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any melee Hits allocated to models locked in combat with one or more units that include a model with a Rad Furnace require one lower result To Wound than they would normally, to a minimum of 2+. This effect is not cumulative with itself if more than one model in a combat has a Rad Furnace.
+
+Models with Rad Furnaces are immune to the effects of Rad Grenades, the Rad-Phage Special Rule and the Rad Furnaces of models they are locked in combat with. In addition, Hits from weapons with the Rad-Phage Special Rule that are allocated to a model with a Rad Furnace only successfully wound on a To Wound roll of a 6+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5fec-66b0-fb81-477d-b84fb755aa7f2888" name="Shredder Prow" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4a8d-b827-9667-4711-89e63e63f9dd3068" name="Shredder Prow" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with this upgrade does an additional +D3 hits when resolving Hammer of Wrath attacks. In addition, all Hammer of Wrath attacks made by a unit with this upgrade are resolved at an AP value of 3.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59d2-7e2a-f249-462c-99220cb302611ad0" name="Tarsus Buckler" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1c54-bed9-880b-4b49-a02eb1db2f4fa504" name="Tarsus Buckler" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">• Whenever the model performs a Ram attack, increase the number of hits inflicted by +D3, and the Strength Characteristic of the Ram attacks by +3. In addition, all Ram attacks made by a model with this upgrade are resolved at an AP value of 3, with the Sunder and Shred Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6ff2-d0d0-71ba-4dbd-a96e1c24cea37e1f" name="Tenebris Praetoria" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="77c2-7ada-94ea-4819-98513dcc2933c605" name="Tenebris Praetoria" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Whenever targeted by a Shooting Attack, the range between an attacking unit and a unit including one or more models with a Tenebris Praetoria is considered to be 6&quot; further than the actual range between the two units - enemy units with the Night Vision Special Rule, weapons with the Template Special Rule and models with the Primarch Unit Type ignore this effect. In addition, when attacked by a weapon with the Barrage Special Rule, a unit including one or more models with a Tenebris Praetoria is always treated as though it was out of line of sight when scattering any attacks.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbff-3af4-0a8a-45c0-8f555131c761893f" name="Towing Cable" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9dd1-52ad-52ae-45c8-8e0cb8f001b80514" name="Towing Cable" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">At any point in the Controlling Player&apos;s Movement Phase, a model with a Towing Cable may target a friendly Infantry model with a Movement Characteristic of “-” in contact with this model&apos;s Hull. A model which is currently locked in combat may not be targeted.
+
+Furthermore, if there are other models in the same unit as a model targeted by the Towing Cable and they have a Movement Characteristic of “1” or more, they are counted as having embarked on this vehicle for as long as a model is being moved via the Towing Cable Special Rule. They must disembark via the normal procedure once a model with a Towing Cable has finished its move in the Movement Phase. If there are multiple models with a Movement Characteristic of “-” being towed by multiple models equipped with a Towing Cable, then any models counted as embarked may disembark from any model with a Towing Cable which was towing a model from their unit.
+
+A model with this Special Rule may not activate its Towing Cable if it moves Flat-out; and a model with this Special Rule may not move Flat-out if it activates its Towing Cable. Any Infantry models moved via this Special Rule may only fire Snap Shots in the following Shooting Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="28cd-ef8a-ea3c-4002-afc40b91330d4c60" name="Trader-Militant Banner" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="560c-9c04-2bf0-47a0-9ef53781d13070bd" name="Trader-Militant Banner" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with a Trader-Militant Banner adds +1 to the Wounds score used to decide if they win a Combat in the Assault phase. A unit that includes at least one model with a Trader-Militant Banner may choose to Fall Back only a distance equal to the roll of a D6 instead of 2D6, and if forced to move off the edge of the battlefield will instead stop with each model 1&quot; away from the edge of the battlefield. In addition, all of the Controlling Player&apos;s units that are part of a an Army in which the Primary Detachment is from the Traders Militant Sub-faction within 12&quot; of a model with a Trader-Militant Banner are considered to have a Leadership Characteristic of 9 (unless they already had a higher Leadership Characteristic) when resolving Morale checks or Pinning tests (but not Psychic checks).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="133f-33a3-ed01-4287-a6d80a9faa5757cb" name="Verticalis Drop Harness" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5858-4f43-23d6-4667-ad48678d59d43f54" name="Verticalis Drop Harness" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with a Verticalis Drop Harness gains the Deep Strike Special Rule. Furthermore, Models with the Verticalis Drop Harness can disembark from Zooming Flyers and Flyers they are embarked upon that move at Cruising Speed, regardless of other rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="542d-c57f-1b28-4854-bcd73e4b7dc82131" name="Vexillum Imperatus" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5678-42ca-83a8-4d67-bfab1dabf4ef2348" name="Vexillum Imperatus" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All of the Controlling Player&apos;s units with the Legio Custodes Special Rule within 12” of a friendly model with a Vexillum Imperatus are considered to have a Leadership Characteristic of 10 when resolving Morale checks or Pinning tests. Once per game, whenever a friendly unit with the Legio Custodes Special Rule within 12” of a model with a Vexillum Imperatus fails a Leadership Test, that Leadership test may be re-rolled.
+
+In addition, all models in a unit that includes a Vexillum Imperatus gain the Line Sub-type as long as they remain part of that unit - this benefit is lost immediately if the model with the Vexillum Imperatus is removed as a casualty or leaves the unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4137-7256-0b08-42d3-898babd6cae94154" name="Vigilant Standard" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4359-5a56-4722-4b3d-86c95cb740b5fa5f" name="Vigilant Standard" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit that includes at least one model with an Vigilant Standard adds +1 to the Wounds score used to determine if they win a Combat in the Assault phase. In addition, a unit that includes at least one model with a Vigilant Standard may, before any dice are rolled to determine Fall Back distance, choose to Fall Back only a distance equal to the roll of a D6 instead of 2D6, and if forced to move off the edge of the battlefield will instead stop moving, with any model that would have moved off of the battlefield instead ending its Fall Back move prematurely when it reaches 1” from the edge of the battlefield.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0fdc-a2e3-5ff5-4187-b17148443e02367a" name="Vratine Voidplate" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="794e-07c5-4c46-40f4-a74ea91503f81c4b" name="Vratine Voidplate" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Vratine Voidplate confers a 2+ Armour Save. In addition, a unit that includes any models with Vratine Voidplate make Sweeping Advance rolls at a penalty of -1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e662-d74d-1224-4e4c-bbd1984bbff6f6ec" name="Vratine Chainmail" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6d80-387a-bc57-4310-b7615510750e2e5b" name="Vratine Chainmail" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Vratine Chainmail confers a 4+ Armour Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2fca-abe0-2762-4c02-9d04c97e7b5c7004" name="Alkonost Combat Bike" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fce6-1786-e961-4529-b4c730d86fffaeea" name="Alkonost Combat Bike" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">An Alkonost Combat Bike has a Twin-Linked Vratine Bolter, and sets the Unit Type of any model equipped with an Alkonost Combat Bike to Cavalry (Skirmish), though the model keeps any additional Sub-types it may have, and changes its Movement Characteristic to 16&quot;. In addition, a model with a Alkonost Combat Bike has the Shrouded (6+) Special Rule, which increases to Shrouded (5+) until the start of the Controlling Player&apos;s Next Turn if the model chooses to Run. A model equipped with an Alkonost Combat Bike also gains the Firing Protocols (2), Hammer of Wrath (1), Skilled Rider, and Battle-Hardened (1) Special Rules.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f64-e16d-7308-4673-b25ecddf40a1fc72" name="Mesh Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d156-4014-4cba-450a-8972ebb5022021c9" name="Mesh Armour" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Mesh Armour confers a 4+ Armour Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
