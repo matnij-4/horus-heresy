@@ -1266,6 +1266,7 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
     <categoryEntry id="d3bb-bdf9-4478-9553" name="Clanfolk Cavalry (Fast)" hidden="false"/>
     <categoryEntry id="76cd-5c38-ceac-a2b4" name="Industrial Stronghold - Leman Russ Squadron" hidden="false"/>
     <categoryEntry id="d029-ac65-0ade-0c32" name="Clanfolk Cavalry (Troops)" hidden="false"/>
+    <categoryEntry id="wr22-c3d4-e5f6-7081" name="Wasteland Reavers Vehicle Squadrons (Troops)" hidden="false"/>
     <categoryEntry id="d813-b3e9-24f0-78bd" name="Ogryn Conscripts (Compulsory)" hidden="false"/>
     <categoryEntry id="c5d2-69ee-8787-55d9" name="The Rewards Of Treachery" hidden="false">
       <modifiers>
@@ -1853,6 +1854,11 @@ If that test is failed, the unit suffers one Wound, allocated by the controlling
             <constraint field="d2ee-04cb-5f8a-2642" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9f7-954e-b8d3-7a39" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="wr22-flink" name="Wasteland Reavers Vehicle Squadrons (Troops)" hidden="false" targetId="wr22-c3d4-e5f6-7081" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="wr22-troops-max" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="1ef7-5f17-ade4-e6c1" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="369a-4e2e-f7c8-5941" type="max"/>
@@ -2153,6 +2159,11 @@ If that test is failed, the unit suffers one Wound, allocated by the controlling
           </constraints>
         </categoryLink>
         <categoryLink id="13d3-d01e-f52f-e687" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+        <categoryLink id="wr22-flink" name="Wasteland Reavers Vehicle Squadrons (Troops)" hidden="false" targetId="wr22-c3d4-e5f6-7081" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="wr22-troops-max" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="c1eb-5ad0-5c14-b414" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b40d-bc3b-2e1b-1243" type="max"/>
@@ -2446,6 +2457,11 @@ If that test is failed, the unit suffers one Wound, allocated by the controlling
           </modifiers>
           <constraints>
             <constraint field="d2ee-04cb-5f8a-2642" scope="roster" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11cb-d547-c07c-da25" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="wr22-flink" name="Wasteland Reavers Vehicle Squadrons (Troops)" hidden="false" targetId="wr22-c3d4-e5f6-7081" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="wr22-troops-max" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="2b19-38ad-1275-ddd4" name="Clanfolk Cavalry (Troops)" hidden="false" targetId="d029-ac65-0ade-0c32" primary="false">
@@ -15528,6 +15544,36 @@ Liber Mechanicum for details and points costs). All Triaros Armoured Conveyors a
 This Provenance cannot be taken in conjunction with the Survivors of the Dark Age or Clanfolk Levy Provenances.</description>
             </rule>
           </rules>
+        </selectionEntry>
+        <selectionEntry id="wr20-a1b2-c3d4-e5f6" name="20 Wasteland Reavers" publicationId="48c2-d023-0069-001a" page="256" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="wr20-force-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wr20-parent-max" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="wr21-b2c3-d4e5-f607" name="Wasteland Reavers" publicationId="48c2-d023-0069-001a" page="256" hidden="false">
+              <description>Raised from the dust-choked plains of dying worlds or the lawless hinterlands of industrial hives, these militias treat their vehicles as both holy icons and their only means of survival. Eschewing the slow grind of traditional infantry tactics, they favor high-octane charges and &quot;technical&quot; cavalry, overwhelming the foe in a cloud of exhaust and promethium.
+
+Imperialis Militia Achilles Light Vehicle Squadrons and Imperialis Militia Venator Medium Vehicle Squadrons in a Detachment with this Provenance of War may be taken as Troops choice. They gain Line Sub-type if taken as Compulsory Troops choices in the Force Organisation Chart.
+
+All models with the Vehicle type (excluding those with the Flyer or Super-Heavy Sub-types) in a Detachment with this Provenance of War increase their Movement characteristic by +2&quot;.
+
+Imperialis Militia infantry Squads in a Detachment with this Provenance of War gain the Stubborn special rule while they are within a Transport within 6&quot;.
+
+The Apex War-Rig: A single Imperialis Militia Ironcrawler may be taken as the Warlord for this Detachment. If selected as the Warlord, the model must be upgraded to an Apex War-Rig for +50 points. An Apex War-Rig gains the following modifiers:
+
++1 Ballistic Skill (to a maximum of 5)
+
++1 Side Armour (to a maximum of 14)
+
++1 Hull Point
+
+For the purposes of Warlord Traits, the Apex War-Rig is considered to have the Character sub-type and may select a Warlord Trait from the Imperialis Militia list as normal. Also it must be taken as an HQ slot.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

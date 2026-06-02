@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="51" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="52" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -264,6 +264,36 @@
         <categoryLink id="e7f8-cat2" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="wr-el-ach-troops" name="IM - Achilles Light Vehicle Squadron" hidden="true" collective="false" import="false" targetId="c1a2-3b4d-5e6f-7081" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="wr-ach-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="wr-ach-t" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="wr-ach-wr" name="Wasteland Reavers Vehicle Squadrons (Troops)" hidden="false" targetId="wr22-c3d4-e5f6-7081" primary="false"/>
+        <categoryLink id="wr-ach-ct" name="Compulsory Troops:" hidden="false" targetId="8f42-a824-fb5f-8fea" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="wr-el-ven-troops" name="IM - Venator Medium Vehicle Squadron" hidden="true" collective="false" import="false" targetId="d2b3-4c5d-6e7f-8192" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="wr-ven-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="wr-ven-t" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="wr-ven-wr" name="Wasteland Reavers Vehicle Squadrons (Troops)" hidden="false" targetId="wr22-c3d4-e5f6-7081" primary="false"/>
+        <categoryLink id="wr-ven-ct" name="Compulsory Troops:" hidden="false" targetId="8f42-a824-fb5f-8fea" primary="false"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="f809-91a2-b3c4-d5e6" name="IM - Venator Medium Vehicle Squadron" hidden="false" collective="false" import="false" targetId="d2b3-4c5d-6e7f-8192" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="f809-cat1" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -295,6 +325,22 @@
       </categoryLinks>
     </entryLink>
 
+    <entryLink id="wr-el-ic-hq" name="IM - Ironcrawler Squadron (Apex War-Rig)" hidden="true" collective="false" import="false" targetId="e3f4-5a6b-7c8d-9012" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="wr-ic-hq-max" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="wr-ic-hq-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="wr-ic-hq-h" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="ic01-el-heavy" name="IM - Ironcrawler Squadron" hidden="false" collective="false" import="false" targetId="e3f4-5a6b-7c8d-9012" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="ic01-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -2931,6 +2977,16 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           <selectionEntries>
             <selectionEntry id="171b-812a-6ef7-7a71" name="Infantry Squad" hidden="false" collective="false" import="true" type="unit">
               <infoLinks>
+                <infoLink id="wr25-b3c4-d5e6-f718" name="Stubborn" hidden="true" targetId="7989-1f2c-a43d-82ae" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="name" value="Stubborn (while embarked within 6&quot; of a Transport)"/>
+                  </modifiers>
+                </infoLink>
                 <infoLink id="5379-b295-f773-2e72" name="Strength in Numbers" hidden="false" targetId="fcf6-c6e0-f85e-90da" type="rule"/>
                 <infoLink id="ec67-d706-b430-86d6" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
                   <modifiers>
@@ -6357,6 +6413,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </modifiers>
       <profiles>
         <profile id="a27e-cead-d573-2463" name="Arvus Transport" publicationId="48c2-d023-0069-001a" page="25" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+          <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Flyer, Third-line, Hover, Transport)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">20</characteristic>
@@ -6427,7 +6496,18 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           <profiles>
             <profile id="6a7d-909e-895e-9190" name="Cargo-8 Hauler" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <modifiers>
-                <modifier type="set" field="0c90-79e2-f768-e547" value="12">
+                                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+<modifier type="set" field="0c90-79e2-f768-e547" value="12">
                   <conditions>
                     <condition field="selections" scope="9275-5522-8504-af57" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ebb-e505-d38f-637b" type="equalTo"/>
                   </conditions>
@@ -7960,8 +8040,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
       </costs>
     </selectionEntry>
-
     <selectionEntry id="c1a2-3b4d-5e6f-7081" name="IM - Achilles Light Vehicle Squadron" publicationId="48c2-d023-0069-001a" page="237" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="6399-5c65-7833-1025">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-category" childId="9b5d-fac7-799b-d7e7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="ach1-cat1-0001-0001" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="ach1-cat2-0001-0002" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
@@ -7977,6 +8068,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </constraints>
           <profiles>
             <profile id="ach1-prof-0001" name="Achilles Light Vehicle" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Fast, Third-line)</characteristic>
                 <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
@@ -8141,8 +8245,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-
     <selectionEntry id="d2b3-4c5d-6e7f-8192" name="IM - Venator Medium Vehicle Squadron" publicationId="48c2-d023-0069-001a" page="238" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="6399-5c65-7833-1025">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                <condition type="instanceOf" value="1" field="selections" scope="primary-category" childId="9b5d-fac7-799b-d7e7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="ven1-cat1-0001" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="ven1-cat2-0001" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
@@ -8160,6 +8275,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </constraints>
           <profiles>
             <profile id="ven1-prof" name="Venator Medium Vehicle" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Third-line)</characteristic>
                 <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
@@ -8383,6 +8511,13 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e3f4-5a6b-7c8d-9013" name="Militia Ironcrawler" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="add" field="category" value="f75a-d5c1-59ba-5c5a">
+              <conditions>
+                <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr23-d4e5-f6a7-8192" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ic-min" type="min"/>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ic-max" type="max"/>
@@ -8390,7 +8525,18 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           <profiles>
             <profile id="ic-prof" name="Militia Ironcrawler" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
               <modifiers>
-                <modifier type="increment" field="0ef8-a648-01d0-08ee" value="1">
+                                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+<modifier type="increment" field="0ef8-a648-01d0-08ee" value="1">
                   <conditions>
                     <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef23-4567-8901-abcd" type="equalTo"/>
                   </conditions>
@@ -8398,6 +8544,21 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <modifier type="decrement" field="3614-4a2d-bffb-90e4" value="2">
                   <conditions>
                     <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef23-4567-8901-abcd" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="51fb-b7d9-aa59-863d" value="1">
+                  <conditions>
+                    <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr23-d4e5-f6a7-8192" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="f150-c0dc-c192-9cb3" value="1">
+                  <conditions>
+                    <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr23-d4e5-f6a7-8192" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="a76c-83b1-602f-9e62" value="1">
+                  <conditions>
+                    <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr23-d4e5-f6a7-8192" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -8728,6 +8889,23 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink id="wr-ic-apex" name="Apex War-Rig" hidden="true" collective="false" import="true" targetId="wr23-d4e5-f6a7-8192" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wr-apex-max" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="wr-apex-min-wl" type="min">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0176-56a3-d590-b103" type="equalTo"/>
+                      </conditions>
+                    </constraint>
+                  </constraints>
+                </entryLink>
                 <entryLink id="ic-saw" name="Sawtooth Rockgrinder" hidden="false" collective="false" import="true" targetId="ef23-4567-8901-abcd" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ic-saw-max" type="max"/>
@@ -8739,6 +8917,31 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="wr-ic-wl" name="Warlord" hidden="true" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="wr-ic-wlt" name="Warlord Traits" hidden="true" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0176-56a3-d590-b103" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
           <categoryLinks>
             <categoryLink targetId="e2b6-b770-784c-9e95" id="ic-mcat1" name="Vehicle:" primary="false"/>
             <categoryLink targetId="cdaa-645b-fda7-8556" id="ic-mcat2" name="Third-line Unit Sub-type" primary="false"/>
@@ -9749,6 +9952,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
     <selectionEntry id="37f6-34e9-4938-0ff6" name="IM - Malcador Heavy Tank" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="eeda-ee0e-9834-1f99" name="Malcador Heavy Tank" publicationId="48c2-d023-0069-001a" page="32" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+          <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Third-line, Reinforced, Fast)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">14</characteristic>
@@ -9964,6 +10180,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
     <selectionEntry id="4f35-c44e-4456-31f4" name="IM - Leman Russ" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="a01a-ea59-1e30-b9c3" name="Miltia Leman Russ" publicationId="48c2-d023-0069-001a" page="33" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+          <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+          </modifiers>
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Third-line)</characteristic>
             <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
@@ -13224,6 +13453,16 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="wr23-d4e5-f6a7-8192" name="Apex War-Rig" publicationId="48c2-d023-0069-001a" page="256" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="wr24-e5f6-a7b8-92a3" name="Apex War-Rig" publicationId="48c2-d023-0069-001a" page="256" hidden="false">
+          <description>+1 Ballistic Skill (to a maximum of 5), +1 Side Armour (to a maximum of 14) and +1 Hull Point. For the purposes of Warlord Traits, an Apex War-Rig is considered to have the Character sub-type. If this model is selected as the Warlord, it must be upgraded to an Apex War-Rig and taken in an HQ Force Organisation slot.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
