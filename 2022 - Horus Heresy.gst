@@ -12000,9 +12000,9 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8427-7c66-1ed5-44f6-920d5fc5d26537c5" name="Heavy Power Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8427-7c66-1ed5-44f6-920d" name="Heavy Power Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="df51-74ab-dedc-482b-9de22c83407327cf" name="Heavy Power Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="df51-74ab-dedc-482b-9de2" name="Heavy Power Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">x2</characteristic>
