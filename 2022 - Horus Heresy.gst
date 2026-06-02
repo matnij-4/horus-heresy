@@ -8609,7 +8609,7 @@ A. No.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="536a-06f1-e49b-8c6b" name="Missile Launcher w/Frag &amp; Krak Missiles" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="536a-06f1-e49b-8c6b" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
         <selectionEntry id="9672-5a76-2b33-b481" name="Missile Launcher - Krak" hidden="false" collective="true" import="true" type="upgrade">
           <constraints>
@@ -8632,6 +8632,19 @@ A. No.</description>
             <infoLink id="5245-e460-8412-b117" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
             <infoLink id="876f-a989-85e3-c312" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
             <infoLink id="de10-d17e-7f5b-8e30" name="Missile Launcher - Frag" targetId="5f55-a754-ba8a-c323" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b8e4-4f2a-9c1d-6e7a" name="Missile Launcher - Flak" hidden="false" collective="true" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a1-8b2c-4d6e-9f12" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2c3-7d8e-5f1b-0e4a" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="c4d5-6e7f-8a9b-0c1d" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
+            <infoLink id="d5e6-7f8a-9b0c-1d2e" name="Missile Launcher - Flak" targetId="effc-0075-a2bf-f664" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>

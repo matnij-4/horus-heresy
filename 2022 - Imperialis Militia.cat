@@ -2665,7 +2665,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
                 <entryLink id="b568-2222-fb59-33bb" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="f0d1-332b-c719-ede7" type="selectionEntry">
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="12"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="48eb-3594-90d3-334d" name="Needle Vulnus" hidden="true" collective="false" import="true" targetId="69b0-3b27-e0fc-c87c" type="selectionEntry">
@@ -2741,7 +2741,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="8"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2d74-1fc2-43ec-963d" name="Infantry Unit Type" primary="false"/>
@@ -5239,7 +5239,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5537-0c68-4499-972c" name="Infantry Unit Type" primary="false"/>
@@ -5283,7 +5283,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="2b1f-3565-4790-861f" name="Infantry Unit Type" primary="false"/>
@@ -5371,7 +5371,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5a1d-95f6-4db4-8836" name="Infantry Unit Type" primary="false"/>
@@ -5379,7 +5379,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="66b2-c457-4d5e-8041" id="eb2f-8d44-4b2d-9e59" name="Militia Unit Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
-            <selectionEntry id="ffb6-7ae4-9f04-7c7d" name="Militia Fire Team w/ Missile Launcher Frag/Krak" hidden="false" collective="false" import="true" type="model">
+            <selectionEntry id="ffb6-7ae4-9f04-7c7d" name="Militia Fire Team w/ Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e23-e2ff-b69b-193a" type="max"/>
               </constraints>
@@ -5388,7 +5388,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <infoLink id="0df7-197e-d848-00be" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <selectionEntries>
-                <selectionEntry id="9426-c270-d276-0d3b" name="Missile Launcher w/Frag &amp; Krak Missiles" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="9426-c270-d276-0d3b" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c95a-ddfa-df42-fd9b" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e48-3572-4603-646e" type="max"/>
@@ -5396,6 +5396,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   <entryLinks>
                     <entryLink id="ed51-b42e-16d1-fdb7" name="Missile Launcher - Krak" hidden="false" collective="false" import="true" targetId="9672-5a76-2b33-b481" type="selectionEntry"/>
                     <entryLink id="2b65-42b8-ec99-1db0" name="Missile Launcher - Frag" hidden="false" collective="false" import="true" targetId="44d5-b79c-b828-a8b1" type="selectionEntry"/>
+                    <entryLink id="a4f1-8c2d-4b6e-9d12" name="Missile Launcher - Flak" hidden="false" collective="false" import="true" targetId="0da1-3e1d-c05b-b828" type="selectionEntry"/>
                   </entryLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -5411,7 +5412,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="53cf-4e7c-4b0f-b16e" name="Infantry Unit Type" primary="false"/>
@@ -5453,7 +5454,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="6849-022b-4f86-a5dc" name="Infantry Unit Type" primary="false"/>
@@ -5492,7 +5493,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7d70-7d41-41d5-963e" name="Infantry Unit Type" primary="false"/>
@@ -5526,7 +5527,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
               <categoryLinks>
                 <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="7758-9588-4f1e-9fd7" name="Infantry Unit Type" primary="false"/>
@@ -5541,7 +5542,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         <entryLink id="7205-3850-19d2-ec2f" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6a90-6dc5-1e0b-9eaf" name="IM - Reconnaissance Squad" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -6121,7 +6122,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <infoLink id="8d26-81bb-57f6-9b0b" name="Heavy Lascannon" hidden="false" targetId="a911-f050-1265-8967" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -6165,7 +6166,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <infoLink id="8336-4fd9-3a75-764f" name="Kalliope Mortar" hidden="false" targetId="9b5b-0a4d-9551-9741" type="profile"/>
                   </infoLinks>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -7622,7 +7623,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <infoLink id="d440-93c9-a2fa-1d83" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
           </infoLinks>
           <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
           </costs>
           <categoryLinks>
             <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="b86e-0b1e-454a-88c8" name="Infantry Unit Type" primary="false"/>
@@ -7684,7 +7685,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
-            <entryLink id="9ce5-6753-bb82-eb20" name="Missile Launcher w/Frag &amp; Krak Missiles" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
+            <entryLink id="9ce5-6753-bb82-eb20" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="5" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="163d-2080-a8db-12f1" type="max"/>
               </constraints>
@@ -7696,7 +7697,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d7d4-da56-01e2-7b38" name="IM - Thunderbolt Fighter" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
