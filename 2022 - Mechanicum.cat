@@ -82,6 +82,12 @@
         <categoryLink id="b2c3-d4e5-f6a7-8901" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="b8f2-1d0e-7c9a-4f33" name="Heptathax Support-Automata Maniple" hidden="false" collective="false" import="false" targetId="9d1f-6c7b-2a8e-5f40" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4f29-c20a-15be-8d01" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="2cc8-9833-4dcf-a12d" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
     <entryLink id="c06a-da74-71b7-fee1" name="Adsecularis Tech-thralls Covenant" hidden="false" collective="false" import="false" targetId="bc2c-076a-209b-f121" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b03f-214f-f4e8-8de8" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -2800,6 +2806,211 @@
         <entryLink import="true" name="Ruinous Cybernetica" hidden="false" id="c7d8-9e0f-1a2b-3c4d" type="selectionEntry" targetId="c7f4-8f4e-f31d-5323"/>
       </entryLinks>
     </selectionEntry>
+    <selectionEntry id="9d1f-6c7b-2a8e-5f40" name="Heptathax Support-Automata Maniple" publicationId="f1a8-3c2d-4e5b-9a6f" page="37" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="cf09-8f0d-3e63-57f4" name="Automata Unit Type" hidden="false" targetId="d8ab-8e21-e193-63ba" primary="false"/>
+        <categoryLink id="eaf8-eb8f-4446-a624" name="Cybernetica Sub-type" hidden="false" targetId="2440-b64e-cb24-87f0" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7a4e-5cf0-32b8-17d1" name="Heptathax" publicationId="f1a8-3c2d-4e5b-9a6f" page="37" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="add" field="category" value="56e1-5570-47b0-d824">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="da46-48b5-6cc5-9d8b" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="remove" value="2440-b64e-cb24-87f0" field="category">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="cc2a-46fe-bbf3-6ba2" shared="true" includeChildSelections="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="c7f4-8f4e-f31d-5323" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4a-d530-6dd6-2a2b" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f3e-88d4-c7be-8492" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f07a-83f7-44ee-8fb3" name="Heptathax" publicationId="f1a8-3c2d-4e5b-9a6f" page="37" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+              <modifiers>
+                <modifier type="increment" field="cc42-7ed5-7092-5c84" value="1">
+                  <conditions>
+                    <condition field="selections" scope="7a4e-5cf0-32b8-17d1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="57ee-1126-32a9-5672" value="1">
+                  <conditions>
+                    <condition field="selections" scope="7a4e-5cf0-32b8-17d1" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cc2a-46fe-bbf3-6ba2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Automata (Skirmish, Paragon)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="cc2a-46fe-bbf3-6ba2" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="Automata (Skirmish, Ruinous Cybernetica)" field="ddd7-6f5c-a939-b69e">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="c7f4-8f4e-f31d-5323" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Automata (Cybernetica, Skirmish)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">7</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">7</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="5dd6-5e90-857c-b7ca" name="Surveillance Protocols" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
+              <description>A model with this special rule and the Cybernetica Unit Sub-type may ignore the Programmed Behaviour provision described as part of that Sub-type during the Charge sub-phase.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="111b-3374-0ab7-fcc5" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
+            <infoLink id="74a4-3741-b0b5-3223" name="Djinn-Sight" hidden="false" targetId="50f4-db05-3e45-467f" type="rule"/>
+            <infoLink id="27a8-681c-e5ed-6a56" name="Fear (X)" hidden="false" targetId="21f6-7842-df5c-d2e7" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Fear (1)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="09d4-a497-22b6-b8c9" name="Any Heptathax may exchange both of their Light Autocannons for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f8d0-c65a-a935-ce3d">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5bf-1c20-f48a-f320" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37cc-72ad-f6bd-d1ff" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f8d0-c65a-a935-ce3d" name="Two Light Autocannons" hidden="false" collective="false" import="true" targetId="8f35-0d01-7cc3-b558" type="selectionEntry"/>
+                <entryLink id="356b-9984-8454-216d" name="Two Heavy Flamers" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
+                <entryLink id="de3a-2cc2-8828-d553" name="Two Heavy Bolters" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry"/>
+                <entryLink id="68e0-3c46-b63b-5639" name="Two Multi-Lasers" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry"/>
+                <entryLink id="1812-8b59-3987-9cb6" name="Two Autocannons" hidden="false" collective="false" import="true" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8299-ec8f-2ef4-278f" name="Any Heptathax may exchange both of their two Shock Chargers for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ff7b-c727-5a8f-8f5a">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f4-df79-4e26-b8b4" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a8d-81e2-16eb-ddf2" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ff7b-c727-5a8f-8f5a" name="Two Shock Chargers" hidden="false" collective="false" import="true" targetId="3234-492f-9ebf-f23c" type="selectionEntry"/>
+                <entryLink id="9ed0-c83b-a217-638f" name="Arc Scourge" hidden="false" collective="false" import="true" targetId="9033-c395-43b3-5612" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="aecc-fb2a-7d95-1f8f" name="A Heptathax Support-Automata Maniple may select up to two of the following options:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f2-c5fe-6589-aacf" type="min"/>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a24-1df2-9706-7909" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="7b89-c9cc-c212-b140" name="Broad-Spectrum Data-Tethers" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f3d0-708f-796e-fa8e" name="Cortex Controllers" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5512-6f03-f3ef-c3b3" name="Psi-Jammers" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="777b-af02-0823-c4c8" name="Explorator Augury Webs" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="30"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="58f2-57cb-0ef8-a0f7" name="Cortex Control Relays" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6d44-76f9-18a3-3e10" name="Vox Disruptor Arrays" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="e1f6-cbbf-41a7-4f95" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="38fb-9a0b-edef-a497" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52a7-c6ea-a90e-6f57" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04e4-6512-71a6-2450" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="c425-1066-3f7d-f936" name="Paragon of Metal" hidden="false" collective="false" import="true" targetId="cc2a-46fe-bbf3-6ba2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="greaterThan" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="7a4e-5cf0-32b8-17d1" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="c7f4-8f4e-f31d-5323" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="135"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="d8ab-8e21-e193-63ba" id="7f47-af8e-184d-3795" name="Automata Unit Type" primary="false"/>
+            <categoryLink targetId="2440-b64e-cb24-87f0" id="9439-04a4-a76d-513d" name="Cybernetica Sub-type" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+      </costs>
+      <modifiers>
+        <modifier type="remove" value="2440-b64e-cb24-87f0" field="category">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="cc2a-46fe-bbf3-6ba2" shared="true" includeChildSelections="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="9d1f-6c7b-2a8e-5f40" childId="c7f4-8f4e-f31d-5323" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink import="true" name="Ruinous Cybernetica" hidden="false" id="f69e-52f6-363d-ca97" type="selectionEntry" targetId="c7f4-8f4e-f31d-5323"/>
+      </entryLinks>
+    </selectionEntry>
     <selectionEntry id="6f33-657c-a1b4-710e" name="Arcuitor Magisterium" publicationId="bde1-6db1-163b-3b76" page="30" hidden="true" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ef15-f533-382e-0663" type="max"/>
@@ -3218,7 +3429,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             <entryLink id="1ce9-93a4-ea75-55b9" name="Volkite Charger" hidden="false" collective="false" import="true" targetId="6f6e-ad55-e093-6503" type="selectionEntry"/>
             <entryLink id="4ee1-9ccc-acde-97c3" name="Graviton Gun" hidden="false" collective="false" import="true" targetId="5303-5a3e-de51-1707" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
             <entryLink id="0aed-ef35-dff7-3fbd" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="b3c5-237f-e1d2-d9f8" type="selectionEntry">
@@ -3228,7 +3439,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             </entryLink>
             <entryLink id="cebd-f1c6-ae9c-ad75" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="17c6-afe9-c5da-d9b6" type="selectionEntry">
               <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
             </entryLink>
           </entryLinks>
@@ -3284,7 +3495,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">2</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
-                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">6+</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3387,6 +3598,11 @@ This unit may be upgraded freely as described in their profile, though they may 
             <infoLink id="5099-7f9f-41b6-aa8a" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
             <infoLink id="d084-a195-c74d-1901" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
             <infoLink id="5ed7-a250-aea1-1c1b" name="Guardian Unit Sub-type" hidden="false" targetId="a686-026f-6674-102e" type="rule"/>
+            <infoLink id="0f41f32e-f877-4f9d-8a46-3931a325f02c" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
@@ -3687,7 +3903,7 @@ This unit may be upgraded freely as described in their profile, though they may 
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2705-2339-f1ce-d05a" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="5a9d-5fa0-5c22-c3a7" name="Two Power Blade Arrays With In-Built Light Autocannon*" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="5a9d-5fa0-5c22-c3a7" name="Two Arlatax Power Claws with in-built Light Autocannons" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="642a-18be-c72d-5cf6" type="max"/>
                   </constraints>
@@ -4013,7 +4229,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2d62-c506-e7de-4e60" name="Melee Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="77aa-34b7-07b6-84c6">
+        <selectionEntryGroup id="2d62-c506-e7de-4e60" name="Any Ursarax may exchange their two lightning claws for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="77aa-34b7-07b6-84c6">
           <modifiers>
             <modifier type="decrement" field="b790-520b-18e0-93da" value="3"/>
             <modifier type="increment" field="21c6-fc42-abac-9900" value="1">
@@ -4613,7 +4829,7 @@ This unit may be upgraded freely as described in their profile, though they may 
             </selectionEntryGroup>
             <selectionEntryGroup id="cc12-3552-7c4b-7d3b" name="Any Krios in the squadron may take any of the following options:" hidden="false" collective="false" import="true">
               <selectionEntries>
-                <selectionEntry id="36f9-8862-7a52-2928" name="Two Centreline Mounted Volkite Calivers" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="36f9-8862-7a52-2928" name="Two Sponson Mounted Volkite Calivers" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e229-2a5a-7bf3-b572" type="max"/>
                   </constraints>
@@ -4686,6 +4902,7 @@ This unit may be upgraded freely as described in their profile, though they may 
           </modifiers>
         </infoLink>
         <infoLink id="7ee2-f364-4a7d-9415" name="Reinforced Structure" hidden="false" targetId="5b0d-5362-e961-f3b0" type="rule"/>
+        <infoLink id="aa8fec70-5ecf-4e22-89cf-51b28f1a278e" name="Searchlights" hidden="false" targetId="4ae3-79b4-6051-505e" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bada-ebff-8f90-0b2c" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
@@ -4701,7 +4918,7 @@ This unit may be upgraded freely as described in their profile, though they may 
           <profiles>
             <profile id="110b-b86e-c1d0-0936" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
               <characteristics>
-                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored.</characteristic>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored. In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5094,16 +5311,16 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         <categoryLink targetId="437f-7773-a0d0-6061" id="5041-362e-f936-5d12" primary="false" name="Knight Sub-type"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="2f78-69c3-fd78-43f2" name="Arm Mounted Twin-Linked Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="8183-c411-6b59-3742">
+        <selectionEntryGroup id="2f78-69c3-fd78-43f2" name="Arm Mounted Conversion Destructor" hidden="false" collective="false" import="true" defaultSelectionEntryId="8183-c411-6b59-3742">
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1560-6f71-ec4a-6a5e" type="min"/>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="025b-76c4-75b0-3105" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8183-c411-6b59-3742" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry"/>
+            <entryLink id="8183-c411-6b59-3742" name="Conversion Destructor" hidden="false" collective="false" import="true" targetId="7c47-e2e9-dc42-e838" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="932d-e092-656f-2f02" name="Hull (Front) Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e731-ba8b-286f-1d55">
+        <selectionEntryGroup id="932d-e092-656f-2f02" name="Centreline Mounted Karacnos Mortar Battery" hidden="false" collective="false" import="true" defaultSelectionEntryId="e731-ba8b-286f-1d55">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff3a-53a8-fd03-986f" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d8-b111-9437-3776" type="max"/>
@@ -5127,6 +5344,12 @@ At the beginning of each of the controlling player’s Shooting phases for the r
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e64f-5206-79e8-8892" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56dd-43cb-72a8-029e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7a0a46e5-e677-4de7-8f67-ad6513680b3d" name="Flare Shield" hidden="false" collective="false" import="true" targetId="0e77-6285-22bb-1534" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf4ab7a7-58f2-4d8f-a284-ec5ce85a713d" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fbcbdf5-6107-4ef5-b17b-b12bcb8044f5" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -5780,17 +6003,13 @@ At the beginning of each of the controlling player’s Shooting phases for the r
     <selectionEntry id="1905-926d-628c-a411" name="Mechanicum Tarantula Sentry Gun Battery" publicationId="3886-76e5-438f-159f" page="5" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="5031-49fb-20c7-6b28" name="Automated Artillery Sub-type" hidden="false" targetId="c036-66e2-4e07-c2b8" type="rule"/>
-        <infoLink id="75b7-cca2-2185-b466" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Bulky (4)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="1b4a-4ba2-96e6-6de9" name="Sentry Protocols" hidden="false" targetId="97aa-da60-3ccc-7152" type="rule"/>
         <infoLink id="8043-a3d5-9770-e212" name="Firing Protocols (X)" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Firing Protocols (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="21e6-8f74-a7d6-4391" name="Fearless" hidden="false" targetId="b48c-d7e1-2a83-2f5b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ae3d-aa42-c8ba-a4f9" name="Artillery Sub-type" hidden="false" targetId="6f99-c178-6f9d-fb63" primary="false"/>
@@ -5833,13 +6052,13 @@ At the beginning of each of the controlling player’s Shooting phases for the r
                   <characteristics>
                     <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Automated Artillery)</characteristic>
                     <characteristic name="Move" typeId="893e-2d76-8f04-44e5">-</characteristic>
-                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">1</characteristic>
-                    <characteristic name="BS" typeId="74ae-c840-0036-d244">2</characteristic>
-                    <characteristic name="S" typeId="e478-41d4-a092-48a8">1</characteristic>
-                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">-</characteristic>
+                    <characteristic name="BS" typeId="74ae-c840-0036-d244">-</characteristic>
+                    <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
                     <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
-                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">1</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">-</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">-</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">5</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
                   </characteristics>
@@ -5935,8 +6154,13 @@ At the beginning of each of the controlling player’s Shooting phases for the r
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <rules>
+        <rule id="2b8bb17a-047f-4d2f-94ee-347f0284a58d" name="Immobile" hidden="false">
+          <description>Models with this Special Rule cannot move in the Movement phase and cannot make Run or Charge moves.</description>
+        </rule>
+      </rules>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e26f-a72f-8ea2-1641" name="Inar Satarael" publicationId="3886-76e5-438f-159f" page="2" hidden="false" collective="false" import="true" type="upgrade">
@@ -5946,7 +6170,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
       <profiles>
         <profile id="d83f-c6ef-8eae-4e5f" name="Inar Satarael" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
           <characteristics>
-            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Unique, Monsterous, Antigrav, Cybertheurgist, Character)</characteristic>
+            <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Unique, Monsterous, Cybertheurgist, Character)</characteristic>
             <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
             <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">4</characteristic>
             <characteristic name="BS" typeId="74ae-c840-0036-d244">5</characteristic>
@@ -5976,6 +6200,11 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         <infoLink id="c868-b7ac-ecef-44f3" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
         <infoLink id="4bae-d7d8-90fb-f037" name="Feudal Hierarchy" hidden="false" targetId="7d4f-c9a9-f9c0-b49a" type="rule"/>
       </infoLinks>
+      <rules>
+        <rule id="c95fdfa8-7f90-4f45-8f2d-5375f9f18be0" name="Born of Steel" hidden="false">
+          <description>This model has the Born of Steel Special Rule.</description>
+        </rule>
+      </rules>
       <categoryLinks>
         <categoryLink id="12a1-ade9-ce31-301a" name="Monstrous Sub-type" hidden="false" targetId="7d95-f9d1-440a-67bd" primary="false"/>
         <categoryLink id="27c1-95be-258a-994e" name="Cybertheurgist" hidden="false" targetId="57a1-ae47-ff1b-36e4" primary="false"/>
@@ -6179,7 +6408,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             </entryLink>
             <entryLink id="a1a6-9562-a28c-f06e" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Hull (Front) Mounted hunter-killer missile"/>
+                <modifier type="set" field="name" value="Hull (Rear) Mounted hunter-killer missile"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c4-15e6-2e5e-e0fc" type="max"/>
@@ -6256,12 +6485,12 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <entryLinks>
             <entryLink id="274c-cd83-3203-f1ad" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Sponson Mounted Lascannons"/>
+                <modifier type="set" field="name" value="Sponson Mounted Gravis Lascannons"/>
               </modifiers>
             </entryLink>
             <entryLink id="0cf2-0aba-fa81-1516" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="43f5-3815-6b3a-a363" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Sponson Mounted Plasma Cannons"/>
+                <modifier type="set" field="name" value="Sponson Mounted Gravis Plasma Cannons"/>
               </modifiers>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -6269,7 +6498,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             </entryLink>
             <entryLink id="0033-2f3e-ef5a-1855" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Sponson Mounted Multi-Meltas"/>
+                <modifier type="set" field="name" value="Sponson Mounted Gravis Melta Cannons"/>
               </modifiers>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
@@ -6305,12 +6534,12 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         <profile id="bf44-a73f-e84f-2132" name="Macrocarid Explorator" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
           <characteristics>
             <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Transport)</characteristic>
-            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">12</characteristic>
             <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
             <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">14</characteristic>
             <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">14</characteristic>
             <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">14</characteristic>
-            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">5</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">6</characteristic>
             <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">26</characteristic>
             <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One Access Point on each side of the hull.</characteristic>
           </characteristics>
@@ -6345,7 +6574,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1084-2820-ad80-f602" name="May exhange its Two Hull (Front) Mounted Lascannons for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ea4-ebcd-ed8a-d849">
+        <selectionEntryGroup id="1084-2820-ad80-f602" name="May exhange its Two Hull (Front) Mounted Gravis Lascannons for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="0ea4-ebcd-ed8a-d849">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a28-cf9a-d79d-cef3" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dfc-5496-145d-6974" type="max"/>
@@ -6353,7 +6582,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
           <entryLinks>
             <entryLink id="0ea4-ebcd-ed8a-d849" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Two Hull (Front) Mounted Lascannons"/>
+                <modifier type="set" field="name" value="Two Hull (Front) Mounted Gravis Lascannons"/>
               </modifiers>
             </entryLink>
             <entryLink id="83b0-f118-be75-5a53" name="Twin-linked Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="ac88-bcf4-d7b4-5c56" type="selectionEntry">
@@ -7343,7 +7572,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
             </entryLink>
             <entryLink id="ab2f-5de5-4a4e-e6ac" name="Twin-linked Earthshaker Cannon" hidden="false" collective="false" import="true" targetId="cbd7-2fa5-1aba-e754" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="name" value="Centreline (Rear) Mounted twin-linked Earthshaker Cannon"/>
+                <modifier type="set" field="name" value="Centreline (Rear) Mounted Earthshaker Battery"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b949-5511-d0e8-17c8" type="min"/>
