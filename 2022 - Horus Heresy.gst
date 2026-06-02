@@ -1244,7 +1244,8 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
     <categoryEntry id="cdaa-645b-fda7-8556" name="Third-line Unit Sub-type" publicationId="48c2-d023-0069-001a" page="5" hidden="false">
       <rules>
         <rule id="7754-b90f-cde4-f3e3" name="Third-line Unit Sub-type" publicationId="48c2-d023-0069-001a" page="5" hidden="false">
-          <description>• When an Armour Penetration roll would inflict a Glancing Hit on a model with this Unit Sub-type, it instead inflicts a Penetrating Hit.
+          <description>The following rules apply to all models with the Third-Line Sub-type:
+• When an Armour Penetration roll would inflict a Glancing Hit on a model with this Unit Sub-type, it instead inflicts a Penetrating Hit.
 • An enemy player may never score Victory points for the destruction of a model with this Unit Sub-type, this includes models with this Unit Sub-type that are selected as Lords of War.</description>
         </rule>
       </rules>
@@ -1256,7 +1257,7 @@ Brace - The Reacting unit must make a Morale check. If the Check is failed, the 
 • Failed To Wound rolls, made for weapons with the Armourbane (X) special rule, and against a unit that includes any models with this Unit Sub-type must be re-rolled.
 • A model with the Mechanised Unit Sub-type may attack with all weapons it has when making a Shooting Attack, including as part of a Reaction.
 • A model with the Mechanised Unit Sub-type may attack with Heavy and Ordnance weapons while counting as stationary even if it has moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• A model with the Mechanised Unit Sub-type is affected by the Haywire, Detonation and Battlesmith (X) special rules as if it had the Dreadnought Unit Type.
+• Any attacks made against a unit with the Mechanised Unit Sub-type are resolved as if the model had the Dreadnought Unit Type, for the purposes of resolving these attacks. Note that this affects any Wargear, Weapons, Special Rules, Psychic Powers, or any other abilities.
 • No model that does not also have the Mechanised Unit Sub‑type may join a unit that includes one or more models with the Mechanised Unit Sub-type.</description>
         </rule>
       </rules>
@@ -3239,6 +3240,47 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8f4e-2a1b-9c3d-5e6f" name="Exterminator Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9a5f-3b2c-0d4e-6f71" name="Exterminator Autocannon" publicationId="4934-46f7-208b-b4af" page="172" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Rending (5+), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ab6c-7d8e-9f01-2345" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bc7d-8e9f-0123-3456" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b6c-3c4d-5e6f-7081" name="Gravis Heavy Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ac8d-4e5f-6a70-8192" name="Gravis Heavy Lascannon" publicationId="4934-46f7-208b-b4af" page="172" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bd9e-5f6a-7081-92a3" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="b294-8f2b-f288-71b5" name="Gravis Autocannon Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="3555-4d06-242d-092e" name="Gravis Autocannon Battery" publicationId="a716-c1c4-7b26-8424" page="128" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -3546,7 +3588,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Blast (3&quot;), Sunder, Rending (6+), Brutal (3)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Blast (3&quot;), Sunder, Rending (6+), Brutal (3), Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3563,6 +3605,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
           </modifiers>
         </infoLink>
         <infoLink id="5587-6f00-32f2-2bde" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="ca1c-34bd-d31c-d32e" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5397,12 +5440,13 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Deflagrate</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 8, Deflagrate, Pinning</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0ac3-d8c3-8f94-1c3c" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="f8a2-1b3c-4d5e-6f70" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -8121,15 +8165,15 @@ A. No.</description>
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Rending (6+), Pinning</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Pinning, Rending (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="a6e2-dc5c-8407-59f7" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+            <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
           </modifiers>
         </infoLink>
         <infoLink id="cdba-bc58-026e-7fe5" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
@@ -8211,7 +8255,7 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Pinning, Rending (6+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Pinning, Rending (6+), Brutal (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8228,6 +8272,11 @@ A. No.</description>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="a9b3-4c5d-6e7f-8091" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -8237,10 +8286,10 @@ A. No.</description>
       <profiles>
         <profile id="e374-d732-4d08-5952" name="Earthshaker cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">240&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-240&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Shred, Pinning</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Shred, Pinning, Breaching (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8253,6 +8302,11 @@ A. No.</description>
         </infoLink>
         <infoLink id="23ca-c48c-ae3b-073a" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="8f76-4b67-7105-c838" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="b4c5-6d7e-8f90-a123" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -8574,13 +8628,22 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Pinning</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Breaching (6+), Pinning</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="1b98-e720-d21f-5c12" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="3460-c89e-6aaa-a409" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="3460-c89e-6aaa-a409" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c5d6-7e8f-9012-a345" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9784,7 +9847,7 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <profile id="9edf-5b4f-f269-c98e" name="Grenade launcher - Krak" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
           </characteristics>
@@ -10158,7 +10221,23 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 5</characteristic>
           </characteristics>
         </profile>
+        <profile id="d96e-4b18-3f2e-e6af" name="Ripper Gun (Melee)" publicationId="48c2-d023-0069-001a" page="41" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reaping Blow (1), Two-handed</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e7f8-9012-a345-b456" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Reaping Blow (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f809-0123-b456-c567" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -10444,7 +10523,7 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Ungainly, Lance, Sudden Strike (2), Two-handed, One Use</characteristic>
           </characteristics>
         </profile>
@@ -14914,7 +14993,7 @@ Until Fulgrim Transfigured is placed on the battlefield in this manner, all mode
           </constraints>
           <rules>
             <rule id="e36c-1974-5c74-ccc6" name="Legacy of the Great Crusade" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and Discipline Masters in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
+              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and units that contain a Discipline Master or Mounted Discipline Master in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
             </rule>
           </rules>
           <costs>
@@ -14928,7 +15007,7 @@ Until Fulgrim Transfigured is placed on the battlefield in this manner, all mode
           </constraints>
           <rules>
             <rule id="8d20-f35d-f6d9-1186" name="Clanfolk Levy" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads, with all models in Imperialis Militia Cavalry Squads selected as Compulsory Troops choices gaining a bonus of +1 to their Leadership Characteristic (this does not allow Imperialis Militia Cavalry Squads to be selected as non-Compulsory Troops choices). In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
+              <description>A Detachment with this Provenance may choose to fill Compulsory Troops choices only with Imperialis Militia Cavalry Squads. In addition, all models in Imperialis Militia Cavalry Squads gain a bonus of +1 to their Leadership Characteristic. In addition, a Detachment with this Provenance may include four additional Fast Attack choices – but these additional choices may only be used to select Imperialis Militia Cavalry Squads.</description>
             </rule>
           </rules>
           <costs>
@@ -15018,7 +15097,7 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Cyber-augment o
           </constraints>
           <rules>
             <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="48c2-d023-0069-001a" page="10" hidden="false">
-              <description>All eligible units and models gain the Feel No Pain (6+) and Slow and Purposeful special rules. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
+              <description>All eligible units and models gain the Feel No Pain (6+) special rule, and any eligible unit may be given the Slow and Purposeful special rule at no additional points cost. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -15141,7 +15220,7 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
           </constraints>
           <rules>
             <rule id="ddaa-0389-1b2e-89ae" name="Kinfolk Helots" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Toughness Characteristic but also lower their Initiative and Movement Characteristics by -1 (to a minimum of 1, models with a Movement of 0 or - are not affected and remain Movement 0 or -). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) special rule, or if they also have the Independent Character special rule gain the Battlesmith (5+) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+              <description>All eligible units and models change their Toughness Characteristic to be one higher than its starting value (a Toughness characteristic of 3 being changed to 4 on their stat line, for example), but also change their Initiative and Movement Characteristics to be one lower than its starting value (in the same way as above). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) special rule, or if they also have the Independent Character special rule gain the Battlesmith (5+) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
             </rule>
           </rules>
           <costs>
@@ -15162,7 +15241,7 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
           </constraints>
           <rules>
             <rule id="b726-7fd3-991b-4752" name="Abhuman Muster" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models receive an increase of +1 to their Strength Characteristic but also lower their Ballistic Skill by -1 (to a minimum of 1) and, if they do not already possess any variant of the Bulky (X) special rule, gain the Bulky (2) special rule. All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Hammer of Wrath (1) special rule, or if they also have the Independent Character special rule or the Monstrous Unit Sub-type gain the Hammer of Wrath (2) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+              <description>All eligible units and models change their Strength and Movement Characteristic to be one higher than its starting value (a Strength characteristic of 3 being changed to 4 on their stat line, for example), but also change their Ballistic Skill Characteristic to be one lower than its starting value (in the same way as above) and, if they do not already possess any variant of the Bulky (X) special rule, gain the Bulky (2) special rule. All eligible models in a Detachment with this Provenance gain the Hammer of Wrath (1) special rule. If a model also has the Character Unit Sub-type or the Monstrous Unit Sub-type, they gain the Hammer of Wrath (2) special rule instead, or +1 to an existing Hammer of Wrath (X) special rule if they already have the Hammer of Wrath (2) special rule. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
             </rule>
           </rules>
           <costs>
@@ -18014,7 +18093,7 @@ Scatter dice.
 The penalty to Leadership is ignored by any unit with the Fearless or Stubborn special rules. A Primarch unit, or any unit with the Night Vision special rule ignores both the penalties to Leadership and Ballistic Skill and the restrictions on drawing line of sight to other units.</description>
     </rule>
     <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="48c2-d023-0069-001a" page="41" hidden="false">
-      <description>A model may only attack with this weapon on a turn in which it makes a successful Charge, but does not gain a bonus attack for Charging or from any special rules that would normally grant additional Attacks.</description>
+      <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any special rules that would normally grant additional Attacks.</description>
     </rule>
     <rule name="Impale" hidden="false" id="2dfc-b3cc-7ede-2827" publicationId="4934-46f7-208b-b4af" page="132">
       <description>A unit may re-roll Charge Rolls when attempting to Charge an enemy unit that has suffered one or more Hits from a weapon with the Impale special rule caused by one or more models in the unit for which the Charge was declared in the same player turn. This takes effect even if no Wounds are caused by the Hits.
