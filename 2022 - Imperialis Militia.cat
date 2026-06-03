@@ -11420,7 +11420,10 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   <modifiers><modifier type="set" field="name" value="Anvilus Autocannon Battery and Helical Targeting Array"/></modifiers>
                 </entryLink>
                 <entryLink id="ho-ec-manticore" name="Manticore Missile Launcher" hidden="false" collective="true" import="true" targetId="a1b2-c3d4-5e6f70819936" type="selectionEntry">
-                  <modifiers><modifier type="set" field="name" value="Manticore Missile Launcher (with Four Storm Eagle Missiles)"/></modifiers>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Manticore Missile Launcher (with Four Storm Eagle Missiles)"/>
+                    <modifier type="set" field="defaultSelectionEntryId" value="a1b2-mml-s"/>
+                  </modifiers>
                   <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/></costs>
                 </entryLink>
               </entryLinks>
@@ -20508,8 +20511,15 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
               <modifiers><modifier type="set" field="name" value="Turret Mounted Manticore Missile Launcher (with 4 Manticore Missiles)"/></modifiers>
               <constraints><constraint field="selections" scope="parent" value="1" type="min" shared="true" id="e819-mml-min"/><constraint field="selections" scope="parent" value="1" type="max" shared="true" id="e819-mml-max"/></constraints>
             </entryLink>
-            
-
+            <entryLink id="e819-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks><infoLink id="e819-ec" name="Exposed Compartment" targetId="87da-16b7-1ff5-4ea6-b21a4fc28015295c" type="rule" hidden="false"/></infoLinks>
+          <selectionEntryGroups>
             <selectionEntryGroup id="e819-hull-grp" name="Hull (Front) weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e819-hhb">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" type="min" shared="true" id="e819-hull-min"/>
@@ -20524,16 +20534,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            
-            <entryLink id="e819-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-min" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-max" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <infoLinks><infoLink id="e819-ec" name="Exposed Compartment" targetId="87da-16b7-1ff5-4ea6-b21a4fc28015295c" type="rule" hidden="false"/></infoLinks>
-          <selectionEntryGroups>        <selectionEntryGroup id="e819-w" name="May select any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e819-w" name="May select any of the following:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="e819-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
