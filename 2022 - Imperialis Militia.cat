@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="58" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="61" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -1643,7 +1643,7 @@ Unless noted, the effects of any rules featured in the Provenance’s descriptio
           <entryLinks>
             <entryLink id="3e6d-dde8-baea-3fc7" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
             <entryLink id="f9a6-c778-8ecb-6f01" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
-            <entryLink id="62e2-ad21-e7ab-e442" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="62e2-ad21-e7ab-e442" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
             <entryLink id="80ed-bc29-59a9-ca5b" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e03-7c75-3d41-2b2a" type="min"/>
@@ -2519,7 +2519,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="7cc0-c8c6-e181-27bd" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
-            <entryLink id="c213-3e98-e60e-3ca3" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="c213-3e98-e60e-3ca3" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
             <entryLink id="aaff-e26a-222a-114e" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a0-c965-c0a0-0542" type="min"/>
@@ -2934,7 +2934,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="67e2-f67e-2c33-2770" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
-            <entryLink id="2a21-9b69-f3e8-80fc" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="2a21-9b69-f3e8-80fc" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9585,7 +9585,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="wr-ic-wlt" name="Warlord Traits" hidden="true" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup">
+            <entryLink id="wr-ic-wlt" name="Warlord Traits" hidden="true" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditionGroups>
@@ -12929,7 +12929,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="9bc0-0db5-c447-11a8" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
-            <entryLink id="3c81-634e-560c-890d" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="3c81-634e-560c-890d" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
             <entryLink id="4c41-5788-5f12-2744" name="Psychic Discipline: Anathemata" hidden="false" collective="false" import="true" targetId="c6ec-edc0-034e-ed45" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6937-23fb-33d6-844f" type="min"/>
@@ -14849,7 +14849,7 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="de34-25c0-67c7-4298-8497d58cbd853722" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
-            <entryLink id="3dd4-8a20-41e9-41a4-ae5fe35bce583275" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="3dd4-8a20-41e9-41a4-ae5fe35bce583275" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
             <entryLink id="2fab-9b5f-866b-45c6-b583692bd9bc9c3a" name="Psychic Discipline: Anathemata" hidden="false" collective="false" import="true" targetId="c6ec-edc0-034e-ed45" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86a9-1662-4e50-4018-aec59747e60b957a" type="min"/>
@@ -15402,7 +15402,7 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="3311-19a3-73c7-4270-8bd97a87666f0361" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
-            <entryLink id="c2b2-60ee-9888-4544-b3a3bfd259a3db37" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="c2b2-60ee-9888-4544-b3a3bfd259a3db37" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -16235,7 +16235,7 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
           </selectionEntryGroups>
           <entryLinks>
             <entryLink id="2068-a3be-3684-4b07-b3324ef8f9120693" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
-            <entryLink id="0cb0-c4d6-d6c7-45a2-8ddcc4d90d7ce720" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="0cb0-c4d6-d6c7-45a2-8ddcc4d90d7ce720" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
             <entryLink id="7ecd-ad03-64b6-4ccd-a7166ce296848cdd" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0062-341d-d00c-4cdb-b68734cc4972252f" type="min"/>
@@ -16999,7 +16999,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e824-prov" name="Provenance Options" hidden="true" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup">
+        <entryLink id="e824-prov" name="Provenance Options" hidden="true" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
@@ -21182,8 +21182,9 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
           <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/></costs>
         </selectionEntry>
       </selectionEntries>
-    </selectionEntry>  </sharedSelectionEntries>
-<sharedRules>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
     <rule id="ac7b-72f5-82f9-23d6" name="Militia Cavalry Mount" publicationId="48c2-d023-0069-001a" page="37" hidden="false">
       <description>A model with a Militia cavalry mount that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
 
@@ -21229,6 +21230,198 @@ When rolling To Wound and for Armour Penetration for a model that has the Resona
   </sharedRules>
 
   <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="088d-527f-114b-afd4" name="Warlord Traits" hidden="false" collective="false" import="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0176-56a3-d590-b103" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="4cb4-e225-1ff0-a5b0" value="1">
+          <conditions>
+            <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0176-56a3-d590-b103" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cb4-e225-1ff0-a5b0" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="659d-a6e3-93a9-b129" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3f67-255e-b41a-933c" name="Imperialis Militia Warlord Traits" publicationId="48c2-d023-0069-001a" page="6" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4119-edcc-cecc-08f9" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7571-58b7-b055-7d2f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0b50-6fad-fc9f-de84" name="Ruthless Tyrant" publicationId="48c2-d023-0069-001a" page="6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="505e-0ffe-a531-a65a" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="903f-0280-eb29-2525" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="988d-cd9a-be41-c051" name="Ruthless Tyrant" publicationId="48c2-d023-0069-001a" page="6" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Fear (1) special rule, which affects all friendly models as well as enemy models (this does not include the Warlord with this Trait, which is not affected). However, should any friendly unit that is under the effect of this model&apos;s Fear (1) special rule and under the control of the player whose Warlord has this Trait, be forced to Fall Back during the Movement phase or Shooting phase, then the controlling player may instead remove D6 models, or a single model with the Monstrous Unit Sub-type, from that unit as casualties. These casualties are chosen by the unit&apos;s controlling player and no Saving Throws or Damage Mitigation rolls of any kind may be taken for them. If this option is used then the unit does not Fall Back, but instead remains in place without further effect. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent&apos;s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="8bdf-7946-c1c0-9b82" name="Fear (X)" hidden="false" targetId="21f6-7842-df5c-d2e7" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fear (1)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="442f-6f93-eac9-f857" name="Merchant Princeling" publicationId="48c2-d023-0069-001a" page="6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4186-cbed-b23f-c1ba" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc4-501a-edcc-254b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="bccd-681c-4acc-d9dd" name="Merchant Princeling" publicationId="48c2-d023-0069-001a" page="6" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All of the weapons possessed by a Warlord with this Trait gain the Master-crafted special rule. Before any models are placed onto the battlefield as part of deployment, the controlling player of this Warlord may select a single unit under their control - designated as the &apos;Lifeguard&apos; unit. The Lifeguard unit must be composed entirely of models with the Militia Unit Sub-type, and all models in the Lifeguard unit gain the Heavy Unit Sub-type, if they did not already have it, and may re-roll all failed To Hit rolls of &apos;1&apos; made in any phase or as part of a Reaction. The Warlord with this Trait must be deployed as part of the Lifeguard unit and may not voluntarily leave that unit during play. If the Warlord has a Retinue unit of any kind, this unit is instead automatically designated as the Warlord&apos;s Lifeguard unit. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent&apos;s Assault phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="fc7f-b0b4-727d-e89f" name="Master-crafted" hidden="false" targetId="6de0-55b0-bf21-48b9" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1333-9b17-28e3-ef4b" name="Beloved of the People" publicationId="48c2-d023-0069-001a" page="6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3221-386e-fa76-f74a" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42ab-1878-2452-d73c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2e3e-25cc-5bfd-868d" name="Beloved of the People" publicationId="48c2-d023-0069-001a" page="6" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">If, during any player&apos;s turn, a model with this Warlord Trait is removed as a casualty, then all other friendly models in the same Detachment gain a bonus of +1 to their WS and S Characteristics and the Feel No Pain (4+) special rule until the end of the Warlord&apos;s controlling player&apos;s next player turn. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent&apos;s Shooting phase as long as the Warlord has not been removed as a casualty. If a Warlord with this Trait has been removed as a casualty, then the army may make an additional Reaction during their opponent&apos;s Assault phase instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="7e88-32ea-bc3b-cc66" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Feel No Pain (4+) (Belowed of the People)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b42c-ce81-95f4-1200" name="Marcher Lord" publicationId="48c2-d023-0069-001a" page="6" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9b88-9510-21fd-e550" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f52-47dd-8c4d-6493" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="95d3-41f3-6b58-5011" name="Marcher Lord" publicationId="48c2-d023-0069-001a" page="6" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Trait gains the Battle-hardened (1) special rule, and if the army they are part of includes only Detachments with the Imperialis Militia Faction then all friendly units are immune to the effects of the Fear special rule. Furthermore, as long as the Warlord with this trait has not been removed as a casualty, the first Pinning test made by the controlling player in any Game Turn is automatically successful without any dice being rolled. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent&apos;s Shooting phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="980d-02ed-ee05-9e41" name="Battle-Hardened (X)" hidden="false" targetId="5c3b-ed0b-4ad0-d547" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Battle-Hardened (1)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2266-94a7-36e3-dbe4" name="Connoisseur of Alien Curios" publicationId="48c2-d023-0069-001a" page="7" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c044-fa29-7d08-290f" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb34-8021-c817-af53" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="fcf3-5a26-c478-7351" name="Connoisseur of Alien Curios" publicationId="48c2-d023-0069-001a" page="7" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">Once per Game Turn, at the start of any Game Turn, the controlling player of a Warlord with this Trait may choose to activate an artefact. If this option is chosen, then roll once on the table below:
+
+D6 Artefact Effect
+
+1 The Warlord suffers one automatic Wound with the Instant Death special rule, with no Armour Saves, cover saves or Damage Mitigation rolls allowed, though Invulnerable Saves may be taken as normal. All other units with at least one model within 12&quot; of the Warlord, including the unit the Warlord was part of, suffer D6+1 Hits at Strength 8, AP of 4. These Hits are allocated by the unit&apos;s controlling player, may be allocated to the Warlord, and can cause Morale checks where appropriate.
+
+2-3 The Warlord&apos;s controlling player must nominate one unit, friendly or enemy, within 12&quot; and line of sight of the Warlord. That unit suffers D6+1 Hits at Strength 8, AP4 which are counted as having the Deflagrate special rule. If no other unit can be nominated then the unit the Warlord is part of must suffer the Hits.
+
+4-5 The Warlord and all models in the same unit gain the Rage (2) and Furious Charge (2) special rules for the remainder of that Game Turn.
+
+6 The Warlord gains the Eternal Warrior and Feel No Pain (4+) special rules for the remainder of the battle. If this result is rolled again, then the Warlord also gains a bonus of +1 to their Strength and Toughness Characteristics for the remainder of the battle (this bonus is cumulative if this result is rolled a third or more times, up to a maximum of 6 for either Characteristic).
+
+In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent&apos;s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="faeb-8df7-fb91-4a80" name="Eternal Warrior" hidden="false" targetId="000b-fe96-31f8-c0ad" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Eternal Warrior (Connoisseur of Alien Curios 6)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="322f-bcf3-4575-4801" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Feel No Pain (4+) (Connoisseur of Alien Curios 6)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="fb5d-5784-3d77-5c85" name="Rage (X)" hidden="false" targetId="564d-3550-ae44-2f99" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Rage (2) (Connoisseur of Alien Curios 4-5)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="ab2c-481b-ecb0-9f62" name="Furious Charge (X)" hidden="false" targetId="2821-9269-862f-0554" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Furious Charge (X) (Connoisseur of Alien Curios 4-5)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7fa0-20ee-dc2f-023b" name="Robber Baron" publicationId="48c2-d023-0069-001a" page="7" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d69-a2b2-10f0-1da1" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b062-4551-cd98-5bd0" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="2425-c1e6-c712-4cc7" name="Robber Baron" publicationId="48c2-d023-0069-001a" page="7" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
+                  <characteristics>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">All models in a unit that includes a Warlord with this Trait gain a bonus of +1 to their Strength for the duration of any player turn in which they make a successful Charge, but that unit may not make Sweeping Advances in any turn. However, whenever such a unit would otherwise be eligible to make a Sweeping Advance, the controlling player must instead roll a D6. On the result of a &apos;4&apos;, &apos;5&apos; or &apos;6&apos;, the controlling player gains D3 Victory points. In addition, an army whose Warlord has this Trait may make an additional Reaction during their opponent&apos;s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="1e5a-fbb7-2a60-a6d0" name="Fear (X)" hidden="false" targetId="21f6-7842-df5c-d2e7" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fear (1)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6044-3400-e5f0-e274" name="Generic Warlord Traits" hidden="false" collective="false" import="true" targetId="c064-819f-d9ef-1775" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
     <selectionEntryGroup id="5fb4-282e-7957-1492" name="Provenance Options" hidden="true" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
