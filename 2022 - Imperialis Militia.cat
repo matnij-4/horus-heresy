@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="52" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="58" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -232,10 +232,22 @@
         <categoryLink id="82f2-f006-84cb-bd20" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b1b2-c3d4-e5f6-c805" name="IM - Voidjumpers" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e805" type="selectionEntry">
+    <entryLink id="b1b2-c3d4-e5f6-c805" name="IM - Voidjumpers" hidden="true" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e805" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08f1-5fe7-1d3a-7b35" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="5f5d-c703-85ca-4a51-a50c823883f9749f" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="01f5-2eed-7050-41fe-b47987d10283d6c5" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+        <categoryLink id="vj07-ct-compulsory" name="Compulsory Troops:" hidden="false" targetId="8f42-a824-fb5f-8fea" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="489d-ddd5-565d-659e" name="IM - Reconnaissance Squad" hidden="false" collective="false" import="false" targetId="6a90-6dc5-1e0b-9eaf" type="selectionEntry">
@@ -314,6 +326,12 @@
       <categoryLinks>
         <categoryLink id="7ab3-6772-b87b-a387" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="125f-a3a7-f2c3-1e96" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1b2-c3d4-e5f6-c824" name="IM - War Suit Squad" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e824" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="e824-el-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="e824-el-e" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="bd91-feb9-0a20-a55c" name="IM - Field Gun Battery" hidden="false" collective="false" import="false" targetId="69d4-e221-a0cb-e428" type="selectionEntry">
@@ -979,6 +997,51 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
+    <selectionEntry id="8b98-8cc0-a5b2-e894" name="Voidjumpers" publicationId="48c2-d023-0069-001a" hidden="true" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08f1-5fe7-1d3a-7b35" type="atLeast"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b4f-bfe2-ce7b-f1b1" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-e5f6-e805" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7d95-f9d1-440a-67bd" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e929-a5c3-451c-6f19" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6f99-c178-6f9d-fb63" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="19f3-8727-02db-3ce5" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0faa-1bab-2901-4330" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="prov07-vj-max" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="prov07-vj-rule" name="Voidjumpers" hidden="false" targetId="2d04-8f0b-cfb7-cac1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="prov07-vj-jetpack" name="Militia Jet Packs (all models)" hidden="false" collective="true" import="true" targetId="b3b2-817f-8b68-fad0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="prov07-vj-jp-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="prov07-vj-jp-max" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="aa19-eda7-e81e-9868" name="IM - Force Commander" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="b79a-6c4b-cea3-6732" name="1) Force Commander" hidden="false" collective="false" import="true" type="model">
@@ -5781,6 +5844,97 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1f02-6989-6d65-48d1" type="max"/>
           </constraints>
           <selectionEntries>
+            <selectionEntry id="5ff1-5b17-ca8b-0676" name="Militia Fire Team w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15aa-8342-0bbb-0f8c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="03bb-2121-1d1b-4555" name="Militia Fire Team" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+                  <modifiers>
+                    <modifier type="increment" field="e8a6-1da9-d384-8727" value="1">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b192-2b6f-ad8c-959f" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <modifierGroups>
+                    <modifierGroup>
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bd7-54d3-b0a9-1e44" type="equalTo"/>
+                      </conditions>
+                      <modifiers>
+                        <modifier type="increment" field="c32b-5fdd-3fbe-9b1f" value="1"/>
+                        <modifier type="decrement" field="62d3-22d7-2d49-52dc" value="1"/>
+                        <modifier type="decrement" field="893e-2d76-8f04-44e5" value="1"/>
+                      </modifiers>
+                    </modifierGroup>
+                    <modifierGroup>
+                      <modifiers>
+                        <modifier type="increment" field="e478-41d4-a092-48a8" value="1">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d15d-c66d-d47f-8aee" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                        <modifier type="decrement" field="74ae-c840-0036-d244" value="1">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d15d-c66d-d47f-8aee" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                  <characteristics>
+                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Militia, Skirmish)</characteristic>
+                    <characteristic name="Move" typeId="893e-2d76-8f04-44e5">4</characteristic>
+                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                    <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                    <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
+                    <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
+                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="47cd-75e6-5980-be11" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
+                <infoLink id="c4d5-6e7f-8091-a234" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
+              </infoLinks>
+              <entryLinks>
+                <selectionEntryGroup id="prov24-ft-hs-grp" name="Crew Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="prov24-ft-hs-def">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hs-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hs-max" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="prov24-ft-hs-def" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry"/>
+                    <entryLink id="prov24-ft-hs-seis" name="Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="e801-1111-2222-3333-444455556666" type="selectionEntry">
+                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+                    </entryLink>
+                    <entryLink id="prov24-ft-hs-ml" name="Mining Laser (Mining Colony)" hidden="true" collective="false" import="true" targetId="bf7b-f48a-45c5-40c2-8cdbe1b85b401066" type="selectionEntry">
+                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </entryLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+              </costs>
+              <categoryLinks>
+                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5a1d-95f6-4db4-8836" name="Infantry Unit Type" primary="false"/>
+                <categoryLink targetId="9231-183c-b97b-63f9" id="5dcb-25b5-487b-9ebc" name="Heavy Sub-type" primary="false"/>
+                <categoryLink targetId="66b2-c457-4d5e-8041" id="eb2f-8d44-4b2d-9e59" name="Militia Unit Sub-type" primary="false"/>
+                <categoryLink targetId="59a4-7b61-600a-c457" id="c3d4-5e6f-7081-92a3" name="Skirmish Sub-type" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
             <selectionEntry id="913c-7bd2-170a-9808" name="Militia Fire Team w/ Lascannon" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5363-5278-ff47-97cf" type="max"/>
@@ -5853,14 +6007,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <entryLinks>
-                <entryLink id="7241-d21a-1264-ccd8" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6cdd-9606-73b7-9635" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="821b-cffd-80a5-abb9" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
@@ -5871,105 +6017,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <categoryLink targetId="59a4-7b61-600a-c457" id="b2c3-4d5e-6f70-8191" name="Skirmish Sub-type" primary="false"/>
               </categoryLinks>
             </selectionEntry>
-            <selectionEntry id="5ff1-5b17-ca8b-0676" name="Militia Fire Team w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
-              <constraints>
-                <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="15aa-8342-0bbb-0f8c" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="03bb-2121-1d1b-4555" name="Militia Fire Team" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
-                  <modifiers>
-                    <modifier type="increment" field="e8a6-1da9-d384-8727" value="1">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b192-2b6f-ad8c-959f" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <modifierGroups>
-                    <modifierGroup>
-                      <conditions>
-                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bd7-54d3-b0a9-1e44" type="equalTo"/>
-                      </conditions>
-                      <modifiers>
-                        <modifier type="increment" field="c32b-5fdd-3fbe-9b1f" value="1"/>
-                        <modifier type="decrement" field="62d3-22d7-2d49-52dc" value="1"/>
-                        <modifier type="decrement" field="893e-2d76-8f04-44e5" value="1"/>
-                      </modifiers>
-                    </modifierGroup>
-                    <modifierGroup>
-                      <modifiers>
-                        <modifier type="increment" field="e478-41d4-a092-48a8" value="1">
-                          <conditions>
-                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d15d-c66d-d47f-8aee" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                        <modifier type="decrement" field="74ae-c840-0036-d244" value="1">
-                          <conditions>
-                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d15d-c66d-d47f-8aee" type="equalTo"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
-                    </modifierGroup>
-                  </modifierGroups>
-                  <characteristics>
-                    <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Heavy, Militia, Skirmish)</characteristic>
-                    <characteristic name="Move" typeId="893e-2d76-8f04-44e5">4</characteristic>
-                    <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
-                    <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
-                    <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
-                    <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
-                    <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
-                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
-                    <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
-                    <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
-                    <characteristic name="Save" typeId="e593-6b3c-f169-04f0">5+</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <infoLinks>
-                <infoLink id="47cd-75e6-5980-be11" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
-                <infoLink id="c4d5-6e7f-8091-a234" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
-              </infoLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="prov24-ft-hs-grp" name="Crew Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="prov24-ft-hs-def">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hs-min" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hs-max" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="prov24-ft-hs-def" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry"/>
-                    <entryLink id="prov24-ft-hs-seis" name="Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="e801-1111-2222-3333-444455556666" type="selectionEntry">
-                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
-                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
-              </conditions></modifier></modifiers>
-                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
-                    </entryLink>
-                    <entryLink id="prov24-ft-hs-min" name="Mining Laser (Mining Colony)" hidden="true" collective="false" import="true" targetId="bf7b-f48a-45c5-40c2-8cdbe1b85b401066" type="selectionEntry">
-                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
-                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
-              </conditions></modifier></modifiers>
-                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-              <entryLinks>
-                <entryLink id="f1d8-d3ac-7bd8-e8fb" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b2cb-0784-80f2-93e9" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c439-c929-4445-fc1d" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-              </costs>
-              <categoryLinks>
-                <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="5a1d-95f6-4db4-8836" name="Infantry Unit Type" primary="false"/>
-                <categoryLink targetId="9231-183c-b97b-63f9" id="5dcb-25b5-487b-9ebc" name="Heavy Sub-type" primary="false"/>
-                <categoryLink targetId="66b2-c457-4d5e-8041" id="eb2f-8d44-4b2d-9e59" name="Militia Unit Sub-type" primary="false"/>
-                <categoryLink targetId="59a4-7b61-600a-c457" id="c3d4-5e6f-7081-92a3" name="Skirmish Sub-type" primary="false"/>
-              </categoryLinks>
-            </selectionEntry>
+            
             <selectionEntry id="ffb6-7ae4-9f04-7c7d" name="Militia Fire Team w/ Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" type="model">
               <constraints>
                 <constraint field="selections" scope="parent" value="10" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6e23-e2ff-b69b-193a" type="max"/>
@@ -5995,14 +6043,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <entryLinks>
-                <entryLink id="a2fb-f9c4-85e2-f3d9" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="553f-e6d1-b20f-874c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1013-211c-a4cf-a4f7" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
@@ -6039,14 +6079,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <entryLinks>
-                <entryLink id="261e-e036-8229-48ab" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0f86-9c8d-612b-e550" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e073-51ff-bf70-bc48" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
@@ -6080,14 +6112,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <entryLinks>
-                <entryLink id="50bb-0fa1-fefa-7ffa" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="aff9-b35a-e9dc-6400" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="de58-0bb4-0e64-e1aa" type="min"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
@@ -6108,21 +6132,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <infoLink id="3559-a290-e199-cd6d" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="dc01-5da5-9f58-7bb2" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
+                <selectionEntryGroup id="prov24-ft-hb-grp" name="Crew Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="1e23-bfac-33ab-dd66">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e92d-178b-1192-8534" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d368-615b-7534-88d0" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hb-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hb-max" type="max"/>
                   </constraints>
-                </entryLink>
-                <entryLink id="1e23-bfac-33ab-dd66" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c003-9d98-5e3e-01a3" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0c72-07b4-4231-d50d" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                  </costs>
-                </entryLink>
+                  <entryLinks>
+                    <entryLink id="1e23-bfac-33ab-dd66" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="6024-6953-b8f4-ce63" type="selectionEntry">
+                      <costs>
+                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -6138,17 +6160,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntryGroup>
       
 
-        <selectionEntryGroup id="imper-fs-armour-4a2b" name="4) Unit Armour (Imperatus)" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="imper-fs-armour-max" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="imper-fs-carapace-el" name="Carapace Armour (Imperatus)" hidden="false" collective="false" import="true" targetId="9ba1-7b0c-23d0-2e6b" type="selectionEntry">
-              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/></costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="588a-0b1f-3113-451a-a3530683d21a86ef" name="4) Dedicated Transport" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="588a-0b1f-3113-451a-a3530683d21a86ef" name="3) Dedicated Transport" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca17-b216-6daa-4640-bb055219e5dbf705" type="max"/>
           </constraints>
@@ -6159,6 +6171,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08f1-5fe7-1d3a-7b35" type="equalTo"/>
                         <condition field="selections" scope="3f92-41db-02f5-d0cd" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="913c-7bd2-170a-9808" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
@@ -6184,6 +6197,18 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </conditions>
                 </modifier>
               </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="imper-fs-armour-4a2b" name="4) Unit Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="imper-fs-flak-el">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="imper-fs-armour-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="imper-fs-armour-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="imper-fs-flak-el" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry"/>
+            <entryLink id="imper-fs-carapace-el" name="Carapace Armour (Imperatus)" hidden="false" collective="false" import="true" targetId="9ba1-7b0c-23d0-2e6b" type="selectionEntry">
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/></costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup></selectionEntryGroups>
@@ -6452,7 +6477,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6472,7 +6497,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" field="hidden" value="false">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6494,7 +6519,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6506,7 +6531,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6518,7 +6543,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6534,7 +6559,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6549,7 +6574,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                    <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -6564,7 +6589,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition field="selections" scope="6a90-6dc5-1e0b-9eaf" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="equalTo"/>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b98-8cc0-a5b2-e894" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -16766,6 +16791,220 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e824-phoebe-armour" name="Phoebe Warsuit" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e824-phoebe-prof" name="Phoebe Warsuit" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The Phoebe Warsuit was a rare suit used by some of the void born armies.
+
+Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-e5f6-e824" name="IM - War Suit Squad" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="20">
+          <repeats>
+            <repeat field="selections" scope="a1b2-c3d4-e5f6-e824" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e824-warsuit" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="decrement" field="d2ee-04cb-5f8a-2642" value="40">
+          <repeats>
+            <repeat field="selections" scope="a1b2-c3d4-e5f6-e824" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e824-warsuit" repeats="2" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="e824-inf" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+        <categoryLink id="e824-mil" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
+        <categoryLink id="e824-hvy" name="Heavy Sub-type" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
+        <categoryLink id="e824-mech" name="Mechanised Unit Sub-type" hidden="false" targetId="e929-a5c3-451c-6f19" primary="false"/>
+        <categoryLink id="e824-sa" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e824-warsuit-sgt" name="Warsuit Sergeant" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e824-sgt-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e824-sgt-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e824-sgt-prof" name="Warsuit Sergeant" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+              <modifiers>
+                <modifier type="increment" field="e8a6-1da9-d384-8727" value="1">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b192-2b6f-ad8c-959f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Heavy, Mechanised, Character)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">5</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">7</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e824-sgt-bulky" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
+              <modifiers><modifier type="set" field="name" value="Bulky (3)"/></modifiers>
+            </infoLink>
+            <infoLink id="e824-sgt-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
+            <infoLink id="e824-sgt-inex" name="Inexorable" hidden="false" targetId="d863-8a5e-ddb6-d5a4" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="e824-sgt-phoebe" name="Phoebe Warsuit" hidden="false" collective="false" import="true" targetId="e824-phoebe-armour" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-sgt-phoebe-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-sgt-phoebe-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e824-sgt-weapon" name="May exchange Heavy Stubber" hidden="false" collective="false" import="true" defaultSelectionEntryId="e824-sgt-hs-def">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-sgt-weapon-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-sgt-weapon-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="e824-sgt-hs-def" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry"/>
+                <entryLink id="e824-sgt-hf" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
+                <entryLink id="e824-sgt-ml" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry"/>
+                <entryLink id="e824-sgt-ac" name="Autocannon" hidden="false" collective="false" import="true" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e824-sgt-hb" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e824-sgt-mlr" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e824-sgt-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="32ad-6250-29c7-5466" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+                </entryLink>
+                <entryLink id="e824-sgt-mm" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                </entryLink>
+                <entryLink id="e824-sgt-lc" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink id="e824-sgt-char" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e824-sgt-inf" name="Infantry Unit Type" primary="false"/>
+            <categoryLink targetId="66b2-c457-4d5e-8041" id="e824-sgt-mil" name="Militia Unit Sub-type" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="e824-sgt-hvy" name="Heavy Sub-type" primary="false"/>
+            <categoryLink targetId="e929-a5c3-451c-6f19" id="e824-sgt-mech" name="Mechanised Unit Sub-type" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry id="e824-warsuit" name="Warsuit" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e824-ws-min" type="min"/>
+            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e824-ws-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e824-ws-prof" name="Warsuit" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+              <modifiers>
+                <modifier type="increment" field="e8a6-1da9-d384-8727" value="1">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b192-2b6f-ad8c-959f" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Heavy, Mechanised)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">5</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="e824-ws-bulky" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
+              <modifiers><modifier type="set" field="name" value="Bulky (3)"/></modifiers>
+            </infoLink>
+            <infoLink id="e824-ws-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
+            <infoLink id="e824-ws-inex" name="Inexorable" hidden="false" targetId="d863-8a5e-ddb6-d5a4" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="e824-ws-phoebe" name="Phoebe Warsuit" hidden="false" collective="false" import="true" targetId="e824-phoebe-armour" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-ws-phoebe-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-ws-phoebe-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e824-ws-weapon" name="May exchange Heavy Stubber" hidden="false" collective="false" import="true" defaultSelectionEntryId="e824-ws-hs-def">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-ws-weapon-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-ws-weapon-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="e824-ws-hs-def" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry"/>
+                <entryLink id="e824-ws-hf" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry"/>
+                <entryLink id="e824-ws-ml" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry"/>
+                <entryLink id="e824-ws-ac" name="Autocannon" hidden="false" collective="false" import="true" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e824-ws-hb" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e824-ws-mlr" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e824-ws-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="32ad-6250-29c7-5466" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+                </entryLink>
+                <entryLink id="e824-ws-mm" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                </entryLink>
+                <entryLink id="e824-ws-lc" name="Lascannon" hidden="false" collective="false" import="true" targetId="b252-5a86-6e0f-218b" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="8b4f-bfe2-ce7b-f1b1" id="e824-ws-inf" name="Infantry Unit Type" primary="false"/>
+            <categoryLink targetId="66b2-c457-4d5e-8041" id="e824-ws-mil" name="Militia Unit Sub-type" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="e824-ws-hvy" name="Heavy Sub-type" primary="false"/>
+            <categoryLink targetId="e929-a5c3-451c-6f19" id="e824-ws-mech" name="Mechanised Unit Sub-type" primary="false"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="e824-prov" name="Provenance Options" hidden="true" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup">
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/>
+      </costs>
+    </selectionEntry>
         <selectionEntry id="a1b2-c3d4-e5f6-e804" name="IM - Ogryn Beastmasters" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="77fe-03cc-f19e-4ea8-af9501a0ec8e22d2" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
@@ -17397,6 +17636,15 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
           </modifiers>
         </infoLink>
               <infoLink id="5583-2dc1-5d5a-4dcb-8adca6a5d0f7d868" name="Strength in Numbers" hidden="false" targetId="fcf6-c6e0-f85e-90da" type="rule"/>
+        <infoLink id="vj07-prov-soda" name="Provenance (Survivors of the Dark Age)" hidden="false" targetId="99c0-0263-9acc-a659" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08f1-5fe7-1d3a-7b35" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="42bc-195d-6420-469c-a397bc8eab650df6" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -20935,7 +21183,7 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>  </sharedSelectionEntries>
-  <sharedRules>
+<sharedRules>
     <rule id="ac7b-72f5-82f9-23d6" name="Militia Cavalry Mount" publicationId="48c2-d023-0069-001a" page="37" hidden="false">
       <description>A model with a Militia cavalry mount that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player’s next turn.
 
@@ -20982,11 +21230,30 @@ When rolling To Wound and for Armour Penetration for a model that has the Resona
 
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="5fb4-282e-7957-1492" name="Provenance Options" hidden="true" collective="false" import="true">
-      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
                 <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
-              </conditions></modifier></modifiers>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="08f1-5fe7-1d3a-7b35" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="prov07-vj-link" name="Voidjumpers" hidden="false" collective="false" import="true" targetId="8b98-8cc0-a5b2-e894" type="selectionEntry"/>
+      </entryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="prov24-rock-grp" name="Mining Colony – up to two mining tools" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e929-a5c3-451c-6f19" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="prov24-rock-max" type="max"/>
           </constraints>
