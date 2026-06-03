@@ -38,9 +38,15 @@
         <entryLink id="7789-b58c-91a7-68c9" name="Provenances of War" hidden="false" collective="false" import="true" targetId="7e02-b66b-55aa-1102" type="selectionEntryGroup">
           <modifiers>
             <modifier type="set" field="dd5c-2d39-07b9-6dad" value="0">
-              <conditions>
-                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa19-eda7-e81e-9868" type="equalTo"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aa19-eda7-e81e-9868" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr23-d4e5-f6a7-8192" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </entryLink>
@@ -496,6 +502,7 @@
       <categoryLinks>
         <categoryLink id="wr-ic-hq-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="wr-ic-hq-h" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="wr-ic-hq-chq" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="ic01-el-heavy" name="IM - Ironcrawler Squadron" hidden="false" collective="false" import="false" targetId="e3f4-5a6b-7c8d-9012" type="selectionEntry">
@@ -14471,7 +14478,9 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
     <selectionEntry id="wr23-d4e5-f6a7-8192" name="Apex War-Rig" publicationId="48c2-d023-0069-001a" page="256" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
         <rule id="wr24-e5f6-a7b8-92a3" name="Apex War-Rig" publicationId="48c2-d023-0069-001a" page="256" hidden="false">
-          <description>+1 Ballistic Skill (to a maximum of 5), +1 Side Armour (to a maximum of 14) and +1 Hull Point. For the purposes of Warlord Traits, an Apex War-Rig is considered to have the Character sub-type. If this model is selected as the Warlord, it must be upgraded to an Apex War-Rig and taken in an HQ Force Organisation slot.</description>
+          <description>+1 Ballistic Skill (to a maximum of 5), +1 Side Armour (to a maximum of 14) and +1 Hull Point. For the purposes of Warlord Traits, an Apex War-Rig is considered to have the Character sub-type. If this model is selected as the Warlord, it must be upgraded to an Apex War-Rig and taken in an HQ Force Organisation slot.
+
+The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Detachment, it fulfils the same role as a Force Commander for the purposes of selecting Provenances of War, allowing up to two different Provenances to be selected for the Detachment.</description>
         </rule>
       </rules>
       <costs>
