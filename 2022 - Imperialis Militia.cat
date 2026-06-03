@@ -80,7 +80,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
-                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="equalTo"/>
+                                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2101" type="atLeast"/>                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2101" type="atLeast"/><condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -238,7 +238,25 @@
         <categoryLink id="0915-da10-e519-d165" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b1b2-c3d4-e5f6-c801" name="IM - Ratling Squad" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e801" type="selectionEntry">
+
+    <entryLink id="b1b2-c3d4-prov25-troops" name="IM - Ratling Squad (Troops)" hidden="true" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e801" type="selectionEntry">
+      <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2501" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+      <categoryLinks>
+        <categoryLink id="prov25-t-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="prov25-t-t" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1b2-c3d4-prov25-troops" name="IM - Ratling Squad (Troops)" hidden="true" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e801" type="selectionEntry">
+      <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2501" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+      <categoryLinks>
+        <categoryLink id="prov25-t-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="prov25-t-t" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+      </categoryLinks>
+    </entryLink>    <entryLink id="b1b2-c3d4-e5f6-c801" name="IM - Ratling Squad" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e801" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="a6db-1dac-0941-4986-92a50f9f0efc048e" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="4247-520c-0606-4a64-ba09f85ca82ddea8" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
@@ -256,7 +274,25 @@
         <categoryLink id="2f83-805c-7f1a-4cad-b83a879ffb377e1a" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b1b2-c3d4-e5f6-c804" name="IM - Ogryn Beastmasters" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e804" type="selectionEntry">
+
+    <entryLink id="b1b2-c3d4-prov-ogryn-fa" name="IM - Ogryn Beastmasters (Fast Attack)" hidden="true" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e804" type="selectionEntry">
+      <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07d0-18a3-ce4d-c1b4" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+      <categoryLinks>
+        <categoryLink id="prov-og-fa-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="prov-og-fa-f" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1b2-c3d4-prov-ogryn-fa" name="IM - Ogryn Beastmasters (Fast Attack)" hidden="true" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e804" type="selectionEntry">
+      <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07d0-18a3-ce4d-c1b4" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+      <categoryLinks>
+        <categoryLink id="prov-og-fa-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="prov-og-fa-f" name="Fast Attack:" hidden="false" targetId="20ef-cd01-a8da-376e" primary="true"/>
+      </categoryLinks>
+    </entryLink>    <entryLink id="b1b2-c3d4-e5f6-c804" name="IM - Ogryn Beastmasters" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e804" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5dfe-f86b-dfe6-4618-84ea5baecc383e96" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="60de-f0fa-d3dd-4fec-9e1279792506c2a9" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
@@ -1234,7 +1270,49 @@ Unless noted, the effects of any rules featured in the Provenance’s descriptio
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
                   </costs>
                 </entryLink>
-                <entryLink id="2094-8c4c-74a3-b799" name="Archaeotech Pistol" hidden="false" collective="false" import="true" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
+                
+            <entryLink id="prov-tb" name="Tainted Blade" hidden="true" collective="false" import="true" targetId="27b6-cef8-b70e-409e-b68b1d459b9de75d" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="atLeast"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="prov-tax" name="Tainted Axe" hidden="true" collective="false" import="true" targetId="a1f8-cf7b-eb40-4ff6-b2fbc74a6641b858" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="atLeast"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="prov-tm" name="Tainted Maul" hidden="true" collective="false" import="true" targetId="9d97-f3c1-646f-4f3a-8d80caa59f3b5add" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="atLeast"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="prov-tb" name="Tainted Blade" hidden="true" collective="false" import="true" targetId="27b6-cef8-b70e-409e-b68b1d459b9de75d" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="atLeast"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="prov-tax" name="Tainted Axe" hidden="true" collective="false" import="true" targetId="a1f8-cf7b-eb40-4ff6-b2fbc74a6641b858" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="atLeast"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="prov-tm" name="Tainted Maul" hidden="true" collective="false" import="true" targetId="9d97-f3c1-646f-4f3a-8d80caa59f3b5add" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="atLeast"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink><entryLink id="2094-8c4c-74a3-b799" name="Archaeotech Pistol" hidden="false" collective="false" import="true" targetId="c22a-ed4d-af68-bf00" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
@@ -3208,7 +3286,27 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="aurox-dt-b179-24b" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+
+            <entryLink id="prov24-dt-hades" name="Militia Hades Breaching Drill (Mining Colony)" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e80f" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+            </entryLink>
+            <entryLink id="prov24-dt-goliath" name="Goliath Heavy Vehicle Squadron (Mining Colony, Auxiliary Crew Bay required)" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e81b" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+            </entryLink>
+            <entryLink id="prov24-dt-hades" name="Militia Hades Breaching Drill (Mining Colony)" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e80f" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+            </entryLink>
+            <entryLink id="prov24-dt-goliath" name="Goliath Heavy Vehicle Squadron (Mining Colony, Auxiliary Crew Bay required)" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e81b" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+            </entryLink>            <entryLink id="aurox-dt-b179-24b" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -5543,7 +5641,17 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="aurox-dt-c201-6fb" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
+
+            <entryLink id="prov24-dt-hades-gr" name="Militia Hades Breaching Drill (Mining Colony)" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e80f" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+            </entryLink>
+            <entryLink id="prov24-dt-goliath-gr" name="Goliath Heavy Vehicle Squadron (Mining Colony, Auxiliary Crew Bay required)" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e81b" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+            </entryLink>            <entryLink id="aurox-dt-c201-6fb" name="Militia Aurox Transport (Imperatus)" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e807" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -5676,15 +5784,29 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <infoLink id="4098-3c22-904d-c447" name="Militia Fire Team" hidden="false" targetId="03bb-2121-1d1b-4555" type="profile"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="d400-1fc6-705c-d90f" name="Lascannon" hidden="false" collective="false" import="true" targetId="8621-4e12-b3d2-116f" type="selectionEntry">
+                <selectionEntryGroup id="prov24-ft-lc-grp" name="Crew Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="d400-1fc6-705c-d90f">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="78e9-dd43-17b5-b331" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="704d-2b96-894c-4561" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-lc-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-lc-max" type="max"/>
                   </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
-                  </costs>
-                </entryLink>
+                  <entryLinks>
+                    <entryLink id="d400-1fc6-705c-d90f" name="Lascannon" hidden="false" collective="false" import="true" targetId="8621-4e12-b3d2-116f" type="selectionEntry">
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                    </entryLink>
+                    <entryLink id="prov24-ft-hsc" name="Heavy Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="c6d7-8e9f-0123-4567" type="selectionEntry">
+                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+                    </entryLink>
+                    <entryLink id="prov24-ft-hml" name="Heavy Mining Laser (Mining Colony)" hidden="true" collective="false" import="true" targetId="d6e7-8f90-a123-b456" type="selectionEntry">
+                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </entryLinks>
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
@@ -5800,20 +5922,29 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <infoLink id="47cd-75e6-5980-be11" name="Emplaced" hidden="false" targetId="976f-9e14-413c-5bea" type="rule"/>
                 <infoLink id="c4d5-6e7f-8091-a234" name="Crew-Served Weapon" hidden="false" targetId="a8c3-4e21-b9f6-7d12" type="rule"/>
               </infoLinks>
-              <selectionEntries>
-                <selectionEntry id="b708-9e31-03af-c9c9" name="Heavy Stubber" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" collective="true" import="true" type="upgrade">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="prov24-ft-hs-grp" name="Crew Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="prov24-ft-hs-def">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="29f3-3382-a9a4-c3fd" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9c10-9793-f6cc-43c7" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hs-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="prov24-ft-hs-max" type="max"/>
                   </constraints>
-                  <infoLinks>
-                    <infoLink id="3dad-f9f6-b67d-6695" name="Heavy Stubber" hidden="false" targetId="129d-1b6c-7ba2-29ec" type="profile"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
+                  <entryLinks>
+                    <entryLink id="prov24-ft-hs-def" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry"/>
+                    <entryLink id="prov24-ft-hs-seis" name="Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="e801-1111-2222-3333-444455556666" type="selectionEntry">
+                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+                    </entryLink>
+                    <entryLink id="prov24-ft-hs-min" name="Mining Laser (Mining Colony)" hidden="true" collective="false" import="true" targetId="bf7b-f48a-45c5-40c2-8cdbe1b85b401066" type="selectionEntry">
+                      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="f1d8-d3ac-7bd8-e8fb" name="Flak Armour" hidden="false" collective="false" import="true" targetId="0251-8365-9efb-61a7" type="selectionEntry">
                   <constraints>
@@ -8065,7 +8196,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </selectionEntries>
                 </entryLink>
 
-                <entryLink id="736a-a96d-abe5-32dc" name="Meltagun" hidden="false" collective="false" import="true" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
+
+                <entryLink id="prov24-hs-seis-d89a" name="Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="e801-1111-2222-3333-444455556666" type="selectionEntry">
+                  <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+                </entryLink>
+                <entryLink id="prov24-hs-min-d89a" name="Mining Laser (Mining Colony)" hidden="true" collective="false" import="true" targetId="bf7b-f48a-45c5-40c2-8cdbe1b85b401066" type="selectionEntry">
+                  <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                </entryLink>                <entryLink id="736a-a96d-abe5-32dc" name="Meltagun" hidden="false" collective="false" import="true" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -8380,7 +8523,19 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   </selectionEntries>
                 </entryLink>
 
-                <entryLink id="4fb1-cd8c-fd86-ad4c" name="Meltagun" hidden="false" collective="false" import="true" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
+
+                <entryLink id="prov24-hs-seis-3be9" name="Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="e801-1111-2222-3333-444455556666" type="selectionEntry">
+                  <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+                </entryLink>
+                <entryLink id="prov24-hs-min-3be9" name="Mining Laser (Mining Colony)" hidden="true" collective="false" import="true" targetId="bf7b-f48a-45c5-40c2-8cdbe1b85b401066" type="selectionEntry">
+                  <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+                </entryLink>                <entryLink id="4fb1-cd8c-fd86-ad4c" name="Meltagun" hidden="false" collective="false" import="true" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
                   </costs>
@@ -8465,7 +8620,13 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c96f-f7bd-7ee4-f482" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="b49f-f87a-2585-1607" name="Mining Laser" hidden="false" collective="false" import="true" targetId="a8b9-4c5d-6e7f-8091" type="selectionEntry">
+
+            <entryLink id="prov24-levy-seis" name="Seismic Cannon (Mining Colony)" hidden="true" collective="false" import="true" targetId="e801-1111-2222-3333-444455556666" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+            </entryLink>            <entryLink id="b49f-f87a-2585-1607" name="Mining Laser" hidden="false" collective="false" import="true" targetId="a8b9-4c5d-6e7f-8091" type="selectionEntry">
               <costs>
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
               </costs>
@@ -17869,7 +18030,15 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e808-turret-max" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="e808-ghf" name="Gravis Heavy Flamer" hidden="false" collective="false" import="true" targetId="c7d8-e9f0-a1b2-c3d4-5e6f70819901" type="selectionEntry">
+                
+                <entryLink id="prov808-chem" name="Chem Cannon" hidden="true" collective="false" import="true" targetId="a1b2-c3d4-prov-chem01" type="selectionEntry">
+                  <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+                  <modifiers><modifier type="set" field="name" value="Turret Mounted Chem Cannon"/><modifier type="increment" field="d2ee-04cb-5f8a-2642" value="10">
+                    <repeats><repeat field="selections" scope="a1b2-c3d4-e5f6-e808" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-e5f6-e808m" repeats="1" roundUp="false"/></repeats>
+                  </modifier></modifiers>
+                </entryLink><entryLink id="e808-ghf" name="Gravis Heavy Flamer" hidden="false" collective="false" import="true" targetId="c7d8-e9f0-a1b2-c3d4-5e6f70819901" type="selectionEntry">
                   <modifiers><modifier type="set" field="name" value="Turret Mounted Gravis Heavy Flamer"/></modifiers>
                 </entryLink>
                 <entryLink id="e808-mc" name="Melta Cannon" hidden="false" collective="false" import="true" targetId="7a16-0e23-c633-c668" type="selectionEntry">
@@ -18652,7 +18821,13 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e80e-turret-max" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e80e-gml-def" name="Gravis Multi-Laser" hidden="false" collective="false" import="true" targetId="9938-d8d4-e0cc-b883" type="selectionEntry">
+            
+            <entryLink id="prov80e-vc" name="Volkite Culverin" hidden="true" collective="false" import="true" targetId="170d-44e0-455c-8207" type="selectionEntry">
+              <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+              <modifiers><modifier type="set" field="name" value="Turret Mounted Volkite Culverin"/></modifiers>
+            </entryLink><entryLink id="e80e-gml-def" name="Gravis Multi-Laser" hidden="false" collective="false" import="true" targetId="9938-d8d4-e0cc-b883" type="selectionEntry">
               <modifiers><modifier type="set" field="name" value="Turret Mounted Gravis Multi-Laser"/></modifiers>
             </entryLink>
             <entryLink id="e80e-gac" name="Gravis Autocannon" hidden="false" collective="false" import="true" targetId="8a23-e57d-b4a8-14a9" type="selectionEntry">
@@ -18683,7 +18858,22 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e80e-sponson-max" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="e80e-shf-def" name="Two Sponson Mounted Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
+            
+                <selectionEntry id="prov80e-sp-vc" name="Two Sponson Mounted Volkite Calivers" hidden="true" collective="false" import="true" type="upgrade">
+                  <modifiers><modifier type="set" field="hidden" value="false"><conditionGroups><conditionGroup type="or"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4bcd-7022-cefc-04da" type="atLeast"/>
+              </conditions></conditionGroup></conditionGroups></modifier></modifiers>
+                  <entryLinks>
+                    <entryLink id="prov80e-sp-vcw" name="Volkite Caliver" hidden="false" collective="false" import="true" targetId="9250-490f-abeb-b901" type="selectionEntry">
+                      <modifiers><modifier type="set" field="name" value="Two Sponson Mounted Volkite Calivers"/></modifiers>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" type="min" shared="false" id="prov80e-sp-vcw-min"/>
+                        <constraint field="selections" scope="parent" value="1" type="max" shared="false" id="prov80e-sp-vcw-max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+                </selectionEntry><selectionEntry id="e80e-shf-def" name="Two Sponson Mounted Heavy Flamers" hidden="false" collective="false" import="true" type="upgrade">
               <entryLinks>
                 <entryLink id="e80e-shf-w" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
                   <modifiers><modifier type="set" field="name" value="Two Sponson Mounted Heavy Flamers"/></modifiers>
@@ -20780,6 +20970,32 @@ In addition, any rolls on the Vehicle Damage Table that target a model with this
 When rolling To Wound and for Armour Penetration for a model that has the Resonance (X) special rule, or is attacking with a weapon that has the Resonance (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the Controlling Player must resolve these wounds at AP 1 instead of the weapon's normal AP value. Against any building or Fortification with a Hull Points value this Special Rule is triggered on an Armour Penetration Roll of 2+ instead.</description>
     </rule>
   </sharedRules>
+
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="5fb4-282e-7957-1492" name="Provenance Options" hidden="true" collective="false" import="true">
+      <modifiers><modifier type="set" field="hidden" value="false"><conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2401" type="atLeast"/>
+              </conditions></modifier></modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="prov24-rock-grp" name="Mining Colony – up to two mining tools" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="prov24-rock-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="prov24-rock-saw" name="Heavy Rock Saw" hidden="false" collective="false" import="true" targetId="e801-8888-9999-0000-111122223333" type="selectionEntry">
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+            </entryLink>
+            <entryLink id="prov24-rock-drill" name="Heavy Rock Drill" hidden="false" collective="false" import="true" targetId="e801-7777-8888-9999-000011112222" type="selectionEntry">
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
+            </entryLink>
+            <entryLink id="prov24-rock-cut" name="Heavy Rock Cutter" hidden="false" collective="false" import="true" targetId="e801-6666-7777-8888-999900001111" type="selectionEntry">
+              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/></costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <catalogueLinks>
     <catalogueLink id="5f24-4626-71c3-0511" name="Mech Library" targetId="3129-da35-55e0-642d" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="e048-9e5e-507c-5b11" name="LI - Assassins and Agents" targetId="4c88-1a81-7e53-0a67" type="catalogue" importRootEntries="true"/>

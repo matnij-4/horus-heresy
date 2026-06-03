@@ -17148,7 +17148,10 @@ Until Fulgrim Transfigured is placed on the battlefield in this manner, all mode
           </constraints>
           <rules>
             <rule id="e36c-1974-5c74-ccc6" name="Legacy of the Great Crusade" publicationId="48c2-d023-0069-001a" page="9" hidden="false">
-              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and units that contain a Discipline Master or Mounted Discipline Master in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.</description>
+              <description>All Imperialis Militia Grenadier Squad, Imperialis Militia Command Cadres, and units that contain a Discipline Master or Mounted Discipline Master in a Detachment with this Provenance increase their Ballistic Skill by +1 (to a maximum of 4). A Force Commander in a Detachment with this Provenance increases its Initiative to 5.
+
+IMPERATUS – Additional effects:
+- Imperialis Militia Mounted Command Cadres in a Detachment with this Provenance of War increase their Ballistic Skill by +1 (to a maximum of 4).</description>
             </rule>
           </rules>
           <costs>
@@ -17252,7 +17255,10 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Cyber-augment o
           </constraints>
           <rules>
             <rule id="2b3e-1985-202a-b31f" name="Cyber-augmetics" publicationId="48c2-d023-0069-001a" page="10" hidden="false">
-              <description>All eligible units and models gain the Feel No Pain (6+) special rule, and any eligible unit may be given the Slow and Purposeful special rule at no additional points cost. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.</description>
+              <description>All eligible units and models gain the Feel No Pain (6+) special rule, and any eligible unit may be given the Slow and Purposeful special rule at no additional points cost. This Provenance may not be chosen in conjunction with the Gene-crafted Provenance and any Detachment with this Provenance is treated as Sworn Brothers by any Detachment with the Mechanicum Faction in the same army.
+
+IMPERATUS – Additional effects:
+- Enginseer Adepts in units of Enginseer Auxilia Detachments in a Detachment with this Provenance of War gain the Line Unit Sub-Type and the Battle-Automata Special Rule.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -17317,7 +17323,10 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Tainted Flesh P
             <rule id="99c0-0263-9acc-a659" name="Survivors of the Dark Age" publicationId="48c2-d023-0069-001a" page="10" hidden="false">
               <description>Imperialis Militia Grenadier Squads and Imperialis Militia Command Cadres with this Provenance may take either a Legion Rhino Transport, Legion Termite Assault Drill or Legion Land Raider Proteus Carrier as a Dedicated Transport so long as they number 10 models or less. See the Legiones Astartes Crusade Army List for details and points costs, however all such vehicles lose the Legiones Astartes (X) special rule, gain the Third-line Unit Sub-type and reduce their Ballistic Skill to 3.
 
-BS NOTE (This Provenance cannot be taken in conjunction with the Debased Rabble or Tainted Flesh Provenance. See relevant Provenance.)</description>
+BS NOTE (This Provenance cannot be taken in conjunction with the Debased Rabble or Tainted Flesh Provenance. See relevant Provenance.)
+
+IMPERATUS – Additional effects:
+- Any model with the Vehicle Unit Type in a Detachment with this Provenance of War may exchange a Pintle Mounted Heavy Stubber for a Pintle Mounted Twin-Linked Bolter at no additional points cost.</description>
             </rule>
             <rule name="Voidjumpers" hidden="false" id="2d04-8f0b-cfb7-cac1" publicationId="91df-ed64-4216-5bab">
               <description>Option – Voidjumpers: All models in an Imperialis Militia Reconnaissance Squad may be upgraded to be Voidjumpers for +20 points per unit. Models upgraded to Voidjumpers have Militia jet packs and must replace their Shotgun with two laspistols or two autopistols. Any Discipline Masters, Militia Medicae and any other models assigned to the squad before deployment (but not models that join the unit by means of the Independent Character special rule) may be given Militia jet packs for no additional cost. A model with a Militia jet pack may not be given any weapon with the Heavy type.</description>
@@ -17338,7 +17347,13 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Debased Rabble 
 
 Option – Relic Arms: Eligible models in Imperialis Militia Grenadier Squads and Imperialis Militia Command Cadres may upgrade lasguns to either volkite chargers or assault needlers; may upgrade laspistols to either volkite serpenta or needle pistols; may upgrade sniper rifles to needle vulnus; and heavy stubbers to volkite culverin or needle cannon at a cost of +30 points per unit, regardless of the number of models or types of weapons upgraded in a given unit.
 
-Option – Heirlooms of Past Glory: A Force Commander in a Detachment with this Provenance may exchange a power weapon for a paragon blade for +10 points and/or a laspistol for an archaeotech pistol for a further +10 points.</description>
+Option – Heirlooms of Past Glory: A Force Commander in a Detachment with this Provenance may exchange a power weapon for a paragon blade for +10 points and/or a laspistol for an archaeotech pistol for a further +10 points.
+
+IMPERATUS – Additional effects:
+- Imperialis Militia Carnodon Squadrons in a Detachment with this Provenance of War may exchange their Turret Mounted Gravis Multi-Laser for a Turret Mounted Volkite Culverin for free.
+- Imperialis Militia Carnodon Squadrons in a Detachment with this Provenance of War may exchange their Two Sponson Mounted Heavy Flamers for Two Sponson Mounted Volkite Calivers for free.
+- Imperialis Militia Hellhound Flame Tank Squadrons in a Detachment with this Provenance of War may exchange their Turret Mounted Gravis Heavy Flamer for a Turret Mounted Chem Cannon for +10 points each.
+- Option – Relic Arms: Eligible models in Imperialis Militia Mounted Command Cadres may upgrade Lasguns to either Volkite Chargers or Assault Needlers; may upgrade Laspistols to either Volkite Serpenta or Needle Pistols; may upgrade Sniper Rifles to Needle Vulnus; and Heavy Stubbers to Volkite Culverin or Needle Cannon at a cost of +30 points per unit, regardless of the number of models or types of weapons upgraded in a given unit.</description>
             </rule>
           </rules>
           <costs>
@@ -17375,7 +17390,10 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
           </constraints>
           <rules>
             <rule id="ddaa-0389-1b2e-89ae" name="Kinfolk Helots" publicationId="48c2-d023-0069-001a" page="11" hidden="false">
-              <description>All eligible units and models change their Toughness Characteristic to be one higher than its starting value (a Toughness characteristic of 3 being changed to 4 on their stat line, for example), but also change their Initiative and Movement Characteristics to be one lower than its starting value (in the same way as above). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) special rule, or if they also have the Independent Character special rule gain the Battlesmith (5+) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.</description>
+              <description>All eligible units and models change their Toughness Characteristic to be one higher than its starting value (a Toughness characteristic of 3 being changed to 4 on their stat line, for example), but also change their Initiative and Movement Characteristics to be one lower than its starting value (in the same way as above). All eligible models in a Detachment with this Provenance and the Character Unit Sub-type gain the Battlesmith (6+) special rule, or if they also have the Independent Character special rule gain the Battlesmith (5+) special rule instead. This Provenance may not be chosen in conjunction with the Ogryn Conscripts Provenance.
+
+IMPERATUS – Additional effects:
+- A model in a Detachment with this Provenance of War and both the Infantry Unit Type and Character Sub-Type may be upgraded with a Power Pack at no additional points cost. A model with a Power Pack may select up to two weapons from the following list at the cost specified, but no model may select the same option more than once: Circular Stone Saw for +5 points; Stone Burner for +10 points; Gem Extractor for +10 points; Kinfolk Arc Welder for +15 points.</description>
             </rule>
           </rules>
           <costs>
@@ -17430,7 +17448,10 @@ Option – Chainaxes: Any model eligible to benefit from this Provenance may upg
               <description>This Provenance may only be selected by an army with the Traitor Allegiance.
 All eligible units and models with this Provenance gain the Crusader and Hatred (Everything) special rules. However, they must always declare a Charge targeting an enemy if they are able. Imperialis Militia Grenadier Squads may not be taken in a Detachment which uses this Provenance and this Provenance may not be used in conjunction with the Survivors of the Dark Age Provenance.
 
-BS NOTE (This Provenance cannot be taken in conjunction with the Industrial Stronghold Provenance. See relevant Provenance.)</description>
+BS NOTE (This Provenance cannot be taken in conjunction with the Industrial Stronghold Provenance. See relevant Provenance.)
+
+IMPERATUS – Additional effects:
+- An Imperialis Militia Force Commander in a Detachment with this Provenance of War may exchange a Power Weapon for a Tainted Blade, Tainted Axe, or Tainted Maul for +5 points each.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -17478,7 +17499,13 @@ All eligible units and models receive the Fear (1) and Furious Charge (1) specia
 
 This Provenance cannot be taken in conjunction with the Survivors of the Dark Age, Gene-crafted, Ogryn Conscripts or Alchem-jackers Provenances.
 
-BS NOTE (This Provenance cannot be taken in conjunction with the Industrial Stronghold Provenance. See relevant Provenance.)</description>
+BS NOTE (This Provenance cannot be taken in conjunction with the Industrial Stronghold Provenance. See relevant Provenance.)
+
+IMPERATUS – Additional effects:
+- An Imperialis Militia Force Commander in a Detachment with this Provenance of War may exchange a Power Weapon for a Tainted Blade, Tainted Axe, or Tainted Maul for +5 points each.
+- Imperialis Militia Ascendant Rogue Psykers may be selected as HQ choices in a Detachment with this Provenance of War, in addition to Imperialis Militia Force Commanders and Imperialis Militia Rogue Psykers.
+- The 0-1 limit on Mutated Spawn units is removed in a Detachment using this Provenance of War.
+- Units with the Corrupted Sub-type, as well as units with the Among the Flock, Militia Medicae Support, or Legiones Astartes (X) Special Rules, in a Detachment with this Provenance of War, are not counted toward the number of Infantry Units for the purposes of determining how many units of Imperialis Militia Levy Squads must be included in the Detachment.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -17520,7 +17547,13 @@ BS NOTE (This Provenance cannot be taken in conjunction with the Industrial Stro
             <rule id="621a-e558-72e8-9482" name="Ogryn Conscripts" publicationId="48c2-d023-0069-001a" page="12" hidden="false">
               <description>A Detachment with this Provenance may select Imperialis Militia Ogryn Brute Squads as Troops choices, with those selected as Compulsory Troops choices gaining the Line Unit Sub-type. All Discipline Masters, Militia Medicae and Force Commanders selected as part of a Detachment with this Provenance may join Imperialis Militia Ogryn Brute Squads, ignoring the usual restrictions for joining a unit with the Monstrous Unit Sub-type.
 
-BS NOTE (This Provenance cannot be taken in conjunction with the Kinfolk Helots, Abhuman Muster, Tainted Flesh &amp; Industrial Stronghold Provenance. See relevant Provenance.)</description>
+BS NOTE (This Provenance cannot be taken in conjunction with the Kinfolk Helots, Abhuman Muster, Tainted Flesh &amp; Industrial Stronghold Provenance. See relevant Provenance.)
+
+IMPERATUS – Additional effects:
+- Imperialis Militia Ogryn Beastmasters may be selected as Fast Attack choices in a Detachment with this Provenance of War.
+- Imperialis Militia Ogryn Brute Squads in a Detachment with this Provenance of War gain the It's Dark In Dere! Special Rule.
+- Imperialis Militia Ogryn Brute Squads of no more than 3 models in a Detachment with this Provenance of War may take an Imperialis Militia Chimera Transport or a Vehicle upgraded with an Auxiliary Crew Bay as a Dedicated Transport.
+- All Discipline Masters, Militia Medicae, Force Commanders, Rogue Psykers, Ascendant Rogue Psykers, Astropaths, and Demagogues selected as part of a Detachment with this Provenance of War may join Imperialis Militia Ogryn Brute Squads and Imperialis Militia Ogryn Beastmasters, ignoring the usual restrictions for joining a unit with the Monstrous Unit Sub-type.</description>
             </rule>
           </rules>
           <costs>
@@ -17683,6 +17716,241 @@ Liber Mechanicum for details and points costs). All Triaros Armoured Conveyors a
 This Provenance cannot be taken in conjunction with the Survivors of the Dark Age or Clanfolk Levy Provenances.</description>
             </rule>
           </rules>
+        </selectionEntry>
+
+        <selectionEntry id="a1b2-c3d4-prov2101" name="21 Acolytes of the Saviour Emperor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7b69-bf2f-4547-e83b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifiers>
+            <modifier type="set" field="a1b2-c3d4-prov2101-fmax" value="0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2301" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2101-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2101-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2102" name="Acolytes of the Saviour Emperor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>This Provenance of War may only be selected by an army with the Loyalist Allegiance.
+
+All eligible units and models in a Detachment with this Provenance of War are immune to the effects of the Fear Special Rule, and gain the Crusader and Hatred (Corrupted, Daemon) Special Rules.
+
+All Compulsory Troops Choices selected in a Detachment using this Provenance of War must have a Demagogue or Mounted Demagogue assigned to them before the game begins. If multiple units are selected as part of the Strength in Numbers Special Rule, each separate unit must have its own Demagogue or Mounted Demagogue assigned before the game begins.
+
+Imperialis Militia Discipline Master Cadres may not be chosen in a Detachment using this Provenance of War.
+
+Detachments with this Provenance of War are classed as having an Alliance level of one level lower than normal by Detachments with any variant of the Legiones Astartes Faction.
+
+This Provenance of War may not be chosen in conjunction with the Mark of the Aeldari Provenance of War.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-c3d4-prov2201" name="22 Knight World" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="a1b2-c3d4-prov2201-fmax" value="0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bd7-54d3-b0a9-1e44" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d15d-c66d-d47f-8aee" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07d0-18a3-ce4d-c1b4" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2501" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2201-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2201-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2202" name="Knight World" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>If this Provenance of War is selected for the Primary Detachment of an Army, that army must include at least one unit with the Knight Sub-type, either as part of a Questoris Household Detachment, Questoris Crusader Host Detachment, or a Lord of War Detachment. If this model is taken in a Lord of War Detachment, it may select a Household Rank as if it were part of a Questoris Household or Questoris Crusader Host Detachment.
+
+All models with the Militia Sub-type in a Detachment with this Provenance of War gain a bonus of +1 to their to-Hit rolls when making a Shooting Attack in the Controlling Player's Shooting Phase when they target an enemy unit that has been shot at earlier in the same Shooting phase by a model with the Knight Sub-type.
+
+Detachments with this Provenance may take a single Armiger Helverin Talon or Armiger Warglaive Talon as a Heavy Support choice, however, if selected in this manner, that unit loses the Armiger Talon Special Rule.
+
+Detachments with the Knight World Provenance of War treat units with the Armiger Unit Type or Knight Sub-type as though they were Sworn Brothers on the Allies Matrix, and vice versa.
+
+For the purposes of unlocking Lords of War options when using an Aegis Militant Force Organisation Chart, a Detachment using this Provenance of War allows a single model with the Knight Unit Sub-type to be selected as a Lord of War choice, as though this Detachment had the Mechanicum Faction.
+
+This Provenance of War may not be chosen in conjunction with the Kinfolk Helots, Abhuman Muster, Ogryn Conscripts, or Ratling Enclave Provenances of War.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-c3d4-prov2301" name="23 Mark of the Aeldari" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="a1b2-c3d4-prov2301-fmax" value="0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5e5-b44b-5db6-ab16" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2101" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2301-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2301-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2302" name="Mark of the Aeldari" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>Imperialis Militia Infantry Squads, Imperialis Militia Grenadier Squads, and Imperialis Militia Command Cadres in a Detachment with this Provenance of War may exchange their Lasguns for Lasblasters for free.
+
+Imperialis Militia Grenadier Squads and Imperialis Militia Command Cadres in a Detachment with this Provenance of War may exchange their Lasguns for Shuriken Catapults at a cost of +20 points per unit.
+
+Imperialis Militia Grenadier Squads and Imperialis Militia Command Cadres in a Detachment with this Provenance of War may exchange their Laspistols for Shuriken Pistols at a cost of +10 points per unit.
+
+A Force Commander in a Detachment with this Provenance of War may exchange a Laspistol for a Shuriken Pistol for free, or a Fusion Pistol for +10 points.
+
+Any model in a Detachment using this Provenance of War which is equipped with or has purchased Frag Grenades may exchange them for Plasma Grenades at no additional points cost.
+
+Detachments with this Provenance of War are classed as Sworn Brothers with Aeldari Detachments of any Sub-faction. If this Provenance of War is selected for an Allied Detachment, then the Imperialis Militia Detachment is counted as having the Xenos Allegiance even though they are not normally permitted to select it, and may be selected as part of an army with a Primary Detachment composed of any Aeldari Sub-Faction.
+
+Detachments with this Provenance of War are classed as having an Alliance level of By The Emperor's/Warmaster's Command by Detachments with any variant of the Legiones Astartes, Imperial Army, Agents of the Emperor, or Agents of the Warmaster Factions or Sub-factions, with the sole exception of the Trader-Militant Sub-Faction, which is classed as having an Alliance level of Sworn Brothers.
+
+This Provenance of War may not be chosen in conjunction with the Debased Rabble, Tainted Flesh, or Acolytes of the Saviour Emperor Provenances of War.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-c3d4-prov2401" name="24 Mining Colony" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2401-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2401-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2402" name="Mining Colony" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>All eligible units and models in a Detachment using this Provenance of War do not suffer the usual -1 penalty to their Ballistic Skill or Leadership Characteristics inflicted by Night Fighting.
+
+Imperialis Militia Grenadier Squads in a Detachment with this Provenance of War may take a Militia Hades Breaching Drill or a Goliath Heavy Vehicle (which must have been upgraded to have an Auxiliary Crew Bay) as a Dedicated Transport.
+
+Imperialis Militia Command Cadres in a Detachment with this Provenance of War may take a Militia Hades Breaching Drill or a Goliath Heavy Vehicle as a Dedicated Transport.
+
+Any unit composed entirely of models with the Infantry Unit Type, and which do not also have the Monstrous or Mechanised Sub-type in a Detachment using this Provenance of War may select up to two of the following options, in any combination (the same option may be selected more than once): Heavy Rock Saw for +5 points per weapon; Heavy Rock Drill for +10 points per weapon; Heavy Rock Cutter for +15 points per weapon.
+
+Any unit composed entirely of models with the Infantry Unit Type in a Detachment using this Provenance of War may exchange a Heavy Stubber with one of the following options: Seismic Cannon for +10 points per weapon; Mining Laser for +15 points per weapon.
+
+Any unit composed entirely of models with the Infantry Unit Type (including models with the Mechanised Sub-type) in a Detachment using this Provenance of War may exchange a Lascannon with one of the following options: Heavy Seismic Cannon for no additional points cost; Heavy Mining Laser for no additional points cost.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-c3d4-prov2501" name="25 Ratling Enclave" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="a1b2-c3d4-prov2501-fmax" value="0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2bd7-54d3-b0a9-1e44" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="07d0-18a3-ce4d-c1b4" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2201" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2501-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2501-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2502" name="Ratling Enclave" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>All models in a Detachment with this Provenance of War with either the Infantry or Cavalry Unit Types receive an increase of +1 to their Ballistic Skill and Initiative Characteristics, but also lower their Movement, Weapon Skill, Strength, and Toughness Characteristics by -1 (to a minimum of 1). Models with a Movement of 0 or - are not affected and remain Movement 0 or -. Imperialis Militia Ratling Squads do not have their Characteristics modified by this Provenance of War.
+
+A Detachment with this Provenance of War may select Imperialis Militia Ratling Squads as Troops choices.
+
+Imperialis Militia Force Commanders in a Detachment with this Provenance of War may take a Longlas or Sniper Rifle for +10 points.
+
+Detachments with this Provenance of War are classed as Distrusted Allies by all Detachments with any variant of the Legiones Astartes Faction, or the Solar Auxilia Sub-faction.
+
+This Provenance may not be chosen in conjunction with the Kinfolk Helots, Ogryn Conscripts, or Knight World Provenances of War.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-c3d4-prov2601" name="26 Trailblazers" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="a1b2-c3d4-prov2601-fmax" value="0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2701" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2601-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2601-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2602" name="Trailblazers" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>Imperialis Militia Reconnaissance Squads in a Detachment with this Provenance of War lose the Support Squad Special Rule, and gain the Line Sub-Type.
+
+Imperialis Militia Reconnaissance Squads in a Detachment with this Provenance of War increase their Ballistic Skill Characteristic by +1 (to a maximum of 4).
+
+Any number of models in Imperialis Militia Command Cadres and Imperialis Militia Grenadier Squads in a Detachment with this Provenance of War may exchange their Lasgun for a Longlas or Sniper Rifle for +10 points per model.
+
+This Provenance may not be chosen in conjunction with the Debased Rabble or Voidborne Raiders Provenances of War.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+        <selectionEntry id="a1b2-c3d4-prov2701" name="27 Voidborne Raiders" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="a1b2-c3d4-prov2701-fmax" value="0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8d80-c401-0303-d0f9" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-prov2601" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a1b2-c3d4-prov2701-fmax" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-prov2701-pmax" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a1b2-c3d4-prov2702" name="Voidborne Raiders" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
+              <description>All models with the Infantry Unit Type in a Detachment with this Provenance of War gain the Heavy Sub-type, and lose the Light Sub-type if they had it.
+
+Imperialis Militia Force Commanders included in a Detachment with this Provenance of War which have not been upgraded to a Mounted Force Commander may select a Boarding Shield at no additional points cost.
+
+Any model with the Infantry Unit Type and the Character Sub-type in a Detachment using this Provenance of War may select a Boarding Shield for +5 points.
+
+All models with the Infantry Unit Type in an Imperialis Militia Command Cadre or Imperialis Militia Grenadier Squad in a Detachment using this Provenance of War may select Boarding Shields for +25 points.
+
+All models in an Imperialis Militia Infantry Squad in a Detachment using this Provenance of War may take Combat Shields for +20 points.
+
+This Provenance may not be chosen in conjunction with the Debased Rabble or Trailblazers Provenances of War.</description>
+            </rule>
+          </rules>
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
         </selectionEntry>
         <selectionEntry id="wr20-a1b2-c3d4-e5f6" name="20 Wasteland Reavers" publicationId="48c2-d023-0069-001a" page="256" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -20901,6 +21169,23 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
       </characteristics>
     </profile>
 
+
+    <selectionEntry id="a1b2-c3d4-prov-chem01" name="Chem Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-prov-chemp" name="Chem Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (12&quot;), Chemical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a1b2-prov-chemt" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
     <selectionEntry id="a1b2-c3d4-5e6f70819921" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a1b2-c3d4-5e6f70819922" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
