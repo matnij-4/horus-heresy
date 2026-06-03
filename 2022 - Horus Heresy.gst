@@ -3292,7 +3292,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, -, Lasgun Arrays 24&quot; 3 Rapid Fire, Array Fire (3)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5025,6 +5025,42 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="62d8-f5cd-47ac-4c67-93f7dce0d96f233f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="8e1b-ad81-3737-4313-b3f6fa550a598d0e" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d90a-ae44-7ca8-48fb-acd8d1927e3ed57f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="e5e5-063c-a25c-4aff-a13082a3be280c42" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="4522-7318-5e4b-4a83-9b5561adab1448c5" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="5a45-e790-605c-412c-8621eec98d4f0732" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="15f2-eb4c-f65b-4a8f-aeefb2617245c558" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="20a0-58f5-a784-4729-94bfbfa02d96bbad" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="23ca-d786-a5dd-4d1a-ab060169cb1e6a85" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="758b-1b26-491a-45c6-bd07a5e3fbf8ac6c" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="a095-c816-9dd0-4fe4-b9c4f47071d867b9" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="59b9-3324-aa22-411c-a9d00843fe7dc6ab" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="c77d-d102-b574-47ff-a094ff7fefd7bbc9" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="50fc-9f4c-8730-4d5d-8a0d7efd97f02064" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="5264-79f8-fd26-4095-87de55c221ca9256" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="90c5-6c97-0622-4d5f-be9ec3e8d38ec606" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="ea27-8b7f-7b37-48db-99a9993e7451db8c" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="7ffd-16d5-af15-472a-9936dffcb62fce07" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
         <infoLink id="569f-3341-2190-484f-97660081adf6746d" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
         </infoLink>
         <infoLink id="e909-3c10-7afd-44cf-9b946eeaad084fe6" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
@@ -8092,7 +8128,7 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Breaching (4+), Reactor Overload</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Rending (4+), Reactor Overload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8101,7 +8137,7 @@ A. No.</description>
         <infoLink id="7355-35eb-d0ec-b453" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="458f-0eab-b419-0f7b" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Breaching (4+)"/>
+            <modifier type="set" field="name" value="Rending (4+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="72f0-facd-626f-b9c5" name="Reactor Overload" hidden="false" targetId="a073-b86c-7bc1-d3f9" type="rule"/>
@@ -8220,11 +8256,13 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 15, Pinning, Shell Shock (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 15, Pinning, Shell Shock (1), Reactor Overload</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="5c76-9a2c-070d-4b14-8090b2c629690bd2" name="Reactor Overload" hidden="false" targetId="a073-b86c-7bc1-d3f9" type="rule">
+        </infoLink>
         <infoLink id="4e4f-59d7-cea8-fa2f" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="0619-3f5c-4161-0e0b" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
@@ -8289,7 +8327,7 @@ A. No.</description>
       <profiles>
         <profile id="4034-3296-9cf1-6843" name="Tremor Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Pinning, Shell Shock (2)</characteristic>
@@ -8317,7 +8355,7 @@ A. No.</description>
       <profiles>
         <profile id="1ad7-8c18-9aa1-5b66" name="Hellhammer cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Sunder, Rending (5+), Brutal (3)</characteristic>
@@ -8442,11 +8480,20 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning, Shell Shock (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="67d1-6a6f-a83a-4210-a4485b4c0a9d4ba5" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule">
+        </infoLink>
+        <infoLink id="b26d-3a77-93c1-4836-b9350bf4a49e3dae" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eea4-e4ca-e0f5-4c41-bcc1ada740bb0949" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule">
+        </infoLink>
         <infoLink id="8ff6-0615-0d8a-ac80" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
         <infoLink id="9b56-aa8e-8a5b-7b2e" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
@@ -14296,7 +14343,9 @@ A Warlord with this Trait, and all models in any unit he joins, gains the Stubbo
               <profiles>
                 <profile id="7c21-0828-9bec-f4e0" name="Born to the Saddle" publicationId="817a-6288-e016-7469" page="178" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
-                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord and all models in the same army with the Legiones Astartes (White Scars) special rule and the Cavalry Unit Type ignore all the effects of Difficult Terrain and gain a 4+ Invulnerable Save against all Wounds inflicted by failed Dangerous Terrain tests they are called upon to make. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord and all models in the same army with the Legiones Astartes (White Scars) special rule and the Cavalry Unit Type ignore all the effects of Difficult Terrain and gain a 4+ Invulnerable Save against all Wounds inflicted by failed Dangerous Terrain tests they are called upon to make. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.
+
+Because Cavalry must treat Difficult Terrain as Dangerous, they simply gain the 4+ Invulnerable save granted by this Warlord trait against any Difficult or Dangerous Terrain damage incurred to them as they attempt to pass through it.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15716,6 +15765,24 @@ Limitations
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Any unit composed entirely of models with either Cataphractii Terminator armour, Tartaros Terminator armour or any other pattern of Terminator armour and that is normally selected as an Elites choice may be included in a Detachment using this Rite of War as a Troops choice.
 Limitations
 • An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
@@ -16067,7 +16134,7 @@ Limitations
 • All models with the Infantry Unit Type in a Detachment using this Rite of War gain the Outflank special rule.
 Limitations
 • Any unit made up entirely of models with the Infantry Unit Type in a Detachment using this Rite of War that does not begin play Embarked on a model with the Transport Sub-type, or any model with the Vehicle Unit Type without either the Transport or Fast Sub-types, must begin play in Reserve if the mission allows it. If the mission does not allow any units to be placed into Reserves then the unit is instead deployed as normal.
-• A Detachment using this Rite of War may not include any Heavy Support or Fortification choices, unless those choices are entirely composed of models with the Flyer Sub-type.
+• A Detachment using this Rite of War may not include any Heavy Support, Lord of War, or Fortification Choices, unless those choices are composed entirely of models with the Flyer Unit Sub-type.
 
 ^Manually check limitations on Deployment</description>
             </rule>
@@ -20652,7 +20719,9 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>A unit that includes at least one model with the Psyker Unit Sub-type or Daemon Unit Type, and which suffers one of more unsaved Wound from a weapon with this special rule also suffers Perils of the Warp (see page 201 of the Horus Heresy: Age of Darkness rulebook). Any given unit may only suffer Perils of the Warp once per Phase due to the effects of this special rule, regardless of how many enemy units attack that unit or how many weapons with this special rule are present in the attacking units.</description>
     </rule>
     <rule id="64ca-719e-b563-e3df" name="Independent Fire Control" publicationId="15a4-fc68-502d-48a9" hidden="false">
-      <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a number of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondary Shooting Attack targeting a different enemy unit of any combination - however, each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.</description>
+      <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a number of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondary Shooting Attack targeting a different enemy unit of any combination - however, each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.
+
+Instead of the above, in a turn in which a model with this Special Rule either remained Stationary or moved at Combat Speed during the Controlling Player&apos;s Movement Phase, then for the duration of the Controlling Player&apos;s following Shooting Phase, it may make Shooting Attacks as if it had the Super Heavy Sub-Type.</description>
     </rule>
     <rule id="71fa-da0d-0056-9072" name="Kharash" hidden="false">
       <modifiers>
@@ -20756,7 +20825,9 @@ Any Legion Centrurions, Legion Cataphractii Centurions and Legion Tartaros Centu
       <description>The Strength of Wisdom: When rolling To Hit for a model with this special rule as part of a Shooting Attack, add +1 to the result of the roll if the enemy unit targeted by the attack has already been the target of another friendly unit composed entirely of models with this special rule in the same Shooting phase, and if the attacking model is within 6&quot; of a model from that friendly unit. This does not affect attacks made with the Blast or Barrage special rules.</description>
     </rule>
     <rule id="4b54-8bd0-9fdd-cbc4" name="Legiones Astartes (White Scars)" publicationId="817a-6288-e016-7469" page="176" hidden="false">
-      <description>Swift of Action: All models with this special rule add +1 to their Movement Characteristic and whenever called upon to make a roll to determine which player will take the First Turn or to Seize the Initiative, the controlling player of an army whose Primary Detachment has this special rule may roll an additional dice and discard the lowest rolled dice before determining the result.</description>
+      <description>Swift of Action: All models with this special rule add +1 to their Movement Characteristic and whenever called upon to make a roll to determine which player will take the First Turn or to Seize the Initiative, the controlling player of an army whose Primary Detachment has this special rule may roll an additional dice and discard the lowest rolled dice before determining the result.
+
+In addition, all models with the Legiones Astartes (White Scars) Special Rule who are also equipped with a Legion Scimitar Jetbike, Legion Estoc Jetbike, Legion Spatha Combat Bike, Legion Spatha Attack Bike, or Shamshir Jetbike gain the Shrouded (6+) Special Rule.</description>
     </rule>
     <rule id="21ba-24fc-3fad-00fe" name="Legiones Astartes (Word Bearers)" publicationId="09c5-eeae-f398-b653" page="302" hidden="false">
       <description>True Believers: A model with this special rule may never have a Leadership Characteristic modified below a value of 6. Furthermore if one or more models with this special rule are part of a combat that results in a draw, then the side that includes one or more models at the end of the fight sub-phase with this special rule is counted as having won the combat by 1 point. If both sides include models with this special rule then the combat remains a draw.</description>
@@ -21330,6 +21401,28 @@ When a model with this Special Rule loses its last Hull Point, but before resolv
     </rule>
     <rule id="4614-6a54-6e16-4672-8088eb01f48c1782" name="Lightning Claws Bonus Attacks" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="137" hidden="false">
       <description>The +2A bonus for being armed with two Lightning Claws can only be claimed if the bearer attacks with the Paired Lightning Claws. If the bearer attacks with any other Specialist Weapons, then they would gain only a single bonus attack as per the standard rules for having multiple Specialist Weapons.</description>
+    </rule>
+    <rule id="8f50-99a5-723f-4f8d-bb3043c1828f6334" name="Tank Desant" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>A unit made up entirely of models with Terminator armour, including Indomitus Terminator armour, Tartaros Terminator armour, Cataphractii Terminator armour and Legion-specific Terminator Armour such as Iron Hands Gorgon Terminator armour, or models with the Primarch Unit Type, may Charge on the same turn that they have Disembarked from a model with this special rule.
+
+When troops embarked upon this vehicle, they did so across its armoured hull, and so formed an additional layer of protection for their carrier - as they could defend it from harm directly.</description>
+    </rule>
+    <rule id="e4f2-9473-ff6b-402e-a27c012642726c29" name="Afterburner" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>Colossal secondary combustors attached to the main engines of a flyer allowed this vehicle a surprising burst of speed.
+
+Once per game at the start of the Movement Phase, a model with this Special Rule may elect to fire its Afterburner. If it does so, the model may make an additional move after its normal move, up to its normal movement Characteristic. Note that for this additional move, the Movement value cannot be modified in any way.</description>
+    </rule>
+    <rule id="551b-b780-967d-4da1-8030e4ed900d7113" name="Caestus Prow" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>The armoured fore of this craft was a masterwork of layered armour, shield generators, and reinforced bulkheads.
+
+A model with this Special Rule may declare a Ramming attack in the same manner as a Tank, regardless of its actual unit type. This attack must be declared at the start of the Movement Phase, after you have decided whether or not the model will fire its Afterburner (if it has the Afterburner Special Rule). When conducting a Ramming attack, the hit is automatically resolved at Strength 10, AP 3, and adds +1 to any rolls on the Vehicle Damage table it inflicts. If the model fired its Afterburner this turn, add +2 instead.
+
+In addition, the model has an Invulnerable Save of 5+ against any attacks against its Front Armour, including any damage it suffers as a result of it Ramming or being Rammed itself. A model with this Special Rule is immune to the effects of the Armourbane (Melta) Special Rule - meaning that no extra D6 for armour penetration can be rolled against the model as a result of this Special Rule.</description>
+    </rule>
+    <rule id="4e0e-a8e9-6973-4c00-b9a78d372aa8fc60" name="Inertia Suppression Clamps" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>Inertial suppression clamps locked transported troops into place, protecting them from impact.
+
+A model with this Special Rule can carry models in any type of Legion Terminator armour and that have the Bulky (2) Special Rule as though they did not have that Special Rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
