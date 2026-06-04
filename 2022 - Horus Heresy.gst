@@ -5025,6 +5025,26 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="cb67-9891-fa57-4db7-b70b6ca3d59d60f1" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="f63a-182d-5e4e-46ac-9d3380e0808bc8bb" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="316e-6696-ed00-4926-bd8f22e256c94e55" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="ba0a-d3db-f3ef-4b24-924daefb7131b9ef" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="3b39-25f0-15f0-442f-811cb729ca59b7ca" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="7897-4cf1-20c3-43a2-85918685909fb053" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d045-450b-2c4f-4c89-891d60ae1dba39a0" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="ce5c-6bed-90ae-4bfe-9e52c90fe1d1432a" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d0e5-ba99-8fd7-4e23-ab0beee73efc8246" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="038b-2e78-e1dd-4f4f-816f9e4ca3f0a0d0" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
         <infoLink id="572e-27c5-6417-4b1e-bbb23b3c5afd939f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
         </infoLink>
         <infoLink id="1e5a-c78c-38ac-42f3-af160a8719efaf18" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
@@ -13710,7 +13730,11 @@ Bitter Fury – Bitter Fury – This Advanced Reaction may be made once per batt
         <selectionEntry id="e01e-5cdd-e512-8353" name="V: White Scars" hidden="false" collective="false" import="true" type="upgrade" sortIndex="6">
           <rules>
             <rule id="ad49-4098-2037-6dda" name="The Armoury of the White Scars" hidden="false">
-              <description>• Any model with both the Legiones Astartes (White Scars) and Independent Character special rules, but not the Unique Sub-type, may exchange a Legion Scimitar jetbike for a Legion Shamshir jetbike for no additional points cost. A Legion Shamshir jetbike has one Scatterbolt Launcher, in addition, a model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn. A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its unit type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, Changes its movement characteristic to 15&quot;, gains the Firing Protocols (2) and Hammer of Wrath (1) special rules and improved its Armour Save to 2+ if it was worse.
+              <description>• Any model with both the Legiones Astartes (White Scars) and Independent Character special rules, but not the Unique Sub-type, may exchange a Legion Scimitar jetbike for a Legion Shamshir jetbike for no additional points cost. A Legion Shamshir jetbike has one Scatterbolt Launcher, in addition, a model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn. A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 19&quot;, gains the Firing Protocols (2), Battle-Hardened (1), and Hammer of Wrath (1) Special Rules and improves its Armour Save to 2+ if it was worse.
+
+A model that is equipped with a Legion Shamshir Jetbike counts as having a Legion Scimitar Jetbike for rules and interactions that affect or require that wargear.
+
+The additional Movement granted by the Legiones Astartes (White Scars) Special Rule is included.
 
 • Any model with both the Character Sub-type and the Legiones Astartes (White Scars) special rule may have a Power Weapon upgraded to a Power Glaive for +5 points.
 
@@ -15878,6 +15902,16 @@ Limitations
               <description>Effects
 • Legion Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
 • Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
