@@ -5025,6 +5025,10 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="78e2-bda4-31ee-4dde-94f10f0ef37f1196" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="356b-aa36-ee5a-416e-88a81ad97c2ecdfb" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
         <infoLink id="cb67-9891-fa57-4db7-b70b6ca3d59d60f1" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
         </infoLink>
         <infoLink id="f63a-182d-5e4e-46ac-9d3380e0808bc8bb" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
@@ -15902,6 +15906,8 @@ Limitations
               <description>Effects
 • Legion Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
 • Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.

@@ -21714,7 +21714,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the White Scars Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the White Scars Legion Inductii template replace the Heart of the Legion special rule with the Proof of Valour special rule.</description></rule>
             <rule id="5bfd-b94b-1669-cd85" name="World Eaters Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="230" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21723,7 +21725,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the World Eaters Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the World Eaters Legion Inductii template replace the Heart of the Legion special rule with the Ravening Madmen special rule.</description></rule>
             <rule id="b252-522d-707a-e653" name="Space Wolves Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="228" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21732,7 +21736,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the Space Wolves Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Space Wolves Legion Inductii template replace the Heart of the Legion special rule with the Headstrong special rule.</description></rule>
             <rule id="05e9-a4fa-ac3b-b75f" name="Blood Angels Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="229" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21742,7 +21748,8 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </modifier>
               </modifiers>
             
-              <description>• Special Rules: All models in a unit modified by the Blood Angels Legion Inductii template replace the Spite of the Legion Special Rule with The Revenant Legion and Rage (2) Special Rules.</description></rule>
+              <description>• Unit Sub-type All models in a unit modified by the Blood Angels Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Blood Angels Legion Inductii template replace the Spite of the Legion special rule with The Revenant Legion and Rage (2) special rules.</description></rule>
             <rule id="618e-6c11-1eb8-49af" name="Salamanders Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="233" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21751,7 +21758,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the Salamanders Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Salamanders Legion Inductii template replace the Spite of the Legion special rule with the Wargear of Heroes special rule.</description></rule>
             <rule id="6884-bd91-7b6c-98bb" name="Night Lords Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="229" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21761,7 +21770,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                 </modifier>
               </modifiers>
             
-              <description>• Wargear: All models in a unit modified by the Night Lords Legion Inductii template must exchange their Chainsword with Killer&apos;s Blades at a cost of +15 points for the unit.</description></rule>
+              <description>• Unit Sub-type All models in a unit modified by the Night Lords Legion Inductii template gain the Inductii Unit Sub-type.
+• Wargear: All models in a unit modified by the Night Lords Legion Inductii template must exchange their Chainsword with Killer&apos;s Blades at a cost of +15 points for the unit.
+• Special Rules: All models in a unit modified by the Night Lords Legion Inductii template replace the Heart of the Legion special rule with the Unscrupulous Murderers special rule.</description></rule>
             <rule id="9485-c2a2-d039-4310" name="Word Bearers Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="233" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21770,7 +21781,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the Word Bearers Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Word Bearers Legion Inductii template replace the Heart of the Legion special rule with the Empty Vessels special rule.</description></rule>
             <rule id="ffdb-3f1d-5308-c6e5" name="Sons of Horus Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="232" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21779,7 +21792,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditions>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the Sons of Horus Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Sons of Horus Legion Inductii template replace the Spite of the Legion special rule with the Creed of Brutality special rule.</description></rule>
             <rule id="0db5-0444-7f94-0184" name="Emperor’s Children Legion Inductii Template" publicationId="53a4-0d21-2f8a-2c45" page="226" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -21793,7 +21808,9 @@ This is a Damage Mitigation roll – any model may make only a single Damage Mit
                   </conditionGroups>
                 </modifier>
               </modifiers>
-            </rule>
+            
+              <description>• Unit Sub-type All models in a unit modified by the Emperor&apos;s Children Legion Inductii template gain the Inductii Unit Sub-type.
+• Special Rules: All models in a unit modified by the Emperor&apos;s Children Legion Inductii template replace the Heart of the Legion special rule with the Perfection Embodied special rule.</description></rule>
             <rule id="17d1-18c2-6b4e-670a" name="The Revenant Legion" publicationId="53a4-0d21-2f8a-2c45" page="229" hidden="false">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -48392,6 +48409,10 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
         </modifier>
       </modifiers>
       <infoLinks>
+        <infoLink id="6dc9-af8d-65ed-49f6-898d468c76ea8357" name="Hit &amp; Run" hidden="false" targetId="5986-e960-d432-affd" type="rule"/>
+
+        <infoLink id="01a1-6103-4eb4-4b21-98989d84469e1234" name="Support Squad" hidden="false" targetId="768e-56d6-ca52-24ae" type="rule"/>
+
         <infoLink id="4e5f-ff66-6b18-54e4" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
@@ -48403,20 +48424,7 @@ Additionally, at the end of any Phase in which a model with Gorgon Terminator ar
           </modifiers>
         </infoLink>
         <infoLink id="3ad4-12b0-97c0-d07a" name="Relentless" hidden="false" targetId="7adf-ac9a-5035-522d" type="rule"/>
-        <infoLink id="2387-e277-36da-722f" name="Outflank" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="4d72-1cc1-8bee-aa88" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9fa-5b63-3545-01ba" type="equalTo"/>
-                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="20d9-ae98-5324-6bb3" type="equalTo"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink id="2387-e277-36da-722f" name="Outflank" hidden="false" targetId="bfbf-e75c-49a2-0285" type="rule"></infoLink>
         <infoLink id="5e82-a996-267f-b524" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
       </infoLinks>
       <categoryLinks>
