@@ -3775,22 +3775,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="c377-5080-a2ac-2d7d" name="Basic Close Combat Weapon &amp; Laspistol" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="im11-cc-bcc-lasp-max" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="2d8e-cfc6-84b4-cfbe" name="Basic Close Combat Weapon &amp; Autopistol" hidden="false" collective="false" import="true" type="upgrade">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="im11-cc-bcc-autop-max" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-                      </costs>
-                    </selectionEntry>
                     <selectionEntry id="cdce-c982-bdb8-c61d" name="Chainaxe &amp; Laspistol" hidden="false" collective="false" import="true" type="model">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
@@ -3990,8 +3974,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c046-fc0a-2a52-61f6" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99fc-0990-3812-78fb" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b924-ea5a-dc80-6357" type="equalTo"/>
-                            <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                            <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                           </conditions>
@@ -4005,8 +3987,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c046-fc0a-2a52-61f6" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99fc-0990-3812-78fb" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b924-ea5a-dc80-6357" type="equalTo"/>
-                            <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                            <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                           </conditions>
@@ -4020,8 +4000,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c046-fc0a-2a52-61f6" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="99fc-0990-3812-78fb" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b924-ea5a-dc80-6357" type="equalTo"/>
-                            <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                            <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                             <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                           </conditions>
@@ -4059,8 +4037,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                           <conditionGroups>
                           <conditionGroup type="or">
                             <conditions>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                             </conditions>
@@ -4092,8 +4068,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                           <conditionGroups>
                           <conditionGroup type="or">
                             <conditions>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                             </conditions>
@@ -4210,8 +4184,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                           <conditionGroups>
                           <conditionGroup type="or">
                             <conditions>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                             </conditions>
@@ -4226,8 +4198,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                           <conditionGroups>
                           <conditionGroup type="or">
                             <conditions>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c377-5080-a2ac-2d7d" type="equalTo"/>
-                              <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d8e-cfc6-84b4-cfbe" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-lasp-melee" type="equalTo"/>
                               <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="im11-auto-melee" type="equalTo"/>
                             </conditions>
@@ -4235,18 +4205,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                         </conditionGroups>
                         </modifier>
                       </modifiers>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
-                <selectionEntryGroup id="2cff-473b-6b5f-a944" name="3) One Model may take" hidden="false" collective="false" import="true">
-                  <entryLinks>
-                    <entryLink id="3e68-fbbc-942e-0c10" name="Militia Vexilla" hidden="false" collective="false" import="true" targetId="dd91-0c2e-0890-1673" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15b5-9911-5ec3-c145" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
-                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -11433,7 +11391,10 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                   <modifiers><modifier type="set" field="name" value="Anvilus Autocannon Battery and Helical Targeting Array"/></modifiers>
                 </entryLink>
                 <entryLink id="ho-ec-manticore" name="Manticore Missile Launcher" hidden="false" collective="true" import="true" targetId="a1b2-c3d4-5e6f70819936" type="selectionEntry">
-                  <modifiers><modifier type="set" field="name" value="Manticore Missile Launcher (with Four Storm Eagle Missiles)"/></modifiers>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Manticore Missile Launcher (with Four Storm Eagle Missiles)"/>
+                    <modifier type="set" field="defaultSelectionEntryId" value="a1b2-mml-s"/>
+                  </modifiers>
                   <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/></costs>
                 </entryLink>
               </entryLinks>
@@ -20488,6 +20449,13 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e819" name="IM - Manticore Missile Tank Battery" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="decrement" field="d2ee-04cb-5f8a-2642" value="175">
+          <conditions>
+            <condition field="selections" scope="a1b2-c3d4-e5f6-e819" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-e5f6-e819m" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="a1b2-c3d4-e5f6-e819-vc" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="a1b2-c3d4-e5f6-e819-vu" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
@@ -20521,8 +20489,15 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
               <modifiers><modifier type="set" field="name" value="Turret Mounted Manticore Missile Launcher (with 4 Manticore Missiles)"/></modifiers>
               <constraints><constraint field="selections" scope="parent" value="1" type="min" shared="true" id="e819-mml-min"/><constraint field="selections" scope="parent" value="1" type="max" shared="true" id="e819-mml-max"/></constraints>
             </entryLink>
-            
-
+            <entryLink id="e819-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks><infoLink id="e819-ec" name="Exposed Compartment" targetId="87da-16b7-1ff5-4ea6-b21a4fc28015295c" type="rule" hidden="false"/></infoLinks>
+          <selectionEntryGroups>
             <selectionEntryGroup id="e819-hull-grp" name="Hull (Front) weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e819-hhb">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" type="min" shared="true" id="e819-hull-min"/>
@@ -20537,16 +20512,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            
-            <entryLink id="e819-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-min" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e819-smoke-max" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <infoLinks><infoLink id="e819-ec" name="Exposed Compartment" targetId="87da-16b7-1ff5-4ea6-b21a4fc28015295c" type="rule" hidden="false"/></infoLinks>
-          <selectionEntryGroups>        <selectionEntryGroup id="e819-w" name="May select any of the following:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="e819-w" name="May select any of the following:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="e819-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
               <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>

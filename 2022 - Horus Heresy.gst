@@ -13473,6 +13473,126 @@ In addition, all models in a unit that includes a Vexillum Imperatus gain the Li
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-prov-chem01" name="Chem Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-prov-chemp" name="Chem Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (12&quot;), Chemical</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a1b2-prov-chemt" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819921" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819922" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Militia Sabre Platform equipped with a Sabre Searchlight follows the rules for Searchlights.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819930" name="Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819931" name="Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;-300&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Breaching (4+), One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Large Blast (5&quot;)" targetId="1d9a-73ef-5f4f-8bd8" type="rule" hidden="false" id="a1b2-mm-blast"/>
+        <infoLink name="Breaching (X)" targetId="a760-f736-1bf3-fa3c" type="rule" hidden="false" id="a1b2-mm-br">
+          <modifiers><modifier type="set" field="name" value="Breaching (4+)"/></modifiers>
+        </infoLink>
+        <infoLink name="One Use/One Shot" targetId="df0c-5423-b892-491e" type="rule" hidden="false" id="a1b2-mm-os"/>
+        <infoLink name="Ponderous Aim" targetId="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" type="rule" hidden="false" id="a1b2-mm-pa"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819932" name="Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819933" name="Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-120&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 4, Guided Fire, One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Guided Fire" targetId="fa1e-0112-943e-b1f6" type="rule" hidden="false" id="a1b2-sem-gf"/>
+        <infoLink name="One Use/One Shot" targetId="df0c-5423-b892-491e" type="rule" hidden="false" id="a1b2-sem-os"/>
+        <infoLink name="Ponderous Aim" targetId="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" type="rule" hidden="false" id="a1b2-sem-pa"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819934" name="Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1b2-c3d4-5e6f70819935" name="Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning, Shell Shock (2), One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Barrage" targetId="7255-b5ee-c3f4-3037" type="rule" hidden="false" id="a1b2-pim-br"/>
+        <infoLink name="Large Blast (5&quot;)" targetId="1d9a-73ef-5f4f-8bd8" type="rule" hidden="false" id="a1b2-pim-b"/>
+        <infoLink name="Ignores Cover" targetId="fdb5-59e2-c446-1cbc" type="rule" hidden="false" id="a1b2-pim-i"/>
+        <infoLink name="Pinning" targetId="1c96-205c-59a0-3cf2" type="rule" hidden="false" id="a1b2-pim-p"/>
+        <infoLink name="Shell Shock (X)" targetId="46b7-63a1-941c-96a5" type="rule" hidden="false" id="a1b2-pim-ss">
+          <modifiers><modifier type="set" field="name" value="Shell Shock (2)"/></modifiers>
+        </infoLink>
+        <infoLink name="One Use/One Shot" targetId="df0c-5423-b892-491e" type="rule" hidden="false" id="a1b2-pim-os"/>
+        <infoLink name="Ponderous Aim" targetId="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" type="rule" hidden="false" id="a1b2-pim-pa"/>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-5e6f70819936" name="Manticore Missile Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a1b2-mml-grp" name="Missiles (4)" hidden="false" collective="false" import="true" defaultSelectionEntryId="a1b2-mml-m">
+          <constraints>
+            <constraint type="min" value="4" field="selections" scope="parent" shared="true" includeChildSelections="true" id="a1b2-mml-tot-min"/>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" includeChildSelections="true" id="a1b2-mml-tot-max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink name="Manticore Missile" hidden="false" id="a1b2-mml-m" targetId="a1b2-c3d4-5e6f70819930" type="selectionEntry" import="true" collective="true">
+              <constraints>
+                <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-m-min" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-m-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Storm Eagle Missile" hidden="false" id="a1b2-mml-s" targetId="a1b2-c3d4-5e6f70819932" type="selectionEntry" import="true" collective="true">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a1b2-mml-s-min" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-s-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink name="Phosphor Incendiary Missile" hidden="false" id="a1b2-mml-p" targetId="a1b2-c3d4-5e6f70819934" type="selectionEntry" import="true" collective="true">
+              <constraints>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a1b2-mml-p-min" includeChildSelections="false"/>
+                <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-p-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -21518,111 +21638,6 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
         <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One on each side of the hull and one at the front.</characteristic>
       </characteristics>
     </profile>
-
-
-    <selectionEntry id="a1b2-c3d4-prov-chem01" name="Chem Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a1b2-c3d4-prov-chemp" name="Chem Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Torrent (12&quot;), Chemical</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="a1b2-prov-chemt" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
-      </infoLinks>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
-    </selectionEntry>
-    <selectionEntry id="a1b2-c3d4-5e6f70819921" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a1b2-c3d4-5e6f70819922" name="Sabre Searchlight" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
-          <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Militia Sabre Platform equipped with a Sabre Searchlight follows the rules for Searchlights.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
-    </selectionEntry>
-    <selectionEntry id="a1b2-c3d4-5e6f70819930" name="Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a1b2-c3d4-5e6f70819931" name="Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning, Ignores Cover</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Large Blast (5&quot;)" targetId="1d9a-73ef-5f4f-8bd8" type="rule" hidden="false" id="a1b2-mm-blast"/>
-        <infoLink name="Barrage" targetId="7255-b5ee-c3f4-3037" type="rule" hidden="false" id="a1b2-mm-barr"/>
-        <infoLink name="Pinning" targetId="1c96-205c-59a0-3cf2" type="rule" hidden="false" id="a1b2-mm-pin"/>
-        <infoLink name="Ignores Cover" targetId="fdb5-59e2-c446-1cbc" type="rule" hidden="false" id="a1b2-mm-ic"/>
-      </infoLinks>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
-    </selectionEntry>
-    <selectionEntry id="a1b2-c3d4-5e6f70819932" name="Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a1b2-c3d4-5e6f70819933" name="Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Sunder, One Shot</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks><infoLink name="Sunder" targetId="20e2-75cf-bc16-cd8f" type="rule" hidden="false" id="a1b2-sem-s"/></infoLinks>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
-    </selectionEntry>
-    <selectionEntry id="a1b2-c3d4-5e6f70819934" name="Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="a1b2-c3d4-5e6f70819935" name="Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning, Ignores Cover</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink name="Large Blast (5&quot;)" targetId="1d9a-73ef-5f4f-8bd8" type="rule" hidden="false" id="a1b2-pim-b"/>
-        <infoLink name="Barrage" targetId="7255-b5ee-c3f4-3037" type="rule" hidden="false" id="a1b2-pim-br"/>
-        <infoLink name="Pinning" targetId="1c96-205c-59a0-3cf2" type="rule" hidden="false" id="a1b2-pim-p"/>
-        <infoLink name="Ignores Cover" targetId="fdb5-59e2-c446-1cbc" type="rule" hidden="false" id="a1b2-pim-i"/>
-      </infoLinks>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
-    </selectionEntry>
-    <selectionEntry id="a1b2-c3d4-5e6f70819936" name="Manticore Missile Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
-      <entryLinks>
-        <entryLink name="Manticore Missile" hidden="false" id="a1b2-mml-m" targetId="a1b2-c3d4-5e6f70819930" type="selectionEntry" import="true" collective="false">
-          <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="a1b2-mml-m-min" includeChildSelections="false"/>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-m-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink name="Storm Eagle Missile" hidden="false" id="a1b2-mml-s" targetId="a1b2-c3d4-5e6f70819932" type="selectionEntry" import="true" collective="false">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-s-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-        <entryLink name="Phosphor Incendiary Missile" hidden="false" id="a1b2-mml-p" targetId="a1b2-c3d4-5e6f70819934" type="selectionEntry" import="true" collective="false">
-          <constraints>
-            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-p-max" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <constraints>
-        <constraint type="min" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-tot-min" includeChildSelections="true"/>
-        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a1b2-mml-tot-max" includeChildSelections="true"/>
-      </constraints>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
-    </selectionEntry>
   </sharedProfiles>
   <infoLinks>
     <infoLink id="cf3c-4951-8835-0aeb" name="Fast Vehicles" targetId="2cbf-c1a1-844a-6456" type="rule"/>
