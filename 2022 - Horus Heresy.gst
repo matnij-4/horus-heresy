@@ -33,6 +33,7 @@
     <publication name="Legion Tarantula Sentry Gun Battery" id="5b2d-881e-a870-a7d1" hidden="false" publisherUrl="https://assets.warhammer-community.com/eng_jun25_thehorusheresy_additionalrules_tarantula-nq1r50lr4a-ec6sail0d9.pdf" publicationDate="June 2025"/>
     <publication name="Most New Units" hidden="false" id="f1a8-3c2d-4e5b-9a6f" shortName="MNU" publicationDate="2024"/>
     <publication name="Liber Imperatus (Panoptica)" hidden="false" id="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" shortName="Liber Imperatus" publicationDate="Panoptica v1.2"/>
+    <publication name="Liber Panoptica (Panoptica v5.2)" hidden="false" id="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" shortName="Liber Panoptica" publicationDate="Panoptica v5.2"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -159,8 +160,9 @@
         <rule id="a895-3e13-98e4-b67c" name="Primarch Unit-type" publicationId="e77a-823a-da94-16b9" page="196" hidden="false">
           <description>• All Primarchs have the following special rules: Independent Character, Eternal Warrior, Fearless, It Will Not Die (5+), Bulky (4), and Relentless. In addition, all models with the Primarch unit type always count as Character models.
 • Primarchs are not affected by special rules that negatively modify their Characteristics (other than Wounds) and, in addition, Primarchs always resolve Snap Shots at their normal BS.
-• Any Hits inflicted by a Primarch, as part of either Shooting Attacks or in close combat, are allocated by the Primarch’s controlling player and not the controlling player of the target unit. These Hits should form a separate Wound Pool.
-• If an army includes any Primarch models, then one of those models must be chosen as the army’s Warlord.</description>
+• Primarchs have the Precision Strikes (2+) and Precision Shots (2+) Special Rules, and may choose to use these rules when attacking even when ordinarily they would be prevented from doing so, including when making Snap Shots.
+• Any unit entirely composed of models with the Primarch Unit Type may choose to ignore the Heroic Stand Special Rule, ignoring any penalties normally applied for declining a Challenge, unless the Challenge was issued by a model with the Knight, Gargantuan, Titan, Primarch, or Daemon Primarch Unit Types.
+• If an army includes any Primarch models, then one of those models must be chosen as the army&amp;apos;s Warlord.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -417,8 +419,9 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         <rule id="b254-c1a5-ac81-5c49" name="Cavalry Sub-type" publicationId="e77a-823a-da94-16b9" page="195" hidden="false">
           <description>• Cavalry models cannot be Pinned.
 • Cavalry models are not slowed down by Difficult Terrain, even when Charging. However, Cavalry models treat all Difficult Terrain as Dangerous Terrain instead.
-• Cavalry models move 3D6&quot; when Falling Back, rather than 2D6&quot;.
-• No model that is not also of the Cavalry Unit Type may join a unit that includes a Cavalry model.</description>
+• Cavalry models move 3D6&amp;quot; when Falling Back, rather than 2D6&amp;quot;.
+• No model that is not also of the Cavalry Unit Type may join a unit that includes a Cavalry model.
+• For the purposes of any rules that consider number of models in a unit (such as Rampage), a Cavalry model counts as a number of models equal to its starting Wounds Characteristic.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -509,7 +512,8 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
           <description>• All Automata models have the Fearless special rule.
 • Successful Wounds inflicted by attacks with the Poisoned or Fleshbane special rules must be re-rolled against models of the Automata Unit Type.
 • A unit that includes one or more models with the Automata Unit Type may not make Reactions.
-• No model that is not also of the Automata Unit Type may join a unit that includes an Automata model.</description>
+• No model that is not also of the Automata Unit Type may join a unit that includes an Automata model.
+• For the purposes of any rules that consider number of models in a unit (such as Rampage), an Automata model counts as a number of models equal to its starting Wounds Characteristic.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -585,7 +589,8 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
       <rules>
         <rule id="79ce-8870-0b12-79ab" name="Heavy Sub-type" publicationId="e77a-823a-da94-16b9" page="197" hidden="false">
           <description>• A unit that includes only models with the Heavy subtype may re-roll failed Armour Saves against Template and Blast weapons.
-• A unit that includes any models with the Heavy subtype may not Run and when making a Movement during a Reaction based on its Initiative Characteristic, reduces the distance moved by -1.</description>
+• A unit that includes any models with the Heavy subtype may not Run and when making a Movement during a Reaction based on its Initiative Characteristic, reduces the distance moved by -1.
+• Explosions from Vehicles, Dreadnoughts, Automata, or Armigers etc are not counted as Blasts or Templates for the purposes of the Heavy Sub-type.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -615,9 +620,10 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         <rule id="ab7d-c74d-a976-2540" name="Dreadnought Unit-type" publicationId="e77a-823a-da94-16b9" page="195" hidden="false">
           <description>• Successful Wounds scored by attacks with the Poisoned or Fleshbane special rules must be re-rolled against models of the Dreadnought Unit Type.
 • All Dreadnought models have the Fearless special rule.
-• A model with the Dreadnought Unit Type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
+• A model with the Dreadnought Unit Type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction. Note that whilst a unit with this Unit Type may shoot Heavy and Ordnance weapons and still declare charges as normal, if they made a Shooting attack in the preceding Shooting Phase, they may only declare that unit as a target for a charge, and may not attempt to charge any other unit.
 • A model of the Dreadnought type may fire Heavy and Ordnance weapons and counts as Stationary even if it moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
-• No model that is not also of the Dreadnought Unit Type may join a unit that includes a Dreadnought model.</description>
+• No model that is not also of the Dreadnought Unit Type may join a unit that includes a Dreadnought model.
+• For the purposes of any rules that consider number of models in a unit (such as Rampage), a Dreadnought model counts as a number of models equal to its starting Wounds Characteristic.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -682,11 +688,11 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
     <categoryEntry id="e699-d9cd-e68e-46d9" name="Daemon Unit Type" hidden="false">
       <rules>
         <rule id="df15-2b9e-8437-3295" name="Daemon Unit-type" hidden="false">
-          <description>• All Daemon models have their Strength and Toughness modified by a value determined by the current Game Turn: +1 on Game Turns 1 &amp; 2, +/-0 on Game Turns 3 &amp; 4, -1 on Game Turns 5 &amp; 6, and -2 on Game Turns 7+.
+          <description>• All Daemon models have their Strength and Toughness modified by a value determined by the current Game Turn: +1 on Game Turns 1 &amp;amp; 2, +/-0 on Game Turns 3 &amp;amp; 4, -1 on Game Turns 5 &amp;amp; 6, and -2 on Game Turns 7+.
 • All Daemon models have the Fear (1) special rule.
 • Any Hits inflicted on a model of the Daemon Unit Type by a weapon with the Force special rule gain the Instant Death special rule as well.
 • All Daemon models are immune to the effects of the Fear special rule, automatically pass Pinning and Regroup tests and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule. When a Daemon unit fails a Morale check it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no Saves of any kind allowed.
-• No model that is not also of the Daemon Unit Type may join a unit that includes a Daemon model.</description>
+• No unit that does not also have the Daemon Unit Type or the Corrupted Unit Sub-type may join a unit that includes one or more models with the Daemon Unit Type.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1125,10 +1131,7 @@ In addition, when a Fast Vehicle moves, it may choose to move at Flat-out:</desc
     <categoryEntry id="4303-1348-cce4-9501" name="Antigrav Sub-type" hidden="false">
       <rules>
         <rule name="Antigrav Sub-type" id="d33c-5dd3-b848-885d" hidden="false">
-          <description>The following rules apply to all models with the Antigrav
-sub-type:
-• A unit that includes only models with the Antigrav sub-type may ignore the effects of any and all terrain it passes over during movement, including passing over vertical terrain and Impassable Terrain without penalty
-or restriction. However, such units may not begin or end their movement in Impassable Terrain, and if beginning or ending their movement in Dangerous Terrain must take Dangerous Terrain tests as normal.
+          <description>• Models with the Antigrav Sub-type may move over friendly and enemy models, but cannot end their move on top of either. They may also move over all terrain, ignoring all penalties for Difficult Terrain and Dangerous Terrain. However, if a moving model with the Antigrav Subtype starts or ends its move in Difficult Terrain or Dangerous Terrain, it must take a Dangerous Terrain test. An Antigrav model can even end its move over Impassable Terrain if it is possible to actually place the model on top of it, but if it does so it must take a Dangerous Terrain test. If an Antigrav model is forced to end its move over friendly or enemy models, move the model the minimum distance so that no models are left underneath it.
 • Models with the Antigrav sub-type may never benefit from Cover Saves of any kind.</description>
         </rule>
       </rules>
@@ -1351,7 +1354,9 @@ Damage:
 - Catastrophic Damage: When loses final HP, it explodes. Every model within 6+D6 measured from the hull takes a str7+d3 AP4 hit. Any units hit must immediately take a Pinning test.
 Reactions:
 - May only make Reactions in response to – Super Heavy Vehicles, Lumbering Flyers, Knights and Titans or any model with 8+ wounds.
-- May not perform Death or Glory Reactions</description>
+- May not perform Death or Glory Reactions
+Please note, if a knight or titan made a ranged attack during the Shooting Phase, then it may only declare a charge against any of the units it declared as targets during the Shooting Phase.
+All models with the Knight or Titan Sub-type gain the Hammer of Wrath (3) special rule.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -3287,7 +3292,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, -, Lasgun Arrays 24&quot; 3 Rapid Fire, Array Fire (3)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3366,7 +3371,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">100&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Pinning, Rending (6+)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3388,7 +3393,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">100&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Armourbane (Ranged), Exoshock (4+), Blast (3&quot;)</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Armourbane (Ranged), Exoshock (4+), Blast (3&quot;), Brutal (3)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3644,7 +3649,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Pinning, Rending (6+)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Pinning, Rending (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3653,7 +3658,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         <infoLink id="f867-b7e8-b5b7-5da4" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="c707-ba08-3a99-43c5" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="0353-491e-5923-d050" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
@@ -3669,11 +3674,13 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Rending (4+), Sunder, Brutal (4)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Sunder, Rending (4+), Brutal (4), Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="3bdb-6867-8957-4f96-b41efb4a76fd7917" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule">
+        </infoLink>
         <infoLink id="8f6d-9c6c-e5e3-4159" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (4+)"/>
@@ -4203,11 +4210,13 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">†</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1,  Large Blast (5&quot;), †Graviton Collapse, Torsion Crusher, Ignores Cover, Concussive (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Graviton Collapse, Torsion Crusher, Ignores Cover, Concussive (1), Haywire</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="d3e6-2ece-76b7-4bf6-9b8d8c5d56c35958" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule">
+        </infoLink>
         <infoLink id="bbbb-18a8-0f9b-d084" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="45cf-4851-7209-02f5" name="Graviton Collapse" hidden="false" targetId="60d8-5964-8671-7f3b" type="rule"/>
         <infoLink id="d186-5492-2c42-c67f" name="Torsion Crusher" hidden="false" targetId="2cef-a40d-97b8-7d4e" type="rule"/>
@@ -4673,6 +4682,29 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="7c4a-91b2-6e3d-4f80" name="Magna-Melta Array" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="133" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="1c07-c82a-e167-4dc6-aedcde1cc14836e1" name="Magna-Melta Array" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 6, Armourbane (Melta), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="19aa-5219-31b3-44e3-9829cfeed8b56a33" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Melta)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="408c-8788-cd71-4b58-913f07e4aeb21ad1" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="3be9-4638-a4b2-a763" name="Magna-Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="5997-502c-d678-354f" name="Magna-Melta Cannon" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -4988,11 +5020,97 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Pinning, Guided Fire</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Pinning, Guided Fire, Auto-Servo Tracking</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="78e2-bda4-31ee-4dde-94f10f0ef37f1196" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="356b-aa36-ee5a-416e-88a81ad97c2ecdfb" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="cb67-9891-fa57-4db7-b70b6ca3d59d60f1" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="f63a-182d-5e4e-46ac-9d3380e0808bc8bb" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="316e-6696-ed00-4926-bd8f22e256c94e55" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="ba0a-d3db-f3ef-4b24-924daefb7131b9ef" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="3b39-25f0-15f0-442f-811cb729ca59b7ca" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="7897-4cf1-20c3-43a2-85918685909fb053" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d045-450b-2c4f-4c89-891d60ae1dba39a0" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="ce5c-6bed-90ae-4bfe-9e52c90fe1d1432a" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d0e5-ba99-8fd7-4e23-ab0beee73efc8246" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="038b-2e78-e1dd-4f4f-816f9e4ca3f0a0d0" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="572e-27c5-6417-4b1e-bbb23b3c5afd939f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="1e5a-c78c-38ac-42f3-af160a8719efaf18" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="62d8-f5cd-47ac-4c67-93f7dce0d96f233f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="8e1b-ad81-3737-4313-b3f6fa550a598d0e" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d90a-ae44-7ca8-48fb-acd8d1927e3ed57f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="e5e5-063c-a25c-4aff-a13082a3be280c42" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="4522-7318-5e4b-4a83-9b5561adab1448c5" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="5a45-e790-605c-412c-8621eec98d4f0732" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="15f2-eb4c-f65b-4a8f-aeefb2617245c558" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="20a0-58f5-a784-4729-94bfbfa02d96bbad" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="23ca-d786-a5dd-4d1a-ab060169cb1e6a85" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="758b-1b26-491a-45c6-bd07a5e3fbf8ac6c" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="a095-c816-9dd0-4fe4-b9c4f47071d867b9" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="59b9-3324-aa22-411c-a9d00843fe7dc6ab" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="c77d-d102-b574-47ff-a094ff7fefd7bbc9" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="50fc-9f4c-8730-4d5d-8a0d7efd97f02064" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="5264-79f8-fd26-4095-87de55c221ca9256" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="90c5-6c97-0622-4d5f-be9ec3e8d38ec606" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="ea27-8b7f-7b37-48db-99a9993e7451db8c" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="7ffd-16d5-af15-472a-9936dffcb62fce07" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="569f-3341-2190-484f-97660081adf6746d" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="e909-3c10-7afd-44cf-9b946eeaad084fe6" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="abbf-1fc0-432d-4986-a038915e2552e338" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="3779-243e-b44a-468f-8781adcb3fc3ff62" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="3e5c-d74a-e2ac-43c2-b7bea0bceb929865" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="5a09-08a2-6b37-4737-af03ab515ec578b0" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="d204-9350-bd9d-4674-b28e2f48b7aa27d2" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="c468-6c70-2494-4a76-b0e4238a552ade58" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="3244-9560-af75-451d-aae621ddc64c3751" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="7f53-d70d-a67d-4e87-a282b621e16f1fbc" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="a0dc-5f88-2d53-4a68-904c4ef2e1d90675" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
         <infoLink id="b15a-98ae-991a-0074" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="a42a-07dd-64d7-6bb6" name="Guided Fire" hidden="false" targetId="fa1e-0112-943e-b1f6" type="rule"/>
       </infoLinks>
@@ -5510,11 +5628,20 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">45&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Heavy Beam, Deflagrate</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Heavy Beam, Deflagrate, Rending (5+), Pinning, Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="aa00-212c-a0aa-4fbd-859ac813ad3b5172" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule">
+        </infoLink>
+        <infoLink id="bf0b-093f-8aea-442c-9cbfa6c32a971240" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b04c-f8ae-679b-4963-b0dfb92b07a1bc65" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule">
+        </infoLink>
         <infoLink id="0465-bee9-7341-c411" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
         <infoLink id="0f06-d62d-b66b-e22d" name="Heavy Beam" hidden="false" targetId="24e7-27da-9bf7-f096" type="rule"/>
       </infoLinks>
@@ -5654,8 +5781,18 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armourbane (Ranged)</characteristic>
           </characteristics>
         </profile>
+        <profile id="5e6d-09ff-8537-43ae-b5c6465dc9e52c11" name="Lascutter (Melee)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="138" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Makeshift Weapon</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="f8f1-8c25-b77b-451c-ad564ca7e70cbe4c" name="Makeshift Weapon" hidden="false" targetId="d7ba-a5da-c698-4239-ae2a3d89167d7db3" type="rule"/>
+
         <infoLink id="9a9a-52ab-9a23-4b0b-8ad293ca46f2dc02" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
@@ -5693,7 +5830,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
       <profiles>
         <profile id="102e-3487-6e68-51e2" name="Krak Grenades" publicationId="a716-c1c4-7b26-8424" page="143" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 3 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal).</characteristic>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">The controlling player may choose to have a model with krak grenades that is Engaged or otherwise in base contact during the Assault phase with a Building or Fortification, or a model with the Vehicle, Dreadnought or Automata Unit Type, inflict one automatic Str 6, AP 4 Hit on the target in Initiative Step 1 instead of attacking normally. Any model in a unit that is chosen to inflict Hits using krak grenades may not otherwise attack or make use of any other special rule or item of Wargear that inflicts Hits or Wounds on a model in the same Assault phase (but may participate in Sweeping Advances as normal). A model which declares it will use Krak Grenades to attack may still make Pile In moves, though these are made at Initiative 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5945,6 +6082,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </costs>
     </selectionEntry>
     <selectionEntry id="b282-55aa-d1e2-ebe7" name="Scout Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="9676-ddc2-62be-4d40-bc94fb33a26ab448" name="Light Sub-type" hidden="false" targetId="bff2-ae16-74a8-8712" primary="false"/>
+      </categoryLinks>
       <profiles>
         <profile id="268c-b736-7743-67b1" name="Scout Armour" publicationId="a716-c1c4-7b26-8424" page="146" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
           <characteristics>
@@ -7267,15 +7407,22 @@ Four single Blast Shields</characteristic>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Rending (6+), Limited Ammunition</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Rending (5+), Limited Ammunition, Pinning, Shell Shock (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="6efb-78fb-7fa9-4e87-b0fbcc5314762477" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b52a-93e2-5924-4ada-b7cf85ec5ef7a90a" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule">
+        </infoLink>
         <infoLink id="09a4-d9af-5f82-acbd" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="7f37-cf10-19fd-1fe7" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Rending (6+)"/>
+            <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="30b8-5e9e-d525-510d" name="Limited Ammunition" hidden="false" targetId="9f09-5cb8-c3ea-c3f8" type="rule"/>
@@ -7423,7 +7570,7 @@ Pyromantic Desolation (Psychic Weapon)</description>
         </profile>
         <profile id="0d1f-a4df-31cf-e0e9" name="Telekine Dome" publicationId="e77a-823a-da94-16b9" page="324" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. All models, friendly and enemy, that are within 8&quot; of the Psyker gain a 6+ Invulnerable Save when targeted by any model that is not also within 8&quot; of the Psyker. If the Psyker moves, makes a Shooting Attack, Charges or is successfully Charged by an enemy unit, then the Psychic Power ends, otherwise it remains in effect indefinitely. When initially using the Psychic Power, or at the start of any of the controlling player’s subsequent Movement phase while it is in effect, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then models affected by this Psychic Power gain a 4+ Invulnerable Save instead of a 6+ Invulnerable Save. If the Check is failed then the Psyker suffers Perils of the Warp and the Psychic Power immediately ends.</characteristic>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of moving during the Movement phase, a Psyker with this Psychic Power may instead activate this Psychic Power. All models, friendly and enemy, that are wholly within 8&amp;quot; of the Psyker gain a 6+ Invulnerable Save when targeted by any model that is not also wholly within 8&amp;quot; of the Psyker. If the Psyker moves, makes a Shooting Attack, Charges or is successfully Charged by an enemy unit, then the Psychic Power ends, otherwise it remains in effect indefinitely. When initially using the Psychic Power, or at the start of any of the controlling player&amp;apos;s subsequent Movement phase while it is in effect, the controlling player may choose to have the Psyker take a Psychic check. If the Check is passed then models affected by this Psychic Power gain a 4+ Invulnerable Save instead of a 6+ Invulnerable Save. If the Check is failed then the Psyker suffers Perils of the Warp and the Psychic Power immediately ends.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7450,7 +7597,7 @@ Telekine’s Focus (Psychic Weapon)</description>
       <profiles>
         <profile id="44a2-c094-4470-09ff" name="Telepathic Fugue" publicationId="e77a-823a-da94-16b9" page="325" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Once per turn, at the start of any Phase, the Psyker with this Psychic Power’s controlling player may select a single enemy unit within 24&quot; and line of sight of the Psyker and take a Psychic check. If that Check is passed then the target unit may not make any Reactions for the duration of that Phase. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Once per turn, at the start of any Phase, the Psyker with this Psychic Power&amp;apos;s controlling player may select a single enemy unit within 18&amp;quot; and line of sight of the Psyker and take a Psychic check. If that Check is passed then the target unit may not make any Reactions for the duration of that Phase. If the Check is failed then the Psyker suffers Perils of the Warp.</characteristic>
           </characteristics>
         </profile>
         <profile id="1f6e-2713-0da5-9f7b" name="Telepathic Hallucinations" publicationId="e77a-823a-da94-16b9" page="325" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
@@ -7464,7 +7611,7 @@ Telekine’s Focus (Psychic Weapon)</description>
       </profiles>
       <rules>
         <rule id="9a9c-4d42-2e75-2b5f" name="Hallucinations" publicationId="e77a-823a-da94-16b9" page="325" hidden="false">
-          <description>A unit that suffers one or more Hits from a Weapon with this special rule must make an immediate Pinning test, adding one to the result of the roll for each Hit scored by this attack before the result is decided. For example, if a Psyker attacks an enemy unit that has a Leadership of 8, scoring 3 Hits with Telepathic Hallucinations, then that unit must make an immediate Pinning test and add 3 to the result rolled before determining the result.</description>
+          <description>A unit that suffers one or more Hits from a Weapon with this special rule must make an immediate Pinning test, suffering a -1 modifier to their Leadership Characteristic for each successful Hit scored by this attack before the result is decided. For example, if a Psyker attacks an enemy unit that has a Leadership of 8, scoring 3 Hits with Telepathic Hallucinations, then that unit must make an immediate Pinning test with a -3 modifier to their Leadership Characteristic. Note that models with Special Rules that ignore Leadership modifiers, such as Stubborn, do not suffer this negative modifier.</description>
         </rule>
         <rule id="af85-dce5-df91-5320" name="Psychic Discipline: Telepathy" hidden="false">
           <description>A Psyker with this Discipline gains all the listed Powers, weapon and other special rules, as well as the AethericLightning Psychic Weapon.
@@ -7486,7 +7633,7 @@ Telepathic Hallucinations (Psychic Weapon)</description>
       <profiles>
         <profile id="66c0-a79f-e220-cfb2" name="Thamaturgic Succour" publicationId="e77a-823a-da94-16b9" page="325" hidden="false" typeId="5405-b3c6-e8d0-4e77" typeName="Psychic Power">
           <characteristics>
-            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit with at least one model within 12&quot; and make a Psychic check. If the Psychic check is passed then all non-Vehicle models in the target unit may roll a D6. On a roll of a 5+, that model regains a single lost Wound. This ability cannot be used to increase a model’s Wounds beyond its starting Wounds Characteristic.</characteristic>
+            <characteristic name="Description" typeId="4c0f-7e2f-586c-9305">Instead of making a Shooting Attack, a Psyker with this Psychic Power may select a single friendly unit with at least one model within 12&amp;quot; and make a Psychic check. If the Psychic check is passed then all non-Vehicle models in the target unit regain a single lost Wound. This ability cannot be used to increase a model&amp;apos;s Wounds beyond its starting Wounds Characteristic.</characteristic>
           </characteristics>
         </profile>
         <profile id="021c-8e6e-e2ff-3813" name="Thamaturge&apos;s Cleansing" publicationId="e77a-823a-da94-16b9" page="325" hidden="false" typeId="cede-0217-1b10-2a34" typeName="Psychic Weapon">
@@ -7518,6 +7665,7 @@ Thaumaturge’s Cleansing (Psychic Weapon)</description>
     </selectionEntry>
     <selectionEntry id="a6d2-b3a9-6d2c-1f6f" name="Pair of Lightning Claws" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
+        <infoLink id="8799-4ea6-0ae2-4104-89acf130ca778c54" name="Lightning Claws Bonus Attacks" hidden="false" targetId="4614-6a54-6e16-4672-8088eb01f48c1782" type="rule"/>
         <infoLink id="d233-cb08-eb24-5c8c" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
@@ -8008,7 +8156,7 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Breaching (4+), Reactor Overload</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Rending (4+), Reactor Overload</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8017,7 +8165,7 @@ A. No.</description>
         <infoLink id="7355-35eb-d0ec-b453" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="458f-0eab-b419-0f7b" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Breaching (4+)"/>
+            <modifier type="set" field="name" value="Rending (4+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="72f0-facd-626f-b9c5" name="Reactor Overload" hidden="false" targetId="a073-b86c-7bc1-d3f9" type="rule"/>
@@ -8136,11 +8284,13 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 15, Pinning, Shell Shock (1)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 15, Pinning, Shell Shock (1), Reactor Overload</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="5c76-9a2c-070d-4b14-8090b2c629690bd2" name="Reactor Overload" hidden="false" targetId="a073-b86c-7bc1-d3f9" type="rule">
+        </infoLink>
         <infoLink id="4e4f-59d7-cea8-fa2f" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
         <infoLink id="0619-3f5c-4161-0e0b" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
@@ -8205,7 +8355,7 @@ A. No.</description>
       <profiles>
         <profile id="4034-3296-9cf1-6843" name="Tremor Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Pinning, Shell Shock (2)</characteristic>
@@ -8233,7 +8383,7 @@ A. No.</description>
       <profiles>
         <profile id="1ad7-8c18-9aa1-5b66" name="Hellhammer cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Sunder, Rending (5+), Brutal (3)</characteristic>
@@ -8358,11 +8508,20 @@ A. No.</description>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning, Shell Shock (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="67d1-6a6f-a83a-4210-a4485b4c0a9d4ba5" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule">
+        </infoLink>
+        <infoLink id="b26d-3a77-93c1-4836-b9350bf4a49e3dae" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eea4-e4ca-e0f5-4c41-bcc1ada740bb0949" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule">
+        </infoLink>
         <infoLink id="8ff6-0615-0d8a-ac80" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
         <infoLink id="9b56-aa8e-8a5b-7b2e" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
@@ -13575,7 +13734,11 @@ Bitter Fury – Bitter Fury – This Advanced Reaction may be made once per batt
         <selectionEntry id="e01e-5cdd-e512-8353" name="V: White Scars" hidden="false" collective="false" import="true" type="upgrade" sortIndex="6">
           <rules>
             <rule id="ad49-4098-2037-6dda" name="The Armoury of the White Scars" hidden="false">
-              <description>• Any model with both the Legiones Astartes (White Scars) and Independent Character special rules, but not the Unique Sub-type, may exchange a Legion Scimitar jetbike for a Legion Shamshir jetbike for no additional points cost. A Legion Shamshir jetbike has one Scatterbolt Launcher, in addition, a model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn. A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its unit type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, Changes its movement characteristic to 15&quot;, gains the Firing Protocols (2) and Hammer of Wrath (1) special rules and improved its Armour Save to 2+ if it was worse.
+              <description>• Any model with both the Legiones Astartes (White Scars) and Independent Character special rules, but not the Unique Sub-type, may exchange a Legion Scimitar jetbike for a Legion Shamshir jetbike for no additional points cost. A Legion Shamshir jetbike has one Scatterbolt Launcher, in addition, a model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn. A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its Unit Type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, changes its Movement Characteristic to 19&quot;, gains the Firing Protocols (2), Battle-Hardened (1), and Hammer of Wrath (1) Special Rules and improves its Armour Save to 2+ if it was worse.
+
+A model that is equipped with a Legion Shamshir Jetbike counts as having a Legion Scimitar Jetbike for rules and interactions that affect or require that wargear.
+
+The additional Movement granted by the Legiones Astartes (White Scars) Special Rule is included.
 
 • Any model with both the Character Sub-type and the Legiones Astartes (White Scars) special rule may have a Power Weapon upgraded to a Power Glaive for +5 points.
 
@@ -14332,7 +14495,9 @@ A Warlord with this Trait, and all models in any unit he joins, gains the Stubbo
               <profiles>
                 <profile id="7c21-0828-9bec-f4e0" name="Born to the Saddle" publicationId="817a-6288-e016-7469" page="178" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
-                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord and all models in the same army with the Legiones Astartes (White Scars) special rule and the Cavalry Unit Type ignore all the effects of Difficult Terrain and gain a 4+ Invulnerable Save against all Wounds inflicted by failed Dangerous Terrain tests they are called upon to make. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.</characteristic>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">This Warlord and all models in the same army with the Legiones Astartes (White Scars) special rule and the Cavalry Unit Type ignore all the effects of Difficult Terrain and gain a 4+ Invulnerable Save against all Wounds inflicted by failed Dangerous Terrain tests they are called upon to make. In addition, an army whose Warlord has this Trait may make an additional Reaction during the opposing player’s Movement phase as long as the Warlord has not been removed as a casualty.
+
+Because Cavalry must treat Difficult Terrain as Dangerous, they simply gain the 4+ Invulnerable save granted by this Warlord trait against any Difficult or Dangerous Terrain damage incurred to them as they attempt to pass through it.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15544,7 +15709,7 @@ An army whose Warlord has this Trait counts any Allied Detachment that has any v
               <profiles>
                 <profile id="338c-2bae-3dd6-3180" name="Master of Armour" publicationId="a716-c1c4-7b26-8424" page="102" hidden="false" typeId="a0e6-a7b4-d55d-85b8" typeName="Warlord Trait">
                   <characteristics>
-                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Master of the Legion special rule and a 5+ Invulnerable Save and increases its BS by +1, but may not select a Command Squad or any other unit that uses a variant of the Retinue special rule.</characteristic>
+                    <characteristic name="Text" typeId="c68e-2cda-b67b-baca">A Warlord with this Warlord Trait gains the Master of the Legion and Legiones Astartes Command Tank Special Rules, a 5+ Invulnerable Save, and increases its BS by +1, but may not select a Command Squad or any other unit that uses a variant of the Retinue Special Rule.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -15612,6 +15777,7 @@ An army whose Warlord has this Trait counts any Allied Detachment that has any v
 • Legion Reconnaissance Squads and Legion Scout Squads in a Detachment using this Rite of War do not have the Support Squad special rule.
 • Legion Seeker Squads may be taken as non-Compulsory Troops choices in a Detachment using this Rite of War.
 • A player whose army includes at least one Detachment using this Rite of War may re-roll any dice they roll to see which player takes the first turn or when attempting to Seize the Initiative.
+• Legion Scout Squads chosen in a Detachment using this Rite of War gain the Line Unit Sub-type.
 Limitations
 • No unit in a Detachment using this Rite of War that includes any models with the Heavy Sub-type may be deployed onto the battlefield during deployment, and must instead be placed into Reserves. 
 • A Detachment using this Rite of War may not select any Fortification choices.
@@ -15635,6 +15801,7 @@ Limitations
               <description>Effects
 • Any unit in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead take a Legion Storm Eagle Gunship as a Dedicated Transport.
 • For any model with the Vehicle Unit Type and both the Flyer and Transport Sub-types from a Detachment that is using this Rite of War, and that is in Reserve, the controlling player may choose to automatically have them enter play at the start of their first turn without making a Reserves roll. If they are not brought into play on Turn One then Reserves rolls are made for the models normally from Turn Two onwards.
+• A unit that can select a Legion Rhino Transport as a Dedicated Transport may still select a Legion Storm Eagle Gunship as a Dedicated Transport even if it is expanded beyond the maximum limit for selecting a Legion Rhino Transport. A unit which would exceed the transport capacity of a Legion Storm Eagle may not select one.
 Limitations
 • All models with the Infantry Unit Type in a Detachment using this Rite of War that do not have jump packs of any kind must begin the battle Embarked upon a model with the Vehicle Unit Type and both the Flyer and Transport Sub-types.
 • All models with both the Infantry Unit Type and a jump pack of any kind in a Detachment using this Rite of War must begin the battle in Reserves, but may be assigned to a Deep Strike Assault as normal.
@@ -15739,6 +15906,49 @@ Limitations
               <description>Effects
 • Legion Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
 • Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Any unit composed entirely of models with either Cataphractii Terminator armour, Tartaros Terminator armour or any other pattern of Terminator armour and that is normally selected as an Elites choice may be included in a Detachment using this Rite of War as a Troops choice.
 Limitations
 • An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
@@ -15808,8 +16018,9 @@ Limitations
 • All units in a Detachment using this Rite of War eligible to take a Legion Rhino Transport as a Dedicated Transport may instead select a Legion Land Raider Proteus Carrier as a Dedicated Transport if they number ten models or less.
 • Legion Predator Squadrons in a Detachment using this Rite of War may be selected as Troops choices.
 • Legion Sicaran Squadrons in a Detachment using this Rite of War may be selected as Elites choices.
-• In a Detachment using this Rite of War, a single Legion Sicaran Squadron or Legion Predator Squadron, composed of only a single model, must be selected as a HQ choice. This model gains the Master of the Legion special rule and must be selected as the army’s Warlord and must use the Master of Armour Warlord Trait (as follows). In this case, the model must be selected as the Warlord despite having the Vehicle Unit Type, and regardless of any other rules that would require another model to be selected as the Warlord (note this means that some units and Characters cannot be selected as part of this army, such as Primarchs).
+• In a Detachment using this Rite of War, a single Legion Sicaran Squadron, Legion Predator Squadron, or Legion Kratos Squadron, composed of only a single model, must be selected as a HQ choice. This model gains the Master of the Legion special rule and must be selected as the army’s Warlord and must use the Master of Armour Warlord Trait (as follows). In this case, the model must be selected as the Warlord despite having the Vehicle Unit Type, and regardless of any other rules that would require another model to be selected as the Warlord (note this means that some units and Characters cannot be selected as part of this army, such as Primarchs).
 
+• Legion Predator Squadrons taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
 Limitations
 • All units in a Detachment using this Rite of War with the Infantry Type must begin the battle Embarked upon a model with the Transport Sub-type; any Infantry models in a Detachment using this Rite of War, both those deployed on the battlefield and in Reserves, that are not Embarked upon a model with the Transport Subtype at the beginning of the battle must be removed as casualties.
 • A Detachment using this Rite of War may not select any Fortification choices.
@@ -15830,6 +16041,7 @@ Limitations
 • Castellax Battle-automata Maniples* may be taken as non-Compulsory Troops choices, Vorax Battleautomata Maniples* may be taken as non-Compulsory Fast Attack choices and Domitar Battle-automata Maniples* may be taken as non-Compulsory Elites choices in a Detachment using this Rite of War. In addition, a single Thanatar Siege-automata Maniple* of no more than one model may be taken as a non-Compulsory Heavy Support choice in a Detachment using this Rite of War.
 • Any Legion Techmarine in a Detachment using this Rite of War may be upgraded to have a cortex controller at +20 points.
 * Note that rules for these units are found in the Liber Mechanicum book.
+• All models with the Automata Unit Type selected in a Detachment using this Rite of War gain the Legiones Astartes (X) Special Rule, where X is the variant of the Legiones Astartes (X) Special Rule possessed by the Detachment&amp;apos;s Warlord.
 Limitations
 • A Detachment using this Rite of War may not have more units that include one or more models with the Automata Unit Type than the total number of units it includes that do not include any models with the Automata Unit Type.
 • At least one model with a cortex controller must be included in the Detachment for every three models with the Automata Unit Type in the Detachment.
@@ -15877,7 +16089,8 @@ Limitations
 • A Detachment using this Rite of War may not select any Fortification choices.
 • A Detachment using this Rite of War may not select a Lords of War Detachment.
 • This Rite of War may only be selected for an army’s Primary Detachment.
-• An army whose Primary Detachment is using this Rite of War may not roll to Seize the Initiative.</description>
+• An army whose Primary Detachment is using this Rite of War may not roll to Seize the Initiative.
+• Any model with the Dreadnought Unit Type selected in a Detachment using this Rite of War is worth an additional +1 Victory Point when destroyed by an Opposing Player.</description>
             </rule>
           </rules>
           <costs>
@@ -16087,7 +16300,7 @@ Limitations
 • All models with the Infantry Unit Type in a Detachment using this Rite of War gain the Outflank special rule.
 Limitations
 • Any unit made up entirely of models with the Infantry Unit Type in a Detachment using this Rite of War that does not begin play Embarked on a model with the Transport Sub-type, or any model with the Vehicle Unit Type without either the Transport or Fast Sub-types, must begin play in Reserve if the mission allows it. If the mission does not allow any units to be placed into Reserves then the unit is instead deployed as normal.
-• A Detachment using this Rite of War may not include any Heavy Support or Fortification choices, unless those choices are entirely composed of models with the Flyer Sub-type.
+• A Detachment using this Rite of War may not include any Heavy Support, Lord of War, or Fortification Choices, unless those choices are composed entirely of models with the Flyer Unit Sub-type.
 
 ^Manually check limitations on Deployment</description>
             </rule>
@@ -19894,7 +20107,7 @@ In either case, against Vehicles each Armour Penetration roll of equal to or gre
 For example, a model with the Rending (5+) special rule that rolls To Wound against a non-Vehicle model will wound automatically on the roll of a 5+, and the attacking player has the choice of using an AP value of 2 instead of the AP value of their weapon.</description>
     </rule>
     <rule id="ed9b-1320-335f-aa10" name="Spite of the Legion" publicationId="a716-c1c4-7b26-8424" page="124" hidden="false">
-      <description>If a Charge is declared for a unit that includes at least one model with this special rule, targeting an enemy unit that is Pinned, Falling Back, or includes no models with the Character Sub-type or the Chosen Warriors special rule, then all models in the Charging unit gain a bonus of +1 Attacks for the duration of the Assault phase in which the Charge is declared.</description>
+      <description>If a Charge is declared for a unit that includes at least one model with this Special Rule, targeting an enemy unit that is Pinned, under the effects of the Blind or Concussive Special Rule, Falling Back or includes no models with the Character Sub-type or the Chosen Warriors Special Rule, then all models in the Charging unit gain a bonus of +1 Attacks for the duration of the Assault phase in which the Charge is declared.</description>
     </rule>
     <rule id="3a39-4e88-05fb-48ec" name="Legion Warhawk Jump Pack" publicationId="a716-c1c4-7b26-8424" page="145" hidden="false">
       <description>At the start of the controlling player&apos;s Movement phase a model with the Legion Warhawk jump pack may set its Move Characteristic to a value of 12 for the duration of the controlling player&apos;s turn (sometimes referred to as &apos;activating&apos; the jump pack). This allows a model with a Warhawk jump pack to move up to 12&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 12 (including the bonus to Charge distance). In addition, all models with a Warhawk jump pack that have been activated ignore terrain while Moving and Charging, but must take Dangerous Terrain test as normal when beginning or ending their Movement in Dangerous Terrain. A model with an activated Legion Warhawk jump pack treats all Difficult Terrain as Dangerous Terrain and may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit.
@@ -19928,7 +20141,9 @@ During a Reaction made in any Phase, a player may not choose to activate a model
       <description>Any Legion Centurion, Legion Cataphractii Centurion or Legion Tartaros Centurion may select a single Consul upgrade; no model may take more than one such upgrade (note that some upgrades are not available to Legion Cataphractii Centurions or Legion Tartaros Centurions, or Legion Centurions that have selected certain upgrades).</description>
     </rule>
     <rule id="9f09-5cb8-c3ea-c3f8" name="Limited Ammunition" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
-      <description>After all Shooting Attacks for a weapon with this special rule have been fully resolved, roll a D6, adding +1 if the weapon has fired before in the same battle. If the total of this roll is 6 or more then the weapon may no longer be used to make Shooting Attacks in this battle. If this weapon is unable to make further Shooting Attacks then it may not be targeted by a Weapon Destroyed result on the Vehicle Damage table, and for the purposes of such a result is treated as though it had already been destroyed.</description>
+      <description>After all Shooting Attacks for a weapon with this special rule have been fully resolved, roll a D6, adding +1 if the weapon has fired before in the same battle. If the total of this roll is 6 or more then the weapon may no longer be used to make Shooting Attacks in this battle. If this weapon is unable to make further Shooting Attacks then it may not be targeted by a Weapon Destroyed result on the Vehicle Damage table, and for the purposes of such a result is treated as though it had already been destroyed.
+
+If a model with the Battlesmith Special Rule is in base to base contact with a friendly model with the Limited Ammunition Special Rule, when rolling to see the result of the Limited Ammunition Special Rule, you may reduce the D6 roll by one.</description>
     </rule>
     <rule id="4f41-4c04-9cd8-c5a1" name="Marked For Death" publicationId="a716-c1c4-7b26-8424" page="122" hidden="false">
       <description>At the start of the battle, once both armies have set up all their models, including any units with the Infiltrator special rules, a single enemy unit may be chosen by a player that controls any models with this special rule - this unit is considered &apos;marked for death&apos;. When any models with this special rule controlled by that player are used to make an attack of any kind against the enemy unit their controlling player has &apos;marked for death&apos;, all failed To Wound rolls of &apos;1&apos; may be re-rolled.</description>
@@ -19992,7 +20207,8 @@ If a model has the ability to re-roll its rolls To Hit (including because of BS 
       <description>Instead of rolling To Wound normally with this weapon, any model without the Vehicle, Dreadnought or Automata Unit Type that suffers a Hit from a weapon with this special rule must instead roll under their Strength on a D6 or suffer a Wound (a roll of a ‘6’ always counts as a failure). If a Graviton Pulse weapon also has the Blast type, then leave the Blast marker in place after resolving all Wounds, or otherwise mark the area. This area now counts as both Difficult Terrain and Dangerous Terrain until the end of the next Game Turn.</description>
     </rule>
     <rule id="fa1e-0112-943e-b1f6" name="Guided Fire" publicationId="e77a-823a-da94-16b9" page="239" hidden="false">
-      <description>Any attacks made using a weapon with this special rule do not require line of sight, but must still be within range.</description>
+      <description>Any attacks made using a weapon with this special rule do not require line of sight, but must still be within range.
+Models wounded by a weapon with this special rule may never benefit from a cover save due to intervening models and terrain.</description>
     </rule>
     <rule id="aec0-c3aa-1e4e-1779" name="Hammer of Wrath (X)" publicationId="e77a-823a-da94-16b9" page="239" hidden="false">
       <description>If a model with this special rule ends its Charge Move in base or hull contact with an enemy model, it makes a number of additional attacks equal to the value in brackets listed as part of this special rule. These attacks hit automatically and are resolved at the models unmodified Strength with AP-. These attacks do not benefit from any of the model&apos;s special rules (such as Furious Charge, Rending, etc.).These attacks are resolved during the Fight sub-phase at Initiative step 10 but do not grant the model an additional Pile-in Move.
@@ -20142,7 +20358,7 @@ To determine whether a unit wounded by an Apocalyptic Mega-blast weapon is allow
 Hits from Apocalyptic Mega-blast weapons made against Vehicles are always resolved against their Side Armour Value.</description>
     </rule>
     <rule id="d836-747d-07d6-2b63" name="Blind" publicationId="e77a-823a-da94-16b9" page="236" hidden="false">
-      <description>Any unit hit by one or more models or weapons with this special rule must take an Initiative test at the end of the current Phase. If the Test is passed, there is no further effect. If the Initiative test is failed, all models in the unit are reduced to Weapon Skill 1 and Ballistic Skill 1 until the end of their next turn. Should the attacking unit hit themselves, they automatically pass the Test. Any model that does not have an Initiative Characteristic (for example, Vehicles, Buildings, etc) is unaffected by this special rule.</description>
+      <description>Any unit hit by one or more models or weapons with this Special Rule must take an Initiative test once the attack is fully resolved. If the test is passed, there is no further effect. If the Initiative test is failed, all models in the unit are reduced to Weapon Skill 1 and Ballistic Skill 1 until the end of their Controlling Player&amp;apos;s next turn. Should the attacking unit hit themselves, they automatically pass the Initiative test. Any model that does not have an Initiative Characteristic (for example, Vehicles, Buildings, etc) are unaffected by this Special Rule.</description>
     </rule>
     <rule id="676c-7b75-4b6f-9405" name="Bulky (X)" publicationId="e77a-823a-da94-16b9" page="236" hidden="false">
       <description>Bulky models count as a number of models equal to the value X in brackets after the rule’s name for the purposes of Transport Capacity and whether a given unit outnumbers another in combat.
@@ -20153,9 +20369,9 @@ For example, a unit comprised of five models all of which have the Bulky (3) spe
       <description>A model with this special rule may issue and accept Challenges as if it had the Character type. Note that this does not allow a model with this special rule to use any other special rules associated with the Character type.</description>
     </rule>
     <rule id="7ce5-1bfb-64e6-f826" name="Concussive (X)" publicationId="e77a-823a-da94-16b9" page="236" hidden="false">
-      <description>A unit that suffers one or more Wounds, regardless of whether those Wounds are Saved or otherwise discounted, from a weapon with this special rule must take a Leadership test at the end of the Shooting phase (if the attacks were inflicted as part of a Shooting Attack), or the current combat (if the attacks were inflicted as part of a Melee attack). If the test is failed then that unit’s WS is reduced by the value in brackets listed as part of the special rule until the end of the following Assault phase (if no value is listed then reduce the target unit’s WS by -1).
+      <description>Any unit hit by one or more models or weapons with this Special Rule must take a Leadership test once the attack is fully resolved. If the test is passed, there is no further effect. If the Leadership test is failed, all models in the unit suffer a penalty to their Weapon Skill equal to the value in brackets until the end of their Controlling Player&amp;apos;s next turn. Should the attacking unit hit themselves, they automatically pass the Leadership test. Any model that does not have a Leadership Characteristic (for example, Vehicles, Buildings, etc) are unaffected by this Special Rule.
 
-No matter how many times a unit has taken saved or unsaved Wounds from an attack with the Concussive special rule, it may only be forced to take one Leadership test because of it. If a single unit has been the target of several Concussive attacks with different values and fails the Leadership test, then it suffers the effects of the highest single modifier among those attacks – the effects do not stack or otherwise become cumulative.</description>
+If a single unit has been the target of several Concussive attacks with different values and fails the Leadership test, then it suffers the effects of the highest single modifier among those attacks – the effects do not stack or otherwise become cumulative.</description>
     </rule>
     <rule id="fd6d-2a76-10e0-936a" name="Counter-Attack (X)" publicationId="e77a-823a-da94-16b9" page="236" hidden="false">
       <description>If a unit contains at least one model with this special rule, and that unit is Charged, every model with the Counterattack special rule gains a number of additional Attacks equal to the value in brackets listed as part of this special rule. If no value is listed then the unit gains +1 Attack.
@@ -20203,10 +20419,10 @@ D6 Result
 6: Vehicles suffer a Penetrating Hit, Dreadnoughts and Automata suffer 1 Wound. No Saves or Damage Mitigation rolls may be taken against Wounds inflicted by this result.</description>
     </rule>
     <rule id="5986-e960-d432-affd" name="Hit &amp; Run" publicationId="e77a-823a-da94-16b9" page="240" hidden="false">
-      <description>A unit that contains at least one model with this special rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
+      <description>A unit that contains at least one model with this Special Rule that is locked in combat can choose to leave close combat at the end of any Assault phase. If the unit wishes to do so, it must take an Initiative test.
 If the Test is failed, nothing happens and the models remain locked in the fight.
-If the Test is passed, choose a direction – then roll 2D6 and add the unit’s Movement Characteristic to the result. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&quot; away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 2D6 + Movement result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate a number of inches equal to their Initiative.
-A Hit &amp; Run Move is not slowed by Difficult Terrain, but does trigger Dangerous Terrain tests as normal. It may not be used to move into base or hull contact with enemy units, and models instead stop 1&quot; away. If there are units with this rule on both sides who wish to disengage, roll off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
+If the Test is passed, choose a direction – then roll 2D6 and add the unit&amp;apos;s Initiative Characteristic to the result. As long as the distance rolled, in inches, is sufficient to allow the entire unit to move over 1&amp;quot; away from all of the enemy units they are locked in combat with, the unit breaks away from combat and must immediately move a number of inches in the chosen direction equal to the 2D6 + Initiative result, ignoring the models they were locked in combat with. No Sweeping Advance rolls are made. Enemy units that are no longer locked in combat immediately Consolidate a number of inches equal to their Initiative.
+A Hit &amp;amp; Run Move is not slowed by Difficult Terrain, but does trigger Dangerous Terrain tests as normal. It may not be used to move into base contact with enemy units, and models instead stop 1&amp;quot; away. If there are units with this rule on both sides who wish to disengage, roll off to determine who goes first and then alternate disengaging them. If the last of these ends up no longer in combat, it Consolidates instead.</description>
     </rule>
     <rule id="0e32-5b92-a95a-8464" name="Infiltrate" publicationId="e77a-823a-da94-16b9" page="242" hidden="false">
       <description>You may choose to deploy units that contain at least one model with this special rule last, after all other units (friend and foe) have been deployed. If both players have such units and choose to do so, the players roll off and the winner decides who goes first, then alternate deploying these units.
@@ -20238,10 +20454,14 @@ An Independent Character without the Infiltrate special rule cannot join a unit 
       <description>When a Blast weapon with this rule is used, after the attack is resolved leave the Blast marker in play for the rest of the game and mark it with a counter of some kind. This area is now treated as Dangerous Terrain for all models with a Toughness value.</description>
     </rule>
     <rule id="6de0-55b0-bf21-48b9" name="Master-crafted" publicationId="e77a-823a-da94-16b9" page="243" hidden="false">
-      <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Hit per turn with that weapon.</description>
+      <description>Weapons with the Master-crafted special rule allow the bearer to re-roll one failed roll To Hit per turn with that weapon.
+
+Master-Crafted Blast Weapons: If the Scatter dice does not roll a Hit, you can choose to re-roll the dice when making a Shooting Attack with a Master-Crafted Blast weapon. If you choose to do so, you must re-roll both the 2D6 and the Scatter dice.
+
+Master-Crafted Template Weapons: Master-Crafted Template weapons are fired just like a normal Template weapon, but must re-roll failed To Wound rolls and Armour Penetration rolls.</description>
     </rule>
     <rule id="118d-58ce-8611-ab15" name="Monster Hunter" publicationId="e77a-823a-da94-16b9" page="243" hidden="false">
-      <description>A unit that contains at least one model with this special rule re-rolls all failed To Wound rolls against Dreadnoughts, Automata and Primarch models as well as any unit with the Monstrous sub-type.</description>
+      <description>A unit that contains at least one model with this Special Rule re-rolls all failed To-Wound rolls against Dreadnoughts, Automata and Primarch models as well as any unit with the Monstrous Sub-type or Gargantuan Sub-type.</description>
     </rule>
     <rule id="2b6f-bfec-759e-1746" name="Move Through Cover" publicationId="e77a-823a-da94-16b9" page="243" hidden="false">
       <description>A unit that contains only models with this special rule suffers no penalty for moving or charging through Difficult Terrain.</description>
@@ -20250,7 +20470,7 @@ An Independent Character without the Infiltrate special rule cannot join a unit 
       <description>Attacks with this special rule cause Instant Death on a To Wound roll equal to the number in brackets associated with the specific rule. Roll any viable Saves against this Instant Death-causing Wound separately and before any other Wounds the attack inflicts.</description>
     </rule>
     <rule id="683e-b4f2-f032-d31b" name="Night Vision" publicationId="e77a-823a-da94-16b9" page="243" hidden="false">
-      <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting (see page 308) and no model may make Shrouded rolls to negate Wounds inflicted by their attacks.</description>
+      <description>A unit that contains at least one model with this special rule ignores the effects of Night Fighting (see page 308) and no model may make Shrouded rolls to negate Wounds or Hull Points inflicted by their attacks.</description>
     </rule>
     <rule id="6b78-4ec2-3604-78a3" name="Strafing Run (X)" publicationId="e77a-823a-da94-16b9" page="248" hidden="false">
       <description>When making a Shooting Attack at any unit without the Flyer sub-type, this Vehicle increases its Ballistic Skill by the value indicated as part of the special rule. For example, a Vehicle with the Strafing Run (2) special rule would increase the model’s Ballistic Skill by +2 when making Shooting Attacks targeting any unit without the Flyer sub-type.</description>
@@ -20273,7 +20493,8 @@ For example, a weapon with the Torrent (18) special rule must place the narrow e
       <description>A weapon or ability with this special rule can only be used once during the course of a battle. Once a weapon with the One Use or One Shot special rule has been used to attack, it is no longer counted as a weapon and may not be destroyed (for example, by rolls on the Vehicle Damage table) or repaired by any other rule or effect.</description>
     </rule>
     <rule id="20e2-75cf-bc16-cd8f" name="Sunder" publicationId="e77a-823a-da94-16b9" page="247" hidden="false">
-      <description>Attacks with this special rule may re-roll failed Armour Penetration rolls against Vehicles and Buildings (both with Shooting Attacks and in close combat) and re-roll Glancing Hits, in an attempt to instead get a Penetrating Hit, but the second result must be kept.</description>
+      <description>Attacks with this special rule may re-roll failed Armour Penetration rolls against Vehicles and Buildings (both with Shooting Attacks and in close combat) and re-roll Glancing Hits, in an attempt to instead get a Penetrating Hit, but the second result must be kept.
+Failed To Wound rolls made with a weapon with this Special Rule against Dreadnought and Automata models may be re-rolled.</description>
     </rule>
     <rule id="dea8-564e-9d1b-c685" name="Split Fire" publicationId="e77a-823a-da94-16b9" page="247" hidden="false">
       <description>When a unit that contains at least one model with this special rule makes a Shooting Attack, one model in the unit can shoot at a different target to the rest of their unit. Once this Shooting Attack has been resolved, resolve the Shooting Attacks made by the rest of the unit. These must be at a different target, which cannot be a unit forced to Disembark as a result of the Split Firing unit’s initial Shooting Attack.</description>
@@ -20313,7 +20534,8 @@ If a unit has both the Infiltrate and Scout special rules, that unit can deploy 
 Similarly, if a model makes a Shooting Attack with a weapon that has the Shred rule, it re-rolls its failed To Wound rolls.</description>
     </rule>
     <rule id="9222-f6c5-dc19-905a" name="Shock Pulse" publicationId="91df-ed64-4216-5bab" page="3" hidden="false">
-      <description>Any model with the Vehicle, Dreadnought or Automata Unit Type that suffers a Penetrating Hit or unsaved Wound from an attack with this special rule may only make Snap Shots when it next makes a Shooting Attack either as part of a Reaction or during its controlling player’s Shooting phase.</description>
+      <description>Any model with the Vehicle, Dreadnought or Automata Unit Type that suffers a Penetrating Hit or unsaved Wound from an attack with this special rule may only make Snap Shots when it next makes a Shooting Attack either as part of a Reaction or during its controlling player&amp;apos;s Shooting phase.
+Models with the Super-Heavy, Lumbering, Knight, or Titan Sub-types are not forced to make Snap Shots as part of their next Shooting Attack, instead suffering a -2 penalty to their Ballistic Skill Characteristic when they make their next Shooting Attack, and in addition, any weapons they are equipped with use a Scatter dice to roll to hit and which roll a result of &amp;apos;Hit&amp;apos; on the Scatter die must re-roll it. This penalty can only be applied to a model once per turn.</description>
     </rule>
     <rule id="46b7-63a1-941c-96a5" name="Shell Shock (X)" publicationId="e77a-823a-da94-16b9" page="246" hidden="false">
       <description>Pinning tests taken due to an attack or weapon with this special rule are made with a penalty to Leadership Characteristic equal to the value listed as part of the special rule.
@@ -20321,14 +20543,16 @@ Similarly, if a model makes a Shooting Attack with a weapon that has the Shred r
 For example, a unit that is forced to take a Pinning test by an attack made using a weapon with the Shell Shock (2) special rule, suffers a penalty of -2 to their Leadership Characteristic when resolving that Test.</description>
     </rule>
     <rule id="2206-8497-8fe1-e973" name="Precision Strikes (X)" publicationId="e77a-823a-da94-16b9" page="245" hidden="false">
-      <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a melee attack, that hit is a ‘Precision Strike’. For example, if a model with the Precision Strikes (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Strike.
-Wounds from Precision Strikes are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as that model is engaged in combat with the attacking model’s unit, rather than following the normal rules for Wound allocation.</description>
+      <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a melee attack, that hit is a &amp;apos;Precision Strike&amp;apos;. For example, if a model with the Precision Strikes (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Strike.
+Wounds from Precision Strikes are allocated against a model (or models) of the attacking player&amp;apos;s choice in the target unit, as long as that model is engaged in combat with the attacking model&amp;apos;s unit, rather than following the normal rules for Wound allocation.
+
+The Precision Strikes (X) Special Rule does not allow models to strike into - or out of - a Challenge. Outside forces must attack other Outside forces, and Challengers must strike each other, in line with the Challenge section on pages 198 and 199.</description>
     </rule>
     <rule id="5a93-13e0-809d-782a" name="Power of the Machine Spirit" publicationId="e77a-823a-da94-16b9" page="244" hidden="false">
       <description>A Vehicle with this special rule may attack different targets with each Ranged weapon it is permitted to fire during any Shooting Attack.</description>
     </rule>
     <rule id="cd2a-0a2b-315e-d39a" name="Slow Vehicles" publicationId="e77a-823a-da94-16b9" page="214" hidden="false">
-      <description>When rolling on the Vehicle Damage table to resolve Hits against a Slow Vehicle, roll an additional D6 and before determining the result discard the highest single dice rolled. In addition, when a Slow Vehicle moves, other than to pivot in place, it is always considered to have moved at Cruising Speed regardless of how many inches it moves.</description>
+      <description>When rolling on the Vehicle Damage table to resolve Hits against a Slow Vehicle, roll an additional D6 and before determining the result discard the highest single dice rolled. In addition, when a Slow Vehicle moves, other than to pivot in place, it is always considered to have moved at Combat Speed regardless of how many inches it moves.</description>
     </rule>
     <rule id="1570-c21a-881f-8b8a" name="Unwieldy" publicationId="e77a-823a-da94-16b9" page="249" hidden="false">
       <description>A model attacking with this weapon Piles-in and fights at Initiative step 1, unless it has the Dreadnought Unit Type or Monstrous sub-type.</description>
@@ -20360,7 +20584,7 @@ Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weap
       <description>A model attacking with this weapon never receives +1 Attack for fighting with two Melee weapons (see page 177).</description>
     </rule>
     <rule id="e1d7-0fe8-59f4-af89" name="Antigrav Sub-type" publicationId="e77a-823a-da94-16b9" page="196" hidden="false">
-      <description>• A unit that includes only models with the Antigrav sub-type may ignore the effects of any and all terrain it passes over during movement, including passing over vertical terrain and Impassable Terrain without penalty or restriction. However, such units may not begin or end their movement in Impassable Terrain, and if beginning or ending their movement in Dangerous Terrain must take Dangerous Terrain tests as normal.
+      <description>• Models with the Antigrav Sub-type may move over friendly and enemy models, but cannot end their move on top of either. They may also move over all terrain, ignoring all penalties for Difficult Terrain and Dangerous Terrain. However, if a moving model with the Antigrav Subtype starts or ends its move in Difficult Terrain or Dangerous Terrain, it must take a Dangerous Terrain test. An Antigrav model can even end its move over Impassable Terrain if it is possible to actually place the model on top of it, but if it does so it must take a Dangerous Terrain test. If an Antigrav model is forced to end its move over friendly or enemy models, move the model the minimum distance so that no models are left underneath it.
 • Models with the Antigrav sub-type may never benefit from Cover Saves of any kind.</description>
     </rule>
     <rule id="63d3-5fef-7c8e-e881" name="Skimmers" publicationId="e77a-823a-da94-16b9" page="214" hidden="false">
@@ -20393,7 +20617,11 @@ Once all units are deployed, any enemy units within line of sight and range may 
 Once all units from the Area Denial Drop have been deployed and any Interceptor Reactions have been resolved, the turn proceeds as normal. Units that have been deployed as part of an Area Denial Drop may not Move or Run in the same Movement phase as they are deployed, but may Shoot and declare Charges as normal (if the models deployed as part of the Area Denial Drop are allowed to make Charges).</description>
     </rule>
     <rule id="8837-14e8-344a-1f39" name="Auxiliary Vehicle Bay" publicationId="a716-c1c4-7b26-8424" page="117" hidden="false">
-      <description>Models with the Vehicle Unit Type may Embark on a model with this special rule, Embarking and Disembarking as per the normal rules for Embarking/Disembarking. A model with this special rule may carry one model with the Vehicle Unit Type whose starting Hull Points Characteristic is 4 or less. A model with the Vehicle Unit Type Embarking or Disembarking from a model with this special rule may do so from any point on the model’s base, or its hull if it has no base.</description>
+      <description>Models with the Vehicle Unit Type may Embark on a model with this special rule, Embarking and Disembarking as per the normal rules for Embarking/Disembarking. A model with this special rule may carry one model with the Vehicle Unit Type whose starting Hull Points Characteristic is 4 or less. A model with the Vehicle Unit Type Embarking or Disembarking from a model with this special rule may do so from any point on the model’s base, or its hull if it has no base.
+
+Models with the Flyer Sub-type, or with a Movement Characteristic of 0, can never embark into an Auxiliary Vehicle Bay.
+
+Any model which would normally be prevented from being selected during list construction (such as via a Rite of War) may still be selected if it begins the game embarked upon an Auxiliary Vehicle Bay.</description>
     </rule>
     <rule id="d1b8-31da-c53c-4fe2" name="Bitter Duty" publicationId="a716-c1c4-7b26-8424" page="117" hidden="false">
       <description>A unit that includes any models with this special rule may not be joined by any model that does not also have this special rule (this includes Legion Techmarines and Legion Apothecaries, which may not be assigned to a unit with this special rule unless they also have this special rule).</description>
@@ -20419,7 +20647,9 @@ For example, a model with the Breaching (5+) special rule that rolls To Wound an
       <description>A weapon with this special rule may only be used to attack models of the Vehicle, Dreadnought or Automata Unit Types, any model with a Movement Characteristic of 0 or ‘-’, or Buildings or Fortifications. Furthermore, a model that is chosen to attack with a weapon with this special rule during the Assault phase may only make a single attack in the Fight sub-phase, regardless of its Attacks Characteristic and any bonus attacks from Charging or other special rules.</description>
     </rule>
     <rule id="a924-2634-73fd-aa96" name="Dreadnought Talon" publicationId="a716-c1c4-7b26-8424" page="118" hidden="false">
-      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.</description>
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.
+
+Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
     </rule>
     <rule id="a0bf-fb7c-a9dc-72f0" name="Dreadnought Transport" publicationId="a716-c1c4-7b26-8424" page="118" hidden="false">
       <description>A model with this special rule may transport a single model with the Dreadnought Unit Type with no more than 8 Wounds instead of any other models. A Dreadnought model may not Embark upon a model with this special rule if any other models are already Embarked on it, and while a Dreadnought model is Embarked on a model with this special rule then no other models may Embark.</description>
@@ -20449,10 +20679,16 @@ In addition, when moving in Hover mode, the controlling player may choose to inf
     </rule>
     <rule id="93e9-2806-e822-bfaf" name="Techmarine Covenant (LA)" publicationId="a716-c1c4-7b26-8424" page="125" hidden="false">
       <description>A Techmarine Covenant is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in a Techmarine Covenant must be assigned to another unit from the same Detachment of the army they were selected as part of. Legion Techmarines that have not selected a Legion Spatha combat bike or Legion Scimitar jetbike may only be assigned to units composed entirely of models with the Infantry Unit Type and the same Legiones Astartes (X) special rule as the Legion Techmarine, and may not join units with Terminator armour of any kind. Legion Techmarines that have selected a Legion Spatha combat bike may only be assigned to units composed entirely of models with Legion Spatha combat bikes and the same Legiones Astartes (X) special rule as the Legion Techmarine, and any Legion Techmarines that have selected a Legion Scimitar jetbike may only be assigned to units composed entirely of models with Legion Scimitar jetbikes and the same Legiones Astartes (X) special rule as the Legion Techmarine. No Legion Techmarine may be assigned to any unit that includes one or more models with the Independent Character special rule or Unique Sub-type (but such models may join a unit that includes a Legion Techmarine as normal during either deployment or any following turn). No more than one Legion Techmarine may be assigned to any given unit.
-Once assigned to a unit, the Legion Techmarine is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Legion Techmarine is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Legion Techmarine as a casualty. When assigned to a unit, a Legion Techmarine gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+Once assigned to a unit, the Legion Techmarine is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Legion Techmarine is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Legion Techmarine as a casualty. When assigned to a unit, a Legion Techmarine gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.
+
+Any Techmarine which selects a Legion Scimitar Jetbike may choose to join any unit equipped with any other pattern of Jetbikes, as long as that unit also meets the other stipulations and requirements of this rule.</description>
     </rule>
     <rule id="c503-f5b8-3da0-16e6" name="Void Shields" publicationId="a716-c1c4-7b26-8424" page="127" hidden="false">
-      <description>A model with this special rule has a number of void shields, as listed on its profile. Shooting Attacks which Hit a model with this special rule instead target this model’s void shields while at least one remains active. Void shields have an Armour Value of 12. A successful Glancing Hit, Penetrating Hit or any successful Hit from a Destroyer weapon which targets a void shield causes it to collapse, reducing the number ‘X’ by -1. When the number of void shields is reduced to 0, this special rule has no further effect and subsequent Shooting Attacks target the model instead. Void shields have no effect on close combat attacks, and may not be affected by close combat attacks.</description>
+      <description>A model with this special rule has a number of void shields, as listed on its profile. Shooting Attacks which Hit a model with this special rule instead target this model’s void shields while at least one remains active. Void shields have an Armour Value of 12. A successful Glancing Hit, Penetrating Hit or any successful Hit from a Destroyer weapon which targets a void shield causes it to collapse, reducing the number ‘X’ by -1. When the number of void shields is reduced to 0, this special rule has no further effect and subsequent Shooting Attacks target the model instead. Void shields have no effect on close combat attacks, and may not be affected by close combat attacks.
+
+When resolving a Shooting Attack against a target with any Void Shields active, all shots fired as part of that Shooting Attack are deemed to strike the Void Shields, and not the target unit itself. For example, if the first two shots of a five-shot Shooting Attack successfully remove the target&amp;apos;s Void Shields, the remaining three shots do not strike the original target, but are instead discarded.
+
+It should be noted that, as the Void Shields provided by this Special Rule are a separate target, they may not claim the benefits of the Flare Shield wargear item, nor take Saves or Damage Mitigation Rolls of any kind provided by the unit with the Void Shields (X) Special Rule.</description>
     </rule>
     <rule id="0662-8b8d-38e8-60f8" name="Transport Bay" publicationId="a716-c1c4-7b26-8424" page="126" hidden="false">
       <description>A model with this special rule may carry models of the Dreadnought and Automata Unit Types, as well as models with the Cavalry Unit Type but not the Antigrav Sub-type. Each Dreadnought model uses 10 points of Transport Capacity, while each Automata and Cavalry model uses up a number of Transport Capacity points equal to twice its starting Wounds Characteristic.</description>
@@ -20464,13 +20700,15 @@ Once assigned to a unit, the Legion Techmarine is considered part of that unit a
       <description>A model with this special rule may only be included in an army that has the Traitor Allegiance.</description>
     </rule>
     <rule id="1703-5d6d-048c-7287" name="Talons of the Legion" publicationId="a716-c1c4-7b26-8424" page="125" hidden="false">
-      <description>A unit or model with this special rule may be placed into Combat Air Patrol at the start of the battle, before any models are deployed onto the battlefield. Models assigned to Combat Air Patrol are not deployed onto the battlefield and remain in Reserves – however, no Reserves rolls are made for these models. Instead, the controlling player gains access to the Combat Air Patrol Advanced Reaction.</description>
+      <description>A unit or model with this special rule may be placed into Combat Air Patrol at the start of the battle, before any models are deployed onto the battlefield. Models assigned to Combat Air Patrol are not deployed onto the battlefield and remain in Reserves – however, no Reserves rolls are made for these models. Instead, the controlling player gains access to the Combat Air Patrol Advanced Reaction.
+
+When resolving a Combat Air Patrol Advanced Reaction, the flyer enters the battlefield and shoots entirely during the Movement Phase. As a result, because this is not resolved in the Shooting Phase, the flyer which made this reaction is not able to declare it is using the Skyfire Special Rule.</description>
     </rule>
     <rule id="2cef-a40d-97b8-7d4e" name="Torsion Crusher" publicationId="a716-c1c4-7b26-8424" page="126" hidden="false">
       <description>When a target with an Armour Value is struck by a weapon with this special rule, the amount of Hull Point damage caused by the weapon is doubled.</description>
     </rule>
     <rule id="88df-ea13-cc92-8193" name="Rocket Barrage" publicationId="a716-c1c4-7b26-8424" page="124" hidden="false">
-      <description>If a model that has a weapon with this special rule does not move in the Movement phase of a given turn, that weapon may be given the Rending (4+) and Pinning special rules until the start of the controlling player’s next turn.</description>
+      <description>If a model that has a weapon with this Special Rule does not move in the Movement phase of a given turn, that weapon gains the Rending (5+), Shell Shock (1), and Pinning Special Rules until the start of the Controlling Player&amp;apos;s next turn.</description>
     </rule>
     <rule id="6b79-ac44-4d89-2124" name="Retinue" publicationId="a716-c1c4-7b26-8424" page="124" hidden="false">
       <description>A Legion Command Squad, Legion Cataphractii Terminator Command Squad or Legion Tartaros Command Squad may only be selected as part of a Detachment that includes at least one model with the Master of the Legion special rule. A unit selected in this manner is considered a ‘Retinue Squad’ and the model with the Master of the Legion special rule is referred to as the Retinue Squad’s Leader for the purposes of this special rule (if the Detachment includes more than one model with the Master of the Legion special rule then the controlling player selects one as the unit’s Leader). The Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. The Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play. A Legion Command Squad, Legion Cataphractii Terminator Command Squad or Legion Tartaros Command Squad may not be selected as part of an army without a Leader.</description>
@@ -20490,7 +20728,9 @@ For example, a model attacking as part of an Assault with a weapon that has the 
       <description>If the target of a weapon with this special rule is a model with the Vehicle Unit Type and that model loses one or more Hull Points as the result of an attack from this weapon, roll a D6. On a 4+, the target model loses an additional D3 Hull Points with no Cover Saves, Invulnerable saves or Damage Mitigation rolls allowed.</description>
     </rule>
     <rule id="7fc9-7bcd-b44c-6719" name="Orbital Assault Vehicle" publicationId="a716-c1c4-7b26-8424" page="123" hidden="false">
-      <description>A model with this special rule must be deployed onto the battlefield as part of a Deep Strike Assault, or other deployment that requires the Deep Strike special rule. It may never be deployed as normal, regardless of any other rule or mission, and if forced to do so it is immediately reduced to 0 Hull Points and replaced with a Wreck (any models Embarked within must make an Emergency Disembarkation). Furthermore, a model with this special rule may never move – and if forced to do so is immediately reduced to 0 Hull Points and replaced with a Wreck (any models Embarked within must make an Emergency Disembarkation).</description>
+      <description>A model with this special rule must be deployed onto the battlefield as part of a Deep Strike Assault, or other deployment that requires the Deep Strike special rule. It may never be deployed as normal, regardless of any other rule or mission, and if forced to do so it is immediately reduced to 0 Hull Points and replaced with a Wreck (any models Embarked within must make an Emergency Disembarkation). Furthermore, a model with this special rule may never move – and if forced to do so is immediately reduced to 0 Hull Points and replaced with a Wreck (any models Embarked within must make an Emergency Disembarkation).
+
+For the purposes of the Orbital Assault Vehicle Special Rule, a Drop Pod Assault counts as deploying via Deep Strike Assault.</description>
     </rule>
     <rule id="33d4-d46d-7f47-3ad2" name="Subterranean Assault" publicationId="817a-6288-e016-7469" page="101" hidden="false">
       <description>Before the start of the first turn, when placing units into Reserve, a player must assign all units with the Subterranean Assault special rule and any Infantry units Embarked upon them to perform a Subterranean Assault. All models in a unit assigned to a Subterranean Assault must have the Subterranean Assault special rule, or be Embarked on a model with the Transport Subtype that has the Subterranean Assault special rule itself.
@@ -20547,7 +20787,8 @@ You can move a unit in one part of a multi-part Building into an adjacent and un
     </rule>
     <rule id="6c55-22c8-1b01-2105" name="Ordnance" publicationId="e77a-823a-da94-16b9" page="177" hidden="false">
       <description>When making Shooting Attacks, a model equipped with an Ordnance weapon fires the number of times indicated in its profile after its Type. A non-Vehicle model carrying an Ordnance weapon cannon attack with it in the Shooting phase if they moved in the preceding Movement phase. Ordnance weapons cannot make Snap Shots. Furthermore if a non-Vehicle model attacks with an Ordnance weapon, that model may not make any further Shooting Attacks with any other weapon in the Phase nor will it be able to Charge in the ensuing Assault phase. Vehicle models that fire Ordnance weapons may also suffer some restrictions based upon the distance they have moved that turn.
-Ordnance weapons hit with such force that when you roll to penetrate a Vehicle&apos;s armour with an Ordnance weapon, roll two dice instead of one and pick the highest result.</description>
+Ordnance weapons hit with such force that when you roll to penetrate a Vehicle&amp;apos;s armour with an Ordnance weapon, roll two dice instead of one and pick the highest result.
+Failed To Wound rolls made with a weapon with this Special Rule against Dreadnought and Automata models may be re-rolled.</description>
     </rule>
     <rule id="6f5f-8f7c-d18b-cd42" name="Grenades" publicationId="a716-c1c4-7b26-8424" page="142" hidden="false">
       <description>Grenades are represented in battle as Wargear items with a specific effect rather than as weapons. Using grenades does not count as a Shooting Attack and their effects are entirely covered by the rules presented here. Note that grenade launchers do not use these rules and are Shooting Weapons governed by the standard Shooting rules.</description>
@@ -20644,7 +20885,9 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>A unit that includes at least one model with the Psyker Unit Sub-type or Daemon Unit Type, and which suffers one of more unsaved Wound from a weapon with this special rule also suffers Perils of the Warp (see page 201 of the Horus Heresy: Age of Darkness rulebook). Any given unit may only suffer Perils of the Warp once per Phase due to the effects of this special rule, regardless of how many enemy units attack that unit or how many weapons with this special rule are present in the attacking units.</description>
     </rule>
     <rule id="64ca-719e-b563-e3df" name="Independent Fire Control" publicationId="15a4-fc68-502d-48a9" hidden="false">
-      <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a number of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondary Shooting Attack targeting a different enemy unit of any combination - however, each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.</description>
+      <description>After a model with this special rule (for a unit composed entirely of models with this special rule) has resolved a Shooting Attack targeting an enemy unit, any weapons that were not used to attack (either dur to being out of line of sight or range of the enemy units, or because the controlling player voluntarily opted not to attack with them) may make a number of Secondary Shooting Attacks using those weapons that did not fire as part of its initial Shooting Attack. Each weapon not fired as part of the initial Shooting Attack may be fired once, either all of them in a single Secondary Shooting Attack, each in a separate Secondary Shooting Attack targeting a different enemy unit of any combination - however, each weapon may only be used to attack once and in no more than one Secondary Shooting Attack. All Secondary Shooting Attacks obey all the normal rules for range and line of sight and are with a modifier of -1 on all To Hit rolls.
+
+Instead of the above, in a turn in which a model with this Special Rule either remained Stationary or moved at Combat Speed during the Controlling Player&apos;s Movement Phase, then for the duration of the Controlling Player&apos;s following Shooting Phase, it may make Shooting Attacks as if it had the Super Heavy Sub-Type.</description>
     </rule>
     <rule id="71fa-da0d-0056-9072" name="Kharash" hidden="false">
       <modifiers>
@@ -20666,7 +20909,7 @@ Scatter dice.
 The penalty to Leadership is ignored by any unit with the Fearless or Stubborn special rules. A Primarch unit, or any unit with the Night Vision special rule ignores both the penalties to Leadership and Ballistic Skill and the restrictions on drawing line of sight to other units.</description>
     </rule>
     <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="48c2-d023-0069-001a" page="41" hidden="false">
-      <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any special rules that would normally grant additional Attacks.</description>
+      <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any Special Rules that would normally grant additional Attacks.</description>
     </rule>
     <rule name="Impale" hidden="false" id="2dfc-b3cc-7ede-2827" publicationId="4934-46f7-208b-b4af" page="132">
       <description>A unit may re-roll Charge Rolls when attempting to Charge an enemy unit that has suffered one or more Hits from a weapon with the Impale special rule caused by one or more models in the unit for which the Charge was declared in the same player turn. This takes effect even if no Wounds are caused by the Hits.
@@ -20748,7 +20991,9 @@ Any Legion Centrurions, Legion Cataphractii Centurions and Legion Tartaros Centu
       <description>The Strength of Wisdom: When rolling To Hit for a model with this special rule as part of a Shooting Attack, add +1 to the result of the roll if the enemy unit targeted by the attack has already been the target of another friendly unit composed entirely of models with this special rule in the same Shooting phase, and if the attacking model is within 6&quot; of a model from that friendly unit. This does not affect attacks made with the Blast or Barrage special rules.</description>
     </rule>
     <rule id="4b54-8bd0-9fdd-cbc4" name="Legiones Astartes (White Scars)" publicationId="817a-6288-e016-7469" page="176" hidden="false">
-      <description>Swift of Action: All models with this special rule add +1 to their Movement Characteristic and whenever called upon to make a roll to determine which player will take the First Turn or to Seize the Initiative, the controlling player of an army whose Primary Detachment has this special rule may roll an additional dice and discard the lowest rolled dice before determining the result.</description>
+      <description>Swift of Action: All models with this special rule add +1 to their Movement Characteristic and whenever called upon to make a roll to determine which player will take the First Turn or to Seize the Initiative, the controlling player of an army whose Primary Detachment has this special rule may roll an additional dice and discard the lowest rolled dice before determining the result.
+
+In addition, all models with the Legiones Astartes (White Scars) Special Rule who are also equipped with a Legion Scimitar Jetbike, Legion Estoc Jetbike, Legion Spatha Combat Bike, Legion Spatha Attack Bike, or Shamshir Jetbike gain the Shrouded (6+) Special Rule.</description>
     </rule>
     <rule id="21ba-24fc-3fad-00fe" name="Legiones Astartes (Word Bearers)" publicationId="09c5-eeae-f398-b653" page="302" hidden="false">
       <description>True Believers: A model with this special rule may never have a Leadership Characteristic modified below a value of 6. Furthermore if one or more models with this special rule are part of a combat that results in a draw, then the side that includes one or more models at the end of the fight sub-phase with this special rule is counted as having won the combat by 1 point. If both sides include models with this special rule then the combat remains a draw.</description>
@@ -20770,7 +21015,9 @@ At the end of its controlling player’s following turn, the unit is no longer S
     </rule>
     <rule id="1f8d-3016-a561-c849" name="Techmarine Covenant (LH)" publicationId="a716-c1c4-7b26-8424" page="125" hidden="false">
       <description>A Techmarine Covenant is selected as any other unit, using up a single Force Organisation slot and bought in the same manner. However, before the first turn begins and any models are deployed to the battlefield, all models in a Techmarine Covenant must be assigned to another unit from the same Detachment of the army they were selected as part of. Legion Techmarines that have not selected a Legion Spatha combat bike or Legion Scimitar jetbike may only be assigned to units composed entirely of models with the Infantry Unit Type and the same Legiones Hereticus (X) special rule as the Legion Techmarine, and may not join units with Terminator armour of any kind. Legion Techmarines that have selected a Legion Spatha combat bike may only be assigned to units composed entirely of models with Legion Spatha combat bikes and the same Legiones Hereticus (X) special rule as the Legion Techmarine, and any Legion Techmarines that have selected a Legion Scimitar jetbike may only be assigned to units composed entirely of models with Legion Scimitar jetbikes and the same Legiones Hereticus (X) special rule as the Legion Techmarine. No Legion Techmarine may be assigned to any unit that includes one or more models with the Independent Character special rule or Unique Sub-type (but such models may join a unit that includes a Legion Techmarine as normal during either deployment or any following turn). No more than one Legion Techmarine may be assigned to any given unit.
-Once assigned to a unit, the Legion Techmarine is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Legion Techmarine is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Legion Techmarine as a casualty. When assigned to a unit, a Legion Techmarine gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.</description>
+Once assigned to a unit, the Legion Techmarine is considered part of that unit and may not leave it under any circumstances – if that unit is removed as a casualty then the Legion Techmarine is removed as well. In battles using Victory points, no Victory points are ever scored for removing a Legion Techmarine as a casualty. When assigned to a unit, a Legion Techmarine gains all of the special rules (with the exception of those that specifically forbid it, such as the Bitter Duty special rule) and Unit Sub-types listed for the unit to which it is attached, but does not gain access to any additional Wargear options available to the unit to which it is assigned.
+
+Any Techmarine which selects a Legion Scimitar Jetbike may choose to join any unit equipped with any other pattern of Jetbikes, as long as that unit also meets the other stipulations and requirements of this rule.</description>
     </rule>
     <rule id="4d16-c28e-a8a6-39f4" name="Open Crew Compartment" hidden="false">
       <description>Any Hits scored against a Vehicle with this special rule in close combat (including as part of a Death or Glory Advanced Reaction) are resolved against the Vehicle’s Armour Facing with the lowest value.</description>
@@ -21193,6 +21440,155 @@ During Army Selection, a model with the Warrant of Trade Special Rule must selec
 
 ----- Start of picture text -----&lt;br&gt;
 D6 Result Description&lt;br&gt;1 Oops! The weapons of all models affected gain&lt;br&gt;the Gets Hot Special Rule, or if they&lt;br&gt;already have it, a to-Hit roll of a 1 or a 2&lt;br&gt;triggers the effects of the Special Rule&lt;br&gt;instead.&lt;br&gt;2 Aesthetic The modifications have no noticeable&lt;br&gt;Modifications effect.&lt;br&gt;3 Rangefinder All Ranged weapons in the unit increase&lt;br&gt;Calibration their Range Characteristic by 12“.&lt;br&gt;4 Armour Repairs All models affected may re-roll Armour&lt;br&gt;Save rolls of 1.&lt;br&gt;5 Cooling Coils All models affected&apos;s Ranged Weapons&lt;br&gt;increase the number of shots they fire by&lt;br&gt;1 (for example, a weapon with Assault 2&lt;br&gt;becoming Assault 3), and may ignore the&lt;br&gt;effects of the Gets Hot Special Rule on&lt;br&gt;their weapons, if they have it.&lt;br&gt;6 Complete The Controlling Player may choose two&lt;br&gt;Overhaul different results from this table and apply&lt;br&gt;them to the unit.&lt;br&gt;----- End of picture text -----&lt;br&gt;</description>
+    </rule>
+    <rule id="0f90-9432-a2c7-4cd7-81fb95f96d2b0d07" name="Special Rules Overlap" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="Various" hidden="false">
+      <description>Occasionally a weapon will have multiple Special Rules which would overlap with each other, for example the Graviton Gun, which has both the Haywire and Graviton Pulse Special Rules. Both of these rules offer alternative methods of wounding targets which could both be used against units with applicable Sub-types, such as the Dreadnought Unit Type. In cases such as this, you should choose a single such Special Rule to apply the effects of, and then apply the effects of the chosen rule from there.
+
+In the case of multiple models with &amp;apos;Must do X&amp;apos; stipulations (such as having multiple Legion Champion Consuls with the Never Back down Special Rule requiring them to issue or accept challenges), it is assumed that the Controlling Player must pick one such trigger to activate, and do not allow you to break the core rules.</description>
+    </rule>
+    <rule id="257e-3890-83c2-43fc-af4226f6aeea7b24" name="To-Wound Rolls and Special Rules" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="Various" hidden="false">
+      <description>If a unit has a Special Rule, Wargear Item, or other ability that affects the to-Wound roll (such as the Poisoned or Fleshbane Special Rules, or is in a mixed unit of Automata and non-Automata when hit by the Disruption Special Rule, or so on), then you must resolve those hits as follows unless that Special Rule specifies otherwise:
+- Count the number of models in the target unit that would have the Special Rule in question applied to them.
+- If there are more models in the unit which would have the Special Rule applied than without, then the hits are all resolved with the Special Rule&amp;apos;s effects.
+- If there are less models in the unit which would have the Special Rule applied than without, then none of the hits are resolved with the Special Rule&amp;apos;s effects.
+- If there are an equal number, the Controlling Player of the Target unit may decide whether or not to have the hits resolved using the Special Rule&amp;apos;s effects.
+
+Any Special Rules, Wargear Items, or other abilities that specify they cannot be used in certain circumstances may not benefit from this ruling.</description>
+    </rule>
+    <rule id="181e-247e-2683-4a6d-9ba667c6b9af9659" name="Snap Shots (Panoptica FAQ)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="169" hidden="false">
+      <description>A model may never voluntarily choose to fire Snap Shots.</description>
+    </rule>
+    <rule id="cdab-115c-17f1-49e8-838629d1f3bc26d8" name="CCWs and Bonus Attacks" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="176" hidden="false">
+      <description>As per the boxout labelled &amp;apos;Close Combat Weapons&amp;apos; on P176, if a model is armed with a pistol but no close combat weapon, then they can use their pistol as a Close Combat Weapon with the profile given. This means they are armed with a Close Combat Weapon, and so cannot claim a second one.
+
+Because a pistol counts as a Close Combat Weapon, a model armed with two pistols may claim +1A for being armed with two Close Combat Weapons.</description>
+    </rule>
+    <rule id="4fc9-18cb-cd96-4169-816af04fd234c446" name="Core Reactions" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="158-160" hidden="false">
+      <description>Whenever a model commits an action that could trigger a Reaction (such as making a Shooting Attack at an enemy unit, moving within reaction distance, or so on), if such an action would allow multiple enemy units to React, then all may do so, providing they have not already Reacted this Phase, and the Reacting Player has sufficient Reaction Allotment to do so.</description>
+    </rule>
+    <rule id="b5bc-df89-fc0f-4066-82ff1f9b408c91c9" name="Sweeping Advances (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="188" hidden="false">
+      <description>If the winner&amp;apos;s total (Initiative + dice roll) is equal to or greater than their opponents&amp;apos;, the Falling Back unit is caught by the Sweeping Advance and destroyed.</description>
+    </rule>
+    <rule id="93a9-8869-c41d-44f1-98c2812fcf14fe9b" name="Characters and Wound Allocation" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="198" hidden="false">
+      <description>Once a model with the Character Sub-type has suffered an unsaved Wound, all remaining Wounds in the current Wound Pool must continue to be allocated to the same model, and may not choose to have these wounds allocated elsewhere. Subsequent Wound Pools are not affected by this, and are handled as a fresh Pool for the purposes of wound allocation.</description>
+    </rule>
+    <rule id="5da4-0e92-ce13-451a-8fc85e23bb9338b9" name="Ramming" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="204" hidden="false">
+      <description>If a Vehicle Squadron attempts to make a Ram attack but cannot successfully Ram with all models in the squadron, the models that cannot successfully Ram must still move their maximum Movement speed to maintain coherency, and suffer the same restrictions that a Ramming Vehicle suffers.</description>
+    </rule>
+    <rule id="a4c3-a32e-8855-4ef9-94326e54dc42fe47" name="Transport Restrictions" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="211" hidden="false">
+      <description>The implication of the boxout - that models with any pattern of Jump or Jet Pack cannot embark upon Transports without the Flyer Sub-type unless otherwise permitted by Special Rules, Wargear, or other abilities - is correct.</description>
+    </rule>
+    <rule id="4dbe-c1f9-6472-4564-b3f4280a636f4230" name="Super-Heavy Vehicle Sub-type (Panoptica)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="215" hidden="false">
+      <description>Due to the immense size of such vehicles, a model with the Super-Heavy Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot suffer Hull Points of Damage or otherwise be affected by any Attack with the Psychic Focus Special Rule. Weapons with the Force Special Rule that are used to make Attacks against a model with the Super-Heavy Sub-type are not affected and are resolved normally.</description>
+    </rule>
+    <rule id="fa80-90ea-1553-4571-82000f497f74c530" name="Super-Heavy Vehicle Shooting (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="215" hidden="false">
+      <description>All targets must be declared before any To Hit rolls are made.</description>
+    </rule>
+    <rule id="d1bc-f486-f1d4-441c-a3c5306839cb6624" name="Battlefield Terrain (Panoptica FAQ)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="220" hidden="false">
+      <description>During Terrain set-up and Deployment, ensure that Ruins and other terrain sections are defined as to the Cover Saves they provide, as well as which sections can and cannot have Line of Sight drawn through them, and which sections are classed as Impassible or not. It should also be discussed which pieces of terrain can or cannot have vehicles ascend or descend them.
+
+A knight or titan may make a charge move against a model in area terrain, ignoring vertical distances - treat the model being charged as though it is on the ground floor for the purposes of distances.
+
+A knight or titan may make a melee attack against a model whose base is within 1&amp;quot; horizontally of their own, regardless of vertical distance.
+
+Due to the immense size of such vehicles, a model with the Knight or Titan Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot suffer Hull Points of Damage or otherwise be affected by any Attack with the Psychic Focus Special Rule. Weapons with the Force Special Rule that are used to make Attacks against a model with the Knight or Titan Sub-type are not affected and are resolved normally.</description>
+    </rule>
+    <rule id="7ae9-1fa6-e62c-47f6-959363a764a88265" name="Flyers and Other Models (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="218" hidden="false">
+      <description>If a flyer is forced to end its move with its base within 1&amp;quot; of an enemy model and is unable to be placed anywhere else (such as if has suffered a Crew Stunned result) then the flyer must move the shortest possible distance to avoid the enemy model and be placed over 1&amp;quot; away from it.
+
+All models with the Flyer Sub-type gain the Countermeasures special rule.</description>
+    </rule>
+    <rule id="b082-67dd-2240-4077-82a44f4429725800" name="Countermeasures" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="218" hidden="false">
+      <description>All models with the Flyer Sub-type gain this special rule.</description>
+    </rule>
+    <rule id="ddc5-4b1a-9da2-4329-98d7853b8fdff825" name="Lumbering Sub-type (Panoptica)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="219" hidden="false">
+      <description>Finally, due to the immense size of these airborne behemoths, they are able to fire all weapons they are equipped with, suffering no penalties, as part of any Shooting Attack they make, though they follow the normal rules and restrictions on Reactions applied to the Lumbering Sub-type.
+
+Due to the immense size of such vehicles, a model with the Lumbering Sub-type ignores all effects (both detrimental and beneficial) of all Psychic Powers and cannot suffer Hull Points of Damage or otherwise be affected by any Attack with the Psychic Focus Special Rule. Weapons with the Force Special Rule that are used to make Attacks against a model with the Lumbering Sub-type are not affected and are resolved normally.</description>
+    </rule>
+    <rule id="fd24-bde4-4bb0-47c3-a78ad05aae4ec530" name="Lumbering Flyers and Transport (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="219" hidden="false">
+      <description>If a Lumbering Flyer is zooming when it suffers Catastrophic Damage, then follow the standard rules for Crash &amp;amp; Burn (Page 213). If a Lumbering Flyer is hovering then apply the following result instead.
+
+In order to be considered as &amp;apos;placed&amp;apos; in a piece of terrain, a model&amp;apos;s base or hull must be wholly within the terrain. If the model overhangs by a meaningful degree, it cannot be placed there! In cases where this is not clear or not possible due to limitations of the terrain itself, the &amp;apos;Wobbly Model Syndrome&amp;apos; rules from page 165 should be applied.</description>
+    </rule>
+    <rule id="407a-f22c-5c3d-4b0d-aee7d837e939ff81" name="Order of Operations for Force Weapons" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="238" hidden="false">
+      <description>If multiple modifiers would affect the Strength of a model using a Force Weapon, these should be resolved as follows:
+- If a model has a weapon which would increase its S via a flat +X bonus (such as a force maul), this occurs first.
+- If a model uses the Force Psychic Power, the S multiplication from this is resolved next.
+- This means, assuming a base Strength of 4, a weapon strength of 6, and a successful cast of the Force Power for x2 strength on the attack, the model would resolve its attacks at Strength 12.</description>
+    </rule>
+    <rule id="f17b-991a-19ec-486a-a92a7cd9c5ea5bfb" name="Blast Markers, Templates, and Multi-Level Terrain" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="234" hidden="false">
+      <description>When a shooting attack which uses a template or blast marker of any kind hits a unit spread across multiple levels of terrain, all models which are under the template&amp;apos;s final resting position are hit - regardless of height on the terrain.</description>
+    </rule>
+    <rule id="328c-142e-76c1-4625-942cb2fd19697674" name="Crusade Force Organisation Chart" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="281" hidden="false">
+      <description>When constructing an army using the Crusade Force Organisation Chart, irregardless of the number of Optional Detachments you are able to select, you may still only select a single Allied Detachment and a single Lord of War Detachment.</description>
+    </rule>
+    <rule id="9697-716f-0b5b-49cb-b52f7bb62ccd5d55" name="Performing a Flanking Assault (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="311" hidden="false">
+      <description>Units that were unable to deploy in the initial Flanking deployment and were forced to remain in Reserve do not generate Pinning tests when they move onto the battlefield, but may be targeted by Interceptor Reactions (see page 309) after they arrive on the battlefield.
+
+Units that have Disembarked from a model with the Assault Vehicle Special Rule in Step 5 of the Flanking Assault process may Charge in the following Assault phase, as an exception to the Assault Vehicle Special Rule.</description>
+    </rule>
+    <rule id="35f0-94bd-cef0-4f43-907d757034cdb5bb" name="Performing a Deep Strike Assault (Panoptica FAQ)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="311" hidden="false">
+      <description>Any model which scatters off a board edge as part of a Deep Strike Assault is instead considered to be within 1&amp;quot; of a board edge, and is so replaced within the distance specified as per the normal rules.
+
+Once the first unit has been deployed, roll a D6. On the roll of a &amp;apos;1&amp;apos;, the Deep Strike Assault is Disordered, and the opposing player may deploy each other unit in the Deep Strike Assault anywhere wholly within 24&amp;quot; of the first unit without scattering, though no model may be within 1&amp;quot; of an enemy model or within Impassable Terrain. If the roll is a &amp;apos;2&amp;apos; or higher, then the controlling player deploys each other unit anywhere wholly within 12&amp;quot; of the first, though no model may be within 1&amp;quot; of an enemy model or within Impassable Terrain.</description>
+    </rule>
+    <rule id="aec8-9ee7-8afe-4fe4-bbfcc7670c7892ec" name="Blood Feud (Panoptica)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="312" hidden="false">
+      <description>Additional Blood Feud targets:
+• Armiger: +2 Victory Points
+• Knights: +4 Victory Points
+• Super-Heavy &amp;amp; Lumbering Vehicles: +4 Victory Points</description>
+    </rule>
+    <rule id="35ef-2bdd-48cf-422d-b17539237438664f" name="Crew Stunned (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="208" hidden="false">
+      <description>If this would result in the Flyer ending its move in a position where it is not permissible for it to stop, move it the shortest distance in any direction from its final movement position to avoid this.</description>
+    </rule>
+    <rule id="2a6c-7dc3-ff45-413e-8cb940105e347856" name="Sponson Mounted (Panoptica Errata)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="206" hidden="false">
+      <description>Remove duplicated &amp;apos;Sponson Mounted -&amp;apos; text from weapon entries.</description>
+    </rule>
+    <rule id="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" name="Auto-Servo Tracking" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="164" hidden="false">
+      <description>Independent firing control subsystems allowed this weapon to track and fire without requiring their operator to direct them.
+
+A weapon with this Special Rule can fire at a different target to the other weapons the model is armed with.
+
+A model with this Special Rule is counted as having the named Legiones Consularis Upgrade as indicated in brackets in the Special Rule for all intents and purposes, including Rites of War, Special Rules, and wargear limitations which either require there to be one to be present in a detachment, or prevent it. Note that this does not confer any of the benefits normally gained from that upgrade to the model themselves from any such sources.</description>
+    </rule>
+    <rule id="77c5-b91e-24bd-426f-8d7f2a74621a781f" name="Indiscriminate Fire!" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>Some weapon systems fired such an obscene quantity of ammunition in such a short span of time that the only viable option against such a hail of fire was to retreat.
+
+A model with this Special Rule ignores all effects and penalties applied by the Night Fighting rules.</description>
+    </rule>
+    <rule id="faf1-0b34-51b4-46ea-aff83276aa320325" name="Reinforced Shell" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>Built to survive even the most horrendous damage, this vehicle endured where lesser chassis did not.
+
+When a model with this Special Rule loses its last Hull Point, but before resolving the Super-Heavy Explosion, roll a D6. On a Result of a 4+, the model does not explode as normal, but instead its shell is treated from this point onward as a ruined building rather than a vehicle wreck, with its two doorways counted as being open access points to the interior.</description>
+    </rule>
+    <rule id="feb0-b6da-0e94-464e-82000fdbf36d1e48" name="Legiones Astartes Command Tank" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>A unit with this Special Rule may be chosen as part of a detachment using the Zone Mortalis Engagement Force Organisation Chart despite having more than 15 models. However, this unit cannot be expanded above its starting size.</description>
+    </rule>
+    <rule id="4614-6a54-6e16-4672-8088eb01f48c1782" name="Lightning Claws Bonus Attacks" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="137" hidden="false">
+      <description>The +2A bonus for being armed with two Lightning Claws can only be claimed if the bearer attacks with the Paired Lightning Claws. If the bearer attacks with any other Specialist Weapons, then they would gain only a single bonus attack as per the standard rules for having multiple Specialist Weapons.</description>
+    </rule>
+    <rule id="8f50-99a5-723f-4f8d-bb3043c1828f6334" name="Tank Desant" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>A unit made up entirely of models with Terminator armour, including Indomitus Terminator armour, Tartaros Terminator armour, Cataphractii Terminator armour and Legion-specific Terminator Armour such as Iron Hands Gorgon Terminator armour, or models with the Primarch Unit Type, may Charge on the same turn that they have Disembarked from a model with this special rule.
+
+When troops embarked upon this vehicle, they did so across its armoured hull, and so formed an additional layer of protection for their carrier - as they could defend it from harm directly.</description>
+    </rule>
+    <rule id="e4f2-9473-ff6b-402e-a27c012642726c29" name="Afterburner" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>Colossal secondary combustors attached to the main engines of a flyer allowed this vehicle a surprising burst of speed.
+
+Once per game at the start of the Movement Phase, a model with this Special Rule may elect to fire its Afterburner. If it does so, the model may make an additional move after its normal move, up to its normal movement Characteristic. Note that for this additional move, the Movement value cannot be modified in any way.</description>
+    </rule>
+    <rule id="551b-b780-967d-4da1-8030e4ed900d7113" name="Caestus Prow" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>The armoured fore of this craft was a masterwork of layered armour, shield generators, and reinforced bulkheads.
+
+A model with this Special Rule may declare a Ramming attack in the same manner as a Tank, regardless of its actual unit type. This attack must be declared at the start of the Movement Phase, after you have decided whether or not the model will fire its Afterburner (if it has the Afterburner Special Rule). When conducting a Ramming attack, the hit is automatically resolved at Strength 10, AP 3, and adds +1 to any rolls on the Vehicle Damage table it inflicts. If the model fired its Afterburner this turn, add +2 instead.
+
+In addition, the model has an Invulnerable Save of 5+ against any attacks against its Front Armour, including any damage it suffers as a result of it Ramming or being Rammed itself. A model with this Special Rule is immune to the effects of the Armourbane (Melta) Special Rule - meaning that no extra D6 for armour penetration can be rolled against the model as a result of this Special Rule.</description>
+    </rule>
+    <rule id="4e0e-a8e9-6973-4c00-b9a78d372aa8fc60" name="Inertia Suppression Clamps" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="165" hidden="false">
+      <description>Inertial suppression clamps locked transported troops into place, protecting them from impact.
+
+A model with this Special Rule can carry models in any type of Legion Terminator armour and that have the Bulky (2) Special Rule as though they did not have that Special Rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
