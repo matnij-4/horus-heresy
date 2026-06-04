@@ -5025,6 +5025,10 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="572e-27c5-6417-4b1e-bbb23b3c5afd939f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
+        <infoLink id="1e5a-c78c-38ac-42f3-af160a8719efaf18" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
+        </infoLink>
         <infoLink id="62d8-f5cd-47ac-4c67-93f7dce0d96f233f" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
         </infoLink>
         <infoLink id="8e1b-ad81-3737-4313-b3f6fa550a598d0e" name="Auto-Servo Tracking" hidden="false" targetId="4ca9-58b6-c90b-4ee1-af3c7ff278dde650" type="rule">
@@ -15903,6 +15907,8 @@ Limitations
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Any unit composed entirely of models with either Cataphractii Terminator armour, Tartaros Terminator armour or any other pattern of Terminator armour and that is normally selected as an Elites choice may be included in a Detachment using this Rite of War as a Troops choice.
 Limitations
 • An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
@@ -20863,7 +20869,7 @@ Scatter dice.
 The penalty to Leadership is ignored by any unit with the Fearless or Stubborn special rules. A Primarch unit, or any unit with the Night Vision special rule ignores both the penalties to Leadership and Ballistic Skill and the restrictions on drawing line of sight to other units.</description>
     </rule>
     <rule id="1cb6-d7f2-0c79-d208" name="Ungainly" publicationId="48c2-d023-0069-001a" page="41" hidden="false">
-      <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any special rules that would normally grant additional Attacks.</description>
+      <description>A model may only attack with this weapon on a turn in which it makes a Charge (even if that Charge is Disordered), but does not gain a bonus attack for Charging or from any Special Rules that would normally grant additional Attacks.</description>
     </rule>
     <rule name="Impale" hidden="false" id="2dfc-b3cc-7ede-2827" publicationId="4934-46f7-208b-b4af" page="132">
       <description>A unit may re-roll Charge Rolls when attempting to Charge an enemy unit that has suffered one or more Hits from a weapon with the Impale special rule caused by one or more models in the unit for which the Charge was declared in the same player turn. This takes effect even if no Wounds are caused by the Hits.

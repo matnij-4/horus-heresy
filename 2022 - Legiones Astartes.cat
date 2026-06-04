@@ -44228,6 +44228,12 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
       </infoLinks>
     </selectionEntry>
     <selectionEntry id="954d-cf8e-eefd-27a6" name="Nullificator Squad" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="1fdc-4bd0-e4fa-465f-b5309ade1b6497e2" name="Dedicated Transport" hidden="false">
+          <description>A Legion Nullificator Squad may take a Legion Land Raider Proteus Carrier or Legion Dreadclaw Drop Pod as a Dedicated Transport as long as it numbers no more than 5 models. A unit of any size may take a Legion Land Raider Spartan as a Dedicated Transport. If taken this way, a transport does not use up an additional Force Organisation slot, but its points cost must still be paid for as part of the army.</description>
+        </rule>
+      </rules>
+
       <modifiers>
         <modifier type="set" field="06d8-ea57-0a19-b93a" value="-1">
           <conditions>
@@ -44382,7 +44388,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
-                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
               </characteristics>
               <modifierGroups>
@@ -44538,7 +44544,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">4</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">3</characteristic>
-                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">9</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">10</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">2+</characteristic>
               </characteristics>
               <modifierGroups>
@@ -44849,6 +44855,7 @@ It is not known if this is a mistake or not, as previously like with the Mech bo
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="9f39-11eb-b671-4766-91cb0bd126aa8b16" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="aa73-18ee-e91b-6b65" name="Legiones Unit Upgrades:" hidden="false" collective="false" import="true">
@@ -51308,11 +51315,8 @@ A model equipped with a Legion Spatha Attack Bike must change its Unit Type to C
         </modifier>
       </modifiers>
       <infoLinks>
-        <infoLink id="9afa-cfc0-dc04-767c" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Bulky (4)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="02fd-eb1b-c327-46ca-b265412fb870b8d3" name="Immobile" hidden="false" targetId="4fdc-b83a-4192-405a-8df9cfade777b496" type="rule"/>
+
         <infoLink id="927c-e77d-16c5-ba78" name="Legiones Hereticus (Emperor’s Children)" hidden="false" targetId="b9e-b2ef-86e-e52d" type="rule"/>
         <infoLink name="Fearless" hidden="false" type="rule" id="23fc-16e6-aa35-a363" targetId="b48c-d7e1-2a83-2f5b"/>
         <infoLink name="Support Squad" id="a0d1-f134-b09d-38da" hidden="false" type="rule" targetId="768e-56d6-ca52-24ae"/>

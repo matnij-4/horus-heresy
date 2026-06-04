@@ -3555,6 +3555,12 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eb44-e977-2ce5-b239" name="Ebon Keshig Cohort" hidden="false" collective="false" import="true" type="unit">
+      <rules>
+        <rule id="bb46-0f95-b0f9-4eb6-bc3464b21fabf328" name="Dedicated Transport" hidden="false">
+          <description>An Ebon Keshig Cohort may take a Legion Land Raider Proteus Carrier as a Dedicated Transport as long as it numbers no more than 5 models or a unit of any size may take a Legion Land Raider Spartan as a Dedicated Transport. If taken this way, a transport does not use up an additional Force Organisation slot, but its points cost must still be paid for as part of the army.</description>
+        </rule>
+      </rules>
+
       <infoLinks>
         <infoLink id="325c-8472-62d0-fdaa" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
           <modifiers>
@@ -3753,6 +3759,23 @@
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1a03-43e8-cbc8-4b61-9bc395b44c1333f8" name="Dedicated Transport:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3bd-40d9-8cf1-4acc-bf3d9da0ae6e2063" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9d0c-c074-9dbb-416a-a1488ebe2ec3ab9b" name="Land Raider Proteus Carrier" hidden="false" collective="false" import="true" targetId="c123-bdc6-a6ba-79a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="eb44-e977-2ce5-b239" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a095-4971-0f84-f40b" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="8447-49cc-d3dc-41d2-80c6cb6bf3d14492" name="Land Raider Spartan" hidden="false" collective="false" import="true" targetId="bac1-f30e-2c04-d27d" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
