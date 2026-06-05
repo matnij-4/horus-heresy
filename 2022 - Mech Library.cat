@@ -5168,11 +5168,13 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Breaching (4+), Ignores Cover, Reactor Overload</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Breaching (4+), Ignores Cover, Reactor Overload, Barrage</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="c00f-3d19-5e44-465d-afcbb292ea1c9f27" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule">
+        </infoLink>
         <infoLink id="e459-1b73-3002-3466" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
         <infoLink id="ad5e-31f9-6e0f-d0eb" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
@@ -7301,12 +7303,19 @@ A model with an activated Utan Jump Booster may move over both friendly and enem
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance1, Barrage, Large Blast (5&quot;), Pinning, Ignores Cover</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Pinning, Shell Shock (1), Ignores Cover, Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="d2c6-80ca-4bc6-44cb-9f457f0e0fc3d97d" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule">
+        </infoLink>
+        <infoLink id="9a19-a7a5-55bd-477e-8fae8ee256e84e80" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="ea80-805b-ddc8-db57" name="Ordnance" hidden="false" targetId="6c55-22c8-1b01-2105" type="rule"/>
         <infoLink id="c39c-f5dd-4a33-22b8" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
         <infoLink id="9f39-3c74-f8aa-7d63" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
