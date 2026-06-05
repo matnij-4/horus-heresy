@@ -13640,6 +13640,86 @@ In addition, all models in a unit that includes a Vexillum Imperatus gain the Li
       </selectionEntryGroups>
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
+    <selectionEntry id="a7c1-adw0-0001-0001" name="Apex Digital Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7c1-adw0-0001-0002" name="Apex Digital Weapon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Once per game when making a Shooting Attack, a model with an Apex Digital Weapon can declare it will fire either a Disintegrator, Lascannon, Multi-Melta, Plasma Cannon or Volkite Culverin. When firing this weapon, treat the model as if it had the Relentless Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7c1-disp-0002-0001" name="Displacer Matrix" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7c1-disp-0002-0002" name="Displacer Matrix" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A Displacer Matrix provides a 3+ Invulnerable Save. This Invulnerable Save does not stack with other Invulnerable Saves, and cannot benefit from rules (like Cyber-Familiar wargear) that specifically increase existing saves. If a model has another Invulnerable Save then the Controlling Player must choose which one to use.
+
+In addition, the first time a roll of &apos;1&apos; is made for an Invulnerable Save for a model with a Displacer Matrix, the Wound is ignored, and the model is removed from the battlefield, entering the Controlling Player&apos;s Reserves assigned to a Deep Strike Assault (even if one had already been made earlier in the game). If the model was part of a unit, they count as having left the unit – even if they would not ordinarily be allowed to do so. No other units may be assigned to this Deep Strike Assault, and resolving this Deep Strike Assault does not prevent the Controlling Player from resolving another Deep Strike Assault later in the game if they have units still assigned to one. This Deep Strike Assault automatically arrives in the Controlling Player&apos;s next game turn. If the Deep Strike Assault is Disordered, or the game does not continue into the next turn (in which this model would arrive), then the model is counted as Destroyed.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7c1-meta-0003-0001" name="Metaphasic Reader" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7c1-meta-0003-0002" name="Metaphasic Reader" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Metaphasic Reader gains the Night Vision Special Rule, and enemy models cannot be deployed using the Infiltrate Special Rule within 18&quot; of a model with a Metaphasic Reader.
+
+In addition, when any enemy unit is deployed to the battlefield from Reserves, a unit that includes at least one model with a Metaphasic Reader may make the Interceptor Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 309) without expending a point of the Reactive player&apos;s Reaction Allotment. This does not allow the unit to make more than one Reaction per Phase, but does allow the controlling player to exceed the normal three Reactions limit in a given Phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7c1-psij-0004-0001" name="Psi-Jammer" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7c1-psij-0004-0002" name="Psi-Jammer" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Any enemy model within 18&quot; and line of sight of a model with a Psi-Jammer must reduce its Leadership by -2 when making Psychic Checks. This modifier is not cumulative and no model may suffer penalties from more than one Psi-Jammer.
+
+In addition, a model with a Psi-Jammer and any unit they have joined gains the Adamantium Will (5+) Special Rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7c1-vsh0-0005-0001" name="Void Shield Harness" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7c1-vsh0-0005-0002" name="Void Shield Harness" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with a Void Shield Harness gains the Void Shields (2) Special Rule. Whenever a Shooting Attack is assigned to a unit containing a model with a Void Shield Harness, that Shooting Attack must instead target the Void Shields (even if that attack had the Sniper or Precision Shots (X) Special Rule), so long as they have not been collapsed earlier in the battle. In addition, when the Void Shields provided by a Void Shield Harness collapse, all models within D6&quot; of a model with a Void Shield Harness suffer an immediate hit at S8 AP-.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a7c1-grav-0006-0001" name="Grav-Wave Generator" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a7c1-grav-0006-0002" name="Grav-Wave Generator" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">When an enemy unit declares a Charge targeting a unit which includes a model with a Grav-Wave Generator, the unit may make the Hold The Line Advanced Reaction (see the Horus Heresy: Age of Darkness rulebook, page 330) without expending a point of the Reactive Player&apos;s Reaction Allotment, and automatically passes the associated Morale Check. This does not allow the unit to make more than one Reaction per Phase, but does allow the Controlling Player to exceed the normal three Reactions limit in a given phase.
+
+In addition, a model receives no benefit from the Hammer of Wrath (X) Special Rule if they Charge a unit which makes a Hold The Line Advanced Reaction that includes a model with a Grav-Wave Generator.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
