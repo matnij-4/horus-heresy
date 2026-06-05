@@ -4054,30 +4054,30 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7c47-e2e9-dc42-e838" name="Heavy Conversion Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7c47-e2e9-dc42-e838" name="Conversion Destructor" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1124-c6a3-7bb0-90af" name="Heavy Conversion Beam Cannon (1)" publicationId="a716-c1c4-7b26-8424" page="131" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="1124-c6a3-7bb0-90af" name="Conversion Destructor (1)" publicationId="a716-c1c4-7b26-8424" page="131" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Up to 18&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Blind</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">0&quot;-18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Blind</characteristic>
           </characteristics>
         </profile>
-        <profile id="fcf4-69a0-a3c7-b5bc" name="Heavy Conversion Beam Cannon (2)" publicationId="a716-c1c4-7b26-8424" page="131" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="fcf4-69a0-a3c7-b5bc" name="Conversion Destructor (2)" publicationId="a716-c1c4-7b26-8424" page="131" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More than 18&quot;-42&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">9</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Blind</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;-42&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Blind, Sunder</characteristic>
           </characteristics>
         </profile>
-        <profile id="981f-5d4d-4f61-e366" name="Heavy Conversion Beam Cannon (3)" publicationId="a716-c1c4-7b26-8424" page="131" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="981f-5d4d-4f61-e366" name="Conversion Destructor (3)" publicationId="a716-c1c4-7b26-8424" page="131" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More than 42&quot;-72&quot;</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">42&quot;-80&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Blind</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Blind, Sunder, Wrecker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7911,7 +7911,7 @@ A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not 
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Concussive (2)</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Armourbane (Melee), Concussive (2), Brutal (2)</characteristic>
           </characteristics>
         </profile>
         <profile id="1b9d-98a0-4f71-a759" name="Graviton Ram (Ranged)" publicationId="bde1-6db1-163b-3b76" page="116" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
@@ -8086,7 +8086,9 @@ A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not 
       <rules>
         <rule id="bd1e-ded3-8252-561d" name="Paragon of Metal" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
           <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1.
-In addition, a model with the Paragon of Metal special rule may not be targeted or affected by any Cybertheurgic Power or any Weapon with the Data-djinn special rule, either friendly or enemy.</description>
+In addition, a model with the Paragon of Metal special rule may not be targeted or affected by any Cybertheurgic Power or any Weapon with the Data-djinn special rule, either friendly or enemy.
+
+A model which has this Special Rule changes their Armour Save to 2+.</description>
         </rule>
         <rule id="aa64-ebfc-e457-1e0d" name="Paragon Unit Sub-type" publicationId="bde1-6db1-163b-3b76" page="91" hidden="false">
           <description>The following rules apply to all models with the Paragon Unit Sub-type
@@ -8097,7 +8099,9 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
 
 From December 2023 Liber Mechanicum FAQ, page 2:
 Q. Can a unit with the Paragon Unit Sub-type make Reactions?
-A. No.</description>
+A. No.
+
+In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reactions, ignoring restrictions from any Unit Type or Subtype that would prevent it from doing so, as long as the Controlling Player has Reaction allotment available.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -8174,13 +8178,28 @@ A. No.</description>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="2549-2659-d490-43a7-a1ce8c644ad0cb51" name="Arlatax Power Claw" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="122" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fb2d-dbad-be51-415c-a6f312006d60f8e0" name="Arlatax Power Claw" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="122" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="2121-ee7c-8ac9-5133" name="Power Blade Array" publicationId="bde1-6db1-163b-3b76" page="122" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="3a2b-2c15-46b8-f8f8" name="Power Blade Array" publicationId="bde1-6db1-163b-3b76" page="122" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
@@ -20486,6 +20505,11 @@ Master-Crafted Template Weapons: Master-Crafted Template weapons are fired just 
 
 For example, a weapon with the Torrent (18) special rule must place the narrow end of the template at a point within 18&quot; and the wide end no closer to the firing model than the narrow end.</description>
     </rule>
+    <rule id="20a1-bd45-6c55-4cb9-ab536b5481798ee9" name="Born of Steel" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="143" hidden="false">
+      <description>This combatant had become more metal than flesh, and could walk among automata as one of their own.
+
+A model with this Special Rule may be given the Patris Cybernetica Special Rule at no additional cost in points - this must be decided at the start of the battle before any models are deployed and may not be changed during the battle.</description>
+    </rule>
     <rule id="7989-1f2c-a43d-82ae" name="Stubborn" publicationId="e77a-823a-da94-16b9" page="248" hidden="false">
       <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, the unit ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, the unit uses the rules for Fearless instead.</description>
     </rule>
@@ -20836,10 +20860,18 @@ Assault Phase).
       <description>When destroyed, a model with this special rule resolves Catastrophic Damage at AP 2</description>
     </rule>
     <rule id="1f93-c765-f7b2-a025" name="Destructor" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>Any model which suffers an unsaved Wound or Hull Point loss from a weapon with this special rule instead suffers D6 unsaved Wounds or Hull Points of damage. In addition, if the target of this attack is a model with the Knight, Titan, Super-heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
+      <description>When a model is allocated a Wound or Hull Point Loss inflicted by a weapon with this Special Rule, it does not suffer only one Wound or Hull Point of damage, but instead suffers D6 Wounds or Hull Points of damage instead, with all of the Wounds or Hull Points inflicted using the same AP and special rules as that of the initial Wound. Roll to save against each Wound or Hull Point of damage inflicted separately, but note that Wounds or Hull Points of damage caused in excess of a given model&apos;s remaining Wounds or Hull Points do not spill over to other models and are lost.
+
+In addition, if the target of this attack is a model with the Knight, Titan, Gargantuan, Super-Heavy Vehicle, or Building or Fortification Unit Type, or the Monstrous Unit Sub-type, increase the number of Wounds suffered or Hull Points lost to 2D6.</description>
     </rule>
     <rule id="4eb9-9e5e-bb27-3644" name="Disruption (X)" publicationId="bde1-6db1-163b-3b76" page="103" hidden="false">
-      <description>To Hit rolls of the value X indicated made by a weapon with this rule cause an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought or Automata Unit Types, instead of rolling To Wound.</description>
+      <description>To Hit rolls of the value X indicated made by a weapon with this Special Rule cause an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought, Automata, or Armiger Unit Types, instead of rolling To Wound.
+
+On weapons which do not roll to Hit, such as Template or Blast Weapons, a D6 should be rolled for every applicable target - a roll of X or higher causes an automatic Glancing Hit against models with the Vehicle Unit Type instead of rolling for Armour Penetration, and an automatic Wound against models with the Dreadnought, Automata, or Armiger Unit Types.
+
+Only Invulnerable Saves or Damage Mitigation rolls may be taken against Wounds or Hull Points of damage inflicted automatically by this Special Rule.
+
+If a model armed with a weapon with this Special Rule receives a Ballistic Skill modifier (such as Night Fighting or being forced to make Snap Shots, etc), then they may only gain the benefit of the Disruption (X) Special Rule on a successful Hit (provided the Hit Roll is equal to or better than the value X).</description>
     </rule>
     <rule id="1cc2-eaee-8bcf-96d3" name="Grav Wave" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
       <description>Any successful Charge that targets a unit containing a model with a weapon with this special rule is always counted as a Disordered Charge.</description>
@@ -20857,7 +20889,9 @@ Major: When destroyed, a model with this special rule resolves Hits caused by Ca
 Maxima :When destroyed, a model with this special rule resolves Hits caused by Catastrophic Damage as Destroyer attacks at AP2, and doubles the range of the Catastrophic Damage effect.</description>
     </rule>
     <rule id="a073-b86c-7bc1-d3f9" name="Reactor Overload" publicationId="bde1-6db1-163b-3b76" page="106" hidden="false">
-      <description>A weapon with this special rule may double the number of shots it makes, but if it does so the firing model suffers D3 Wounds or Hull Points of damage with no Saves or Damage Mitigation rolls of any kind allowed.</description>
+      <description>A weapon with this special rule may double the number of shots it makes, but if it does so the firing model suffers D3 Wounds or Hull Points of damage with no Saves or Damage Mitigation rolls of any kind allowed.
+
+The wounds caused by this Special Rule are only resolved once the shooting attack has been fully resolved.</description>
     </rule>
     <rule id="5b0d-5362-e961-f3b0" name="Reinforced Structure" publicationId="bde1-6db1-163b-3b76" page="108" hidden="false">
       <description>A model with this special rule has an Invulnerable Save of 5+ against Shooting Attacks.</description>
@@ -20869,7 +20903,15 @@ Maxima :When destroyed, a model with this special rule resolves Hits caused by C
       <description>Penetrating Hits caused by attacks made with weapons or models with this special rule add +1 to the result of any rolls on the Vehicle or Building Damage tables.</description>
     </rule>
     <rule id="97aa-da60-3ccc-7152" name="Sentry Protocols" publicationId="d0df-7166-5cd3-89fd" page="16" hidden="false">
-      <description>A unit that includes any models with this special rule must make a Shooting Attack targeting the enemy unit which has the closest model in line of sight to any model in the attacking unit in the controlling player’s Shooting phase.</description>
+      <description>A model with this Special Rule must target the closest enemy model as per the following limitations and restrictions:
+
+• Any model armed with a weapon of Strength 7 or more must target the nearest enemy model with the Vehicle, Automata, or Dreadnought Sub-types.
+
+• Any model armed with a weapon of Strength 6 or below must target the nearest enemy model without the Vehicle, Automata, or Dreadnought Sub-types.
+
+• Any model armed with a weapon with the Skyfire Special Rule must target the nearest enemy model with the Flyer Sub-type.
+
+If no such target is in range, then the Controlling Player may select a target as normal.</description>
     </rule>
     <rule id="c036-66e2-4e07-c2b8" name="Automated Artillery Sub-type" publicationId="e77a-823a-da94-16b9" page="16" hidden="false">
       <description>The following rules apply to all models with the Automated Artillery Sub-type

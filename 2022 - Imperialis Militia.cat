@@ -8095,6 +8095,18 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
+                <entryLink id="d4e8-9f3b-5c2a-0e67" name="Chainaxe" hidden="false" collective="false" import="true" targetId="85b9-4e50-af11-c295" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5825-e777-2615-3d4d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="d89a-2808-d42e-63cb" name="3) May exchange Heavy Stubber" hidden="false" collective="false" import="true" defaultSelectionEntryId="7818-2056-8c19-12a2">
@@ -8424,7 +8436,28 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 <entryLink id="1f87-36af-2129-afaf" name="Autopistol" hidden="false" collective="false" import="true" targetId="344f-4836-c70d-29a4" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3be9-6130-3773-3892" name="2) May exchange Heavy Stubber" hidden="false" collective="false" import="true" defaultSelectionEntryId="d69a-02da-5943-919e">
+            <selectionEntryGroup id="e8f1-2a3b-4c5d-6e7f" name="2) May exchange Close Combat Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="f9a2-3b4c-5d6e-7f80">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1b2-c3d4-e5f6-7890" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c3-d4e5-f6a7-8901" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="f9a2-3b4c-5d6e-7f80" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="19ab-4d64-f6a7-9f81" type="selectionEntry"/>
+                <entryLink id="c3d7-8f2a-4b1e-9d56" name="Chainaxe" hidden="false" collective="false" import="true" targetId="85b9-4e50-af11-c295" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5825-e777-2615-3d4d" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="3be9-6130-3773-3892" name="3) May exchange Heavy Stubber" hidden="false" collective="false" import="true" defaultSelectionEntryId="d69a-02da-5943-919e">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="672c-53f7-e615-6931" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b17-7090-d2cf-8d8a" type="max"/>
@@ -8638,7 +8671,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="60da-043f-fbc0-13b4" name="3) May take one of the following" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="60da-043f-fbc0-13b4" name="4) May take one of the following" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f1-61c1-f3b3-afec" type="max"/>
               </constraints>
@@ -8671,12 +8704,6 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7214-004c-1722-88bd" type="min"/>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5311-9514-30a6-4f14" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="ee56-c674-b492-204f" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="19ab-4d64-f6a7-9f81" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47b-eddb-8aec-4658" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1330-d680-a25f-8b16" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>

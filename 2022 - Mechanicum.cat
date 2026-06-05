@@ -4391,7 +4391,9 @@ This unit may be upgraded freely as described in their profile, though they may 
               <profiles>
                 <profile id="e90a-5837-2524-80f0" name="Stratos Thrusters" publicationId="bde1-6db1-163b-3b76" page="130" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
                   <characteristics>
-                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.</characteristic>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A unit composed entirely of models with Stratos thrusters may set its Move Characteristic to a value of 16&quot; for the duration of the controlling player’s turn. This allows the unit to move up to 16&quot;, regardless of the Movement Characteristic shown on its profile and gain any other benefits of a Movement Characteristic of 16&quot; (including the bonus to Charge distance). In addition, Stratos thrusters allow units to hover above the battlefield and thus ignore the effects of Difficult Terrain and Dangerous Terrain at all times.
+
+On a Game Turn in which a model armed with Stratos Thrusters activates them, they may elect to gain the Skyfire Special Rule for all Ranged Weapons they are armed with. In addition, a model equipped with Stratos Thrusters also gains the Deep Strike Special Rule. A model with an activated set of Stratos Thrusters may move over both friendly and enemy models or units without penalty - but must end its Movement at least 1&quot; away from any model from another unit, and ignores the effects of any Difficult, Dangerous, or Impassable Terrain they move over as they make their move, though they must still take Dangerous Terrain Tests as normal should they start or end their move in terrain that would require them to do so.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4736,7 +4738,7 @@ This unit may be upgraded freely as described in their profile, though they may 
         </entryLink>
         <entryLink id="13a7-7d49-5ab4-996a" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2b9f-41fb-a0a8-285e" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="name" value="Hull (Front) Mounted Karacnos Mortar Battery"/>
+            <modifier type="set" field="name" value="Centreline Mounted Karacnos Mortar Battery"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a70-32d9-7802-97b3" type="max"/>
@@ -5038,6 +5040,22 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
         <categoryLink id="3b5f-6e86-9b3f-9b61" name="LoW &amp; Primarchs (25% Limit)" hidden="false" targetId="2eaf-32d6-9d1d-d906" primary="false"/>
       </categoryLinks>
       <selectionEntries>
+        <selectionEntry id="808a-6ab8-6d40-6006" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6852-6dab-cbe1-f2cf" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd2-f606-9d73-d163" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="110b-b86e-c1d0-0936" name="Ordinatus Dispersion Shield" publicationId="bde1-6db1-163b-3b76" page="126" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+              <characteristics>
+                <characteristic name="Description" typeId="347e-ee4a-764f-6be3">For the duration of the first Game Turn, all Shooting Attacks made against a model with an Ordinatus dispersion shield that target the model’s Front or Side Armour values, or any indirect Shooting Attacks (such as those with the Barrage special rule) are reduced by -2 Strength, and any Explodes results on the Vehicle Damage table are ignored. In subsequent Game Turns after the first, the Ordinatus Dispersion Shield counts as a Flare Shield.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </selectionEntry>
         <selectionEntry id="9e55-edca-5116-d240" name="Centreline Mounted Terrebrax Rocket Battery" publicationId="bde1-6db1-163b-3b76" page="118" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a5-5df2-f7bc-4539" type="min"/>
@@ -5049,7 +5067,7 @@ The area under the Apocalyptic Blast marker (10&quot;) is treated as Difficult T
                 <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
                 <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
                 <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12</characteristic>
+                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Pinning, Shell Shock (1)</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5111,10 +5129,13 @@ At the beginning of each of the controlling player’s Shooting phases for the r
       <rules>
         <rule id="9d8c-1ee2-4e7c-70c3" name="Archmagos Anacharis Scoria" hidden="false"/>
         <rule id="94ad-dd9a-c902-2f99" name="Rites of the Beast" publicationId="bde1-6db1-163b-3b76" page="63" hidden="false">
-          <description>Anacharis Scoria has the Artificia Machina, Artificia Cybernetica, and Ephemera Incursus Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.</description>
+          <description>Anacharis Scoria has the Artificia Machina, Artificia Cybernetica, Ephemera Incursus, and Anima Malefica Cybertheurgic Arcana, and has all Rites and weapons that are part of those Arcana.
+
+In addition, Archmagos Anacharis Scoria provides all effects, benefits, and rules (and gains any wargear, Special Rules, or other effects applicable to himself) that an Archmagos with the Cybernetica Arcana would to the detachment he is in.</description>
         </rule>
       </rules>
       <infoLinks>
+        <infoLink id="4361-ee8e-8b7d-4ae5-a64a504d8b8b7bfa" name="Stubborn" hidden="false" targetId="7989-1f2c-a43d-82ae" type="rule"/>
         <infoLink id="0b1c-2ad2-7337-b78f" name="Adamantium Will (X+)" hidden="false" targetId="4380-44a5-f01a-d964" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Adamantium Will (5+)"/>
@@ -6056,8 +6077,8 @@ At the beginning of each of the controlling player’s Shooting phases for the r
                     <characteristic name="BS" typeId="74ae-c840-0036-d244">-</characteristic>
                     <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
                     <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
-                    <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
-                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">-</characteristic>
+                    <characteristic name="W" typeId="57ee-1126-32a9-5672">5</characteristic>
+                    <characteristic name="I" typeId="62d3-22d7-2d49-52dc">2</characteristic>
                     <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">-</characteristic>
                     <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">5</characteristic>
                     <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
@@ -6069,13 +6090,13 @@ At the beginning of each of the controlling player’s Shooting phases for the r
                 <categoryLink targetId="0faa-1bab-2901-4330" id="6e2f-4eb1-458f-a47c" name="Automated Artillery Sub-type" primary="false"/>
               </categoryLinks>
               <selectionEntries>
-                <selectionEntry id="1386-c057-9ea5-145e" name="2x Heavy Bolters" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="1386-c057-9ea5-145e" name="Twin-linked Heavy Bolter" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3695-12c0-656e-d06d" type="max"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="626c-dfe0-acfd-6fa9" type="min"/>
                   </constraints>
                   <infoLinks>
-                    <infoLink id="04e9-e0a4-dbd5-7325" name="Heavy Bolter" hidden="false" targetId="d96e-a893-dc91-7f8b" type="profile"/>
+                    <infoLink id="04e9-e0a4-dbd5-7325" name="Twin-linked Heavy Bolter" hidden="false" targetId="9268-9301-e5ff-4c49" type="profile"/>
                   </infoLinks>
                   <costs>
                     <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6185,6 +6206,7 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="274a-83b8-6e0c-411c-b159031f5107916b" name="Born of Steel" hidden="false" targetId="20a1-bd45-6c55-4cb9-ab536b5481798ee9" type="rule"/>
         <infoLink id="6384-a121-722a-3a9f" name="Battlesmith (X)" hidden="false" targetId="5d57-4d02-1e36-4a82" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Battlesmith (4+)"/>
@@ -6200,11 +6222,6 @@ At the beginning of each of the controlling player’s Shooting phases for the r
         <infoLink id="c868-b7ac-ecef-44f3" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
         <infoLink id="4bae-d7d8-90fb-f037" name="Feudal Hierarchy" hidden="false" targetId="7d4f-c9a9-f9c0-b49a" type="rule"/>
       </infoLinks>
-      <rules>
-        <rule id="c95fdfa8-7f90-4f45-8f2d-5375f9f18be0" name="Born of Steel" hidden="false">
-          <description>This model has the Born of Steel Special Rule.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink id="12a1-ade9-ce31-301a" name="Monstrous Sub-type" hidden="false" targetId="7d95-f9d1-440a-67bd" primary="false"/>
         <categoryLink id="27c1-95be-258a-994e" name="Cybertheurgist" hidden="false" targetId="57a1-ae47-ff1b-36e4" primary="false"/>
@@ -6329,6 +6346,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         </profile>
       </profiles>
       <infoLinks>
+        <infoLink id="f291-d024-d046-44a6-9b1e8f2e141b4d2e" name="Born of Steel" hidden="false" targetId="20a1-bd45-6c55-4cb9-ab536b5481798ee9" type="rule"/>
         <infoLink id="9e3d-26ca-522d-6a7e" name="Power of the Machine Spirit" hidden="false" targetId="5a93-13e0-809d-782a" type="rule"/>
         <infoLink id="ddc2-8fa9-da51-339c" name="Assault Vehicle" hidden="false" targetId="aa61-11f6-2bb5-7c0e" type="rule"/>
       </infoLinks>
@@ -6660,7 +6678,14 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
     <selectionEntry id="6353-c4c3-d099-002e" name="Ordo Reductor Artillery Tank Battery" publicationId="3886-76e5-438f-159f" page="8" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="d424-806b-eacc-5647" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="dbd3-6b07-41d4-4b24-b61d309b7ed78500" name="Reinforced Sub-type" hidden="false" targetId="9b0d-738c-10e4-4ec1" primary="false"/>
+        <categoryLink id="f831-b917-dd5a-4b21-8cadbf5ae97468b9" name="Bombard Sub-type" hidden="false" targetId="d5df-57ac-8f3c-097b" primary="false"/>
       </categoryLinks>
+      <rules>
+        <rule id="f693-8c74-7cdb-45ff-8fb3e2e87504a2d9" name="Artillery Weapons (Panoptica)" hidden="false">
+          <description>All weapons listed here are counted as &apos;Artillery&apos; weapons for those rules which affect such weapons.</description>
+        </rule>
+      </rules>
       <selectionEntryGroups>
         <selectionEntryGroup id="20e6-4da8-9633-646a" name="Ordo Reductor Artillery Tanks" hidden="false" collective="false" import="true" defaultSelectionEntryId="727f-715f-263f-9a1a">
           <constraints>
@@ -6681,7 +6706,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6800,7 +6825,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6919,7 +6944,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -6991,9 +7016,9 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                     </selectionEntryGroup>
                   </selectionEntryGroups>
                   <entryLinks>
-                    <entryLink id="fe25-742c-c52c-69e7" name="Gravis Melta Cannon Array" hidden="false" collective="false" import="true" targetId="f2fc-27b6-983d-092b" type="selectionEntry">
+                    <entryLink id="fe25-742c-c52c-69e7" name="Melta Cannon Array" hidden="false" collective="false" import="true" targetId="f2fc-27b6-983d-092b" type="selectionEntry">
                       <modifiers>
-                        <modifier type="set" field="name" value="Turret Mounted Gravis Melta Cannon Array"/>
+                        <modifier type="set" field="name" value="Turret Mounted Melta Cannon Array"/>
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db0d-c466-1141-efb6" type="max"/>
@@ -7038,7 +7063,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -7157,7 +7182,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -7231,7 +7256,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                   <entryLinks>
                     <entryLink id="9f63-7675-3e24-c50d" name="Medusa Mortar" hidden="false" collective="false" import="true" targetId="aafc-7435-8805-0e0f" type="selectionEntry">
                       <modifiers>
-                        <modifier type="set" field="name" value="Centreline Mounted Medusa Siege Mortar"/>
+                        <modifier type="set" field="name" value="Centreline Mounted Medusa Mortar"/>
                       </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3be5-7d68-56a1-6f3b" type="max"/>
@@ -7276,7 +7301,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -7395,7 +7420,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                         <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle</characteristic>
                         <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
                         <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">4</characteristic>
-                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                        <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">13</characteristic>
                         <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
                         <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
                         <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
@@ -7570,7 +7595,7 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d82-6d51-dd19-c5fe" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="ab2f-5de5-4a4e-e6ac" name="Twin-linked Earthshaker Cannon" hidden="false" collective="false" import="true" targetId="cbd7-2fa5-1aba-e754" type="selectionEntry">
+            <entryLink id="ab2f-5de5-4a4e-e6ac" name="Earthshaker Battery" hidden="false" collective="false" import="true" targetId="3c30-d0e3-9091-4826-8f85f5da35651157" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="name" value="Centreline (Rear) Mounted Earthshaker Battery"/>
               </modifiers>
