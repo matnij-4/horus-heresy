@@ -11862,7 +11862,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="450"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="250"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ecd4-2b5f-a98a-5093" name="IM - Baneblade Super-heavy Battle Tank" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -19789,7 +19789,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
             </entryLink>
           </entryLinks>
         </selectionEntryGroup></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="200"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e814" name="IM - Macharius Omega Heavy Tank" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
@@ -20178,7 +20178,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="160"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e816" name="IM - Minotaur Battery" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
@@ -20260,7 +20260,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e817" name="IM - Praetorian Heavy Tank" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
@@ -20523,17 +20523,10 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e819" name="IM - Manticore Missile Tank Battery" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="decrement" field="d2ee-04cb-5f8a-2642" value="175">
-          <conditions>
-            <condition field="selections" scope="a1b2-c3d4-e5f6-e819" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a1b2-c3d4-e5f6-e819m" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="a1b2-c3d4-e5f6-e819-vc" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
         <categoryLink id="a1b2-c3d4-e5f6-e819-vu" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
@@ -20611,7 +20604,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="175"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e81a" name="IM - Helios Ordnance Carrier Squadron" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
@@ -20727,7 +20720,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e81b" name="IM - Goliath Heavy Vehicle Squadron" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
@@ -20848,7 +20841,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="75"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
     <selectionEntry id="a1b2-c3d4-e5f6-e81c" name="IM - Artillery Battery" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
@@ -20881,7 +20874,15 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
           </profiles>
           
           <entryLinks>
-
+            <entryLink id="e81c-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81c-smoke-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81c-smoke-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <infoLinks><infoLink id="e81c-ec" name="Exposed Compartment" targetId="87da-16b7-1ff5-4ea6-b21a4fc28015295c" type="rule" hidden="false"/></infoLinks>
+          <selectionEntryGroups>
             <selectionEntryGroup id="e81c-centre-grp" name="Centreline weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e81c-es">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" type="min" shared="true" id="e81c-c-min"/>
@@ -20901,8 +20902,6 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            
-
             <selectionEntryGroup id="e81c-hull-grp" name="Hull (Front) weapon:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e81c-hhb">
               <constraints>
                 <constraint field="selections" scope="parent" value="1" type="min" shared="true" id="e81c-hull-min"/>
@@ -20917,34 +20916,26 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            
-            <entryLink id="e81c-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81c-smoke-min" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81c-smoke-max" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <infoLinks><infoLink id="e81c-ec" name="Exposed Compartment" targetId="87da-16b7-1ff5-4ea6-b21a4fc28015295c" type="rule" hidden="false"/></infoLinks>
-          <selectionEntryGroups>        <selectionEntryGroup id="e81c-w" name="May select any of the following:" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="e81c-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
-              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
-            </entryLink>
-            <entryLink id="e81c-dz" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
-              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
-            </entryLink>
-            <entryLink id="e81c-hk" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
-              <modifiers><modifier type="set" field="name" value="One Hull (Front) Hunter-Killer Missile"/></modifiers>
-              <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup></selectionEntryGroups>
+            <selectionEntryGroup id="e81c-w" name="May select any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="e81c-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e81c-dz" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+                <entryLink id="e81c-hk" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+                  <modifiers><modifier type="set" field="name" value="One Hull (Front) Hunter-Killer Missile"/></modifiers>
+                  <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
           <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/></costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups></selectionEntryGroups>
-      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="125"/></costs>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
     <selectionEntry id="a1b2-c3d4-e5f6-e820" name="IM - Militia Marauder Bomber" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="unit">
       <profiles>
