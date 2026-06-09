@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="217" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="220" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="e8f1-a2b3-c4d5-e6f7" name="Honorifica - Saturnine" publisher="Ana" publicationDate="v1.0"/>
@@ -68953,13 +68953,14 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-tdf-max" type="max"/>
               </constraints>
             </entryLink>
-    <entryLink id="sat-wg-oc" name="Oculix Targeting Auspex" hidden="false" collective="false" import="true" targetId="sat-wg-ocul-0002" type="selectionEntry">
-    </entryLink>
-            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-combi-0001" type="selectionEntryGroup"/>
-
-                <entryLink id="sat-tr-sg-rng" name="Exchange Disruption Fist (ranged)" hidden="false" collective="false" import="true" targetId="sat-grp-term-rng1" type="selectionEntryGroup"/>
+            <entryLink id="sat-wg-oc" name="Oculix Targeting Auspex" hidden="false" collective="false" import="true" targetId="sat-wg-ocul-0002" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-oc-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-oc-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-tr-sg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-term-cmb1" type="selectionEntryGroup"/>
+            <entryLink id="sat-tr-sg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-term-rng1" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntry>
             <selectionEntry id="sat-tr-mod" name="Saturnine Terminator" hidden="false" collective="false" import="true" type="model">
@@ -68998,13 +68999,14 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-tdf-max" type="max"/>
               </constraints>
             </entryLink>
-    <entryLink id="sat-wg-oc" name="Oculix Targeting Auspex" hidden="false" collective="false" import="true" targetId="sat-wg-ocul-0002" type="selectionEntry">
-    </entryLink>
-            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-combi-0001" type="selectionEntryGroup"/>
-
-                <entryLink id="sat-tr-rng" name="Exchange Disruption Fist (ranged)" hidden="false" collective="false" import="true" targetId="sat-grp-term-rng1" type="selectionEntryGroup"/>
+            <entryLink id="sat-wg-oc" name="Oculix Targeting Auspex" hidden="false" collective="false" import="true" targetId="sat-wg-ocul-0002" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-oc-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-oc-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-tr-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-term-cmb1" type="selectionEntryGroup"/>
+            <entryLink id="sat-tr-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-term-rng1" type="selectionEntryGroup"/>
               </entryLinks>
               <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="60"/></costs>
             </selectionEntry>
@@ -75648,10 +75650,99 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
       </entryLinks>
     </selectionEntryGroup>
 
-    <selectionEntryGroup id="sat-grp-term-rng1" name="Exchange Disruption Fist (ranged)" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-trg-def">
+    <selectionEntryGroup id="sat-grp-term-cmb1" name="In-built weapon upgrade" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-tcmb-none">
+      <modifiers>
+        <modifier type="increment" field="sat-tcmb-max" value="1">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="sat1-disrf-0014-0014" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7347-c5b1-5da3-a78f" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6923-4e42-5691-b13f" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="sat1-disrf-0014-0014" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7347-c5b1-5da3-a78f" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6923-4e42-5691-b13f" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-trg-min" type="min"/>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-trg-max" type="max"/>
+        <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-max" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="sat-tcmb-none" name="None" hidden="false" collective="false" import="true" type="upgrade">
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+    <entryLink id="sat-tcmb-def" name="Combi-Bolter" hidden="false" collective="false" import="true" targetId="a498-c66f-9eb7-ca9a" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-def-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+      </costs>
+    </entryLink>
+    <entryLink id="sat-tcmb-mg" name="Meltagun" hidden="false" collective="false" import="true" targetId="4ebd-57e0-3560-e568" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-mg-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+      </costs>
+    </entryLink>
+    <entryLink id="sat-tcmb-min" name="Minor Combi-Weapon" hidden="false" collective="false" import="true" targetId="605e-1b86-ca08-9226" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-min-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+      </costs>
+    </entryLink>
+    <entryLink id="sat-tcmb-mag" name="Magna Combi-Weapon" hidden="false" collective="false" import="true" targetId="e5b1-83e5-7272-a59e" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-mag-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+      </costs>
+    </entryLink>
+    <entryLink id="sat-tcmb-part" name="Particle Impacter" hidden="false" collective="false" import="true" targetId="sat1-part-0010-0010" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-part-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+      </costs>
+    </entryLink>
+    <entryLink id="sat-tcmb-plas" name="Plasma Blaster" hidden="false" collective="false" import="true" targetId="cd52-e9e8-3ab1-995c" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-plas-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+      </costs>
+    </entryLink>
+    <entryLink id="sat-tcmb-volk" name="Volkite Caliver" hidden="false" collective="false" import="true" targetId="9250-490f-abeb-b901" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-tcmb-volk-max" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+      </costs>
+    </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+
+    <selectionEntryGroup id="sat-grp-term-rng1" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-trg-def">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-trg-min" type="min"/>
+        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-trg-max" type="max"/>
       </constraints>
       <entryLinks>
         <entryLink id="sat-trg-def" name="Disruption Fist" hidden="false" collective="false" import="true" targetId="sat1-disrf-0014-0014" type="selectionEntry">
