@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="220" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="221" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="e8f1-a2b3-c4d5-e6f7" name="Honorifica - Saturnine" publisher="Ana" publicationDate="v1.0"/>
@@ -68668,8 +68668,18 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-tdf-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup"/>
+            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-max" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="sat-wg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-combi-0001" type="selectionEntryGroup"/>
 
             <entryLink id="sat-pr-mol" name="Master of the Legion" hidden="false" collective="false" import="true" targetId="0068-6b0a-0086-3d6b" type="selectionEntry">
@@ -68772,8 +68782,18 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-tdf-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup"/>
+            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-max" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="sat-wg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-combi-0001" type="selectionEntryGroup"/>
 
               </entryLinks>
@@ -68815,8 +68835,18 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-tdf-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup"/>
+            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-max" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="sat-wg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-combi-0001" type="selectionEntryGroup"/>
 
               </entryLinks>
@@ -68862,8 +68892,18 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-tdf-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup"/>
-            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup"/>
+            <entryLink id="sat-wg-pw" name="Exchange Power Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-pw-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-pw-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-wg-df" name="Exchange Disruption Fist" hidden="false" collective="false" import="true" targetId="sat-grp-df-exch-01" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-wg-df-max" type="max"/>
+              </constraints>
+            </entryLink>
             <entryLink id="sat-wg-cmb" name="In-built weapon upgrade" hidden="false" collective="false" import="true" targetId="sat-grp-combi-0001" type="selectionEntryGroup"/>
 
                 <entryLink id="sat-cmd-ls" name="Legion Standard" hidden="false" collective="false" import="true" targetId="7e13-cc1f-6bd7-7ac6" type="selectionEntry">
@@ -69098,6 +69138,32 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bol-max" type="max"/>
                   </constraints>
                 </entryLink>
+                
+                <entryLink id="sat-mk-bp" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bp-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bp-max" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-frg" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-frg-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-frg-max" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-krk" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="99df-2421-acf7-a5ad" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-krk-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-krk-max" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-pa" name="Power Armour" hidden="false" collective="false" import="true" targetId="2d9d-480e-7c14-1a6f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-pa-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-pa-max" type="max"/>
+                  </constraints>
+                </entryLink>
+
                 <entryLink id="sat-mk-bex" name="Exchange Bolter" hidden="false" collective="false" import="true" targetId="sat-grp-mark-bol1" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntry>
@@ -69188,8 +69254,24 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-sdp-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="sat-dr-main" name="Exchange arm weapon" hidden="false" collective="false" import="true" targetId="sat-grp-dread-mn1" type="selectionEntryGroup"/>
-            <entryLink id="sat-dr-tl" name="Exchange twin-linked arm weapon" hidden="false" collective="false" import="true" targetId="sat-grp-dread-tl1" type="selectionEntryGroup"/>
+            <entryLink id="sat-dr-main" name="Exchange Disintegrator Cannon" hidden="false" collective="false" import="true" targetId="sat-grp-dread-mn1" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-main-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-main-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-dr-main2" name="Exchange Heavy Plasma Bombard" hidden="false" collective="false" import="true" targetId="sat-grp-dread-mn2" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-main2-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-main2-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="sat-dr-tl" name="Exchange twin-linked arm weapon" hidden="false" collective="false" import="true" targetId="sat-grp-dread-tl1" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-tl-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dr-tl-max" type="max"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntry>
       </selectionEntries>
@@ -75778,7 +75860,7 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
       </entryLinks>
     </selectionEntryGroup>
 
-    <selectionEntryGroup id="sat-grp-dread-mn1" name="Exchange arm weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-dm-disc">
+    <selectionEntryGroup id="sat-grp-dread-mn1" name="Exchange Disintegrator Cannon" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-dm-disc">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dm-min" type="min"/>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dm-max" type="max"/>
@@ -75806,6 +75888,27 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
     </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="sat-grp-dread-mn2" name="Exchange Heavy Plasma Bombard" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-dm-hpl2">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dm2-min" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dm2-max" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="sat-dm-disc2" name="Disintegrator Cannon" hidden="false" collective="false" import="true" targetId="sat1-disc-0005-0005" type="selectionEntry">
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </entryLink>
+        <entryLink id="sat-dm-hpl2" name="Heavy Plasma Bombard" hidden="false" collective="false" import="true" targetId="sat1-plash-0013-0013" type="selectionEntry">
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </entryLink>
+        <entryLink id="sat-dm-grav2" name="Graviton Pulverizer" hidden="false" collective="false" import="true" targetId="sat1-grav-0008-0008" type="selectionEntry">
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </entryLink>
+        <entryLink id="sat-dm-inv2" name="Inversion Beamer" hidden="false" collective="false" import="true" targetId="sat1-invbeam-0006" type="selectionEntry">
+          <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+
     <selectionEntryGroup id="sat-grp-dread-tl1" name="Exchange twin-linked arm weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-dt-phot">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-dt-min" type="min"/>
