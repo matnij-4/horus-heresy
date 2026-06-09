@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="cd4d-8765-5387-8409" name="LA -  IX: Blood Angels" revision="53" battleScribeVersion="2.03" authorName="Jon K &quot;Alphalas&quot;" authorContact="Twitter: Alphalas_ Discord: Alphalas#8789" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="cd4d-8765-5387-8409" name="LA -  IX: Blood Angels" revision="57" battleScribeVersion="2.03" authorName="Jon K &quot;Alphalas&quot;" authorContact="Twitter: Alphalas_ Discord: Alphalas#8789" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="1900-3f09-f47b-bed2" name="Praetor" hidden="false" collective="false" import="false" targetId="03be-5d55-d05a-771d" type="selectionEntry">
       <comment>template_id_5798-3fc7-4d4c-ad41</comment>
@@ -450,6 +450,20 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-dread" name="Legion Saturnine Dreadnought" hidden="false" collective="false" import="false" targetId="sat-u-dread-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-dread-sl" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="sat-elf-dread-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="sat-elf-turret" name="Legion Arakne Sentry Turret" hidden="false" collective="false" import="false" targetId="sat-u-turret-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-turret-sl" name="Fortification:" hidden="false" targetId="a24f-12d8-36c1-f477" primary="true"/>
+        <categoryLink id="sat-elf-turret-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+
+
     <entryLink id="ed74-6166-b1e5-fe90" name="Damocles Command Rhino" hidden="false" collective="false" import="false" targetId="e337-8239-5e92-7f5f" type="selectionEntry">
       <comment>template_id_fa0b-c14e-4b81-9dac</comment>
       <modifiers>
@@ -1074,6 +1088,22 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="sat-elf-praetor" name="Praetor in Saturnine Terminator Armour" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-pr-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="sat-elf-pr-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-elf-pr-chq" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="sat-elf-pr-wt" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="4f09-6be3-276d-2756" type="selectionEntryGroup"/>
+        <entryLink id="sat-elf-pr-ret" name="Retinue" hidden="false" collective="false" import="true" targetId="6307-ed53-0ac4-0212" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+
+
+
+
+
     <entryLink id="e6c0-74e8-adb2-d5f5" name="Praetor, Tartaros" hidden="false" collective="false" import="false" targetId="3760-204e-444c-1044" type="selectionEntry">
       <comment>template_id_e95d-4a2f-45c3-b44e</comment>
       <categoryLinks>
@@ -1607,6 +1637,17 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+
+
+
+
+
     <entryLink id="0853-5abf-3a9a-70d8" name="Terminator Tartaros Squad" hidden="false" collective="false" import="false" targetId="1a8e-0ded-a4dc-2b4e" type="selectionEntry">
       <comment>template_id_0848-4e03-417a-b224</comment>
       <categoryLinks>
@@ -1695,6 +1736,19 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-mark" name="Legion Veteran Marksmen Squad" hidden="false" collective="false" import="false" targetId="sat-u-mark-squad-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-mark-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-elf-mark-ce" name="Compulsory Elite:" hidden="false" targetId="bb1f-ae32-b587-c3e1" primary="false"/>
+        <categoryLink id="sat-elf-mark-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
+
+
+
+
+
     <entryLink id="9cef-7f1e-ff2d-27a9" name="Vindicator Squadron" hidden="false" collective="false" import="false" targetId="9245-0776-6747-adb8" type="selectionEntry">
       <comment>template_id_e3b3-8b3e-44d9-94e1</comment>
       <modifiers>
@@ -6147,7 +6201,9 @@ One Sanguinary Guard in a Sanguinary Guard Squad selected as a Retinue Squad may
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="5a2d-4b80-5fc8-7836" name="Ofanim Court" hidden="true" collective="false" import="true" targetId="1f80-8231-f2f7-a825" type="selectionEntry">
+        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+
+<entryLink id="5a2d-4b80-5fc8-7836" name="Ofanim Court" hidden="true" collective="false" import="true" targetId="1f80-8231-f2f7-a825" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>

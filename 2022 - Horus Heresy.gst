@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="129" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="132" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -35,6 +35,7 @@
     <publication name="Liber Imperatus (Panoptica)" hidden="false" id="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" shortName="Liber Imperatus" publicationDate="Panoptica v1.2"/>
     <publication name="Liber Panoptica (Panoptica v5.2)" hidden="false" id="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" shortName="Liber Panoptica" publicationDate="Panoptica v5.2"/>
     <publication name="Liber Ingenium (Panoptica)" hidden="false" id="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" shortName="Liber Ingenium" publicationDate="Panoptica v1.3"/>
+    <publication name="Honorifica - Saturnine" hidden="false" id="e8f1-a2b3-c4d5-e6f7" shortName="Honorifica Saturnine" publicationDate="Ana v1.0"/>
   </publications>
   <costTypes>
     <costType id="d2ee-04cb-5f8a-2642" name="Pts" defaultCostLimit="-1" hidden="false"/>
@@ -16325,6 +16326,484 @@ Additionally, a model equipped with a Servo-Rig may make two attacks in the Assa
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="sat1-aacb-0001-0001" name="Accelerator Autocannon Battery" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-aacb-0001-p001" name="Accelerator Autocannon Battery" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 10, Rending (6+), Exoshock (6+), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-aacb-0001-il01" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-aacb-0001-il02" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Exoshock (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-aacb-0001-il03" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-disr-0002-0002" name="Disintegrator Rifle" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-disr-0002-p001" name="Disintegrator Rifle" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Rapid Fire, Instant Death, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-disr-0002-il01" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="sat1-disr-0002-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-disb-0003-0003" name="Disintegrator Blaster" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-disb-0003-p001" name="Disintegrator Blaster" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Instant Death, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-disb-0003-il01" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="sat1-disb-0003-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-dish-0004-0004" name="Heavy Disintegrator" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-dish-0004-p001" name="Heavy Disintegrator" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Instant Death, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-dish-0004-il01" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="sat1-dish-0004-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-disc-0005-0005" name="Disintegrator Cannon" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-disc-0005-p001" name="Disintegrator Cannon" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Instant Death, Gets Hot, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-disc-0005-il01" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="sat1-disc-0005-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="sat1-disc-0005-il03" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-invbeam-0006" name="Inversion Beamer" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-invbeam-0006-p01" name="Inversion Beamer (1)" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Up to 15&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blind, Large Blast (5&quot;)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="sat1-invbeam-0006-p02" name="Inversion Beamer (2)" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More than 15&quot;-30&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blind, Large Blast (5&quot;)</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="sat1-invbeam-0006-p03" name="Inversion Beamer (3)" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More than 30&quot;-45&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blind, Large Blast (5&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-invbeam-0006-il01" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+        <infoLink id="sat1-invbeam-0006-il02" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-conc-0007-0007" name="Concussion Resonator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-conc-0007-p001" name="Concussion Resonator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Concussive, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-conc-0007-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-conc-0007-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-grav-0008-0008" name="Graviton Pulverizer" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-grav-0008-p001" name="Graviton Pulverizer" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">†</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Ignores Cover, Graviton Collapse, Pinning, Shell Shock (2), Torsion Crusher</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-grav-0008-il01" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="sat1-grav-0008-il02" name="Graviton Collapse" hidden="false" targetId="60d8-5964-8671-7f3b" type="rule"/>
+        <infoLink id="sat1-grav-0008-il03" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="sat1-grav-0008-il04" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="sat1-grav-0008-il05" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-grav-0008-il06" name="Torsion Crusher" hidden="false" targetId="2cef-a40d-97b8-7d4e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-phot-0009-0009" name="Photonic Incinerator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-phot-0009-p001" name="Photonic Incinerator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blind</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-phot-0009-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-phot-0009-il02" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-part-0010-0010" name="Particle Impacter" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-part-0010-p001" name="Particle Impacter" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Breaching (6+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-part-0010-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-part-0010-il02" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-part-0010-il03" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-parth-0011-0011" name="Heavy Particle Impacter" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-parth-0011-p001" name="Heavy Particle Impacter" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Breaching (6+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-parth-0011-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-parth-0011-il02" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-parth-0011-il03" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-plasb-0012-0012" name="Plasma Bombard" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-plasb-0012-p001" name="Plasma Bombard" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Barrage, Blast (3&quot;), Breaching (4+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-plasb-0012-il01" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="sat1-plasb-0012-il02" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="sat1-plasb-0012-il03" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-plasb-0012-il04" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-plash-0013-0013" name="Heavy Plasma Bombard" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-plash-0013-p001" name="Heavy Plasma Bombard" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Barrage, Large Blast (5&quot;), Breaching (4+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-plash-0013-il01" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="sat1-plash-0013-il02" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="sat1-plash-0013-il03" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-plash-0013-il04" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-disrf-0014-0014" name="Disruption Fist" publicationId="e8f1-a2b3-c4d5-e6f7" page="17" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-disrf-0014-p001" name="Disruption Fist" publicationId="e8f1-a2b3-c4d5-e6f7" page="17" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+2</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Unwieldy, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-disrf-0014-il01" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="sat1-disrf-0014-il02" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat-wg-tdf-0001" name="Thermal Diffraction Field" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat-wg-tdf-p001" name="Thermal Diffraction Field" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">All Shooting Attacks made against a unit entirely equipped with a Thermal Diffraction Field with Flame, Las, Plasma or Melta trait suffer a -1 penalty to the Strength of the attack.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat-wg-ocul-0002" name="Oculix Targeting Auspex" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat-wg-ocul-p001" name="Oculix Targeting Auspex" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Oculix Targeting Auspex is unaffected by the Ballistic Skill Penalty caused by the Night Fighting rules. Additionally, a model with an Oculix Targeting Auspex gains the Firing Protocols (2) special rule so long as at least one of the following condition is fulfilled: the model remained stationary in the controlling player&apos;s previous Movement phase; or the unit is making a Shooting Attack as part of a Reaction.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat-wg-ocul-il01" name="Firing Protocols (X)" hidden="false" targetId="32a3-f599-5c92-2945" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Firing Protocols (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat-wg-atom-0003" name="Atomantic Pavise" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat-wg-atom-p001" name="Atomantic Pavise" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with an Atomantic Pavise, as well as all friendly models wholly within 3&quot; of the model, have a 5+ Invulnerable Save.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat-wg-sttp-0004" name="Saturnine Teleportation Transponder" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat-wg-sttp-p001" name="Saturnine Teleportation Transponder" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model equipped with a Saturnine Teleportation Transponder, and any unit entirely composed of models equipped with Saturnine Terminator Armour that it joins, gains the Deep Strike special rule.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat-wg-sttp-il01" name="Deep Strike" hidden="false" targetId="f1e1-986f-c783-ca9e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat-wg-sdef-0005" name="Saturnus Deflector Plating" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat-wg-sdef-p001" name="Saturnus Deflector Plating" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+          <characteristics>
+            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with Saturnus Deflector Plating gains a 4+ Invulnerable Save and any model with Saturnus Deflector Plating and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with Saturnus Deflector Plating loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-tl-phot-0001" name="Twin-linked Photonic Incinerator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-tl-phot-p001" name="Twin-linked Photonic Incinerator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blind, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-tl-phot-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-tl-phot-il02" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+        <infoLink id="sat1-tl-phot-il03" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-tl-conc-0002" name="Twin-linked Concussion Resonator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-tl-conc-p001" name="Twin-linked Concussion Resonator" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Concussive, Gets Hot, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-tl-conc-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-tl-conc-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="sat1-tl-conc-il03" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-tl-hpi-0003" name="Twin-linked Heavy Particle Impacter" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-tl-hpi-p001" name="Twin-linked Heavy Particle Impacter" publicationId="e8f1-a2b3-c4d5-e6f7" page="16" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Template</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Breaching (6+), Gets Hot, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-tl-hpi-il01" name="Template Weapons" hidden="false" targetId="5e0e-88e6-db81-5a70" type="rule"/>
+        <infoLink id="sat1-tl-hpi-il02" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="sat1-tl-hpi-il03" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="sat1-tl-hpi-il04" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="sat1-tl-hdis-0004" name="Twin-linked Heavy Disintegrator" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="sat1-tl-hdis-p001" name="Twin-linked Heavy Disintegrator" publicationId="e8f1-a2b3-c4d5-e6f7" page="15" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Instant Death, Gets Hot, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="sat1-tl-hdis-il01" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="sat1-tl-hdis-il02" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="sat1-tl-hdis-il03" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -24441,6 +24920,9 @@ The Repulsor Grid cannot be activated by any weapon which does not roll to Hit.<
         <rule id="975a-99ff-92e5-476a-80b45fadbfee3de7" name="Thermal Riders" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false">
       <description>At the beginning of the Controlling Player&apos;s Movement phase, if a unit with this Special Rule is not currently locked in combat, you may place the unit back into your ongoing reserves. If you do, it can perform a Deep Strike Assault as normal on your Next Player Turn.</description>
     </rule>
+    <rule id="sat0-retin-e1f2-a3b4" name="Saturnine Retinue" publicationId="e8f1-a2b3-c4d5-e6f7" page="13" hidden="false">
+      <description>A Legion Saturnine Command Squad may only be selected as part of a Detachment that includes at least one model with the Master of the Legion special rule equipped with Legion Saturnine Terminator Armour. A unit selected in this manner is considered a &apos;Retinue Squad&apos; and the model with the Master of the Legion special rule is referred to as the Retinue Squad&apos;s Leader for the purposes of this special rule (if the Detachment includes more than one model with the Master of the Legion special rule then the controlling player selects one as the unit&apos;s Leader). The Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. The Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play. A Legion Saturnine Command Squad may not be selected as part of an army without a Leader.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="f52c-1f37-acd2-703c" name="Tartaros Terminator Armour" publicationId="a716-c1c4-7b26-8424" page="147" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
@@ -24535,6 +25017,12 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
         <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">One on each side of the hull and one at the front.</characteristic>
       </characteristics>
     </profile>
+    <profile id="sat-prf-satarm-001" name="Legion Saturnine Terminator Armour" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+      <characteristics>
+        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Legion Saturnine Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, a unit that includes any models with Saturnine Terminator armour may not make Sweeping Advances. If a model with Saturnine Terminator Armour is removed as a casualty, each models both friendly and enemy within D3&quot; suffer an automatic Hit at Str 8, AP-.</characteristic>
+      </characteristics>
+    </profile>
+
   </sharedProfiles>
   <infoLinks>
     <infoLink id="cf3c-4951-8835-0aeb" name="Fast Vehicles" targetId="2cbf-c1a1-844a-6456" type="rule"/>

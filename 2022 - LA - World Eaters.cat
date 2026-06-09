@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d901-0eca-48b5-304a" name="LA -  XII: World Eaters" revision="45" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="72" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d901-0eca-48b5-304a" name="LA -  XII: World Eaters" revision="49" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="d647-fd99-73e0-bd57" name="Angron" hidden="false" collective="false" import="false" targetId="6352-8efa-0cc4-cfa7" type="selectionEntry">
       <modifiers>
@@ -228,6 +228,19 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-mark" name="Legion Veteran Marksmen Squad" hidden="false" collective="false" import="false" targetId="sat-u-mark-squad-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-mark-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-elf-mark-ce" name="Compulsory Elite:" hidden="false" targetId="bb1f-ae32-b587-c3e1" primary="false"/>
+        <categoryLink id="sat-elf-mark-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
+
+
+
+
+
     <entryLink id="cb9e-4257-d7e5-23f2" name="Typhon Squadron" hidden="false" collective="false" import="false" targetId="d06a-3087-af13-ca95" type="selectionEntry">
       <comment>template_id_b3aa-4fa3-4270-993b</comment>
       <modifiers>
@@ -416,6 +429,17 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+
+
+
+
+
     <entryLink id="13da-0633-d7ed-4341" name="Techmarine Covenant" hidden="false" collective="false" import="false" targetId="d39f-99d5-f7a4-7b86" type="selectionEntry">
       <comment>template_id_d202-8e38-4b5e-96a8</comment>
       <categoryLinks>
@@ -1024,6 +1048,22 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="sat-elf-praetor" name="Praetor in Saturnine Terminator Armour" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-pr-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="sat-elf-pr-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-elf-pr-chq" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="sat-elf-pr-wt" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="156e-4434-2c39-2fef" type="selectionEntryGroup"/>
+        <entryLink id="sat-elf-pr-ret" name="Retinue" hidden="false" collective="false" import="true" targetId="a01f-cd9e-bd21-853e" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+
+
+
+
+
     <entryLink id="792c-37c2-8548-693c" name="Praetor" hidden="false" collective="false" import="false" targetId="03be-5d55-d05a-771d" type="selectionEntry">
       <comment>template_id_5798-3fc7-4d4c-ad41</comment>
       <categoryLinks>
@@ -2172,6 +2212,20 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-dread" name="Legion Saturnine Dreadnought" hidden="false" collective="false" import="false" targetId="sat-u-dread-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-dread-sl" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="sat-elf-dread-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="sat-elf-turret" name="Legion Arakne Sentry Turret" hidden="false" collective="false" import="false" targetId="sat-u-turret-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-turret-sl" name="Fortification:" hidden="false" targetId="a24f-12d8-36c1-f477" primary="true"/>
+        <categoryLink id="sat-elf-turret-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+
+
     <entryLink id="6d4b-f6b9-af3b-46fb" name="Cerberus Squadron" hidden="false" collective="false" import="false" targetId="137a-e079-34cd-8161" type="selectionEntry">
       <comment>template_id_04f7-e2bb-4774-8d08</comment>
       <modifiers>
@@ -5192,7 +5246,9 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="2b36-986b-95a5-212d" name="Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
+        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+
+<entryLink id="2b36-986b-95a5-212d" name="Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry"/>
         <entryLink id="6f6c-6a79-ac41-8a7d" name="Command Squad" hidden="false" collective="false" import="true" targetId="0aca-632d-1642-8af9" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>

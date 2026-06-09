@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="67bb-e640-ef0a-0e16" name="Shattered Legions" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="115" revision="5" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="67bb-e640-ef0a-0e16" name="Shattered Legions" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" revision="9" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Legions Astartes" id="50ca-2201-2e00-f825" targetId="6393-649c-7213-a327" importRootEntries="true"/>
   </catalogueLinks>
@@ -20,7 +20,9 @@
             </modifier>
           </modifiers>
         </entryLink>
-      </entryLinks>
+        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+
+</entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Warlord Traits" id="769f-d9e4-f7ad-04b4" hidden="false" collective="false" import="true">
       <modifiers>
@@ -218,6 +220,20 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-dread" name="Legion Saturnine Dreadnought" hidden="false" collective="false" import="false" targetId="sat-u-dread-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-dread-sl" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="sat-elf-dread-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="sat-elf-turret" name="Legion Arakne Sentry Turret" hidden="false" collective="false" import="false" targetId="sat-u-turret-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-turret-sl" name="Fortification:" hidden="false" targetId="a24f-12d8-36c1-f477" primary="true"/>
+        <categoryLink id="sat-elf-turret-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+
+
     <entryLink import="false" name="Damocles Command Rhino" hidden="false" id="144d-2860-7ba2-bc8f" collective="false" targetId="e337-8239-5e92-7f5f" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
@@ -885,6 +901,22 @@
         <entryLink import="true" name="Warlord Traits" hidden="false" id="8b7f-c2a4-e601-19f0" type="selectionEntryGroup" targetId="769f-d9e4-f7ad-04b4"/>
       </entryLinks>
     </entryLink>
+    <entryLink id="sat-elf-praetor" name="Praetor in Saturnine Terminator Armour" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-pr-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="sat-elf-pr-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-elf-pr-chq" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="sat-elf-pr-wt" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="769f-d9e4-f7ad-04b4" type="selectionEntryGroup"/>
+        <entryLink id="sat-elf-pr-ret" name="Retinue" hidden="false" collective="false" import="true" targetId="456b-39f3-0d4f-ba17" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+
+
+
+
+
     <entryLink import="false" name="Praetor, Tartaros" hidden="false" id="997d-984b-06ab-d1f9" collective="false" targetId="3760-204e-444c-1044" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="HQ:" hidden="false" id="f4b3-883c-108a-f5a5" targetId="4f85-eb33-30c9-8f51" primary="true">
@@ -1274,6 +1306,17 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+
+
+
+
+
     <entryLink import="false" name="Terminator Indomitus Squad" hidden="true" id="d3e5-741b-3f70-17f9" collective="false" targetId="aa7f-bd4c-5231-d459" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
@@ -1397,6 +1440,19 @@
         <categoryLink targetId="6399-5c65-7833-1025" id="c267-6b41-6436-8af5" primary="false" name="Line Sub-type"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-elf-mark" name="Legion Veteran Marksmen Squad" hidden="false" collective="false" import="false" targetId="sat-u-mark-squad-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-elf-mark-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-elf-mark-ce" name="Compulsory Elite:" hidden="false" targetId="bb1f-ae32-b587-c3e1" primary="false"/>
+        <categoryLink id="sat-elf-mark-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
+
+
+
+
+
     <entryLink import="false" name="Vindicator Squadron" hidden="false" id="5ec0-a9a4-4a84-db81" collective="false" targetId="9245-0776-6747-adb8" type="selectionEntry">
       <modifiers>
         <modifier type="set" value="true" field="hidden">
