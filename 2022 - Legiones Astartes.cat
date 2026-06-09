@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="221" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="223" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="e8f1-a2b3-c4d5-e6f7" name="Honorifica - Saturnine" publisher="Ana" publicationDate="v1.0"/>
@@ -69100,11 +69100,39 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <categoryLink id="sat-mk-sgc" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
               </categoryLinks>
               <entryLinks>
-                <entryLink id="sat-mk-sg-bp" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+                <entryLink id="sat-mk-sg-frg" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="cf9c-327b-3449-00d7" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bp-min" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bp-max" type="max"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-frg-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-frg-max" type="max"/>
                   </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-sg-krk" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="99df-2421-acf7-a5ad" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-krk-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-krk-max" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-sg-bex" name="Exchange Bolter" hidden="false" collective="false" import="true" targetId="sat-grp-mark-bol1" type="selectionEntryGroup"/>
+                <entryLink id="sat-mk-sg-bp" name="Exchange Bolt Pistol" hidden="false" collective="false" import="true" targetId="sat-grp-mark-sgt-bp1" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-bp-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-bp-max" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-sg-pa" name="Exchange Power Armour" hidden="false" collective="false" import="true" targetId="sat-grp-mark-sgt-pa1" type="selectionEntryGroup">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-pa-min" type="min"/>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-pa-max" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="sat-mk-sg-mel" name="Melee Weapon" hidden="false" collective="false" import="true" targetId="sat-grp-mark-sgt-mel1" type="selectionEntryGroup"/>
+                <entryLink id="sat-mk-sg-mb" name="Meltabombs" hidden="false" collective="false" import="true" targetId="b9dd-3b21-f3f8-78e3" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sg-mb-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntry>
@@ -69132,13 +69160,6 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
 
               </profiles>
               <entryLinks>
-                <entryLink id="sat-mk-bol" name="Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bol-min" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bol-max" type="max"/>
-                  </constraints>
-                </entryLink>
-                
                 <entryLink id="sat-mk-bp" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bp-min" type="min"/>
@@ -69190,12 +69211,6 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
 
               </profiles>
               <entryLinks>
-                <entryLink id="sat-mk-add-bol" name="Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-add-bmin" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-add-bmax" type="max"/>
-                  </constraints>
-                </entryLink>
                 <entryLink id="sat-mk-add-bex" name="Exchange Bolter" hidden="false" collective="false" import="true" targetId="sat-grp-mark-bol1" type="selectionEntryGroup"/>
               </entryLinks>
               <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="18"/></costs>
@@ -75938,7 +75953,7 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-bol-max" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="sat-mk-bol" name="Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+        <entryLink id="sat-mk-bol" name="Bolter" hidden="false" collective="false" import="true" targetId="1ade-0c02-5612-252b" type="selectionEntry">
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -75968,6 +75983,99 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="sat-grp-mark-sgt-bp1" name="Exchange Bolt Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-mk-sgbp-def">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sgbp-min" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sgbp-max" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="sat-mk-sgbp-def" name="Bolt Pistol" hidden="false" collective="false" import="true" targetId="e5ae-6872-37aa-8600" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgbp-dis" name="Disintegrator Pistol" hidden="false" collective="false" import="true" targetId="980e-b1e7-a4a4-407f" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgbp-hf" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="e337-adf4-a11f-0280" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgbp-pl" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="717f-cf0a-1593-4bd8" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgbp-vs" name="Volkite Serpenta" hidden="false" collective="false" import="true" targetId="d535-1da8-290d-69a6" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="sat-grp-mark-sgt-mel1" name="Melee Weapon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sgmel-max" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="sat-mk-sgmel-cs" name="Chainsword" hidden="false" collective="false" import="true" targetId="eb13-c744-eba0-77be" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgmel-ch" name="Charnabal Weapon" hidden="false" collective="false" import="true" targetId="e749-ba9b-bb76-a7d9" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgmel-hcs" name="Heavy Chainsword" hidden="false" collective="false" import="true" targetId="ba92-3eda-3a71-dabb" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgmel-lc" name="Lightning Claw" hidden="false" collective="false" import="true" targetId="6923-4e42-5691-b13f" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgmel-pf" name="Power Fist" hidden="false" collective="false" import="true" targetId="768d-b89b-7328-d749" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgmel-pw" name="Power Weapon" hidden="false" collective="false" import="true" targetId="8d9c-9f80-c0fd-adcf" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgmel-th" name="Thunder Hammer" hidden="false" collective="false" import="true" targetId="838c-4002-713d-d7c6" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="sat-grp-mark-sgt-pa1" name="Exchange Power Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="sat-mk-sgpa-def">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sgpa-min" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="sat-mk-sgpa-max" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="sat-mk-sgpa-def" name="Power Armour" hidden="false" collective="false" import="true" targetId="2d9d-480e-7c14-1a6f" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-mk-sgpa-art" name="Artificer Armour" hidden="false" collective="false" import="true" targetId="583e-62cb-53f1-f952" type="selectionEntry">
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
