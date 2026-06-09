@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="72" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="75" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -13625,12 +13625,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           <entryLinks>
             <entryLink id="9bc0-0db5-c447-11a8" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
             <entryLink id="3c81-634e-560c-890d" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
-            <entryLink id="4c41-5788-5f12-2744" name="Psychic Discipline: Anathemata" hidden="false" collective="false" import="true" targetId="c6ec-edc0-034e-ed45" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6937-23fb-33d6-844f" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0fa3-94e2-9a71-a1c7" type="max"/>
-              </constraints>
-            </entryLink>
+            <entryLink id="4c41-5788-5f12-2744" name="Psychic Disciplines" hidden="false" collective="false" import="false" targetId="a7f3-8c2e-4d91-b056" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
@@ -15547,10 +15542,11 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
             <entryLink id="3dd4-8a20-41e9-41a4-ae5fe35bce583275" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
             <entryLink id="2fab-9b5f-866b-45c6-b583692bd9bc9c3a" name="Psychic Discipline: Anathemata" hidden="false" collective="false" import="true" targetId="c6ec-edc0-034e-ed45" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="86a9-1662-4e50-4018-aec59747e60b957a" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ede1-2449-6f8b-4855-8916df3fa70f3327" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="im-arp-anath-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="im-arp-anath-max" type="max"/>
               </constraints>
             </entryLink>
+            <entryLink id="im-arp-alpha-disc-link" name="Psychic Disciplines" hidden="false" collective="false" import="false" targetId="b8e4-9d3f-5e02-c167" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
@@ -15693,7 +15689,7 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
         <entryLink import="true" name="The Ætheric Dominion (X)" hidden="false" id="0f37-10f6-065e-4669-9ff0936bd761bb5b" type="selectionEntryGroup" targetId="002f-0e40-9d49-2a22"/>
       </entryLinks>
       <costs>
-        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="80"/>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
 <selectionEntry id="a1b2-c3d4-e5f6-a703" name="IM - Mounted Command Cadre" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
@@ -22154,6 +22150,32 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a7f3-8c2e-4d91-b056" name="Psychic Disciplines" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6ec-edc0-034e-ed45">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="im-rp-disc-min" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="im-rp-disc-max" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="im-rp-anath-link" name="Psychic Discipline: Anathemata" hidden="false" collective="false" import="true" targetId="c6ec-edc0-034e-ed45" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="im-rp-anath-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="im-rp-anath-max" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b8e4-9d3f-5e02-c167" name="Psychic Disciplines" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="im-arp-disc-min" type="min"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="im-arp-disc-max" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="im-arp-biom-link" name="Psychic Discipline: Biomancy" hidden="false" collective="false" import="true" targetId="861c-3744-c4ff-ef6c" type="selectionEntry"/>
+        <entryLink id="im-arp-pyro-link" name="Psychic Discipline: Pyromancy" hidden="false" collective="false" import="true" targetId="c73a-8c52-4780-71e1" type="selectionEntry"/>
+        <entryLink id="im-arp-telek-link" name="Psychic Discipline: Telekinesis" hidden="false" collective="false" import="true" targetId="2599-31ff-74a5-70ec" type="selectionEntry"/>
+        <entryLink id="im-arp-diab-link" name="Psychic Discipline: Diabolism" hidden="false" collective="false" import="true" targetId="7517-a238-aecb-60e9" type="selectionEntry"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
