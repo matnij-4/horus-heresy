@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="76" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="79" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -4363,6 +4363,28 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="171b-dt-grp-7e8b" name="Dedicated Transport" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="171b-dt-grp-max" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="haul-dt-171b-inf" name="Cargo-8 Hauler Transport" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e81d" type="selectionEntry">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="171b-812a-6ef7-7a71" value="19" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6808-93c5-a2c0-f10a" type="lessThan"/>
+                                <condition field="selections" scope="171b-812a-6ef7-7a71" value="19" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6808-93c5-a2c0-f10a" type="greaterThan"/>
+                                <condition field="selections" scope="171b-812a-6ef7-7a71" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="685e-7aa6-d038-e20f" type="lessThan"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
+                        </modifier>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks>
                 <entryLink id="80a2-c06a-a587-03a2" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
@@ -7480,6 +7502,18 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="c8h-ot" name="Open-Topped (X)" hidden="false" targetId="a4b5-6c7d-8e9f-0123" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Open-Topped (10)"/>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="9275-5522-8504-af57" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4ebb-e505-d38f-637b" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="c6e5-4fad-33b8-b356" name="1) Pintle Mounted Weapon:" hidden="false" collective="false" import="true">
               <constraints>
@@ -18923,6 +18957,169 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
       </selectionEntryGroups>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="25"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-e5f6-e81d" name="IM - Cargo-8 Hauler Transport" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e81d-6a7d-909e-895e-9190" name="Cargo-8 Hauler Transport" publicationId="48c2-d023-0069-001a" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+          <modifiers>
+            <modifier type="set" field="0c90-79e2-f768-e547" value="12">
+              <conditions>
+                <condition field="selections" scope="a1b2-c3d4-e5f6-e81d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e81d-4ebb-arm-cont" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f150-c0dc-c192-9cb3" value="12">
+              <conditions>
+                <condition field="selections" scope="a1b2-c3d4-e5f6-e81d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e81d-4ebb-arm-cont" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Third-line, Transport)</characteristic>
+            <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">10</characteristic>
+            <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+            <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">12</characteristic>
+            <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+            <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+            <characteristic name="HP" typeId="a76c-83b1-602f-9e62">3</characteristic>
+            <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">22</characteristic>
+            <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">Cargo-8 Hauler has one Access Point on the rear.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e81d-c8h-ot" name="Open-Topped (X)" hidden="false" targetId="a4b5-6c7d-8e9f-0123" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Open-Topped (10)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="a1b2-c3d4-e5f6-e81d" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e81d-4ebb-arm-cont" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e81d-78bb-d201-4c77" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="e81d-45fa-49f1-44c7" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+        <categoryLink id="e81d-d3e3-9d7d-40f1" name="Transport Sub-type" hidden="false" targetId="7b0a-a743-a8da-3a39" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e81d-c6e5-4fad-33b8" name="1) Pintle Mounted Weapon:" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-5a2f-f018-ee29" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e81d-dc9f-e5df-72da" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="f227-a61a-3215-932b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Pintle Mounted Heavy Stubber"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e81d-4566-e936-c60a" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="e0f3-3743-a9d0-f5f1" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Pintle Mounted Grenade Launcher"/>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e81d-9d37-c913-b78c" name="2) May Take:" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="e81d-4ebb-arm-cont" name="Armoured Container" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-7c6e-e9bc-a76f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e81d-44a5-4a6d-dd5f" name="Armoured Container" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+                  <characteristics>
+                    <characteristic name="Description" typeId="347e-ee4a-764f-6be3">A model with this upgrade must reduce its Transport Capacity to 12 and gain the Infantry Transport special rule, but increases its Side Armour and Rear Armour by +1, up to a maximum of 12. Additionally, a model with this upgrade may take up to two additional Pintle Mounted heavy stubbers (these weapons may not be further upgraded).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="e81d-dbc6-b655-39ee" name="Infantry Transport" hidden="false" targetId="0c6b-9cc1-5801-3e83" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="e81d-dcf7-a3cc-d166" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-06d6-5712-5eb5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e81d-2e87-0f6a-3d63" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="name" value="Hull (Front) Mounted Hunter-Killer Missile"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-8add-17c3-9795" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e81d-06f7-cf45-c2b8" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e81d-b371-69db-1bb4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="3) Additional Pintle Mounted Heavy Stubber(s)" hidden="false" id="e81d-4e2f-805c-4917">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Additional Pintle Mounted Heavy Stubber" hidden="false" id="e81d-64f1-91c1-a87a">
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+              </costs>
+              <profiles>
+                <profile name="Heavy Stubber" typeId="1a1a-e592-2849-a5c0" typeName="Weapon" hidden="false" id="e81d-2711-e057-d0a7">
+                  <characteristics>
+                    <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+                    <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+                    <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+                    <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <constraints>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e81d-d5f4-6d43-d2f1"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="e81d-3a48-fa0c-8ccb"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="e81d-4ebb-arm-cont" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e81d-fc31-4313-90e5" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e81d-b66f-2947-0c94" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e81d-ec76-6369-d8be" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
       </costs>
     </selectionEntry>
 
