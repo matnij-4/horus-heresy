@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="223" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="225" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="e8f1-a2b3-c4d5-e6f7" name="Honorifica - Saturnine" publisher="Ana" publicationDate="v1.0"/>
@@ -52264,11 +52264,16 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
         <categoryLink id="b053-4b8e-8514-cb3f" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
         <categoryLink id="c478-ab4e-1a65-2daa" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8bf3-9b8d-578a-38f1" name="Land Raider Phobos" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a1b2-phobos-squad-grp" name="Land Raider Phobos" hidden="false" collective="false" import="true" defaultSelectionEntryId="8bf3-9b8d-578a-38f1">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c3-phobos-sq-min" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d4-phobos-sq-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8bf3-9b8d-578a-38f1" name="Land Raider Phobos" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f870-44d2-0140-8b34" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3811-2da7-0288-871a" type="min"/>
           </constraints>
           <profiles>
             <profile id="c3ae-4428-5f79-c094" name="Land Raider Phobos" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
@@ -52504,8 +52509,8 @@ The Reacting unit may make a Shooting Attack, targeting the unit that triggered 
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="205"/>
           </costs>
         </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
+          </selectionEntries>
+        </selectionEntryGroup>
         <selectionEntryGroup id="055f-df2b-48a9-5a2d" name="Legiones Unit Upgrades:" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="66d3-2acb-37c5-10e6" name="Preysight" hidden="false" collective="false" import="true" targetId="b905-4d78-c141-4e63" type="selectionEntry">
