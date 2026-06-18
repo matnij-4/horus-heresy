@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="132" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="157" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -597,13 +597,18 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
       </rules>
     </categoryEntry>
     <categoryEntry id="6e0c-29ba-a445-8321" name="Psyker:" hidden="false"/>
-    <categoryEntry id="9055-7410-8ffd-b8e7" name="Corrupted Sub-type" hidden="false">
+        <categoryEntry id="9055-7410-8ffd-b8e7" name="Corrupted Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
       <rules>
-        <rule id="e441-d934-fee5-990b" name="Corrupted Sub-type" publicationId="09c5-eeae-f398-b653" page="307" hidden="false">
-          <description>• Models with the Corrupted Unit Sub-type gain the Fear (1) special rule.
-• Any Hits inflicted on a model with the Corrupted Unit sub-type by a weapon with the Force or Psychic Focus special rules gain the Instant Death special rule.
-• Any unit composed entirely of models with the Corrupted Unit Sub-type is immune to the effects of the Fear (X) special rule. When a unit composed entirely of models with the Corrupted Unit Sub-type fails a Morale check it does not Fall Back as per the standard rules, but instead suffers D3 automatic wounds with no saves or Damage Mitigation rolls of any kind allowed.
-• No model that does not also have the Corrupted Unit Sub-type or the Daemon Unit Type may join a unit that includes one or more models with the Corrupted Unit Sub-type</description>
+        <rule id="e441-d934-fee5-990b" name="Corrupted Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+          <description>The following rules apply to all models with the Corrupted Sub-type:
+
+• All models with the Corrupted Unit Sub-type gain the Fear (1) Special Rule.
+
+• Any Hits inflicted on a model with the Corrupted Unit Sub-type by a weapon with the Force or Psychic Focus Special Rules gain the Instant Death Special Rule.
+
+• Any unit composed entirely of models with the Corrupted Unit Sub-type is immune to the effects of the Fear (X) Special Rule, automatically passes Regroup tests, and cannot choose to fail a Morale check due to the Our Weapons Are Useless Special Rule. When a unit composed entirely of models with the Corrupted Unit Sub-type fails a Morale check it does not Fall Back as per the standard rules, but instead suffers D3 automatic Wounds with no saves or Damage Mitigation rolls of any kind allowed.
+
+• No unit that does not also have the Corrupted Unit Sub-type or the Daemon Unit Type may join a unit that includes one or more models with the Corrupted Unit Sub-type.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -1406,16 +1411,22 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
         </rule>
       </rules>
     </categoryEntry>
-    <categoryEntry name="Guardian Unit Sub-type" hidden="false" id="8745-b21e-8576-7c30" publicationId="bde1-6db1-163b-3b76" page="91">
+    <categoryEntry id="8745-b21e-8576-7c30" name="Guardian Unit Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
       <rules>
-        <rule name="Guardian Unit Sub-type" hidden="false" id="48af-72a8-159e-9cfe" publicationId="bde1-6db1-163b-3b76" page="91">
-          <description>The following rules apply to all models with the Guardian Unit Sub-type:
+        <rule id="48af-72a8-159e-9cfe" name="Guardian Unit Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+          <description>The following rules apply to all models with the Guardian Sub-type:
+
 • Units including models with the Guardian Unit Sub-type may Embark freely upon models with the Transport Unit Sub-type and within Buildings and Fortifications as if they had the Infantry Type, even if their Unit Type would normally restrict this.
-• Units including models with the Guardian Unit Sub-type may be joined by friendly models with the Character Unit Sub-type or Independent Character special rule, and when they are joined in this manner may make Reactions, even if their Unit Type would normally restrict this.
-• If a unit contains any models with the Guardian Unit Sub-type as well as one or more models with the Character Unit Sub-type, any Wounds which would be allocated to the Character (even those caused by the Precision Strikes (X) or Sniper special rules) may instead be allocated to a model with the Guardian Unit Sub-type first.
+
+• Units including models with the Guardian Unit Sub-type may be joined by friendly models with the Character Unit Sub-type or Independent Character Special Rule, and when they are joined in this manner may make Reactions, even if their Unit Type would normally restrict this.
+
+• If a unit contains any models with the Guardian Unit Sub-type as well as one or more models with the Character Unit Sub-type, any Wounds which would be allocated to the Character (even those caused by the Precision Strikes (X) or Sniper Special Rules) may instead be allocated to a model with the Guardian Unit Sub-type first.
+
 • Unless they are joined by a friendly Character, all models with the Guardian Unit Sub-type suffer the following provisions:
-- Reduce their Movement Characteristic by -2 and may not Run. 
-- Reduce their Initiative Characteristic to 1.</description>
+
+   • Reduce their Movement Characteristic by -2 and may not Run.
+
+   • Reduce their Initiative Characteristic to 1.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -1457,14 +1468,18 @@ If a Skimmer is Immobilised or Wrecked, its base is removed, if possible. If thi
     <categoryEntry name="Raven Guard - Crusade Detachment" id="afca-a57f-a32c-59fd" hidden="false"/>
     <categoryEntry name="Alpha Legion - Crusade Detachment" id="c929-73a2-9fc4-5472" hidden="false"/>
     <categoryEntry name="Fortification Unit Type" id="679d-ec21-2940-fb9" hidden="false"/>
-    <categoryEntry id="7e5d-d73e-8ff4-7345" name="Anathema Sub-type" publicationId="15a4-fc68-502d-48a9" page="129" hidden="false">
+        <categoryEntry id="7e5d-d73e-8ff4-7345" name="Anathema Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
       <rules>
-        <rule id="e2d9-fe0d-1717-3a37" name="Anathema Sub-type" publicationId="15a4-fc68-502d-48a9" page="129" hidden="false">
-          <description>• A unit that includes at least one model with the Anathema Sub-type may not be directly targeted by any Psychic Power or use any Psychic power or make attacks with a Psychic Weapon, Psychic Powers whose effects would otherwise be applied to a unit that includes at least one model with the Anathema Sub-type (due to area of effect, scattering or other rules) have no effect, but are not cancelled and may continue to affect other units.
-• A model with the Anathema Sub-type that is allocated Wounds caused by a Psychic Weapon (which is any weapon granted to a unit or model by a Psychic Discipline) will always fail to Wound without any dice being rolled and any special rules attached to that Psychic Weapon will not trigger. Any Wounds allocated to a model with the Anathema Unit Sub-type caused by a Force Weapon gain no benefit from the Force special rules, but are otherwise resolved as normal. These effects do not apply to a model with the Transport Sub-type that has models with the Anathema Sub-type Embarked within, unless the model with the Transport Sub-type also has the Anathema Sub-type.
-• All models that no not have the Anathema Sub-type but are part of a unit that includes one of more models with the Anathema Sub-type, suffer a penalty of -2 to their Leadership Characteristic. Any unit with at least one model within 6&quot; of a model with the Anathema Sub-type suffers a penalty of -1 to the Leadership of all models in the unit that do not also have the Anathema Sub-type, or -2 if that unit includes one of more models with the Corrupted Unit Sub-type. Note that these two penalties are not cumulative; they apply only the more severe penalty. However, they do stack with other special that modify Leadership (such as Fear (X)).
-• A unit that is Embarked on a Vehicle, Fortification or Building suffers no penalties to its Leadership Characteristic due to the Anathema Sub-type, However, units with the Stubborn special rule do suffer penalties to their Leadership from the effects of this Sub-type (note that this only applies to the Stubborn special rule, and other special rules that ignore penalties to Leadership ignore the effects of the Anathema Sub-type).
+        <rule id="e2d9-fe0d-1717-3a37" name="Anathema Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+          <description>The following rules apply to all models with the Anathema Sub-type:
 
+• A unit that includes at least one model with the Anathema Sub-type may not be directly targeted by any Psychic Power or use any Psychic Power or make attacks with a Psychic Weapon. Psychic Powers whose effects would otherwise be applied to a unit that includes at least one model with the Anathema Sub-type (due to area of effect, scattering or other rules) have no effect, but are not cancelled and may continue to affect other units.
+
+• A model with the Anathema Sub-type that is allocated Wounds caused by a Psychic Weapon (which is any weapon granted to a unit or model by a Psychic Discipline) will always fail to Wound without any dice being rolled and any special rules attached to that Psychic Weapon will not trigger. Any Wounds allocated to a model with the Anathema Unit Sub-type caused by a Force Weapon gain no benefit from the Force, Achean Force, or Soul Tear Special Rules, but are otherwise resolved as normal. These effects do not apply to a model with the Transport Sub-type that has models with the Anathema Sub-type Embarked within, unless the model with the Transport Sub-type also has the Anathema Sub-type.
+
+• All models that do not have the Anathema Sub-type, but are part of a unit that includes one or more models with the Anathema Sub-type, suffer a penalty of -2 to their Leadership Characteristic, and models with the Anathema Sub-type suffer a penalty of -1 to their Leadership. Any unit with at least one model within 6&quot; of a model with the Anathema Sub-type suffers a penalty of -1 to the Leadership of all models in that unit that do not also have the Anathema Sub-type, or -2 if that unit includes one or more models with the Corrupted or Psyker Sub-types, or the Daemon Unit Type. Note that these two penalties are not cumulative; they apply only the most severe penalty. However, they do stack with other Special Rules that modify Leadership (such as the Fear (X) Special Rule).
+
+• A unit that is Embarked on a Vehicle, Fortification or Building suffers no penalties to its Leadership Characteristic due to the Anathema Subtype. However, units with the Stubborn Special Rule do suffer penalties to their Leadership from the effects of this Sub-type (note that this only applies to the Stubborn Special Rule, and other special rules that ignore penalties to Leadership ignore the effects of the Anathema Sub-type).
 
 From December 2023 Liber Imperium FAQ V1.1, page 2:
 
@@ -1533,6 +1548,65 @@ If that test is failed, the unit suffers one Wound, allocated by the controlling
 • Any models with this Sub-type automatically have the Datasphere Uplink Special Rule.
 
 • A Detachment may not include more models with the Skitarii Sub-Type than without unless the Compulsory HQ Choice in the same Detachment has the Skitarii Unit Sub-type themselves.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="imp-asur-0001-0001" name="Asuryani Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+      <rules>
+        <rule id="imp-asur-0001-0002" name="Asuryani Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+          <description>• Any model with this Sub-type has the Legacies of the Fall Special Rule.
+
+• Any model with the Infantry or Cavalry Unit Type and this Sub-type has the Battle Focus Special Rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="imp-asur-lof" name="Legacies of the Fall" hidden="false" targetId="8c4f-f74c-a111-4452-9ab4ca54eb18d8e1" type="rule">
+        </infoLink>
+        <infoLink id="imp-asur-bf" name="Battle Focus" hidden="false" targetId="ba61-482b-ad76-450a-bb046e419d917d45" type="rule">
+        </infoLink>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="imp-rill-0001-0001" name="Rillietann Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+      <rules>
+        <rule id="imp-rill-0001-0002" name="Rillietann Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+          <description>The following rules apply to all models with the Rillietann Sub-type:
+
+• Any model with this Sub-type has the Fear (1), Move Through Cover, Hit &amp; Run, Chosen Warriors, and Furious Charge (1) Special Rules.
+
+• Models with this Sub-type may only be taken in a Saedathii Detachment.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="imp-rill-fear" name="Fear (X)" hidden="false" targetId="21f6-7842-df5c-d2e7" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Fear (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-rill-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule">
+        </infoLink>
+        <infoLink id="imp-rill-hr" name="Hit &amp; Run" hidden="false" targetId="5986-e960-d432-affd" type="rule">
+        </infoLink>
+        <infoLink id="imp-rill-cw" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule">
+        </infoLink>
+        <infoLink id="imp-rill-fc" name="Furious Charge (X)" hidden="false" targetId="2821-9269-862f-0554" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Furious Charge (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="imp-syco-0001-0001" name="Sycophantica Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+      <rules>
+        <rule id="imp-syco-0001-0002" name="Sycophantica Sub-type" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="274" hidden="false">
+          <description>The following rules apply to all models with the Sycophantica Sub-type:
+
+• As long as a unit including models with the Sycophantica Unit Sub-type also includes at least one model with the Character Unit Sub-type, the unit may make Reactions, even if their Unit Type would normally restrict this.
+
+• A model with the Sycophantica Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction where eligible.
+
+• Models with the Sycophantica Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
+
+• Models with the Sycophantica Unit Sub-type ignore any penalties to their Initiative Characteristic when Charging into or through Difficult Terrain or Dangerous Terrain.</description>
         </rule>
       </rules>
     </categoryEntry>
@@ -3184,12 +3258,12 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Concussive (1), Auto-Launcher</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Concussive (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d0e3-e8c5-2e0a-4c0b-90e5c131450cc64c" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
+        <infoLink id="0598-b876-e3f7-419d-a88f72728ab33989" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Concussive (1)"/>
           </modifiers>
@@ -3279,7 +3353,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5c9b-d1a5-1141-4d2a-a0279ee4a9d16c76" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="5e6e-a03d-8322-441c-b8af55f66ec5115b" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
@@ -3324,12 +3398,12 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="38f8-9e5f-deff-462f-ae34ec851982e9d6" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="0e6a-fbc9-f967-4e01-a68f2a61d936e25f" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="1c43-e650-4fbd-47ea-bf6c339aec0ced52" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="573a-46fd-cc5e-48cd-894a231295147382" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3342,13 +3416,13 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Sunder, -, Lasgun Arrays 24&quot; 3 Rapid Fire, Array Fire (3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0d87-17d1-553c-40d8-af154457e8408f96" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="30e6-ecd1-757a-4e13-958058a58b69239d" name="Array Fire (X)" hidden="false" targetId="3990-26f4-34ba-4db4-81c86c25213c0738" type="rule">
+        <infoLink id="9c24-32ab-9d3c-43b6-80a493a4edd5f512" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="dc6e-a773-4024-4235-be301953ad78dd02" name="Array Fire (X)" hidden="false" targetId="3990-26f4-34ba-4db4-81c86c25213c0738" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Array Fire (3)"/>
           </modifiers>
@@ -3370,12 +3444,12 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f366-b142-b7a5-4be2-85fef5d479a05ee6" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="9879-2a83-5bd6-478e-ad4505cba3def54e" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c02c-d03e-2a5d-4a3a-a79d95390a2b0f5c" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="a8fe-0b5a-f54a-407e-9c31fc76745db9df" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3481,8 +3555,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="824e-1a49-c528-4303-8e84fc7c5d6a73e4" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
-        <infoLink id="e516-3873-88a4-4f84-8a3b6798b092807e" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="ace3-5a4c-ef9f-48d3-b02ec7e0161d973c" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
+        <infoLink id="22ff-055b-cf9f-4af4-8a6e6d416cad3df6" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3500,13 +3574,13 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e404-398b-ae1e-458b-ad1bc82366dfe079" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="22fb-e6de-9471-47d1-93a241ef9eedb3db" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="bed2-9d4e-474c-4fb9-976289dbe820ec56" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="8f7a-5109-7702-491a-b4c658b3738b0ed3" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="48c6-dc18-855d-40d1-96f4fd52e14c7f28" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="f60a-6ad1-b1c7-44a8-a8b3a2f5ea0bf2fb" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3548,8 +3622,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7c31-b54f-b636-49cb-90b5954c155e1ff7" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="183e-744f-25c6-4d22-b5452301c06866fe" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+        <infoLink id="8587-9e0b-fecb-4c1b-8e867415b0073c8c" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="b5e4-b465-723c-40f9-a885ebbba3fca310" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shell Shock (1)"/>
           </modifiers>
@@ -3670,23 +3744,23 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9a91-4d84-d8f7-45fa-879ccdc8fcc804be" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="b1f1-12a1-b4eb-49e6-95b1b3aa3fac9107" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="379a-77e5-bb36-4ef4-a70f637bfea0185d" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="7331-9cec-2c97-464b-81f2ecd09ee68236" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="3f16-7ca1-ccc7-4610-9d82ec0825af7a12" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="6d76-f787-22e9-4bf6-b882a18c5492f295" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="279f-b06a-cd8b-407a-96a8e24f3b43d819" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="5ced-241c-2e80-4996-8d32c5e204ecaa4d" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (3)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4f6a-8498-65b9-4d16-b7c94861a2a423c5" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
+        <infoLink id="a6d2-8f79-c280-4ad7-ac039f5892c029a2" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -3870,7 +3944,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b492-4bf6-5a83-4590-8b46bf65f02e49a2" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="b228-7c71-8ed7-42b1-a764f8ed300477d2" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4151,8 +4225,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d2c4-c833-0ec4-493b-ba4d29b8833aee56" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="7a6f-5d26-9922-4654-8b909dfb3b7a7831" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="307e-5e0b-8b3c-4559-b7dbd6055e88d59f" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="6a51-a236-f857-4e3a-a8ff24208eb3aa93" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4170,8 +4244,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="454e-8e16-9280-4981-8de070279e674acc" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="9227-2cf5-3fd0-4114-826fe6dc02e523ea" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="f981-12c1-dfcc-4e03-a0156e7050aaa09f" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="5463-ef13-7939-49f1-8e76298813e8bbd2" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4329,8 +4403,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9a28-f241-18b8-40ee-b560b5b4672b94bd" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-        <infoLink id="5cd3-7042-e9a0-47e3-a994f34edeb7093b" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="a86c-683a-e960-4704-bdee0503f9395130" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="e589-f3f1-803e-4736-ae31462f385351a4" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4721,12 +4795,12 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="673a-4319-d5be-4357-bbd1bd6d61ad4c93" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="4139-87d7-0777-43bb-962acde5be69b195" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melta)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="74fd-83de-b2d0-4837-9ef92b457f994be5" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="e823-178d-9281-4ca5-9e121a7aaa6d23cc" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -4973,12 +5047,12 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bbe1-cab2-e7a3-4139-b44a54a4927f5f98" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="7724-a5e3-3e97-493a-a17b6ae12c69b2c1" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="9d19-ac06-efd5-4830-b03207b64d5425c9" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="f27f-3354-295d-4ad7-b92245c4bcffd4c8" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5014,7 +5088,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9943-6a42-fa97-42ff-bc54af19a9ced6ad" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="fc15-f73e-0b99-451e-ab6a362ff25f64df" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5190,59 +5264,55 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
     </selectionEntry>
     <selectionEntry id="3e5a-ad5d-4607-7489" name="Cyclone Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
-        <selectionEntry id="3134-d83e-e9b1-e139" name="Cyclone Missile Launcher -  Frag" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="457a-306c-29b6-237e" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a68-62f0-4d76-250f" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="f71e-f26b-94d0-b7b5" name="Cyclone Missile Launcher -  Frag" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="87d7-6a98-71dd-d6f3" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
-            <infoLink id="104e-f2fa-be98-fd3e" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="2984-7997-b4c7-7b12" name="Cyclone Missile Launcher -  Krak" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="279f-3ada-ea9c-b483" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbf7-9cb3-8c98-3a49" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="55b2-b652-f43d-b1b6" name="Cyclone Missile Launcher -  Krak" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
-                <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
-                <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-                <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2. Twin-linked</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <infoLinks>
-            <infoLink id="9835-da5a-4be1-118a" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-          </infoLinks>
-          <costs>
-            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
-          </costs>
-        </selectionEntry>
+        <selectionEntry id="3134-d83e-e9b1-e139" name="Cyclone Missile Launcher -  Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f71e-f26b-94d0-b7b5" name="Cyclone Missile Launcher -  Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7105-929a-dd15-4724-b993bf85b9b8bd5a" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="da53-9f21-3ad8-447e-86af78c5b12341eb" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="2984-7997-b4c7-7b12" name="Cyclone Missile Launcher -  Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="55b2-b652-f43d-b1b6" name="Cyclone Missile Launcher -  Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Twin-Linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e3c2-a04b-c089-42d1-afa82eee45ade88e" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c3a9-3ba5-0488-0482" name="Macro-Bomb Cluster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="c3a9-3ba5-0488-0482" name="Macro-Bomb Cluster" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="c984-6108-c398-ad1c" name="Macro-Bomb Cluster" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="c984-6108-c398-ad1c" name="Macro-Bomb Cluster" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
@@ -5251,10 +5321,6 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="96ae-8ba6-b764-f147" name="One Use/One Shot" hidden="false" targetId="df0c-5423-b892-491e" type="rule"/>
-        <infoLink id="b6d2-7322-a22c-feab" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -5571,7 +5637,7 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="84a6-539c-5532-40b0-b6d4df0348428ef2" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="2c81-07c0-a619-4446-92552638fc86425e" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5607,8 +5673,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d9f4-3f0d-0418-43b0-a11faa50b5333268" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
-        <infoLink id="9ade-05c9-1f90-4de7-abf1a8a9f2e6594e" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="c9b6-daaa-de6d-492d-90917ff65753b8cc" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="dd9d-eb3b-2698-47bd-a6c6d411c4c2e13d" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5664,8 +5730,8 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5474-be0f-8a4f-4c19-a3af6c6ea1efe875" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
-        <infoLink id="434b-f908-0e59-4455-bdeda8e13b347cb8" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="e6aa-3c92-14ae-48d8-a418998c0cd3f57b" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="e7cc-9756-9785-494d-8f3498592454672b" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5730,17 +5796,17 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3ddb-07d2-1f80-48b2-a762419775c37de7" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="c318-5e68-a748-444e-ad5fbdb769e6f496" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="9765-3769-adfd-4e9f-8e72c79652da2f8f" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
+        <infoLink id="9ae5-6b34-16a2-43e1-805cf2c2531860be" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Poisoned (3+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d900-b0a1-7b8a-4518-ae144152757c128f" name="Crawling Fire" hidden="false" targetId="8258-a7af-e4df-531d" type="rule"/>
+        <infoLink id="9c9a-e57c-08ab-41f7-82990a774fa03f75" name="Crawling Fire" hidden="false" targetId="8258-a7af-e4df-531d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5784,18 +5850,18 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0f1b-8283-7020-4f15-b4fec78ce8e2cd9f" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="5b80-5144-5e7f-4c88-92ae1598a473f7f2" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="fd20-ee0f-2c9a-4bf7-a469146dd7bc63a3" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="d658-8063-7ecb-4972-bb3d83e7939028a1" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="87aa-7de5-e7bb-47cf-98680abf2380390b" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
+        <infoLink id="b588-377d-c78b-4550-aa66c3c310d99ba4" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Poisoned (3+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="b645-f8d6-1f18-4cda-b0ea2ac46b4b82fe" name="Crawling Fire" hidden="false" targetId="8258-a7af-e4df-531d" type="rule"/>
+        <infoLink id="c5a0-1244-dff8-423f-8e1f400d497a1a05" name="Crawling Fire" hidden="false" targetId="8258-a7af-e4df-531d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -5831,19 +5897,9 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Armourbane (Ranged)</characteristic>
           </characteristics>
         </profile>
-        <profile id="5e6d-09ff-8537-43ae-b5c6465dc9e52c11" name="Lascutter (Melee)" publicationId="c4e5-f6a7-b8c9-d0e1-f2a3b4c5d6e7" page="138" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Makeshift Weapon</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f8f1-8c25-b77b-451c-ad564ca7e70cbe4c" name="Makeshift Weapon" hidden="false" targetId="d7ba-a5da-c698-4239-ae2a3d89167d7db3" type="rule"/>
-
-        <infoLink id="9a9a-52ab-9a23-4b0b-8ad293ca46f2dc02" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="da6c-d0ef-f104-447b-926c3715d1e35c3f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
@@ -5853,24 +5909,20 @@ Then choose the army you wish to have a lord of war from, then pick &quot;Lord o
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f461-3121-ac26-f073" name="Cyclone Missile Launcher -  Flak" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3808-cdc-acf3-7737-min" includeChildSelections="false"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3808-cdc-acf3-7737-max" includeChildSelections="false"/>
-      </constraints>
+    <selectionEntry id="f461-3121-ac26-f073" name="Cyclone Missile Launcher -  Flak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="3691-efa5-98a4-1e9f" name="Cyclone Missile Launcher -  Flak" publicationId="a716-c1c4-7b26-8424" page="133" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="3691-efa5-98a4-1e9f" name="Cyclone Missile Launcher -  Flak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Skyfire, Twin-linked</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Skyfire, Twin-Linked</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3cf9-c8e3-d6c4-0864" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
-        <infoLink id="11fc-12e7-2ac3-c548" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="1f13-7472-b0a0-47f7-920ca0270453515d" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
+        <infoLink id="7282-cefa-fdb2-456f-bb11fe8a2f40ccae" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6377,9 +6429,9 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="31d8-fc2e-fc40-4e9a-a3fd5eaf7aafbe96" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="87fd-c1ee-860e-41e3-aac9d091218f67ce" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="36ac-85db-e975-4774-bab42f3f8b72091f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="4fd0-20a3-b5ce-4e0f-86ac14277a9b971f" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="ce4d-3e34-2d90-4a23-bf6f141f1fbf6430" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="f56b-1203-ea8b-4d49-8451ce60733e128f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melee)"/>
           </modifiers>
@@ -6446,8 +6498,8 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="466f-def2-c242-4ca2-9caa8345a35332ad" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
-        <infoLink id="1dba-ce11-d5f2-459f-befabad108b39d11" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="0fdc-b7b8-75fc-4023-bbc224ea404ebdb2" name="Force" hidden="false" targetId="f39e-4c3b-38e0-0050" type="rule"/>
+        <infoLink id="973e-7d65-d8a2-476a-af63d889ce3b4636" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6668,7 +6720,7 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3b8a-e95a-c255-40e4-ab168907cee3c8aa" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="f886-8ed2-a350-435e-a5914b793ad282dd" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6710,7 +6762,7 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5eb4-c50a-8756-465e-b3a97f926e5b0c2f" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="51b1-5ebc-d272-4aa5-aa05d453a018c835" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
@@ -6814,12 +6866,12 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b730-d457-c52f-4966-90b5e8fc32ca2e8d" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="6df3-2cdb-618c-4314-aac1faf485811001" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melee)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="638a-993e-66d3-46e6-b0ce48ca1fbb7eb4" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="c9b2-08b4-8321-471d-827f5fe9345d5038" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6874,8 +6926,8 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="322d-bd0f-bff3-4644-839e78d745119b07" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="ce0a-0ce2-7e21-4cad-8759764a5bf4ce3f" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
+        <infoLink id="90df-986f-d9f8-442d-8cdc54ec17bf404c" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="3817-f6f8-dd80-43a6-9ffeb760c2be34ed" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -6893,9 +6945,9 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7878-edf2-27f1-4ed9-ae1fa115577373cf" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="df52-4f38-7326-48e0-88d00973f1f57670" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="18f7-5dbf-4c71-4038-a0a876f3493c08fc" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="dc17-dc51-0563-4d6f-9012efd7fecb5d32" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="7e8b-076a-d713-46db-947122d3b5e6264e" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="06ba-8a91-b87e-4541-8ccaa562f489e4f8" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
@@ -7078,12 +7130,12 @@ During Reactions made in any Phase, a unit equipped with Jump Packs may not acti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e975-9c84-1861-4062-ba51408cd656ddd3" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="b055-dd74-df85-4dff-8e09becb44c0d866" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melee)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="eef1-506a-74df-4e42-a64bb8de887ce84a" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="07b1-1467-f581-4ea0-8a2717b23d2ceed5" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (5+)"/>
           </modifiers>
@@ -8086,7 +8138,7 @@ A unit that makes a Shooting Attack as part of a Scornful Fire Reaction may not 
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="bc10-fcff-cfad-4dd4-a8416adc48cfe490" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="878e-8872-5508-4668-88190532cb5f9d90" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melta)"/>
           </modifiers>
@@ -8527,15 +8579,15 @@ In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reacti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4956-8dca-919d-4cc9-b1e5e346983af550" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="95ca-62a1-8ca5-442a-a89038fa7e0675b9" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="863c-6e8c-4033-4222-b03d188f1d2f77a6" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="ef86-4de9-ab27-4f36-874622e6aca0e872" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="619b-26f5-4c65-4229-be96df7b491ab331" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="80b8-d1a8-e046-4ccf-997b8b3923985e4b" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="c884-9238-542c-404f-9a29027c3081761e" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="b2b9-1636-69ef-43a2-8067fb9e8b4ca3d7" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="7155-4879-319f-49c6-aa3c7b6541ad72c7" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="b93e-bf0a-28bd-484c-96f97c018a8b909d" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
@@ -8855,8 +8907,8 @@ In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reacti
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6f42-f268-5b8c-4834-875430ae60627103" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
-        <infoLink id="6e9f-fcc3-3f0d-43e5-ad861c168c188a85" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="ffeb-5c52-3865-44e4-a67d96105f5c9151" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
+        <infoLink id="c0a2-e310-aeba-4e1c-8cf4630b988009fe" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9828,25 +9880,30 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8339-4003-fe88-b536" name="Adrathic Destructor" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8339-4003-fe88-b536" name="Adrathic Destructor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="e7e2-d04f-4361-8e89" name="Adrathic Destructor" publicationId="15a4-fc68-502d-48a9" page="145" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="e7e2-d04f-4361-8e89" name="Adrathic Destructor" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Instant Death, Armourbane (Ranged), Gets Hot, Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2b71-45bc-1c2a-e19c" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="20c2-64b3-d0b1-bdc8" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="b7c2-5275-2e7c-456f-ad78713bf67509fc" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="566f-0a46-f368-4e6f-bb4f193803c483c6" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="b1fa-07a0-2176-f6fb" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="6006-971d-9976-4f63-92c0cef976a4a875" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="1847-f72e-9d0a-4097-baed766732a4624d" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9905,14 +9962,14 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b0d0-40df-ec0e-4204-933adae9e5e678c9" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="fe07-9643-230d-42cf-8eb3716988e4468f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="c25a-5522-56ad-4f41-92018f5d17a98e0e" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="a1dd-0b58-4386-4d08-8de087c825b5e00c" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4fc0-6fdd-8a67-4a37-8ee6b1a612c6f53a" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="3c18-d43a-6f99-4226-b8dbf10cf9d150d6" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="9a59-c637-0a00-4bad-a1b9793247d74e92" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="f06b-0d9d-877b-46c9-9cf27446a4ac72ed" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
@@ -10097,9 +10154,9 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e0f3-3743-a9d0-f5f1" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e0f3-3743-a9d0-f5f1" name="Grenade Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9edf-5b4f-f269-c98e" name="Grenade launcher - Krak" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="9edf-5b4f-f269-c98e" name="Grenade launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
@@ -10107,19 +10164,7 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
             <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1</characteristic>
           </characteristics>
         </profile>
-        <profile id="7223-39b1-9ee8-bbc0" name="Grenade launcher - Frag" publicationId="a716-c1c4-7b26-8424" page="130" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Pinning</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="eb7a-1305-afa8-6362" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
-        <infoLink id="40e8-b20c-77ad-0282" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
@@ -10468,32 +10513,24 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="45c9-9a1d-f466-3750" name="Ripper Gun" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="45c9-9a1d-f466-3750" name="Ripper Gun" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="d96e-4b18-3f2e-e6ae" name="Ripper Gun" publicationId="48c2-d023-0069-001a" page="38" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
-            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
-            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 5</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d96e-4b18-3f2e-e6af" name="Ripper Gun (Melee)" publicationId="48c2-d023-0069-001a" page="41" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="d96e-4b18-3f2e-e6ae" name="Ripper Gun" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reaping Blow (1), Two-handed</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Reaping Blow (1), Two-Handed</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e7f8-9012-a345-b456" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
+        <infoLink id="fc48-e027-5f70-469e-9bbea17ac62d30ef" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Reaping Blow (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f809-0123-b456-c567" name="Two-handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="272a-5d46-a01e-4c7b-9fffd603e52215c1" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -10786,14 +10823,14 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="08e3-15e1-7fdf-4965-894fc91668818933" name="Ungainly" hidden="false" targetId="1cb6-d7f2-0c79-d208" type="rule"/>
-        <infoLink id="b7ce-dbb0-43f3-4d11-ab2040263a3bdbc7" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
-        <infoLink id="fbed-a22e-529d-4d65-b9b80388d46f80de" name="Sudden Strike (X)" hidden="false" targetId="58b3-7d84-b92d-1363" type="rule">
+        <infoLink id="62e6-3cd1-7d54-44a5-92b396d96c2ac17c" name="Ungainly" hidden="false" targetId="1cb6-d7f2-0c79-d208" type="rule"/>
+        <infoLink id="76be-9c33-53c0-4e6a-829afeda14aa7897" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
+        <infoLink id="30bf-ca06-b7f4-49c3-97ecc50a48431908" name="Sudden Strike (X)" hidden="false" targetId="58b3-7d84-b92d-1363" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Sudden Strike (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="385b-404d-e8a2-4288-a3fadd7434353d51" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="97ad-944f-6afa-4e17-8b352ec7501e7be8" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -10876,12 +10913,12 @@ Hull Mounted (Rear) Mounted Twin-linked Heavy Bolter or Heavy Flamers</character
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="01ed-c49e-c087-447a-af08a394c145c46c" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
+        <infoLink id="897b-693d-06e8-433c-a2f17da665e6d91f" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Reaping Blow (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="afd0-c258-cdac-494f-9dd782e7c5dc5f34" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="9d1c-aabe-1b3a-41f8-b2ab178c9d614e50" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11109,19 +11146,19 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="18a9-8944-d03b-46e6-bd28912390940996" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="abba-f7bc-a4c5-46ab-85fea47870f9c62c" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="51f7-7f87-1566-4f03-8c3ac0844bebac2a" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-        <infoLink id="f4f7-7367-4cdc-455f-a1a27073eb6821ff" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="1646-452d-bbe1-43f6-a3476bbfe2a799e0" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+        <infoLink id="156d-1a80-0bcd-4460-8cbdfd1340f9eb7b" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="a9a7-92d2-fa28-4502-b2e115e1966880ab" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="55f9-ee53-fedb-4b9d-973123a4c21faaf7" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shell Shock (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4b07-e190-4964-4770-b8482709aa23e38c" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="7807-f81b-fad2-4fa2-87667c526ee3b67e" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
@@ -11143,14 +11180,14 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b2da-2470-cdb0-4e06-b4092805a40d1912" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="9da9-b09f-e32d-419e-9d3159feec460257" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="9815-f2d4-cf01-4774-baefdda9defb294a" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="dd24-35e7-b417-4a6e-af69812141b89b70" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d6c6-c6d9-bda0-4c9f-b5e5cb7009637182" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
-        <infoLink id="764e-7adf-2460-4965-8777ebe73a35cfa4" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+        <infoLink id="4c9c-c5ee-4625-4707-9b6f7d67048e3689" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="be31-b144-fe91-4e40-9b6e102e4019505d" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Exoshock (4+)"/>
           </modifiers>
@@ -11172,13 +11209,13 @@ Once all models in the unit have moved onto the battlefield, the Warp Rift marke
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="188d-2ae6-6f23-434f-a257f6ea4a750283" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="c35a-70cf-a045-49df-b0f05d513168d720" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+        <infoLink id="e029-f016-3dc9-42a7-807b0a1974fdc257" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="2ec6-4388-0b33-40a4-b5a1f481ce506a3a" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shell Shock (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8fd0-b104-ebd4-4923-9cb95da7a2c3479f" name="Reactor Overload" hidden="false" targetId="a073-b86c-7bc1-d3f9" type="rule"/>
+        <infoLink id="2281-9873-95e1-485a-add39be4cfa2696d" name="Reactor Overload" hidden="false" targetId="a073-b86c-7bc1-d3f9" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11487,23 +11524,22 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Instant Death, Armourbane (Ranged), Breaching (5+), Gets Hot</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 3, Instant Death, Armourbane (Ranged), Breaching (5+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3271-2090-d16f-418c-8ca28978fa1119f2" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="c3a9-085b-aeb6-49dd-b0518ec2c7a4b91e" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="84c9-9f38-43cf-4869-badcd6a358c74c64" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="4993-aca9-c42d-4013-a9637bbbae36aaf1" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="49ec-fdf8-e20d-40fd-a6c3478f24e1518f" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="8589-f4a6-35f0-46f8-ae21b0a800d34b10" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="521e-47e5-68f0-4d7b-9d9e5391847866a5" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11521,14 +11557,14 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1700-368c-756b-4dff-a8eecc696fcaa0a0" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="32dd-4c42-96e4-4536-8f10c8e6fe220aed" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="5bed-e0b8-f385-417b-a0d60c26f33b1de2" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="85bc-7393-c648-488f-bdd0db69de91ba2f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f752-4f79-d90a-4b03-ad130ba5c047f9a6" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="0c69-1bb1-ea63-4a4d-bbb86e75d9a509d4" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="1212-5cb4-bf97-415c-b0447c567fdd81f9" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="1e47-f9f6-0b52-4833-bf362d7983f6df44" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
@@ -11550,15 +11586,15 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b4d5-adc5-863d-45f7-a72fe1332ac7a104" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="2a59-b4ea-48fb-45ff-8d0f7fb5d067c7e3" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="4881-f4ae-dfdb-4c4b-bcb9fd42c57eccae" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="28f4-173a-01f6-4274-9756a71d7f1f99a2" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c2f8-57f5-4d7c-4cca-ab75fa7a0d3db2f0" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="ffc1-7c2c-7aa4-400c-9e8f6e6f0da13e33" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="e1cb-8f38-6dab-4902-90468c648027aa0e" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="31b9-3240-f845-4b20-a37b55562a590656" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="30f2-14e6-021f-4f26-abc27d2a9f818669" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="1090-2494-62d5-4f50-bc6138d4d91cdc94" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
@@ -11575,24 +11611,23 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning, Shell Shock (1), Ignores Cover</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Barrage, Pinning, Shell Shock (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="eb32-8207-a09a-4976-9a8d89df6d5f2f99" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="5647-b99c-90c2-4c16-b82102bdf7f6f109" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="e3e0-ed09-194a-474f-a836e594e3b4c211" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="f8b5-b09c-9fae-4fe2-aeb98d44e4bf6b99" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="5e7a-524d-54cb-4128-9fc8357fb701cbef" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+        <infoLink id="244c-f84f-7785-4c30-91b54a21617b9f58" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="3b55-27bc-27b2-4591-a60457a5ba89cc53" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="258b-3c18-d77e-43a4-bb842c74398729e6" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shell Shock (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="346c-041a-e2fd-4cb1-ac8d0a23268aa3e0" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11610,14 +11645,14 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ccf8-7aed-12fc-44a0-ab987728682be947" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="f98d-882a-7133-47de-884f80d68f69bf9c" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="1dd4-edc2-1d8d-43ba-ad7d3674c5127732" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="2568-9198-3848-48f9-9b966fe52562c471" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="fcbb-557b-e682-4598-ae03fc4fe8e35114" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="d267-ed8d-4db0-4b13-be73bbf1a85a480f" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="2802-8b64-8952-4e55-ba54c8843154611f" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="0f6a-a6c0-13dd-4234-9ada57ed56f6b9bd" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11635,20 +11670,20 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d04a-853e-4643-4389-a9e8a25ce36c4265" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="23ae-0265-f578-4f7b-8dc93cda35a31a53" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="2369-18ef-9163-4bf9-9cc391c75fc11d9f" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="9412-556b-95c7-4aa6-abc08cd3b1251b46" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="3db1-d213-4df5-427b-9f5199ab886fe44b" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="b1b2-7754-f943-4b2f-bafc9513d8e001b0" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+        <infoLink id="978c-9e85-76cc-4fa9-9b83dbf7d1a9139a" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="d05a-6d4e-6ea8-4044-87d142d29036cae0" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Shell Shock (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="14ac-3556-c691-4261-80b411c79bb196ac" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
-        <infoLink id="c2bc-ea69-3fc0-44c6-a44110f01efaab51" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
+        <infoLink id="1862-8f62-1adf-4808-a590bdcbd6a2e1ab" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="b473-3d3f-1a76-4e41-bb21428f329aba5d" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11666,18 +11701,18 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6bb5-de5f-7429-4e1a-8ffa4a9fe1743f78" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="366e-5699-24b0-40ca-aef74bffc0b134ed" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="7122-4058-8b0d-4c4b-b349864d3b8860ad" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="c7f9-b5cf-65dd-4f4f-a7401d6ea3208185" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="9cb3-4f22-808d-4698-96ee9e5cb26917a7" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="e488-5a92-2490-494a-9680e1b0b5e4b607" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="54ef-515e-9522-4881-a1f47d1dc7e20939" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="1790-26bd-336a-4592-997eb94e4b869586" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
@@ -11699,14 +11734,14 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fd8f-2a21-59ff-4c9c-b7c8553bb908e529" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="51a8-391a-a3a1-4802-bab70aa340fd5c51" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f608-7979-20e9-4a86-93a1ebc194726049" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
-        <infoLink id="c2d4-7f22-1f57-4c83-8ac27b4c6d8abff9" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="150a-5171-8671-4d37-a5421282fcfa45c7" name="Restricted Trajectory" hidden="false" targetId="3078-5e92-9dec-4c4d-b11739d7727e1122" type="rule"/>
+        <infoLink id="34bb-7247-b42d-46d7-876f8cbbdd9db587" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="2fae-f7cc-8f37-4409-8309573c2089c32f" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="eb76-c795-f7f1-430a-a619580f7ff2741f" name="Restricted Trajectory" hidden="false" targetId="3078-5e92-9dec-4c4d-b11739d7727e1122" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11719,18 +11754,17 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Agripinaan Guidance System, Ignores Cover</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Agripinaan Guidance System</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="eebd-6472-540f-4845-bf0c385e612e11a3" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="f776-1277-1f52-46e9-ac8e377ae85c8f37" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="ed58-acfa-e16e-4d8b-95aa7fa99f780c37" name="Agripinaan Guidance System" hidden="false" targetId="5be8-6c74-6db3-49bb-899cd0b576f19106" type="rule"/>
-        <infoLink id="ec70-5f7a-aa60-4f3d-8a0387d072f09495" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="c63b-8fb1-6a9b-4acc-8defebb49cce8f81" name="Agripinaan Guidance System" hidden="false" targetId="5be8-6c74-6db3-49bb-899cd0b576f19106" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11748,17 +11782,17 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4286-d446-8481-48ff-b1b30438336ec668" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="cb94-7aac-ff45-4f9d-a20798317dc96205" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="e776-9877-62d2-4198-8c32f2ce7bec1888" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="addb-ebbb-1614-4eec-aa04022e2fec3914" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c20f-4273-3ab3-4abd-bea9a51478641b66" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="881c-5f5b-9546-4587-a998fff73561ca05" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11777,8 +11811,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="32ec-3946-a6d8-4fca-9713012b2f9c1823" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="c696-3fb1-ddc0-43f5-921e45bc27795ce6" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="2a0d-9b4a-7fcf-4a7b-b7c19e961aa49f8b" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="62d5-8222-272b-4713-aef907581f29a28c" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (3)"/>
           </modifiers>
@@ -11800,7 +11834,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b618-d884-cb61-443f-9b55bdb8c49c8494" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="fcea-5b8e-8302-4aad-976eb78e2ae95f7d" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
@@ -11884,17 +11918,17 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2692-9681-5767-42fc-a4c490051aa935f1" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="1a40-d525-446a-4aaf-86e5965aa27bfaf5" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="baf5-b167-fda5-47e2-a059dc86a31dbf18" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="de3e-b932-6837-4977-9ee2268b35f7e5dc" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="061c-6648-bc56-45e6-9c578e6764c1ea9f" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="ccd9-04ae-22de-4d40-baf4d1929639c556" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -11907,13 +11941,13 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 3, Sunder, Brutal (3), Balistus Grenade Launcher, Grenade Launcher, Vratine Grenade Launcher, -</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 3, Sunder, Brutal (3)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="fa50-d07c-705b-4f94-b934cfb4ca82ba9b" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
-        <infoLink id="5d64-4f43-8479-488c-9f7bc55eee81c115" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="d1cd-c7a9-36a9-48ba-ae85d90aa34da479" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
+        <infoLink id="5db9-1ada-0bc5-4c9c-8f3bba1207cf976d" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (3)"/>
           </modifiers>
@@ -12010,7 +12044,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7667-7c38-6290-49fc-86a0676d0bebb72f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="3369-0cc3-0b2e-42ed-b5ebc709ec6e94c6" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
@@ -12032,7 +12066,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0658-e59c-48f5-40c1-a6b92dcc10275fe0" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+        <infoLink id="e8a4-02e0-7dcc-40a8-b8303311f7bf58fe" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Exoshock (6+)"/>
           </modifiers>
@@ -12054,7 +12088,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2611-0f00-25c0-4030-89f305d7cab20f83" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+        <infoLink id="ca4c-d11b-82a1-4203-8cc05f18fd65ac69" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Exoshock (6+)"/>
           </modifiers>
@@ -12076,8 +12110,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="64b7-41b6-5112-4e3b-912d0542add67c18" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
-        <infoLink id="70ed-342a-3e93-4aad-9cb7f87a024d8c5a" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="f0a3-1c3f-e689-477a-824ec6400102ba1d" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+        <infoLink id="e6ad-3d12-906b-4d9e-ba440e2519d9cc7c" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12095,9 +12129,9 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="65ec-fed7-eb6b-4a71-8a1ad4ee80eac89b" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
-        <infoLink id="2387-3f59-6342-4f5a-82aa1abc226f5e87" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
-        <infoLink id="eaec-0d7c-a748-46c3-9b9eafaf5f4bce0c" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="8cce-1ca1-13f5-408e-823f2988853241c2" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+        <infoLink id="645d-6707-271a-49ad-a745736cfefdc6dd" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
+        <infoLink id="e003-966f-a713-4018-a7fbaaaa11ed4f4d" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12115,13 +12149,13 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1846-6a2d-5f0e-466c-87dca9194fe4b5b6" name="Sniper" hidden="false" targetId="9cd8-e726-5dbe-b106" type="rule"/>
-        <infoLink id="962e-9e4c-aea3-4935-86cbc2cc6b84141e" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="2ce9-7859-25e3-4152-b0ca1b1809271096" name="Sniper" hidden="false" targetId="9cd8-e726-5dbe-b106" type="rule"/>
+        <infoLink id="dc00-e507-ecdd-492d-a507cc46f8bf1ab8" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8d1f-3381-7981-4f27-988b6144104c8c92" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="6cc0-aa38-1872-4e1f-a73ed838f56e0106" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12139,7 +12173,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0005-ac8f-c8a7-43fe-857acfa779681bc5" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="5696-21f1-46b3-4d7c-bf383ca7aa870c9f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melta)"/>
           </modifiers>
@@ -12156,12 +12190,12 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use, Gravis Missile Launcher</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Bomb 1, Blast (3&quot;), One Use</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="511e-7830-efc9-4b41-974bc470f19d2b7e" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="3ef7-3cac-67a6-4138-9a8b4d6417dd45b0" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
@@ -12183,13 +12217,13 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="63bc-f080-6538-48ef-b4e964f0a8513637" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="a40e-e80c-4996-41ee-92616689912de622" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="44a4-1b09-dd97-4a5b-9cc34a5da6fb2b9b" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
-        <infoLink id="64c7-f460-f7b8-44da-a55545fc1db359b9" name="Tremor" hidden="false" targetId="c6e5-2523-ddc3-442a-89727a066e67edb7" type="rule"/>
+        <infoLink id="f54a-7527-6168-403a-a77c1944fc8f3d04" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="5d28-dc1c-731f-4e43-8af36b3a360a00dc" name="Tremor" hidden="false" targetId="c6e5-2523-ddc3-442a-89727a066e67edb7" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12202,17 +12236,17 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning, Salvo Launcher</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="02cb-bc9a-d11e-4bdf-8a185c39c688bdd9" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="89f2-f250-1a3c-4dea-ba141e01d66818f3" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="a96a-51b8-bbc9-4945-be09bb83fc44c28c" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="9b47-b44e-69c6-46b3-8f93ed116ef149c7" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12230,9 +12264,9 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d5da-2120-8899-4884-8bce0024b4995b50" name="Heavy Beam" hidden="false" targetId="24e7-27da-9bf7-f096" type="rule"/>
-        <infoLink id="7c3d-36e5-3e2a-48fc-b17071ff0dad6ae9" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
-        <infoLink id="4325-020a-7177-43ae-9e090db960e0506f" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="29ae-449d-a23d-4bae-b93047d7ca31a067" name="Heavy Beam" hidden="false" targetId="24e7-27da-9bf7-f096" type="rule"/>
+        <infoLink id="5b87-a6d6-0621-4137-a1ee26d4ceae43f6" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="2b38-c6cf-1a0e-4376-a7c836de97264865" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12250,7 +12284,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="157e-a5a2-abd7-4396-80c626bda788c33f" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="62aa-42f0-40a5-4460-a32d938567e630d3" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Melee)"/>
           </modifiers>
@@ -12272,12 +12306,12 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f1f2-1212-7f43-49f1-963e83c2b77c400a" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
+        <infoLink id="0734-4401-d98b-49da-b340e7829ed955ba" name="Reaping Blow (X)" hidden="false" targetId="bd8c-4f52-d682-1b40" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Reaping Blow (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="bf4c-9b5d-24cd-4afe-a448e28c86dda834" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="d55c-234d-dc3c-4194-9ddd97af141ebdbf" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
@@ -12299,8 +12333,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="1047-5132-56cf-45e8-91a79be6e04b9da0" name="Titanic Weight" hidden="false" targetId="bf2b-a394-ff8c-4ce6-a040af9157e49552" type="rule"/>
-        <infoLink id="88c8-8297-2e8a-48cd-8da780e7d2c04d86" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="16a0-e214-cc19-4f24-92daafb537370cca" name="Titanic Weight" hidden="false" targetId="bf2b-a394-ff8c-4ce6-a040af9157e49552" type="rule"/>
+        <infoLink id="410a-4ccb-b722-4988-ad5628ab3be5070b" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12318,14 +12352,14 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c2b5-1a5f-07c0-4628-96d77e99982084af" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="57ec-dcd3-ae57-4297-a5c99cad30faf639" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="4134-5cfb-c780-4a98-b8c4a9b4be616a7e" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="7fbd-6b95-a3ca-4be7-b6b26233a9a07e3e" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="9b5b-36b2-46b2-407f-bd36d5658fa53da9" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="eef6-2345-611c-4bf2-b9dee0ffa4c40ae0" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="52f9-c194-27de-4aa4-96a01fbd476d3ce4" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="5c7c-8b53-5325-482a-810bc2809c60024d" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (6+)"/>
           </modifiers>
@@ -12347,13 +12381,13 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5c5e-aa78-7081-4f52-854f6f76dfd3f3d4" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
-        <infoLink id="d471-e13c-6a49-45cf-a115e256b5be4d9f" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="f4db-d0e3-30bc-48c1-914549b47f2ccaf2" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="dc41-81c4-ac8b-4935-b6cfd36facd4345c" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="4d4c-13ed-8fb7-46de-8dc517c1273a52ef" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
+        <infoLink id="d026-5586-af3f-429c-9b3844d71bd6749f" name="Specialist Weapon" hidden="false" targetId="1a1f-3c9b-b097-5886" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12371,7 +12405,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4bfa-bbd0-c46b-4744-b4e3e415c3bf17d5" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="be3d-4392-7f15-4f93-b7c9783e80dfec68" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
@@ -12393,12 +12427,12 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4c8d-c471-340b-4304-96b3732216b19616" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="cfae-ab83-381e-4166-a20ce6191c719329" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="9379-a8ec-6958-44c9-89b8761987ec2254" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="b644-0004-67ff-464c-916376d40137673e" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
@@ -12420,7 +12454,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c1fa-793c-1aaf-4cc2-a10157a3a6916591" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="e16a-cb4a-56ae-4d93-b3d7e492b3aaa5c3" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
@@ -12442,8 +12476,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e8d7-8f7f-fa00-4563-92633bf133194d2f" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
-        <infoLink id="77db-32e5-1916-476a-b0e73bb795582dfd" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="69f5-fcb0-1fe1-4be1-a3b26c8c9ae6dfab" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="5ea2-28b6-d3bf-451f-8f9868f4a75b8d5b" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
@@ -12465,17 +12499,17 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a960-4aca-8cd5-4ec5-9143b0a5120a7f05" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="5c69-4656-4c53-4078-a1085c0380766d54" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (4+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="5c36-2f80-54d4-4bac-b6f7a530181b28e4" name="Dimensional Edge (X)" hidden="false" targetId="bde0-4e90-b4f2-4a54-a46fb1dd810b5935" type="rule">
+        <infoLink id="ab97-7172-9644-4eba-8a485fcf16b3ad42" name="Dimensional Edge (X)" hidden="false" targetId="bde0-4e90-b4f2-4a54-a46fb1dd810b5935" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Dimensional Edge (4+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="94ad-2a21-7700-4df6-9fd023d5d89d2df8" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="9660-8279-121c-460f-945012b2b72a7855" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (6+)"/>
           </modifiers>
@@ -12497,7 +12531,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4787-5a7e-66e0-4a9f-a595e8684fe90f0e" name="Embrace of Death (X)" hidden="false" targetId="04a5-1239-5c08-454b-babaf56e04b23f5f" type="rule">
+        <infoLink id="d5b9-b475-2bd3-4cb2-aabff8e2cca797c4" name="Embrace of Death (X)" hidden="false" targetId="04a5-1239-5c08-454b-babaf56e04b23f5f" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Embrace of Death (2)"/>
           </modifiers>
@@ -12519,18 +12553,18 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9233-d472-c9a7-419d-9fc060ded7414920" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="6c3b-ca3a-b135-4d0d-ae67fd955f80f24c" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="0fa3-5756-96fc-4283-a578f7ab71cb7c3f" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="f274-38b4-050b-4585-9b23bb808a9fbaa5" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="653e-1719-b53c-4522-86e9614607284554" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
-        <infoLink id="3971-1bce-5971-4452-80657248d1330e20" name="Detonation" hidden="false" targetId="8a47-9fc5-16fb-b46e" type="rule"/>
+        <infoLink id="5bea-68d0-7301-4429-9d62b1caa633f64c" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
+        <infoLink id="7826-6b5a-2de9-4f94-931e06a2a18255fe" name="Detonation" hidden="false" targetId="8a47-9fc5-16fb-b46e" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12543,24 +12577,23 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+3</characteristic>
             <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
-            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Deflagrate, Burst (D3), Sudden Strike (3), Two-Handed, Ungainly</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee, Deflagrate, Burst (D3), Sudden Strike (3), Two-Handed</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ed40-82a6-53d8-4b85-b7cb26bf05e1487a" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
-        <infoLink id="a38f-425e-0e73-48ea-809369772796e177" name="Burst (X)" hidden="false" targetId="24c5-754d-ac9d-4e80-af26dfeb35f6c914" type="rule">
+        <infoLink id="86fa-7973-49ec-4884-91f6eb11276e8ca4" name="Deflagrate" hidden="false" targetId="60bc-f79a-67ae-be4f" type="rule"/>
+        <infoLink id="f12d-d827-99e7-4319-bf76a2504956dc0e" name="Burst (X)" hidden="false" targetId="24c5-754d-ac9d-4e80-af26dfeb35f6c914" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Burst (D3)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="e838-3896-7225-4e19-a8d941166b93f33f" name="Sudden Strike (X)" hidden="false" targetId="58b3-7d84-b92d-1363" type="rule">
+        <infoLink id="68f6-0ab8-de49-4c6c-bcd0abf5ea11a7a5" name="Sudden Strike (X)" hidden="false" targetId="58b3-7d84-b92d-1363" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Sudden Strike (3)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="10d6-5292-faa9-4999-a9d8ef65a6486a97" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="8357-5abd-4664-4706-b908836e5dcae5c9" name="Ungainly" hidden="false" targetId="1cb6-d7f2-0c79-d208" type="rule"/>
+        <infoLink id="cec2-11ea-b4b4-4dd3-a255fabdd98c4b7e" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12578,7 +12611,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b93d-c187-f1bd-4798-87de9b96a08d281e" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="d1ff-45d1-ffd3-480f-b046706a49cb4768" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (3)"/>
           </modifiers>
@@ -12600,7 +12633,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d583-f82f-5013-40fb-a81f4911807650e3" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="50f7-bcf0-759b-4d42-bbed291b9e0de9e4" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
@@ -12622,12 +12655,12 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9fca-8254-6825-4e43-9df45aa2d42799bd" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
+        <infoLink id="e00e-a467-f494-4c33-88364b339fd04920" name="Poisoned (X)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Poisoned (3+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="fb81-3fcc-bb34-4095-a93279db4092f6c9" name="Psy-Shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
+        <infoLink id="f0e0-6ce5-4079-43fa-864f5c3417dcd08e" name="Psy-Shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12675,8 +12708,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6d1e-3134-91ac-4354-982e28e44c017908" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="5861-a37d-8b10-4795-9023038cd664c1ba" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="eb0f-cfeb-c3db-46a6-85f624966c04ecba" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="e2be-e766-64f6-447b-80c4adb2ecca9196" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12694,8 +12727,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c70f-782a-fd9e-4dd3-81aad46188aa69a5" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
-        <infoLink id="3f0b-19c8-153d-4e06-adcd84cb4e57a932" name="Psy-Shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
+        <infoLink id="5a70-c408-59a6-469b-b70d9e3129d6c63d" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="e198-83b8-f88c-414b-971595dd038864d5" name="Psy-Shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12728,8 +12761,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="cdaa-b1a8-59d0-4edf-b203b6dd715d09c8" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="0b47-ff21-8c27-427f-808edf58b8dd35d9" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="e871-6064-cc7f-4db7-b0eaf75dbc7339ad" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="1ffe-5d87-3e4a-4f64-87bad8b60d56544a" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (5+)"/>
           </modifiers>
@@ -12751,8 +12784,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b670-3c62-f635-491b-958c3ef029d3eaeb" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
-        <infoLink id="028f-f375-e467-472f-addd01a757a292c3" name="Rad-phage" hidden="false" targetId="8189-e963-d2e5-5d3d" type="rule"/>
+        <infoLink id="f697-432c-2bd0-404b-bf6fe23bc7d11d00" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="6ad7-1ffa-f155-4e3c-8aab2491a02a743b" name="Rad-phage" hidden="false" targetId="8189-e963-d2e5-5d3d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12770,7 +12803,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e05c-8d76-75d5-4fbf-9f491e2372991543" name="Entangle (X)" hidden="false" targetId="4a92-bb9b-613a-accb" type="rule">
+        <infoLink id="af79-c1fa-dea4-43ba-8e4b176b82ab1ad1" name="Entangle (X)" hidden="false" targetId="4a92-bb9b-613a-accb" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Entangle (2)"/>
           </modifiers>
@@ -12793,7 +12826,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="951a-b6fd-ef97-4963-9cd8f860a89b7c97" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="7e16-56d5-7a59-4d7a-9043a7cbfce4bf1d" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
@@ -12815,7 +12848,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="153c-8dec-0cfc-4964-b295b710230029c6" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="3421-4a8e-3a7e-4869-9ba81c3864e6f987" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (6+)"/>
           </modifiers>
@@ -12837,7 +12870,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="dc6c-ff64-0e06-411c-b774f0d76199693a" name="Entangle (X)" hidden="false" targetId="4a92-bb9b-613a-accb" type="rule">
+        <infoLink id="849c-2659-b3a6-4339-bfa1c931638a0ed7" name="Entangle (X)" hidden="false" targetId="4a92-bb9b-613a-accb" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Entangle (2)"/>
           </modifiers>
@@ -12859,7 +12892,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e9a2-d6e5-aa55-46d7-bce7437060742d50" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="40f6-6944-0bb7-4b90-a2b59c392f30d506" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12877,15 +12910,15 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b205-9ad4-cb81-48fc-aad0e06ff5177935" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="350c-ae22-1855-4af2-9cf50f7991c0d776" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="dd99-f018-721f-4f44-ad9fbbebd798c7b8" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
-        <infoLink id="fb84-77a0-e2ab-4e15-a6fc604f88366609" name="Vortex" hidden="false" targetId="e36d-75f7-6587-498b-8d8e5c2aa202948a" type="rule"/>
-        <infoLink id="7793-7772-6c05-4dd8-aaebdfd1bc9b3046" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
-        <infoLink id="7fbc-68de-3747-46dc-9e040681d163ebae" name="Psykana-Battery" hidden="false" targetId="9da6-281a-6cee-47ee-9f9a5ee852d1d4fe" type="rule"/>
+        <infoLink id="833f-4800-ca8f-4355-a90f18a5fad340b7" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+        <infoLink id="10a6-14b0-6b53-4ca4-b482c2c6ffe57a27" name="Vortex" hidden="false" targetId="e36d-75f7-6587-498b-8d8e5c2aa202948a" type="rule"/>
+        <infoLink id="a6e5-0473-b589-458c-a273f5a4d4396a06" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="ffbc-d5e4-d93c-43b5-84b278d97a00ac5e" name="Psykana-Battery" hidden="false" targetId="9da6-281a-6cee-47ee-9f9a5ee852d1d4fe" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12903,18 +12936,18 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ccce-7a61-d6f8-41ed-8cada541ecf522af" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="92ea-cb60-1177-4051-8e060d41b4f07506" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="0d29-e01b-fab3-4be3-9fff5a71aa4baf10" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
-        <infoLink id="b2a2-04d8-85c0-4d51-86eece2dd0715d73" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
+        <infoLink id="5bf0-5a4d-6456-4cc9-bc9a032f1c9fbd94" name="Haywire" hidden="false" targetId="1dd4-7a75-5c59-8425" type="rule"/>
+        <infoLink id="42a3-b6fa-f01f-4fde-a878d83559c2a6d0" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Concussive (1)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d5d5-f10f-a1f4-4307-83cd0207463aa2fc" name="Vortex" hidden="false" targetId="e36d-75f7-6587-498b-8d8e5c2aa202948a" type="rule"/>
+        <infoLink id="b134-861e-6c0b-4f87-910d002e67942507" name="Vortex" hidden="false" targetId="e36d-75f7-6587-498b-8d8e5c2aa202948a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12932,7 +12965,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="7ef2-869a-be84-4379-878372557d72ca31" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
+        <infoLink id="1239-074a-932b-4017-97caf2818aa839f2" name="Shred" hidden="false" targetId="5e7e-1628-8174-6f2c" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12950,8 +12983,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9f00-0145-dc67-40a6-adcae14038605e23" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
-        <infoLink id="3b5a-069a-1162-4998-9d0f6109f6fe20b9" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="21f8-ee8f-2348-44d6-ac4ace3ca1cd4593" name="Two-Handed" hidden="false" targetId="4c23-e863-a569-7617" type="rule"/>
+        <infoLink id="bd52-dda6-9287-4159-aa5ddd83dabc5fc7" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -12969,8 +13002,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2bd6-3970-4880-440f-aca8a419bf69d611" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="9488-13b5-66b0-4730-9fbbaafbcbdf486f" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="a2db-4146-7ced-4953-b8bdb67ddd1decb0" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="fee2-4ae8-8290-4e0f-8d9144ad5a224e05" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (5+)"/>
           </modifiers>
@@ -12992,12 +13025,12 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="12a2-d83d-b643-4d9b-ad7559dee3d6d2e0" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+        <infoLink id="9cb5-bab7-7169-4de2-9eecff150685d0f0" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="1942-b642-d516-4a0e-acac1e6fc082bbc9" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="3760-f0a6-db6a-4399-87ac4775ff95b7d7" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (6+)"/>
           </modifiers>
@@ -13019,8 +13052,8 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3608-f5e0-221d-44eb-959e6e8f4f4b09ec" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
-        <infoLink id="63ff-400d-a09e-490c-87fa1ba0e05fda30" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="5f85-c15f-478d-4120-936389cef4d9a605" name="Unwieldy" hidden="false" targetId="1570-c21a-881f-8b8a" type="rule"/>
+        <infoLink id="95fd-48b3-6398-4334-ae46f0ade55f55c9" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (6+)"/>
           </modifiers>
@@ -13042,7 +13075,7 @@ Where the effects of a Mutable Tactics trait contradict another, Flaws take prio
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="e207-f497-c8d1-4f54-9f1ef7ef78190430" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
+        <infoLink id="51d7-357a-c7ef-4761-8fdb96cbae0ae659" name="Murderous Strike (X)" hidden="false" targetId="93b9-1454-0e7c-42ae" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Murderous Strike (6+)"/>
           </modifiers>
@@ -13362,9 +13395,12 @@ Models with Rad Furnaces are immune to the effects of Rad Grenades, the Rad-Phag
     </selectionEntry>
     <selectionEntry id="59d2-7e2a-f249-462c-99220cb302611ad0" name="Tarsus Buckler" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="1c54-bed9-880b-4b49-a02eb1db2f4fa504" name="Tarsus Buckler" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
+        <profile id="a1b2-c3d4-prov-chemp" name="Tarsus Buckler" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
-            <characteristic name="Description" typeId="347e-ee4a-764f-6be3">• Whenever the model performs a Ram attack, increase the number of hits inflicted by +D3, and the Strength Characteristic of the Ram attacks by +3. In addition, all Ram attacks made by a model with this upgrade are resolved at an AP value of 3, with the Sunder and Shred Special Rules.</characteristic>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">+1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Melee</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14807,9 +14843,9 @@ In addition, a model receives no benefit from the Hammer of Wrath (X) Special Ru
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b0b9-e99a-c4bb-4402-ad132d8f774f6b55" name="Magnarail Lance" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="b0b9-e99a-c4bb-4402-ad132d8f774f6b55" name="Magnarail Lance" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="9788-1ab1-4fe2-4b69-af65831fbd2ba4ee" name="Magnarail Lance" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="9788-1ab1-4fe2-4b69-af65831fbd2ba4ee" name="Magnarail Lance" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
@@ -14819,7 +14855,7 @@ In addition, a model receives no benefit from the Hammer of Wrath (X) Special Ru
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0eba-7400-075c-4198-8f337246afd8b614" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+        <infoLink id="26af-ff3f-6d2b-4ab5-ad8c0607cf41df24" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Brutal (2)"/>
           </modifiers>
@@ -15347,9 +15383,9 @@ In addition, a model receives no benefit from the Hammer of Wrath (X) Special Ru
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78fc-99e2-b66f-497d-941961c7a54cf8b8" name="Transonic Cannon" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="78fc-99e2-b66f-497d-941961c7a54cf8b8" name="Transonic Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7a10-007e-7f24-4a35-83aee116b0ff55c1" name="Transonic Cannon" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="7a10-007e-7f24-4a35-83aee116b0ff55c1" name="Transonic Cannon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">9&quot;</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
@@ -15359,18 +15395,18 @@ In addition, a model receives no benefit from the Hammer of Wrath (X) Special Ru
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a21a-3a09-7875-4756-977d77d56948a906" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+        <infoLink id="b1de-787e-2dff-4220-9c0f5d35a38e439a" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Blast (3&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="d397-3a7b-e324-4894-8588b87a9d8b980c" name="Sonic Pulse" hidden="false" targetId="bcb7-1ace-7a5e-4fb6-b13ba63e90a4fd9d" type="rule"/>
-        <infoLink id="06d0-9bc5-55b0-4d7a-b8dd18cc94619e6c" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+        <infoLink id="f7b9-32b6-c2de-4661-9083392ceb461e84" name="Sonic Pulse" hidden="false" targetId="bcb7-1ace-7a5e-4fb6-b13ba63e90a4fd9d" type="rule"/>
+        <infoLink id="d76c-3e17-5aeb-4544-a4fb5ea69c886551" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Armourbane (Ranged)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="c620-2413-c722-474d-8f9adf71e2a6d7fb" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="4516-a73f-ecf3-4ed0-8659588d3c9f0661" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -16804,6 +16840,607 @@ Additionally, a model equipped with a Servo-Rig may make two attacks in the Assa
       </costs>
     </selectionEntry>
 
+    <selectionEntry id="bc14-c5d6-ecc8-43f1-ad76990497f1cf6b" name="Praetor Launcher - Firestorm Munitions" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dc84-1c70-f5f6-43a0-8014ea9f9d7001b4" name="Praetor Launcher - Firestorm Munitions" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 2, Barrage, Massive Blast (7&quot;), Pinning, Shell Shock (2), Rending (5+), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6eea-6acf-6ae2-40dd-a0b988926bfe7eb7" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="84d0-5d99-5af9-42c7-bb590351602f36ef" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a307-0461-794e-423d-bc94049d9c2990d4" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="7651-ee5c-b8ce-4867-970d596da72c5bb4" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6e54-2d7c-674d-4e12-9e4c2e16b3266434" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4266-f5bf-baf3-49ac-b67f877f7f4c1b3c" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="021e-7d92-1751-4eb0-a3c8f748ccc691f6" name="Praetor Launcher - Foehammer Munitions" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4d40-474a-b200-431e-9d9325e7c0b0b1b1" name="Praetor Launcher - Foehammer Munitions" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 12, Guided Fire, Breaching (5+), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eda3-6ec5-5438-41db-b68f52bb0c8a553a" name="Guided Fire" hidden="false" targetId="fa1e-0112-943e-b1f6" type="rule"/>
+        <infoLink id="ef19-61b3-ae96-4a24-99e510dda121081c" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b9b6-0422-e51a-40d5-85c909b67aeae97a" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="893c-3bab-3ab7-40b4-abb8ee77d5cd2e94" name="Auto-Launcher - Blind Rounds" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="82bb-ec18-83a7-42e7-b79486058d8f3e77" name="Auto-Launcher - Blind Rounds" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Blind</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d51c-1bf2-b7ae-47ce-9cf3ade299da09cf" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3ba5-9120-21f8-4c1e-a83960ba88c46418" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf46-e750-8f8d-4d4a-8d3f636b9bff46a5" name="Auto-Launcher - Defender-Frag Rounds" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0911-1da0-bf23-41f1-9dd3b948a5740192" name="Auto-Launcher - Defender-Frag Rounds" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Pinning, Defender</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dbdf-a72a-c33c-4f46-b3b46a82095521d2" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0fce-4e3d-7e9b-4980-b5049af6f0cf0996" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="6f7e-a519-af00-4857-a4c9ebbdb3b3f6ed" name="Defender" hidden="false" targetId="0278-cb5e-874b-410e-a56b7ed1bcbfd6cc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef38-c6f9-3fe5-4d5c-85bbbc8532fcfe1b" name="Balistus Grenade Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0be6-bb74-a3d7-4365-9f36f9299abb7a82" name="Balistus Grenade Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Pinning, Shell Shock (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e06e-3281-8041-4514-bc6cea980e9fd2d0" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="698c-928c-295d-49f2-bc2bebb69f0be35f" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="ba21-e6ea-de56-4559-99c207fa90348c7c" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2481-5967-b4d6-41de-91f765b1f57a6c53" name="Balistus Grenade Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8be2-5340-7f4f-4a96-ae497cb7e6c07c50" name="Balistus Grenade Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Concussive (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8164-ed5c-7892-41df-913d0b757f18d6fa" name="Concussive (X)" hidden="false" targetId="7ce5-1bfb-64e6-f826" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Concussive (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c638-3f6e-5924-4c3b-a6ad4e53ae349b17" name="Balistus Grenade Launcher - Tanglefoot" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3f62-b8be-da62-4e50-96e3371921f614b5" name="Balistus Grenade Launcher - Tanglefoot" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 2, Entangle (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="92cf-007c-e4ce-42ad-be7b6e669869f39b" name="Entangle (X)" hidden="false" targetId="4a92-bb9b-613a-accb" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Entangle (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddec-3895-5072-4def-81ccdcee5695ab3d" name="Grenade Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="47fa-d068-4b6b-4234-8657b0ee622dedf2" name="Grenade Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2763-298e-e427-4bc8-ba295c7ecc27b6df" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1c55-171e-75dc-4aa6-94bbbdb9865a225e" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7fab-34a3-c5cd-476c-b39a6811ddf2cb33" name="Vratine Grenade Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8114-ab8a-94c8-4572-8dd321d4a03b604f" name="Vratine Grenade Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">3</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, Blast (3&quot;), Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c12d-a9cf-1412-48eb-a2de8c52b4cef2d5" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a14d-7ee0-2644-4fe3-83300f49f6621e8b" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3373-9752-9de3-4484-b10e77cf313cbaec" name="Vratine Grenade Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9d0e-0d48-6240-49c5-8408a7de08d5136a" name="Vratine Grenade Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 1, -</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c11e-d3c9-503a-453a-906314c96c61b6af" name="Fusion Pistol" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5aaf-26e6-b464-4e0e-a85f0a8156e332e0" name="Fusion Pistol" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">8&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Pistol 1, Armourbane (Melta)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f88a-2069-75c2-41ff-9dde46d3dd9bd383" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Melta)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f082-755d-8bb9-4c7b-9c36bab50d8c755c" name="Cyclone Missile Launcher - Godspear Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="90a8-68ef-262b-4f4a-a6112746a5807d25" name="Cyclone Missile Launcher - Godspear Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">16</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Wrecker, Destructor, Shieldbreaker</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d75c-0151-d4ef-4053-bab59fd0b1268668" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="94c0-58a1-b6f5-4ab3-b18aa5d6910a9a64" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
+        <infoLink id="2ff7-934b-286d-49c1-b8a81086af269eba" name="Destructor" hidden="false" targetId="1f93-c765-f7b2-a025" type="rule"/>
+        <infoLink id="c036-bc05-3de2-42d6-b06bb4fab6a84da2" name="Shieldbreaker" hidden="false" targetId="c703-f116-e578-430b-bd9666ac8394b2c2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="023b-5e6f-2ebf-4536-9eb9a73fb91055d8" name="Cyclone Missile Launcher - Plasma Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="17cb-da61-00ba-4fb7-b8e4b978290d6c39" name="Cyclone Missile Launcher - Plasma Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Apocalyptic Blast (10&quot;), Plasma Burn, Ignores Cover, Pinning, Shell Shock (3), Seismic Shock, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e529-3afe-6f89-416f-896190777cf72541" name="Plasma Burn" hidden="false" targetId="efaa-c932-9788-9ade" type="rule"/>
+        <infoLink id="7c89-e664-cfe8-48b8-83d384d667160a9d" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="f9ae-fe21-6beb-48c7-b6e519d82de31c16" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="e353-d522-8c8c-4c77-91a6f168cba993c4" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5f7b-c613-62d7-4ca7-89fdac23136fe1b8" name="Seismic Shock" hidden="false" targetId="5e0d-b2af-e7b4-a8cd" type="rule"/>
+        <infoLink id="8009-b130-30c2-4c06-927e847ec6a104f1" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65ca-90e8-dd61-40ff-93e05b5d45e346f0" name="Cyclone Missile Launcher - Vortex Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7cbe-f445-cf10-4f9a-9f46ff14bff79edb" name="Cyclone Missile Launcher - Vortex Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Vortex, Armourbane (Ranged), Instant Death, Wrecker, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cbd5-7af8-4a83-4315-8339e75c90434b56" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9547-30ba-178c-436d-a1f54ec68a5f9ffd" name="Vortex" hidden="false" targetId="e36d-75f7-6587-498b-8d8e5c2aa202948a" type="rule"/>
+        <infoLink id="8677-d84b-8470-41fa-8050dd6fa229fddb" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8fa8-4297-ea71-4b20-a5cddec49dba2b6f" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule"/>
+        <infoLink id="3113-863f-edaa-47d8-9e0fec061df4f86c" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule"/>
+        <infoLink id="9198-5452-a401-4358-97a0a764f7673865" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="990d-ce87-dbd6-419f-b057377b9c9baad4" name="Gravis Missile Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="98b8-6f5d-a5f9-486b-8be450967a684c6e" name="Gravis Missile Launcher - Frag" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">6</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Large Blast (5&quot;), Pinning</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d2c3-9379-932e-4bba-96e09a0461a9eea4" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4eb1-3bdd-af23-4b0d-80e4be2c19768a1c" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ea91-a0ac-62d4-4c83-8a32bf19fed8ed7d" name="Gravis Missile Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f593-21bd-7507-40f7-b1202a6922874df6" name="Gravis Missile Launcher - Krak" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf46-8f01-7188-4592-90d1f39ebffa3751" name="Manticore Missile Launcher - Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d6d6-f33c-4304-4d7b-b431c50244a4f686" name="Manticore Missile Launcher - Manticore Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;-300&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Breaching (4+), One Shot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8cc0-8e06-805c-44ad-bfc1f80a197a6638" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="50e0-9f0c-8c2a-4548-a3839ddb2c6259a9" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f288-3ef8-7231-4c99-ba4bbbe9204897c5" name="Manticore Missile Launcher - Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7f2f-d1f3-4fc4-47d1-bf1b3127a05e0add" name="Manticore Missile Launcher - Phosphor Incendiary Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">5</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Ignores Cover, Pinning, Shell Shock (2), One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2e3f-1e7b-7220-4778-9a217f5899db82b3" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="6c7f-7db5-b066-414c-b8a6b36a91a6beb6" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2997-687c-4868-4351-90ea49d517e39fb9" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="8d0a-43ac-2a1d-45b7-817a9369020f0408" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="da4a-9e54-65fb-4aef-8ae1b0bc3058ddba" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ffb1-33cd-d710-4a6f-a90559bc30509463" name="Ponderous Aim" hidden="false" targetId="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3fe7-b2c0-9ed1-4ee5-87a37c10d8fc7007" name="Manticore Missile Launcher - Solutus Chem Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4985-84c8-821f-4242-b057dbe0b4a33b1c" name="Manticore Missile Launcher - Solutus Chem Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">1</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance D3+1, Barrage, Blast (3&quot;), Brutal (2), Breaching (5+), One Shot, Fleshbane, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bd70-815f-318e-435e-a7f8a9127ad03204" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule"/>
+        <infoLink id="8795-0ee0-b9c5-498f-9fa56bd76ff20523" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2d28-6ea5-487c-4890-91953f3eaafc3b6c" name="Brutal (X)" hidden="false" targetId="5079-1fec-d32b-8b84" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Brutal (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9c45-5835-7717-464b-ab83f7ca458438d6" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2450-f457-775c-4f7c-b130f9c96f0f33c1" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="caac-fa29-4c7e-48d3-b8bbd68d77a591d1" name="Ponderous Aim" hidden="false" targetId="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c11c-3c34-ddee-4b28-b879b6f7e12599f5" name="Manticore Missile Launcher - Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f458-226f-2277-48fa-87ade0e6d7a0c600" name="Manticore Missile Launcher - Storm Eagle Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-120&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 4, Guided Fire, One Shot, Ponderous Aim</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2316-e395-89bc-4f6c-9dd15616d67f7adb" name="Guided Fire" hidden="false" targetId="fa1e-0112-943e-b1f6" type="rule"/>
+        <infoLink id="4991-b0ba-96d8-4cf6-b3199f3a14cce417" name="Ponderous Aim" hidden="false" targetId="dda6-cf6f-fe98-4b77-8dbd47d43559ed2c" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e047-d5b6-7371-43ae-b8773d8a5ab4de00" name="Missile Launcher - Rad Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9ab8-1494-194a-43ff-945432e4943021c9" name="Missile Launcher - Rad Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Blast (3&quot;), Fleshbane, Rad-Phage</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e713-ae6b-9bc0-4a50-8113a7b360417e80" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Blast (3&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c0c8-170f-0638-432c-836e2e807a61e141" name="Fleshbane" hidden="false" targetId="40cd-9505-253c-e76f" type="rule"/>
+        <infoLink id="8dbb-dee7-d5e8-4fe1-9ce6e7ac7dc9feb7" name="Rad-Phage" hidden="false" targetId="8189-e963-d2e5-5d3d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d31c-3597-030c-4be1-a7461054f21be713" name="Missile Launcher - Psyk-Out Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6ec7-82cf-1f59-4efc-9490488a316ab4f1" name="Missile Launcher - Psyk-Out Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Psy-Shock</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="79c8-f518-58e6-4060-b39f1830e74aaf70" name="Psy-Shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f46a-56bf-e8f6-4c8f-8541c7e364f05404" name="Salvo Launcher - Melta Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="80ae-7b4b-1d26-4ddc-8501006ce14eda30" name="Salvo Launcher - Melta Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Armourbane (Melta)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e66f-599f-9a29-4cbf-89f3e7b9c4802d9c" name="Armourbane (X)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Melta)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31a1-b9e9-2f53-4f00-969b75d079c95fa1" name="Salvo Launcher - Flakburst Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b51c-cc06-2409-4b1b-be580cbd0b986c98" name="Salvo Launcher - Flakburst Missile" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">24&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 1, Skyfire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8f82-49bb-cc5e-4969-a53370cd7e9aaf2e" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f6e1-9de2-c2c4-48fd-b160f19b1303ee65" name="Vratine Rotary Missile Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8132-970e-cd9f-488d-ba85816e9d5c71c4" name="Vratine Rotary Missile Launcher" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">48&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">8</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Exoshock (6+), Ignores Cover, Twin-Linked, Psy-Shock</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="aa0d-8283-3a8a-442b-a80d19124dc9fe1c" name="Exoshock (X)" hidden="false" targetId="69ca-318a-b47a-7a3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Exoshock (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5bd8-653a-d709-4b57-ae56c8fd920eecf2" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+        <infoLink id="df3b-4029-246b-4def-b64763596a05eaaf" name="Twin-Linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+        <infoLink id="685d-f11f-9ad9-49cd-90c477f79e8fbc97" name="Psy-Shock" hidden="false" targetId="f372-a365-a036-cbc4" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -24420,7 +25057,9 @@ Before the game begins, you may assign a single Infantry unit from the same Deta
       <description>As long as a model with this Special Rule has not been removed as a casualty and is your army&apos;s Warlord, all models in an army that contains them count their Level of Alliance as Fellow Warriors, unless they are already Sworn Brothers.</description>
     </rule>
     <rule id="cdcd-38e9-5301-48d8-b22d6c03434e80f3" name="Furibundus Talon" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
-      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+      <description>Whilst often deployed from great landing vessels in drop-racks, once on the ground the Solar Auxilia Dreadnoughts would separate, each undertaking the objectives assigned to them by their Legate.
+
+When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves) all models in the unit must be placed within unit coherency, but afterwards operate independently and are not treated as a single unit. Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
     </rule>
             <rule id="d119-1686-6a64-4e1e-891f0dff3e66ca30" name="Gravitic Implosion" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false">
       <description>Instead of rolling To Wound normally with this weapon, any nonVehicle model that suffers a Hit from a weapon with this special rule must instead roll under their Strength on a 2D6 or suffer a Wound (a roll of double &apos;6&apos; always counts as a failure). Armour Saves and Damage Mitigation rolls may be taken as normal - except Shrouded rolls which may not be used. Against targets with an Armour Value, the attacking player rolls 4D6 for Armour Penetration instead.
@@ -24922,6 +25561,49 @@ The Repulsor Grid cannot be activated by any weapon which does not roll to Hit.<
     </rule>
     <rule id="sat0-retin-e1f2-a3b4" name="Saturnine Retinue" publicationId="e8f1-a2b3-c4d5-e6f7" page="13" hidden="false">
       <description>A Legion Saturnine Command Squad may only be selected as part of a Detachment that includes at least one model with the Master of the Legion special rule equipped with Legion Saturnine Terminator Armour. A unit selected in this manner is considered a &apos;Retinue Squad&apos; and the model with the Master of the Legion special rule is referred to as the Retinue Squad&apos;s Leader for the purposes of this special rule (if the Detachment includes more than one model with the Master of the Legion special rule then the controlling player selects one as the unit&apos;s Leader). The Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as the model selected as its Leader. The Retinue Squad must be deployed with the model selected as its Leader deployed as part of the unit and the Leader may not voluntarily leave the Retinue Squad during play. A Legion Saturnine Command Squad may not be selected as part of an army without a Leader.</description>
+    </rule>
+    <rule id="imp-sr-advw-0001" name="Advanced Weapons" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="278" hidden="false">
+      <description>A unit with this Special Rule increases the strength of any Rotor Cannons, Laspistols, or Lasrifles they are equipped with by +1, to a maximum of Strength 4.</description>
+    </rule>
+    <rule id="imp-sr-blitz-0001" name="Blitz Barrage" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="126" hidden="false">
+      <description>Once per game, before any Shooting Attacks are resolved during any of the Controlling Player&apos;s Shooting Phases, the Controlling Player may declare a unit that contains a model with an Ordnance Corps Marshal will fire a Blitz Barrage.
+
+For that Shooting Phase only, a unit declared as firing a Blitz Barrage may fire any weapons they are equipped with that have the Ordnance type twice. This second Shooting Attack may be made at a different target to the first, but otherwise follows all the normal rules and conventions around making a Shooting Attack.</description>
+    </rule>
+    <rule id="imp-sr-conc-0001" name="Advanced Reaction: Concentrated Fire" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="126" hidden="false">
+      <description>Advanced Reactions are available to specific players as noted in their description. Unlike Core Reactions, they are activated in unique and specific circumstances as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points from a Reactive player&apos;s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their descriptions.
+
+Concentrated Fire - This Advanced Reaction may be made whenever any enemy unit makes a Shooting Attack targeting a unit eligible to make this reaction. Once the Active player has resolved all To-Hit rolls, Armour Penetration rolls, Invulnerable Saves and any Damage Mitigation rolls are made, but before effects of any lost Hull Points or Vehicle Damage Chart rolls as a result of the Shooting Attacks made by all weapons in the Active player&apos;s unit that made the Shooting Attack are applied, the Reactive player may make a Shooting Attack, targeting the unit that triggered this Reaction and following all the usual rules for Shooting Attacks. Models which are part of a unit which includes a model with this Special Rule attacking as part of this Reaction may attack with all of their Defensive Weapons, and up to one Battle Weapon each. Template weapons may only be used as part of a Concentrated Fire Advanced Reaction if the target unit is within 8” and must use the Wall of Death Special Rule instead of firing normally.</description>
+    </rule>
+    <rule id="imp-sr-shal-0001" name="Super-Heavy Armoured Legate" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="123" hidden="false">
+      <description>A Warlord with this Warlord Trait gains the Dictatii Armoured Marshal upgrade at no additional points cost, and also increases its Ballistic Skill Characteristic by +1 in addition to any other bonuses.</description>
+    </rule>
+    <rule id="imp-sa-ambul-0001" name="Ambulator Frame" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="130" hidden="false">
+      <description>A relic of the Dark Age of Technology, this irreplaceable marvel functioned as both an exo-skeleton and life support for Ireton MaSade, allowing him to overcome the infirmities of his advanced age.
+
+An Ambulator Frame provides a 2+ Armour Save and grants the It Will Not Die (5+) Special Rule.</description>
+    </rule>
+    <rule id="imp-sa-warsuit-001" name="Extremis Warsuit" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="130" hidden="false">
+      <description>Ireton MaSade was known to take the field aboard a heavily personalised Extremis Warsuit to further mitigate the limitations of his centuries-old body – typically alongside similarly equipped Companions.
+
+If upgraded to have an Extremis Warsuit, Ireton MaSade must use the Ireton Mechanised profile, and gains the following benefits:
+
+• Exchanges his Archaeotech Pistol for a Rotary Bolt Cannon.
+• The Fleet (2), Inexorable, and Move Through Cover Special Rules.
+• The Mechanised and Light Unit Sub-Types.
+
+In addition, an Extremis Boarding Rig Section may be selected as a Retinue Squad in a Detachment where Ireton MaSade has been upgraded to have an Extremis Boarding Rig. A unit selected as Retinue Squad does not use up a Force Organisation slot and is considered part of the same unit as Ireton MaSade. An Extremis Boarding Rig Section selected as a Retinue Squad must be deployed with Ireton MaSade deployed as part of the unit and Ireton MaSade may not voluntarily leave the Retinue Squad during play.
+
+All models in an Extremis Boarding Rig Section selected as a Retinue Squad lose the Battlesmith (X) Special Rule, and gain the Chosen Warriors and Counter-Attack (1) Special Rules.
+
+One Extremis Boarding Rig may exchange a Vox Interlock for a Command Vox for +5 points. One Extremis Boarding Rig may exchange an Auxilia Vexilla for a Cohorts Vexilla for +5 points.</description>
+    </rule>
+    <rule id="imp-sa-motb-0001" name="Master of the Battlefield" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="130" hidden="false">
+      <description>If chosen as the army's Warlord, Ireton MaSade automatically has the Master of the Battlefield Warlord Trait and may not select any other Warlord Trait.
+
+At the start of the battle, once all players have deployed all of their units onto the battlefield (including Infiltrators and Scouts) and any rolls to Seize the Initiative have been made, but before the game begins, the Controlling Player may select up to three units that are under their control. The selected units may be redeployed as the Controlling Player wishes, within the constraints of the mission being played. The selected units may be placed into Reserves, but may not be assigned to a Deep Strike Assault, Subterranean Assault or Flanking Assault. If a unit with the Tercio Special Rule is selected, each unit is counted seperately, though that unit may ignore the normal rules for Tercio deployment when it is being redeployed.
+
+In addition, the Controlling Player of an army with Ireton MaSade as its Warlord may select one Phase at the start of the battle, before any models are deployed onto the battlefield. During the chosen Phase of their opponent's turn, an army that includes Ireton MaSade gains an additional Reaction as long as Ireton MaSade has not been removed as a casualty.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
