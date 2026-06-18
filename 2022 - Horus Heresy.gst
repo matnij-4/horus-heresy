@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="170" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="177" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -17596,6 +17596,51 @@ Additionally, a model equipped with a Servo-Rig may make two attacks in the Assa
       </infoLinks>
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
+    <selectionEntry id="imp-sa-wh-toxsh01" name="Toxiferran Shells" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="294" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="imp-sa-pr-toxsh01" name="Toxiferran Shells" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;-240&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Barrage, Large Blast (5&quot;), Poisoned (3+), Rending (6+), Ignores Cover, Harrower</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="imp-sa-il-toxsh01" name="Barrage" hidden="false" targetId="7255-b5ee-c3f4-3037" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Barrage"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-il-toxsh02" name="Large Blast (5&quot;)" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-il-toxsh03" name="Poisoned (3+)" hidden="false" targetId="e70e-23ea-3251-0edb" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Poisoned (3+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-il-toxsh04" name="Rending (6+)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-il-toxsh05" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Ignores Cover"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-il-toxsh06" name="Harrower" hidden="false" targetId="imp-sr-harrow-0001" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Harrower"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -25762,6 +25807,9 @@ In addition, the Controlling Player of an army with Ireton MaSade as its Warlord
     </rule>
     <rule id="imp-sa-rule-eots01" name="Eye of the Storm" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="281" hidden="false">
       <description>To stand at the centre of an inferno from such a weapon was to invite death upon yourself in a manner so final as to be utterly inescapable. Any hits applied to a model under the 5&amp;quot; marker at the centre of the Apocalyptic Mega-Blast from a weapon with this Special Rule also gain the Destructor Special Rule. Any unit which suffers a hit by any part of the Apocalyptic Mega-Blast Marker from an attack with this Special Rule permanently reduces the Toughness Characteristic of all models it contains by -1 for the rest of the game.</description>
+    </rule>
+    <rule id="imp-sr-harrow-0001" name="Harrower" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="294" hidden="false">
+      <description>Any unit from which a model is removed as a casualty during the Shooting phase as a result of an attack from a weapon with this special rule, must take a Morale check as if they had suffered 25% casualties.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
