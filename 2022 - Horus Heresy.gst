@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="162" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="170" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -17441,6 +17441,161 @@ Additionally, a model equipped with a Servo-Rig may make two attacks in the Assa
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="imp-sa-ds-wh-gs01" name="Deathstrike Missile - Godspear Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="294" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="imp-sa-ds-pr-gs01" name="Deathstrike Missile - Godspear Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">16</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Large Blast (5&quot;), Wrecker, Destructor, Shieldbreaker</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="imp-sa-ds-il-gs01" name="Large Blast (5&quot;)" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Blast (5&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-gs02" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Wrecker"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-gs03" name="Destructor" hidden="false" targetId="1f93-c765-f7b2-a025" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Destructor"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-gs04" name="Shieldbreaker" hidden="false" targetId="c703-f116-e578-430b-bd9666ac8394b2c2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shieldbreaker"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="imp-sa-ds-wh-pl01" name="Deathstrike Missile - Plasma Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="294" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="imp-sa-ds-pr-pl01" name="Deathstrike Missile - Plasma Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Apocalyptic Blast (10&quot;), Plasma Burn, Ignores Cover, Pinning, Shell Shock (3), Seismic Shock, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="imp-sa-ds-il-pl01" name="Plasma Burn" hidden="false" targetId="efaa-c932-9788-9ade" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Plasma Burn"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-pl02" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Ignores Cover"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-pl03" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Pinning"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-pl04" name="Shell Shock (3)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-pl05" name="Seismic Shock" hidden="false" targetId="5e0d-b2af-e7b4-a8cd" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Seismic Shock"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="imp-sa-ds-wh-tn01" name="Deathstrike Missile - Tactical Nuclear Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="294" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="imp-sa-ds-pr-tn01" name="Deathstrike Missile - Tactical Nuclear Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">14/10/6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1/2/3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Apocalyptic Mega-Blast, Eye of the Storm, Impact Flash, Seismic Shock, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="imp-sa-ds-il-tn01" name="Eye of the Storm" hidden="false" targetId="imp-sa-rule-eots01" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Eye of the Storm"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-tn02" name="Impact Flash" hidden="false" targetId="7931-67ba-3a28-4c5c-a49b3a57236547cf" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Impact Flash"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-tn03" name="Seismic Shock" hidden="false" targetId="5e0d-b2af-e7b4-a8cd" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Seismic Shock"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-tn04" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Ignores Cover"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="imp-sa-ds-wh-vx01" name="Deathstrike Missile - Vortex Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="294" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="imp-sa-ds-pr-vx01" name="Deathstrike Missile - Vortex Warhead" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Ordnance 1, Massive Blast (7&quot;), Vortex, Armourbane (Ranged), Instant Death, Wrecker, Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="imp-sa-ds-il-vx01" name="Massive Blast (7&quot;)" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-vx02" name="Vortex" hidden="false" targetId="e36d-75f7-6587-498b-8d8e5c2aa202948a" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Vortex"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-vx03" name="Armourbane (Ranged)" hidden="false" targetId="cb59-f920-f071-7cd4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Ranged)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-vx04" name="Instant Death" hidden="false" targetId="9e96-fff1-b916-d9a3" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Instant Death"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-vx05" name="Wrecker" hidden="false" targetId="ba77-a802-55df-da67" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Wrecker"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="imp-sa-ds-il-vx06" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Ignores Cover"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4a48-4935-246d-0c2e" name="Legion" hidden="false" collective="false" import="true">
@@ -25604,6 +25759,9 @@ One Extremis Boarding Rig may exchange a Vox Interlock for a Command Vox for +5 
 At the start of the battle, once all players have deployed all of their units onto the battlefield (including Infiltrators and Scouts) and any rolls to Seize the Initiative have been made, but before the game begins, the Controlling Player may select up to three units that are under their control. The selected units may be redeployed as the Controlling Player wishes, within the constraints of the mission being played. The selected units may be placed into Reserves, but may not be assigned to a Deep Strike Assault, Subterranean Assault or Flanking Assault. If a unit with the Tercio Special Rule is selected, each unit is counted seperately, though that unit may ignore the normal rules for Tercio deployment when it is being redeployed.
 
 In addition, the Controlling Player of an army with Ireton MaSade as its Warlord may select one Phase at the start of the battle, before any models are deployed onto the battlefield. During the chosen Phase of their opponent's turn, an army that includes Ireton MaSade gains an additional Reaction as long as Ireton MaSade has not been removed as a casualty.</description>
+    </rule>
+    <rule id="imp-sa-rule-eots01" name="Eye of the Storm" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" page="281" hidden="false">
+      <description>To stand at the centre of an inferno from such a weapon was to invite death upon yourself in a manner so final as to be utterly inescapable. Any hits applied to a model under the 5&amp;quot; marker at the centre of the Apocalyptic Mega-Blast from a weapon with this Special Rule also gain the Destructor Special Rule. Any unit which suffers a hit by any part of the Apocalyptic Mega-Blast Marker from an attack with this Special Rule permanently reduces the Toughness Characteristic of all models it contains by -1 for the rest of the game.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
