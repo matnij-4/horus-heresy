@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="81" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="83" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -9759,14 +9759,14 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <modifier type="set" field="name" value="Pintle Mounted Autocannon"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>                <entryLink id="ic-p-hb" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Pintle Mounted Heavy Bolter"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>                <entryLink id="ic-p-hsc" name="Heavy Seismic Cannon" hidden="false" collective="false" import="true" targetId="c6d7-8e9f-0123-4567" type="selectionEntry">
                   <modifiers>
@@ -9893,14 +9893,14 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <modifier type="set" field="name" value="Pintle Mounted Autocannon"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>                <entryLink id="ic-p2-hb" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="name" value="Pintle Mounted Heavy Bolter"/>
                   </modifiers>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>                <entryLink id="ic-p2-hsc" name="Heavy Seismic Cannon" hidden="false" collective="false" import="true" targetId="c6d7-8e9f-0123-4567" type="selectionEntry">
                   <modifiers>
@@ -9960,7 +9960,7 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ic-hk-max" type="max"/>
                   </constraints>
                   <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
                   </costs>
                 </entryLink>
                 <entryLink id="wr-ic-apex" name="Apex War-Rig" hidden="true" collective="false" import="true" targetId="wr23-d4e5-f6a7-8192" type="selectionEntry">
@@ -9979,6 +9979,22 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
                       </conditions>
                     </constraint>
                   </constraints>
+                </entryLink>
+                <entryLink id="wr-ic-mcb" name="Mars-Colossus Bombard" hidden="true" collective="false" import="true" targetId="fa6b-80f6-625f-4156-8765d6aa66906907" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Mars-Colossus Bombard"/>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="e3f4-5a6b-7c8d-9013" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr23-d4e5-f6a7-8192" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="wr-ic-mcb-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="50"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="ic-saw" name="Sawtooth Rockgrinder" hidden="false" collective="false" import="true" targetId="ef23-4567-8901-abcd" type="selectionEntry">
                   <constraints>
