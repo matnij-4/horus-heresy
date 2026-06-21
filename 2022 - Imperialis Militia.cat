@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="84" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="85" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -615,10 +615,10 @@
         <categoryLink id="c81c-hs" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b1b2-c3d4-e5f6-c824" name="IM - War Mammoth" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e824" type="selectionEntry">
+    <entryLink id="b1b2-c3d4-e5f6-c825" name="IM - War Mammoth" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e825" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c824-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
-        <categoryLink id="c824-hs" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
+        <categoryLink id="c825-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="c825-hs" name="Heavy Support:" hidden="false" targetId="7031-469a-1aeb-eab0" primary="true"/>
       </categoryLinks>
     </entryLink>    <entryLink id="ce95-16aa-4152-83c5" name="IM - Malcador Heavy Tank" hidden="false" collective="false" import="false" targetId="37f6-34e9-4938-0ff6" type="selectionEntry">
       <categoryLinks>
@@ -20173,9 +20173,9 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
-    <selectionEntry id="a1b2-c3d4-e5f6-e824w" name="Trampling Hooves &amp; Tusks" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a1b2-c3d4-e5f6-e825w" name="Trampling Hooves &amp; Tusks" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a1b2-c3d4-e5f6-e824wp" name="Trampling Hooves &amp; Tusks" publicationId="48c2-d023-0069-001a" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+        <profile id="a1b2-c3d4-e5f6-e825wp" name="Trampling Hooves &amp; Tusks" publicationId="48c2-d023-0069-001a" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="95ba-cda7-b831-6066">-</characteristic>
             <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">User</characteristic>
@@ -20185,29 +20185,29 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a1b2-c3d4-e5f6-e824wb" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="a1b2-c3d4-e5f6-e825wb" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers><modifier type="set" field="name" value="Breaching (5+)"/></modifiers>
         </infoLink>
       </infoLinks>
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
 
-    <selectionEntry id="a1b2-c3d4-e5f6-e824" name="IM - War Mammoth" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a1b2-c3d4-e5f6-e825" name="IM - War Mammoth" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="e824-cav" name="Cavalry Unit Type" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
-        <categoryLink id="e824-hvy" name="Heavy Sub-type" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
-        <categoryLink id="e824-mon" name="Monstrous Sub-type" hidden="false" targetId="7d95-f9d1-440a-67bd" primary="false"/>
-        <categoryLink id="e824-mil" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
-        <categoryLink id="e824-sa" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
+        <categoryLink id="e825-cav" name="Cavalry Unit Type" hidden="false" targetId="6d79-a3e4-381f-7b0f" primary="false"/>
+        <categoryLink id="e825-hvy" name="Heavy Sub-type" hidden="false" targetId="9231-183c-b97b-63f9" primary="false"/>
+        <categoryLink id="e825-mon" name="Monstrous Sub-type" hidden="false" targetId="7d95-f9d1-440a-67bd" primary="false"/>
+        <categoryLink id="e825-mil" name="Militia Unit Sub-type" hidden="false" targetId="66b2-c457-4d5e-8041" primary="false"/>
+        <categoryLink id="e825-sa" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a1b2-c3d4-e5f6-e824m" name="War Mammoth" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a1b2-c3d4-e5f6-e825m" name="War Mammoth" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-max" type="max"/>
           </constraints>
           <profiles>
-            <profile id="a1b2-c3d4-e5f6-e824p" name="War Mammoth" publicationId="48c2-d023-0069-001a" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+            <profile id="a1b2-c3d4-e5f6-e825p" name="War Mammoth" publicationId="48c2-d023-0069-001a" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Cavalry (Heavy, Monstrous)</characteristic>
                 <characteristic name="Move" typeId="893e-2d76-8f04-44e5">8</characteristic>
@@ -20224,42 +20224,42 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="e824-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
-            <infoLink id="e824-hw" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
+            <infoLink id="e825-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
+            <infoLink id="e825-hw" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
               <modifiers><modifier type="set" field="name" value="Hammer of Wrath (3)"/></modifiers>
             </infoLink>
           </infoLinks>
           <entryLinks>
-            <entryLink id="e824-es" name="Earthshaker cannon" hidden="false" collective="false" import="true" targetId="cc2e-df5f-1778-29d8" type="selectionEntry">
+            <entryLink id="e825-es" name="Earthshaker cannon" hidden="false" collective="false" import="true" targetId="cc2e-df5f-1778-29d8" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-es-min" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-es-max" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-es-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-es-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e824-th" name="Trampling Hooves &amp; Tusks" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e824w" type="selectionEntry">
+            <entryLink id="e825-th" name="Trampling Hooves &amp; Tusks" hidden="false" collective="false" import="true" targetId="a1b2-c3d4-e5f6-e825w" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-th-min" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-th-max" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-th-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-th-max" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="e824-sp" name="Shredder Prow" hidden="false" collective="false" import="true" targetId="b9c0-5d6e-7f80-91a2" type="selectionEntry">
+            <entryLink id="e825-sp" name="Shredder Prow" hidden="false" collective="false" import="true" targetId="b9c0-5d6e-7f80-91a2" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-sp-min" type="min"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e824-sp-max" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-sp-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e825-sp-max" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <categoryLinks>
-            <categoryLink targetId="6d79-a3e4-381f-7b0f" id="e824-mcav" name="Cavalry Unit Type" primary="false"/>
-            <categoryLink targetId="9231-183c-b97b-63f9" id="e824-mhvy" name="Heavy Sub-type" primary="false"/>
-            <categoryLink targetId="7d95-f9d1-440a-67bd" id="e824-mmon" name="Monstrous Sub-type" primary="false"/>
-            <categoryLink targetId="66b2-c457-4d5e-8041" id="e824-mmil" name="Militia Unit Sub-type" primary="false"/>
+            <categoryLink targetId="6d79-a3e4-381f-7b0f" id="e825-mcav" name="Cavalry Unit Type" primary="false"/>
+            <categoryLink targetId="9231-183c-b97b-63f9" id="e825-mhvy" name="Heavy Sub-type" primary="false"/>
+            <categoryLink targetId="7d95-f9d1-440a-67bd" id="e825-mmon" name="Monstrous Sub-type" primary="false"/>
+            <categoryLink targetId="66b2-c457-4d5e-8041" id="e825-mmil" name="Militia Unit Sub-type" primary="false"/>
           </categoryLinks>
           <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="300"/></costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="e824-prov" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
+        <entryLink id="e825-prov" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
       </entryLinks>
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
     </selectionEntry>
