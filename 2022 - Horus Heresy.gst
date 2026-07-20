@@ -24575,7 +24575,7 @@ The Precision Strikes (X) Special Rule does not allow models to strike into - or
       <description>When rolling on the Vehicle Damage table to resolve Hits against a Slow Vehicle, roll an additional D6 and before determining the result discard the highest single dice rolled. In addition, when a Slow Vehicle moves, other than to pivot in place, it is always considered to have moved at Combat Speed regardless of how many inches it moves.</description>
     </rule>
     <rule id="1570-c21a-881f-8b8a" name="Unwieldy" publicationId="e77a-823a-da94-16b9" page="249" hidden="false">
-      <description>A model attacking with this weapon Piles-in and fights at Initiative step 1, unless it has the Dreadnought Unit Type or Monstrous sub-type.</description>
+      <description>A model attacking with this weapon Piles-in and fights at Initiative step 1, unless it has the Dreadnought or Automata Unit Type or Monstrous sub-type.</description>
     </rule>
     <rule id="8542-ee9d-e2fa-52fe" name="Twin-linked" publicationId="e77a-823a-da94-16b9" page="249" hidden="false">
       <description>When attacking with a weapon that has this special rule, the controlling player may re-roll all failed To Hit rolls.
@@ -24667,6 +24667,11 @@ For example, a model with the Breaching (5+) special rule that rolls To Wound an
       <description>A weapon with this special rule may only be used to attack models of the Vehicle, Dreadnought or Automata Unit Types, any model with a Movement Characteristic of 0 or ‘-’, or Buildings or Fortifications. Furthermore, a model that is chosen to attack with a weapon with this special rule during the Assault phase may only make a single attack in the Fight sub-phase, regardless of its Attacks Characteristic and any bonus attacks from Charging or other special rules.</description>
     </rule>
     <rule id="a924-2634-73fd-aa96" name="Dreadnought Talon" publicationId="a716-c1c4-7b26-8424" page="118" hidden="false">
+      <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.
+
+Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>
+    </rule>
+    <rule id="7e4a-91c2-b5f8-3d06" name="Heptathax Talon" hidden="false">
       <description>When deployed onto the battlefield (either at the start of the battle or when arriving from Reserves), all models with this special rule in a unit must be placed within unit coherency, but afterwards operate independently and are not treated as a unit.
 
 Once a unit with this Special Rule has separated, each model counts as its own unit for the purposes of Victory Points, Units Destroyed, and similar rules.</description>

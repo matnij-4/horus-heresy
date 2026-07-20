@@ -3106,6 +3106,7 @@
                 <modifier type="set" field="name" value="Fear (1)"/>
               </modifiers>
             </infoLink>
+            <infoLink id="a3f1-8c2e-4b79-d065" name="Heptathax Talon" hidden="false" targetId="7e4a-91c2-b5f8-3d06" type="rule"/>
           </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="09d4-a497-22b6-b8c9" name="Any Heptathax may exchange both of their Light Autocannons for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="f8d0-c65a-a935-ce3d">
