@@ -17584,11 +17584,11 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
               </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Heavy, Mechanised, Character)</characteristic>
-                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">5</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">4</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
-                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
-                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
@@ -17631,7 +17631,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
                 <entryLink id="e824-sgt-mlr" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
                   <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
                 </entryLink>
-                <entryLink id="e824-sgt-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="32ad-6250-29c7-5466" type="selectionEntry">
+                <entryLink id="e824-sgt-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="43f5-3815-6b3a-a363" type="selectionEntry">
                   <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
                 </entryLink>
                 <entryLink id="e824-sgt-mm" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
@@ -17670,11 +17670,11 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
               </modifiers>
               <characteristics>
                 <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Militia, Heavy, Mechanised)</characteristic>
-                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">5</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">4</characteristic>
                 <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
                 <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
-                <characteristic name="S" typeId="e478-41d4-a092-48a8">4</characteristic>
-                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">4</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">3</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">3</characteristic>
                 <characteristic name="W" typeId="57ee-1126-32a9-5672">2</characteristic>
                 <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
                 <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">1</characteristic>
@@ -17717,7 +17717,7 @@ Phoebe Warsuit armour confers a 3+ Armour Save and a 6+ Invulnerable Save.</char
                 <entryLink id="e824-ws-mlr" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
                   <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/></costs>
                 </entryLink>
-                <entryLink id="e824-ws-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="32ad-6250-29c7-5466" type="selectionEntry">
+                <entryLink id="e824-ws-pc" name="Plasma Cannon" hidden="false" collective="false" import="true" targetId="43f5-3815-6b3a-a363" type="selectionEntry">
                   <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/></costs>
                 </entryLink>
                 <entryLink id="e824-ws-mm" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
