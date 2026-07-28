@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="178" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="180" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -8264,7 +8264,7 @@ In contravention to the GW FAQ, a unit with the Paragon Sub-type may make Reacti
       <infoLinks>
         <infoLink id="8f70-d2ca-7e73-d50f" name="Ordnance" hidden="false" targetId="6c55-22c8-1b01-2105" type="rule"/>
         <infoLink id="7355-35eb-d0ec-b453" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
-        <infoLink id="458f-0eab-b419-0f7b" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+        <infoLink id="458f-0eab-b419-0f7b" name="Rending (X)" hidden="false" targetId="0ac9-fab7-aef3-de1d" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Rending (4+)"/>
           </modifiers>
@@ -15060,6 +15060,28 @@ In addition, a model receives no benefit from the Hammer of Wrath (X) Special Ru
         <infoLink id="01bf-6456-ebd7-4d80-9996a251452a2432" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5891-e5cc-a66b-4f2c-922644bc4d05fed1" name="Heavy Plasma Caliver" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="12da-d68f-c3c1-454e-87222cef684fb1b3" name="Heavy Plasma Caliver" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">4</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 4, Breaching (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c84d-7343-2fb0-48d3-ac5f3053630c847b" name="Breaching (X)" hidden="false" targetId="a760-f736-1bf3-fa3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
           </modifiers>
         </infoLink>
       </infoLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c247-da79-1654-d39e" name="Mechanicum" revision="53" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="70" type="catalogue" publicationId="3886-76e5-438f-159f">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="c247-da79-1654-d39e" name="Mechanicum" revision="55" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="70" type="catalogue" publicationId="3886-76e5-438f-159f">
   <entryLinks>
     <entryLink id="29c6-0ec7-0162-e817" name="Mechanicum" hidden="false" collective="false" import="false" targetId="ddf5-d792-3146-6e9a" type="selectionEntry">
       <modifiers>
@@ -511,6 +511,12 @@
       <categoryLinks>
         <categoryLink id="ca4b-e16a-f7d8-fc3d" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="ed71-00ef-b55e-2e50" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ing-mino-link-0001" name="The Minotaur-Pattern Automata Maniple" hidden="false" collective="false" import="false" targetId="ing-mino-unit-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ing-mino-link-0001-unit" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="ing-mino-link-0001-elite" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="8010-9dfe-c8dc-3561" name="Vorax Battle-automata Maniple" hidden="false" collective="false" import="false" targetId="f144-1079-11ff-019d" type="selectionEntry">
@@ -7955,6 +7961,24 @@ Additionally, each time Inar Satarael makes a successful Invulnable Save on a ro
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ing-wpn-tl-maxima" name="Twin-linked Maxima Bolter" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ing-wpn-tl-maxima-prof" name="Twin-linked Maxima Bolter" publicationId="bde1-6db1-163b-3b76" page="114" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">12&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">4</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">5</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Assault 3, Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ing-wpn-tl-maxima-tl" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="ing-vanguard-unit-001" name="Skitarii Vanguard Cohort" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="08d8-f12e-5ce3-4be9-a3dced978c3cd7b6" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
@@ -12165,6 +12189,78 @@ A model with this Special Rule may never make Sweeping Advances.</description>
         </selectionEntry>
       </selectionEntries>
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/></costs>
+    </selectionEntry>
+    <selectionEntry id="ing-mino-unit-0001" name="The Minotaur-Pattern Automata Maniple" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="ing-mino-unit-0001-retinue" name="Praetorian Retinue" hidden="false" targetId="36ed-aa80-51d0-44ad-8adf15c82d94bdc8" type="rule"/>
+        <infoLink id="ing-mino-unit-0001-zenith" name="Zenith Protocol" hidden="false" targetId="9e03-fa59-c7cf-430b-a5f5d8435f14931c" type="rule"/>
+        <infoLink id="ing-mino-unit-0001-fnp" name="Feel No Pain (X)" hidden="false" targetId="ec46-ff29-32e0-c2aa" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ing-mino-unit-0001-bulky" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (3)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ing-mino-unit-0001-inf" name="Infantry Unit Type" hidden="false" targetId="8b4f-bfe2-ce7b-f1b1" primary="false"/>
+        <categoryLink id="ing-mino-unit-0001-serv" name="Servitor Sub-type" hidden="false" targetId="b9c0-serv-0002-0001" primary="false"/>
+        <categoryLink id="ing-mino-unit-0001-guard" name="Guardian Sub-type" hidden="false" targetId="8745-b21e-8576-7c30" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="ing-mino-model-0001" name="Minotaur-Pattern Automata" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-min" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ing-mino-model-0001-profile" name="Minotaur-Pattern Automata" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" typeId="4bb2-cb95-e6c8-5a21" typeName="Unit">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="ddd7-6f5c-a939-b69e">Infantry (Servitor, Guardian)</characteristic>
+                <characteristic name="Move" typeId="893e-2d76-8f04-44e5">6</characteristic>
+                <characteristic name="WS" typeId="cc42-7ed5-7092-5c84">3</characteristic>
+                <characteristic name="BS" typeId="74ae-c840-0036-d244">3</characteristic>
+                <characteristic name="S" typeId="e478-41d4-a092-48a8">5</characteristic>
+                <characteristic name="T" typeId="c32b-5fdd-3fbe-9b1f">5</characteristic>
+                <characteristic name="W" typeId="57ee-1126-32a9-5672">3</characteristic>
+                <characteristic name="I" typeId="62d3-22d7-2d49-52dc">3</characteristic>
+                <characteristic name="A" typeId="f111-2ce5-dd12-d6b0">2</characteristic>
+                <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">6</characteristic>
+                <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink id="ing-mino-model-0001-hpc-el" name="Heavy Plasma Caliver" hidden="false" collective="false" import="true" targetId="5891-e5cc-a66b-4f2c-922644bc4d05fed1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-hpc-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-hpc-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ing-mino-model-0001-fist-el" name="Power Fist" hidden="false" collective="false" import="true" targetId="768d-b89b-7328-d749" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-fist-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-fist-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ing-mino-model-0001-tlm-el" name="Twin-linked Maxima Bolter" hidden="false" collective="false" import="true" targetId="ing-wpn-tl-maxima" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-tlm-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ing-mino-model-0001-tlm-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ing-arkhan-unit-0001" name="Arkhan Land" publicationId="b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b1c" hidden="false" collective="false" import="true" type="unit">
       <constraints>
