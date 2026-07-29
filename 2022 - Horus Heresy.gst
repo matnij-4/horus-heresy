@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="180" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="182" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -25438,6 +25438,9 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
       <description>A model with this Special Rule may opt to run in the Movement Phase and still fire a single ranged weapon in the Shooting Phase. These shots are made at BS2. The To-Hit rolls for these shots cannot be improved by any source.
 
 Note that if a unit makes use of this Special Rule, they may not claim the benefits of the Firing Protocols (X) Special Rule in the same Game Turn.</description>
+    </rule>
+    <rule id="talent-rider-0001-0001" name="Talent Rider" hidden="false">
+      <description>A unit composed entirely of models with this special rule that chooses to Run in the Movement phase gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn, and may still declare a Charge in the Assault phase of the same turn.</description>
     </rule>
     <rule id="d8bb-e5b2-a6dc-45c9-a610ca1829fae93b" name="Slayer of Kings" publicationId="f7a2-b8c3-9d4e-5f60-1a2b3c4d5e6f" hidden="false">
       <description>A model with this Special Rule gains the Preferred Enemy (Independent Characters) Special Rule, but this Special Rule is not conferred to any model that does not have the Slayer of Kings Special Rule.</description>
