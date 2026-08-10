@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ee5e-198e-1b19-4b9f" name="LA -   I: Dark Angels" revision="46" battleScribeVersion="2.03" authorName="revivedtitan" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="ee5e-198e-1b19-4b9f" name="LA -   I: Dark Angels" revision="47" battleScribeVersion="2.03" authorName="revivedtitan" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="7653-8041-8d1c-c872" name="Dreadwing Interemptor Squad" hidden="false" collective="false" import="false" targetId="3008-e8ed-9e97-71c9" type="selectionEntry">
       <categoryLinks>
@@ -1626,6 +1626,14 @@
         <categoryLink id="91a1-3807-f49f-6f7a" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cent-darkangels-elf-av" name="Assault Veteran Squad" hidden="false" collective="false" import="false" targetId="cent-u-assault-vet-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cent-darkangels-elf-av-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="cent-darkangels-elf-av-ce" name="Compulsory Elite:" hidden="false" targetId="bb1f-ae32-b587-c3e1" primary="false"/>
+        <categoryLink id="cent-darkangels-elf-av-el" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
     <entryLink id="sat-elf-mark" name="Legion Veteran Marksmen Squad" hidden="false" collective="false" import="false" targetId="sat-u-mark-squad-01" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-mark-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -2348,6 +2356,25 @@
         <categoryLink id="e20f-50b3-fdc8-eb42" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cent-darkangels-tr-av" name="Assault Veteran Squad" hidden="true" collective="false" import="false" targetId="cent-u-assault-vet-01" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ca1-b02c-e2c7-5f09" type="equalTo"/>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="06cc-c559-d71e-b75e" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="cent-darkangels-tr-av-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="cent-darkangels-tr-av-tr" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
     <entryLink id="9dd4-c660-4f8b-fae3" name="Predator Squadron" hidden="true" collective="false" import="false" targetId="45fd-df3e-9bc4-60b6" type="selectionEntry">
       <comment>template_id_59c9-be20-4f7c-b91d</comment>
       <modifiers>

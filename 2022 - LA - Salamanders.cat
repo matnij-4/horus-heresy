@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3547-84d8-d789-bab7" name="LA -  XVIII: Salamanders" revision="52" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3547-84d8-d789-bab7" name="LA -  XVIII: Salamanders" revision="53" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="93d2-b1cb-b684-a9b3" name="XVIII: Salamanders" hidden="false" collective="false" import="false" targetId="c805-ca3a-ff93-5e2f" type="selectionEntry">
       <modifiers>
@@ -2780,6 +2780,14 @@
             </modifier>
           </modifiers>
         </entryLink>
+    <entryLink id="cent-salamander-elf-av" name="Assault Veteran Squad" hidden="false" collective="false" import="false" targetId="cent-u-assault-vet-01" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="cent-salamander-elf-av-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="cent-salamander-elf-av-ce" name="Compulsory Elite:" hidden="false" targetId="bb1f-ae32-b587-c3e1" primary="false"/>
+        <categoryLink id="cent-salamander-elf-av-el" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
       </entryLinks>
     </entryLink>
     <entryLink id="sat-elf-mark" name="Legion Veteran Marksmen Squad" hidden="false" collective="false" import="false" targetId="sat-u-mark-squad-01" type="selectionEntry">
@@ -3111,6 +3119,24 @@
         <categoryLink id="0e88-485e-43c2-8bef" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="cent-salamander-tr-av" name="Assault Veteran Squad" hidden="true" collective="false" import="false" targetId="cent-u-assault-vet-01" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="false">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4ca1-b02c-e2c7-5f09" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="cent-salamander-tr-av-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="cent-salamander-tr-av-tr" name="Troops:" hidden="false" targetId="9b5d-fac7-799b-d7e7" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+
     <entryLink id="5112-fe65-4b4a-9ca4" name="Terminator Tartaros Squad" hidden="true" collective="false" import="false" targetId="1a8e-0ded-a4dc-2b4e" type="selectionEntry">
       <comment>template_id_bfa2-4203-4ad3-b023</comment>
       <modifiers>

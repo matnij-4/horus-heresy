@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="183" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="184" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -19953,58 +19953,11 @@ Limitations
           <rules>
             <rule id="3cb1-9be8-c256-7909" name="Pride Of The Legion" publicationId="a716-c1c4-7b26-8424" page="100" hidden="false">
               <description>Effects
-• Legion Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
+• Legion Veteran Squads, Legion Assault Veteran Squads, Legion Terminator Cataphractii Squads and Legion Terminator Tartaros Squads may be selected as Troops choices in a Detachment using this Rite of War.
 • Any Legion Terminator Cataphractii Squads, Legion Terminator Tartaros Squads and Legion Veteran Squads taken as Compulsory Troops choices in a Detachment using this Rite of War gain the Line Sub-type.
 • Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Legion Veteran Squads taken as Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
-• Any unit composed entirely of models with either Cataphractii Terminator armour, Tartaros Terminator armour or any other pattern of Terminator armour and that is normally selected as an Elites choice may be included in a Detachment using this Rite of War as a Troops choice.
-Limitations
-• An army whose Primary Detachment is using this Rite of War may not select an Allied Detachment.
-• A Detachment using this Rite of War may only select a single Heavy Support choice and a single Fast Attack choice.
-• An Allied Detachment may not use this Rite of War.
-• An army using this Rite of War may not select any Fortification choices.
-• An army using this Rite of War may not include more non-Infantry units than it does Infantry units.</description>
+• Legion Assault Veteran Squads taken as Compulsory Troops Choices in a Detachment using this Rite of War gain the Line Sub-type.
+• Legion Terminator Saturnine Squads may be selected as Heavy Support Choices in a Detachment using this Rite of War.</description>
             </rule>
           </rules>
           <costs>
