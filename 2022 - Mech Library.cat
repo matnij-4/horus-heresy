@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3129-da35-55e0-642d" name="Mech Library" revision="59" battleScribeVersion="2.03" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3129-da35-55e0-642d" name="Mech Library" revision="60" battleScribeVersion="2.03" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="67" type="catalogue">
   <categoryEntries>
     <categoryEntry id="4086-0589-f010-e688" name="Titan Legion Min Troop/LoW" hidden="false"/>
     <categoryEntry id="57a1-ae47-ff1b-36e4" name="Cybertheurgist" publicationId="bde1-6db1-163b-3b76" page="92-96" hidden="false"/>
@@ -1400,6 +1400,96 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
               </modifiers>
             </entryLink>
             <entryLink id="9738-e2b3-3df6-2d92" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dw-u-direwolf-0001" name="Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="a335-d5b0-79b6-8117">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ed1f-9473-df70-4544" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="6d0b-fe0e-911e-486f">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c36-fde3-14ed-4db4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="dw-cl-minlow" name="Titan Legion Min Troop/LoW" hidden="false" targetId="4086-0589-f010-e688" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dw-mod-direwolf-0001" name="Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dw-mod-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dw-mod-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dw-prf-direwolf-0001" name="Dire Wolf Heavy Scout Titan" hidden="false" typeId="75b5-9f7a-156e-6889" typeName="Knights and Titans">
+              <characteristics>
+                <characteristic name="Unit Type" typeId="3c44-1e2a-23fe-c9e0">Vehicle (Titan)</characteristic>
+                <characteristic name="Move" typeId="7f12-0cc3-9dcd-25bc">12</characteristic>
+                <characteristic name="WS" typeId="4227-8eed-0c5c-a2d9">4</characteristic>
+                <characteristic name="BS" typeId="6c5a-df71-fefa-2ee3">3</characteristic>
+                <characteristic name="S" typeId="02ba-082e-e385-1ede">10</characteristic>
+                <characteristic name="Front" typeId="0d00-68d8-0535-e898">14</characteristic>
+                <characteristic name="Side" typeId="cb92-5809-d327-6981">14</characteristic>
+                <characteristic name="Rear" typeId="8fa4-6e34-29c4-d8c6">12</characteristic>
+                <characteristic name="I" typeId="91b3-4335-71bf-3fa9">4</characteristic>
+                <characteristic name="A" typeId="d54a-56a6-68c5-ae72">3</characteristic>
+                <characteristic name="HP" typeId="2490-aa2f-f5db-6070">12</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="dw-il-god" name="God-Engine" hidden="false" targetId="66b8-7232-1ed3-3f70" type="rule"/>
+            <infoLink id="dw-il-nv" name="Night Vision" hidden="false" targetId="683e-b4f2-f032-d31b" type="rule"/>
+            <infoLink id="dw-il-reactor" name="Reactor Meltdown (X)" hidden="false" targetId="3b0e-4a45-9bdd-91dc" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Reactor Meltdown (Magna)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="dw-il-stalker" name="Stalker" hidden="false" targetId="dw-rule-stalker" type="rule"/>
+            <infoLink id="dw-il-void" name="Void Shields" hidden="false" targetId="c503-f5b8-3da0-16e6" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Void Shields (2)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="dw-cl-veh" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+            <categoryLink id="dw-cl-titan" name="Titan Sub-type" hidden="false" targetId="4280-2d8-16c6-d60b" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="dw-grp-carapace" name="Carapace Mounted Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="dw-el-neutron">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dw-grp-carapace-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dw-grp-carapace-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="dw-el-neutron" name="Carapace Neutron Laser" hidden="false" collective="false" import="true" targetId="dw-wg-neutron" type="selectionEntry"/>
+                <entryLink id="dw-el-volcano" name="Carapace Volcano Cannon" hidden="false" collective="false" import="true" targetId="dw-wg-volcano" type="selectionEntry"/>
+                <entryLink id="dw-el-dissipator" name="Carapace Conversion Beam Dissipator" hidden="false" collective="false" import="true" targetId="dw-wg-dissipator" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="dw-el-ardex" name="Ardex-Defensor Mega-Bolters" hidden="false" collective="false" import="true" targetId="dw-wg-ardex-mb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dw-el-ardex-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dw-el-ardex-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="dw-el-warlord" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
+            <entryLink id="dw-el-wltraits" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="1ebb-8e01-7d58-9d99" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="750"/>
@@ -4869,6 +4959,116 @@ Invulnerable Saves granted by a mag-inverter shield do not stack with other Invu
         <infoLink id="1cbb-dc75-6866-d764" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
         <infoLink id="f100-5889-9c00-70eb" name="Sunder" hidden="false" targetId="20e2-75cf-bc16-cd8f" type="rule"/>
         <infoLink id="c1df-38bc-19b9-302f" name="Skyfire" hidden="false" targetId="f2bf-5daa-9f93-0b01" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dw-wg-ardex-mb" name="Ardex-Defensor Mega-Bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dw-prf-ardex-mb" name="Ardex-Defensor Mega-Bolters" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">60&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">6</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 15, Ardex-Defensor, Paired, Pinning, Shell Shock (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dw-il-ardex-mb-ad" name="Ardex-Defensor" hidden="false" targetId="d242-cb71-bc7f-eadd" type="rule"/>
+        <infoLink id="dw-il-ardex-mb-paired" name="Paired" hidden="false" targetId="dw-rule-paired" type="rule"/>
+        <infoLink id="dw-il-ardex-mb-pin" name="Pinning" hidden="false" targetId="1c96-205c-59a0-3cf2" type="rule"/>
+        <infoLink id="dw-il-ardex-mb-ss" name="Shell Shock (X)" hidden="false" targetId="46b7-63a1-941c-96a5" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Shell Shock (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dw-wg-neutron" name="Carapace Neutron Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dw-prf-neutron" name="Carapace Neutron Laser" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Massive Blast (7&quot;), Shock Pulse, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dw-il-neutron-dest" name="Destroyer" hidden="false" targetId="44d6-09b2-3bd3-b2d6" type="rule"/>
+        <infoLink id="dw-il-neutron-blast" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="dw-il-neutron-sp" name="Shock Pulse" hidden="false" targetId="9222-f6c5-dc19-905a" type="rule"/>
+        <infoLink id="dw-il-neutron-hot" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dw-wg-volcano" name="Carapace Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dw-prf-volcano" name="Carapace Volcano Cannon" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">14</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Large Blast (5&quot;), Ignores Cover</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dw-il-volcano-dest" name="Destroyer" hidden="false" targetId="44d6-09b2-3bd3-b2d6" type="rule"/>
+        <infoLink id="dw-il-volcano-blast" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule"/>
+        <infoLink id="dw-il-volcano-ic" name="Ignores Cover" hidden="false" targetId="fdb5-59e2-c446-1cbc" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dw-wg-dissipator" name="Carapace Conversion Beam Dissipator" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dw-prf-diss-1" name="Carapace Conversion Beam Dissipator (1)" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">Up to 18&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">-</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Massive Blast (7&quot;), Blind</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dw-prf-diss-2" name="Carapace Conversion Beam Dissipator (2)" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More than 18&quot;-42&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">10</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">3</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Massive Blast (7&quot;), Blind</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dw-prf-diss-3" name="Carapace Conversion Beam Dissipator (3)" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">More than 42&quot;-72&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">12</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">1</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Destroyer 1, Massive Blast (7&quot;), Blind</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dw-il-diss-dest" name="Destroyer" hidden="false" targetId="44d6-09b2-3bd3-b2d6" type="rule"/>
+        <infoLink id="dw-il-diss-blast" name="Blast" hidden="false" targetId="1d9a-73ef-5f4f-8bd8" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Massive Blast (7&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="dw-il-diss-blind" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -9344,6 +9544,12 @@ A Psyker with this Discipline gains the listed Power, weapon and special rules b
     </rule>
     <rule id="d242-cb71-bc7f-eadd" name="Ardex-Defensor" publicationId="bde1-6db1-163b-3b76" page="102 &amp; FAQ" hidden="false">
       <description>A model with the Knight or Titan Unit Sub-types that has weapons with this special rule may make the Overwatch Reaction when it is triggered by models that do not have the Knight, Titan, Super-heavy, or Lumbering Unit Sub-types, or that have fewer than 8 Wounds. When making Shooting Attacks as part of the Overwatch Reaction, the Reacting model may only make Shooting Attacks with weapons with this special rule.</description>
+    </rule>
+    <rule id="dw-rule-stalker" name="Stalker" hidden="false">
+      <description>As long as the opposing player has at least one model with the Knight, Titan, Super-Heavy, Lumbering, or Gargantuan unit type in their army, this model is able to redeploy as per the Scout special rule. However, this model can redeploy anywhere entirely within 12&quot; of its current position.</description>
+    </rule>
+    <rule id="dw-rule-paired" name="Paired" hidden="false">
+      <description>Check the line of sight from each of the weapons separately; if only one has line of sight, the weapon&apos;s shots are halved, rounding up.</description>
     </rule>
     <rule id="66b8-7232-1ed3-3f70" name="God-Engine" publicationId="bde1-6db1-163b-3b76" page="104" hidden="false">
       <description>A model with this special rule ignores all Psychic Powers and Cybertheurgic Rites and Attacks made by Psychic and Cybertheurgic Weapons. In addition, a model with this special rule ignores the effects of the Haywire and Disruption (X) special rules. In all cases, weapons which benefit from these special rules must attempt to damage a model with this special rule normally using the attack’s Strength value. In addition, all friendly Mechanicum units with at least one model within 24&quot; of a model with this special rule gain the Fearless special rule.</description>
