@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3547-84d8-d789-bab7" name="LA -  XVIII: Salamanders" revision="53" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3547-84d8-d789-bab7" name="LA -  XVIII: Salamanders" revision="55" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="93d2-b1cb-b684-a9b3" name="XVIII: Salamanders" hidden="false" collective="false" import="false" targetId="c805-ca3a-ff93-5e2f" type="selectionEntry">
       <modifiers>
@@ -487,7 +487,7 @@
         <entryLink id="d810-1b3b-49ab-9e10" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="4ef8-ecc8-b821-c604" type="selectionEntryGroup">
           <comment>template_id_fafb-6414-474a-8a09    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
-        <entryLink id="0db3-fde1-448e-9d6b" name="Retinue" hidden="false" collective="false" import="true" targetId="ec53-0911-52b7-dafa" type="selectionEntryGroup">
+<entryLink id="0db3-fde1-448e-9d6b" name="Retinue" hidden="false" collective="false" import="true" targetId="ec53-0911-52b7-dafa" type="selectionEntryGroup">
           <comment>template_id_a6a6-9bc7-4d4e-86a7    template_targetId_be38-a066-4f8e-ae54</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
@@ -502,6 +502,17 @@
         </entryLink>
       </entryLinks>
     </entryLink>
+    <entryLink id="sat-hq-centurion" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="sat-u-centurion-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-hq-cent-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-hq-cent-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="sat-hq-cent-chq" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="sat-hq-cent-wt" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="4f09-6be3-276d-2756" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+
     <entryLink id="be2f-c121-0fe4-6f13" name="Centurion, Tartaros" hidden="false" collective="false" import="false" targetId="f806-8a4e-d0d6-beaa" type="selectionEntry">
       <comment>template_id_6e9c-0842-4514-8ea6</comment>
       <categoryLinks>
@@ -1846,7 +1857,7 @@
         </entryLink>
       </entryLinks>
     </entryLink>
-    <entryLink id="sat-elf-praetor" name="Praetor in Saturnine Terminator Armour" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
+    <entryLink id="sat-elf-praetor" name="Praetor, Saturnine" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-pr-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="sat-elf-pr-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>

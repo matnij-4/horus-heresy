@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="184" battleScribeVersion="2.03" type="gameSystem">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="28d4-bd2e-4858-ece6" name="Horus Heresy (2022) - Pano(MG16)" revision="185" battleScribeVersion="2.03" type="gameSystem">
   <publications>
     <publication name="Github" hidden="false" id="e2a4-ac85-1bef-22f5" publisherUrl="https://github.com/BSData/horus-heresy" shortName="BSData/horus-heresy"/>
     <publication id="e77a-823a-da94-16b9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
@@ -25897,7 +25897,7 @@ Only models with the Vehicle Unit Type and Flyer Sub-type may make the Combat Ai
     </profile>
     <profile id="sat-prf-satarm-001" name="Legion Saturnine Terminator Armour" publicationId="e8f1-a2b3-c4d5-e6f7" page="18" hidden="false" typeId="2a1f-7837-f0ef-be44" typeName="Wargear Item">
       <characteristics>
-        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Legion Saturnine Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, a unit that includes any models with Saturnine Terminator armour may not make Sweeping Advances. If a model with Saturnine Terminator Armour is removed as a casualty, each models both friendly and enemy within D3&quot; suffer an automatic Hit at Str 8, AP-.</characteristic>
+        <characteristic name="Description" typeId="347e-ee4a-764f-6be3">Legion Saturnine Terminator armour confers a 2+ Armour Save and a 4+ Invulnerable Save. In addition, a unit that includes any models with Saturnine Terminator armour may not make Sweeping Advances.</characteristic>
       </characteristics>
     </profile>
 

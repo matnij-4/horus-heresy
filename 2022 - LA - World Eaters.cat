@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d901-0eca-48b5-304a" name="LA -  XII: World Eaters" revision="50" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d901-0eca-48b5-304a" name="LA -  XII: World Eaters" revision="52" battleScribeVersion="2.03" authorName="UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="d647-fd99-73e0-bd57" name="Angron" hidden="false" collective="false" import="false" targetId="6352-8efa-0cc4-cfa7" type="selectionEntry">
       <modifiers>
@@ -1056,7 +1056,7 @@
         </entryLink>
       </entryLinks>
     </entryLink>
-    <entryLink id="sat-elf-praetor" name="Praetor in Saturnine Terminator Armour" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
+    <entryLink id="sat-elf-praetor" name="Praetor, Saturnine" hidden="false" collective="false" import="false" targetId="sat-u-praetor-0001" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-pr-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
         <categoryLink id="sat-elf-pr-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -2267,6 +2267,17 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
+    <entryLink id="sat-hq-centurion" name="Centurion, Saturnine" hidden="false" collective="false" import="false" targetId="sat-u-centurion-0001" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="sat-hq-cent-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="sat-hq-cent-hq" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="sat-hq-cent-chq" name="Compulsory HQ:" hidden="false" targetId="f823-8c1d-6a87-26a1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="sat-hq-cent-wt" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="4f09-6be3-276d-2756" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+
     <entryLink id="551c-fb9b-4fe1-784c" name="Centurion, Tartaros" hidden="false" collective="false" import="false" targetId="f806-8a4e-d0d6-beaa" type="selectionEntry">
       <comment>template_id_6e9c-0842-4514-8ea6</comment>
       <categoryLinks>
@@ -2326,7 +2337,7 @@
         <entryLink id="4d37-e9fa-4504-b549" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="156e-4434-2c39-2fef" type="selectionEntryGroup">
           <comment>template_id_fafb-6414-474a-8a09    template_targetId_7dee-602c-4b47-be09</comment>
         </entryLink>
-        <entryLink id="f5c6-c6e3-43c8-b8d5" name="Retinue" hidden="false" collective="false" import="true" targetId="a01f-cd9e-bd21-853e" type="selectionEntryGroup">
+<entryLink id="f5c6-c6e3-43c8-b8d5" name="Retinue" hidden="false" collective="false" import="true" targetId="a01f-cd9e-bd21-853e" type="selectionEntryGroup">
           <comment>template_id_a6a6-9bc7-4d4e-86a7    template_targetId_be38-a066-4f8e-ae54</comment>
           <modifiers>
             <modifier type="set" field="hidden" value="true">
