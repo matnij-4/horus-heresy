@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="230" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="6393-649c-7213-a327" name="Legions Astartes" revision="232" battleScribeVersion="2.03" authorName="Various" authorUrl="https://github.com/BSData/horus-heresy" library="true" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <publications>
     <publication id="0594-a9b0-6f10-090e" name="Legion Javelin Squadron update" publisher="Warhammer Community Downloads" publicationDate="May 2023" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2023/05/hd7WOnm2lKCHkskG.pdf"/>
     <publication id="e8f1-a2b3-c4d5-e6f7" name="Honorifica - Saturnine" publisher="Ana" publicationDate="v1.0"/>
@@ -68874,7 +68874,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
       </costs>
     </selectionEntry>
 
-<selectionEntry id="sat-u-cmd-squad-01" name="Legion Saturnine Command Squad" publicationId="e8f1-a2b3-c4d5-e6f7" page="6" hidden="false" collective="false" import="true" type="unit">
+<selectionEntry id="sat-u-cmd-squad-01" name="Command Squad, Saturnine" publicationId="e8f1-a2b3-c4d5-e6f7" page="6" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="sat-cmd-ch" name="Chosen Warriors" hidden="false" targetId="13d1-9270-6539-08ed" type="rule"/>
         <infoLink id="sat-cmd-ret" name="Saturnine Retinue" hidden="false" targetId="sat0-retin-e1f2-a3b4" type="rule"/>
@@ -69087,7 +69087,7 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
       </selectionEntryGroups>
       <costs><cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="150"/></costs>
     </selectionEntry>
-    <selectionEntry id="sat-u-term-squad-01" name="Legion Saturnine Terminator Squad" publicationId="e8f1-a2b3-c4d5-e6f7" page="7" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="sat-u-term-squad-01" name="Terminator Saturnine Squad" publicationId="e8f1-a2b3-c4d5-e6f7" page="7" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="sat-bulky" name="Bulky (X)" hidden="false" targetId="676c-7b75-4b6f-9405" type="rule">
           <modifiers><modifier type="set" field="name" value="Bulky (4)"/></modifiers>
@@ -69294,6 +69294,43 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
               </characteristics>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="1" field="cc42-7ed5-7092-5c84">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="cent-av-sgt" childId="c60d-d862-a0b-9909" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="74ae-c840-0036-d244">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="cent-av-sgt" childId="d31f-643d-2343-97b5" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="e478-41d4-a092-48a8">
+                      <conditions>
+                        <condition type="equalTo" value="1" field="selections" scope="cent-av-sgt" childId="3dc0-7375-25fb-3432" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="62d3-22d7-2d49-52dc">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="cent-av-sgt" childId="3911-2f83-ad4c-2dac" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="57ee-1126-32a9-5672">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" value="1" field="e8a6-1da9-d384-8727">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <comment>In Disgrace All Are Equal</comment>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -69470,6 +69507,15 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Character Stat Improvement" hidden="false" id="cent-av-sgt-csi" type="selectionEntryGroup" targetId="5e99-fcf2-6b64-e88e">
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
@@ -69509,6 +69555,18 @@ In addition, Kaedes Nex can be included as part of a Blackshields Detachment (se
                 <characteristic name="Ld" typeId="e8a6-1da9-d384-8727">8</characteristic>
                 <characteristic name="Save" typeId="e593-6b3c-f169-04f0">3+</characteristic>
               </characteristics>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <comment>In Disgrace All Are Equal</comment>
+                  <modifiers>
+                    <modifier type="decrement" value="1" field="e8a6-1da9-d384-8727">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="ced-ce18-5d5b-e54" shared="true" includeChildSelections="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
             </profile>
           </profiles>
           <categoryLinks>
@@ -76415,6 +76473,30 @@ A model with this upgrade gains a Pintle Mounted banestrike bolt cannon.</charac
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
       </costs>
     </entryLink>
+        <entryLink id="sat-df-pb" name="Plasma Bombard" hidden="true" collective="false" import="true" targetId="sat1-plasb-0012-0012" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="sat-u-cmd-squad-01" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="sat-df-tlh" name="Twin-linked Heavy Disintegrator" hidden="true" collective="false" import="true" targetId="sat1-tl-hdis-0004" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="sat-u-cmd-squad-01" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
 

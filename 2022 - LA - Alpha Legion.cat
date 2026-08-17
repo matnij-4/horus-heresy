@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="9c06-1c61-d01d-8445" name="LA - XX: Alpha Legion" revision="68" battleScribeVersion="2.03" authorName="Alphalas" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="9c06-1c61-d01d-8445" name="LA - XX: Alpha Legion" revision="69" battleScribeVersion="2.03" authorName="Alphalas" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <categoryEntries>
     <categoryEntry id="2275-5253-2421-7383" name="Rewards of Trechery" hidden="false">
       <modifiers>
@@ -3259,7 +3259,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+    <entryLink id="sat-elf-term" name="Terminator Saturnine Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
         <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -7446,7 +7446,7 @@ A weapon with this special rule may not be used to make Shooting Attacks as part
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+        <entryLink id="sat-elf-ret-cmd" name="Command Squad, Saturnine" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
 
 </entryLinks>
     </selectionEntryGroup>

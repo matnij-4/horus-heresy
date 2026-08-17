@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3547-84d8-d789-bab7" name="LA -  XVIII: Salamanders" revision="55" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="3547-84d8-d789-bab7" name="LA -  XVIII: Salamanders" revision="56" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="93d2-b1cb-b684-a9b3" name="XVIII: Salamanders" hidden="false" collective="false" import="false" targetId="c805-ca3a-ff93-5e2f" type="selectionEntry">
       <modifiers>
@@ -2559,7 +2559,7 @@
         </entryLink>
       </entryLinks>
     </entryLink>
-    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+    <entryLink id="sat-elf-term" name="Terminator Saturnine Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
         <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -5254,7 +5254,7 @@
             </entryLink>
 </entryLinks>
         </entryLink>
-        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+        <entryLink id="sat-elf-ret-cmd" name="Command Squad, Saturnine" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
 
 <entryLink id="f7b0-e209-7d07-e62c" name="Command Squad, Tartaros" hidden="false" collective="false" import="true" targetId="58d0-a0fd-d20b-cb1b" type="selectionEntry">
           <entryLinks>

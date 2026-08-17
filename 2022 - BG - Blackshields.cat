@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="cd55-5578-4b1a-67a0" name="BG - Blackshields" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" revision="16" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="cd55-5578-4b1a-67a0" name="BG - Blackshields" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" revision="17" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Retinue" hidden="false" id="5b3d-ea70-4774-c23d" collective="false" import="true">
       <comment>template_id_be38-a066-4f8e-ae54</comment>
@@ -18,7 +18,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+        <entryLink id="sat-elf-ret-cmd" name="Command Squad, Saturnine" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
 
 </entryLinks>
     </selectionEntryGroup>
@@ -1731,7 +1731,7 @@ In addition, an army whose Warlord has this Trait may make an additional Reactio
         <categoryLink name="Unit:" hidden="false" id="e562-d5-df6a-f699" targetId="36c3-e85e-97cc-c503" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+    <entryLink id="sat-elf-term" name="Terminator Saturnine Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
         <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>

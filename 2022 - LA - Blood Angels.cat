@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="cd4d-8765-5387-8409" name="LA -  IX: Blood Angels" revision="60" battleScribeVersion="2.03" authorName="Jon K &quot;Alphalas&quot;" authorContact="Twitter: Alphalas_ Discord: Alphalas#8789" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="cd4d-8765-5387-8409" name="LA -  IX: Blood Angels" revision="61" battleScribeVersion="2.03" authorName="Jon K &quot;Alphalas&quot;" authorContact="Twitter: Alphalas_ Discord: Alphalas#8789" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="131" type="catalogue">
   <entryLinks>
     <entryLink id="1900-3f09-f47b-bed2" name="Praetor" hidden="false" collective="false" import="false" targetId="03be-5d55-d05a-771d" type="selectionEntry">
       <comment>template_id_5798-3fc7-4d4c-ad41</comment>
@@ -1648,7 +1648,7 @@
         </categoryLink>
       </categoryLinks>
     </entryLink>
-    <entryLink id="sat-elf-term" name="Legion Saturnine Terminator Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
+    <entryLink id="sat-elf-term" name="Terminator Saturnine Squad" hidden="false" collective="false" import="false" targetId="sat-u-term-squad-01" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="sat-elf-term-sl" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
         <categoryLink id="sat-elf-term-un" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
@@ -6238,7 +6238,7 @@ One Sanguinary Guard in a Sanguinary Guard Squad selected as a Retinue Squad may
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink id="sat-elf-ret-cmd" name="Legion Saturnine Command Squad" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
+        <entryLink id="sat-elf-ret-cmd" name="Command Squad, Saturnine" hidden="false" collective="false" import="true" targetId="sat-u-cmd-squad-01" type="selectionEntry"/>
 
 <entryLink id="5a2d-4b80-5fc8-7836" name="Ofanim Court" hidden="true" collective="false" import="true" targetId="1f80-8231-f2f7-a825" type="selectionEntry">
           <modifiers>
