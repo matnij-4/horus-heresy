@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="51" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -389,6 +389,13 @@
       <categoryLinks>
         <categoryLink id="1ca9-75de-6be8-942e" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="87c6-b510-1983-334f" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1b2-c3d4-e5f6-c826" name="IM - Anvil-pattern Assault Car" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-e826" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c826-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="c826-e" name="Elites:" hidden="false" targetId="7aee-565f-b0ae-294e" primary="true"/>
+        <categoryLink id="c826-vu" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="be47-b7f2-625b-94f8" name="IM - Arvus Transport" hidden="false" collective="false" import="false" targetId="6b4b-8295-b434-a7d4" type="selectionEntry">
@@ -9452,6 +9459,144 @@ Note that only Militia Medicae selected as part of a Detachment with the Ogryn C
           </categoryLinks>
           <costs>
             <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-e5f6-e826" name="IM - Anvil-pattern Assault Car" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="e826-cat1" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="e826-cat2" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="e826-cat3" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+        <categoryLink id="e826-cat4" name="Fast Sub-type" hidden="false" targetId="0ea2-efb5-b7af-226e" primary="false"/>
+        <categoryLink id="e826-cat5" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a1b2-c3d4-e5f6-e826m" name="Anvil-pattern Assault Car" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e826-min" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e826-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a1b2-c3d4-e5f6-e826p" name="Anvil-pattern Assault Car" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Fast, Third-line)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">2</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a1b2-c3d4-e5f6-e826r" name="Wrecking Charge" hidden="false">
+              <description>This model may perform a Ram attack after moving any distance in the Movement phase. If this model performs a Ram attack after moving more than 12&quot;, that Ram attack inflicts an additional D3 Hits, but the model must immediately take a Dangerous Terrain test once the attack has been resolved.
+
+In addition, if this model ends a move in hull contact with an enemy unit that does not have the Vehicle Unit Type, that unit suffers D3 Strength 8, AP 4 Hits with the Concussive (1) special rule. After these Hits have been resolved, the target unit must take a Morale check if it suffered any unsaved Wounds.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="e826-scout" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
+            <infoLink id="e826-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
+            <infoLink id="e826-eng" name="Engine Overcharge" hidden="false" targetId="e1f2-3a4b-5c6d-7e8f" type="rule"/>
+            <infoLink id="e826-how" name="Hammer of Wrath (X)" hidden="true" targetId="aec0-c3aa-1e4e-1779" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9c0-5d6e-7f80-91a2" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink targetId="e2b6-b770-784c-9e95" id="e826-mcat1" name="Vehicle:" primary="false"/>
+            <categoryLink targetId="cdaa-645b-fda7-8556" id="e826-mcat2" name="Third-line Unit Sub-type" primary="false"/>
+            <categoryLink targetId="0ea2-efb5-b7af-226e" id="e826-mcat3" name="Fast Sub-type" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="e826-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e826-smoke-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e826-smoke-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e826-prow-grp" name="1) Must select one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="e826-shock-ram">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e826-prow-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e826-prow-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="e826-shock-ram" name="Shock Ram" hidden="false" collective="false" import="true" targetId="e22e-df78-c49b-7b98" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Shock Ram"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="e826-saw" name="Sawtooth Rockgrinder" hidden="false" collective="false" import="true" targetId="ef23-4567-8901-abcd" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e826-shred" name="Shredder Prow" hidden="false" collective="false" import="true" targetId="b9c0-5d6e-7f80-91a2" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="e826-may-take" name="2) May take any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="e826-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e826-sl-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e826-dozer" name="Dozer Blade" hidden="false" collective="false" import="true" targetId="42e1-f6cf-1f2b-a492" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ef23-4567-8901-abcd" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e826-dozer-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="40"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
