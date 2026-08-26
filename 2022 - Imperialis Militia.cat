@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="f84d-94cf-5ce6-b393" name="Imperialis Militia" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="71" type="catalogue">
   <categoryEntries>
     <categoryEntry id="58b3-196a-9732-2165" name="Rogue Psyker Daemons Restriction" publicationId="48c2-d023-0069-001a" page="15" hidden="false">
       <modifiers>
@@ -134,6 +134,17 @@
       <categoryLinks>
         <categoryLink id="0a9b-38dd-824a-4a71-8b503dc2efb34093" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
         <categoryLink id="dbca-ca73-e0bc-47f8-950fa25b68375735" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b1b2-c3d4-e5f6-b705" name="IM - Ascendant Rogue Psyker (Achilles)" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-a705" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a705-el-min" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a705-el-max" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a705-el-u" name="Unit:" hidden="false" targetId="36c3-e85e-97cc-c503" primary="false"/>
+        <categoryLink id="a705-el-h" name="HQ:" hidden="false" targetId="4f85-eb33-30c9-8f51" primary="true"/>
+        <categoryLink id="a705-el-vu" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b1b2-c3d4-e5f6-b703" name="IM - Mounted Command Cadre" hidden="false" collective="false" import="false" targetId="a1b2-c3d4-e5f6-a703" type="selectionEntry">
@@ -16070,6 +16081,231 @@ The Muster of Worlds: If an Apex War-Rig is selected as the Warlord for the Deta
       <entryLinks>
         <entryLink id="d73a-7ff8-0648-400e-81bd391c908ca9ef" name="Provenance Options" hidden="false" collective="false" import="true" targetId="5fb4-282e-7957-1492" type="selectionEntryGroup"/>
         <entryLink import="true" name="The Ætheric Dominion (X)" hidden="false" id="0f37-10f6-065e-4669-9ff0936bd761bb5b" type="selectionEntryGroup" targetId="002f-0e40-9d49-2a22"/>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a1b2-c3d4-e5f6-a705" name="IM - Ascendant Rogue Psyker (Achilles)" publicationId="48c2-d023-0069-001a" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="a705-cat1" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+        <categoryLink id="a705-cat2" name="Vehicle Unit:" hidden="false" targetId="23eb-0b9e-0857-e965" primary="false"/>
+        <categoryLink id="a705-cat3" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+        <categoryLink id="a705-cat4" name="Fast Sub-type" hidden="false" targetId="0ea2-efb5-b7af-226e" primary="false"/>
+        <categoryLink id="a705-cat5" name="SA or IM Unit" hidden="false" targetId="4aca-2849-7f41-0200" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a1b2-c3d4-e5f6-a705m" name="Ascendant Rogue Psyker Achilles" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a705-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a705-max" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a1b2-c3d4-e5f6-a705p" name="Ascendant Rogue Psyker Achilles" hidden="false" typeId="2fae-b053-3f78-e7b2" typeName="Vehicle">
+              <modifiers>
+                <modifier type="increment" field="3614-4a2d-bffb-90e4" value="2">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="wr20-a1b2-c3d4-e5f6" type="equalTo"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="4e84-2d57-4986-2b23" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="7381-1130-ca6e-1806" shared="true" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Unit Type" typeId="e555-4aed-dfcc-c0b4">Vehicle (Fast, Third-line, Character, Psyker)</characteristic>
+                <characteristic name="Move" typeId="3614-4a2d-bffb-90e4">16</characteristic>
+                <characteristic name="BS" typeId="51fb-b7d9-aa59-863d">3</characteristic>
+                <characteristic name="Front" typeId="0ef8-a648-01d0-08ee">11</characteristic>
+                <characteristic name="Side" typeId="f150-c0dc-c192-9cb3">11</characteristic>
+                <characteristic name="Rear" typeId="8d4e-2aea-fffc-d556">10</characteristic>
+                <characteristic name="HP" typeId="a76c-83b1-602f-9e62">2</characteristic>
+                <characteristic name="Transport Capacity" typeId="0c90-79e2-f768-e547">-</characteristic>
+                <characteristic name="Access Points" typeId="e217-1b1e-9494-3e3e">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a705-psychic-conduit" name="Psychic Conduit" hidden="false">
+              <description>This model is treated as having a Leadership Characteristic of 8 for the purposes of Psychic Checks and any other rules that require a Leadership Characteristic.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a705-alpha-psyker" name="Alpha Psyker" hidden="false" targetId="942d-bb5a-1ec9-4691-b481c77b86662939" type="rule"/>
+            <infoLink id="a705-psychic-mastery" name="Psychic Mastery (X)" hidden="false" targetId="bc7c-f3b9-d161-4ece-86ecaf3a2ade3eeb" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Psychic Mastery (2)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="a705-unrestrained" name="Unrestrained Power" hidden="false" targetId="f709-4974-34cb-4db5-b7d7f6bd2a487f8a" type="rule"/>
+            <infoLink id="a705-fear" name="Fear (X)" hidden="false" targetId="21f6-7842-df5c-d2e7" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Fear (1)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="a705-traitor" name="Traitor" hidden="false" targetId="eff2-8b0e-21da-2f0d" type="rule"/>
+            <infoLink id="a705-scout" name="Scout" hidden="false" targetId="aacf-9a7e-982d-b793" type="rule"/>
+            <infoLink id="a705-mtc" name="Move Through Cover" hidden="false" targetId="2b6f-bfec-759e-1746" type="rule"/>
+            <infoLink id="a705-eng" name="Engine Overcharge" hidden="false" targetId="e1f2-3a4b-5c6d-7e8f" type="rule"/>
+          </infoLinks>
+          <categoryLinks>
+            <categoryLink id="a705-mcat-v" name="Vehicle:" hidden="false" targetId="e2b6-b770-784c-9e95" primary="false"/>
+            <categoryLink id="a705-mcat-tl" name="Third-line Unit Sub-type" hidden="false" targetId="cdaa-645b-fda7-8556" primary="false"/>
+            <categoryLink id="a705-mcat-f" name="Fast Sub-type" hidden="false" targetId="0ea2-efb5-b7af-226e" primary="false"/>
+            <categoryLink id="a705-mcat-p" name="Psyker:" hidden="false" targetId="6e0c-29ba-a445-8321" primary="false"/>
+            <categoryLink id="a705-mcat-c" name="Character" hidden="false" targetId="f75a-d5c1-59ba-5c5a" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="a705-smoke" name="Smoke Launchers" hidden="false" collective="false" import="true" targetId="0873-34dd-e52d-d33c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-smoke-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-smoke-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a705-warlord" name="Warlord" hidden="false" collective="false" import="true" targetId="0176-56a3-d590-b103" type="selectionEntry"/>
+            <entryLink id="a705-wlt" name="Warlord Traits" hidden="false" collective="false" import="false" targetId="088d-527f-114b-afd4" type="selectionEntryGroup"/>
+            <entryLink id="a705-anath" name="Psychic Discipline: Anathemata" hidden="false" collective="false" import="true" targetId="c6ec-edc0-034e-ed45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-anath-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-anath-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a705-disc" name="Psychic Disciplines" hidden="false" collective="false" import="false" targetId="b8e4-9d3f-5e02-c167" type="selectionEntryGroup"/>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a705-turret-grp" name="1) May exchange Turret Mounted Twin-linked Heavy Stubber for one of the following:" hidden="false" collective="false" import="true" defaultSelectionEntryId="a705-tl-hs-def">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-turret-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-turret-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a705-tl-hs-def" name="Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" targetId="a3b4-5c6d-7e8f-9012" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-linked Heavy Stubber"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="a705-hf" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="5507-b432-3b4c-df12" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Flamer"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-hb" name="Heavy Bolter" hidden="false" collective="false" import="true" targetId="07fd-c24a-9235-4206" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Bolter"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-ml" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="003b-af4b-0094-f5c3" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Multi-Laser"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-ac" name="Autocannon" hidden="false" collective="false" import="true" targetId="56b3-de09-9fea-deb6" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Autocannon"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-gl" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="e0f3-3743-a9d0-f5f1" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-linked Grenade Launcher (with Frag and Krak rounds)"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink id="a705-gl-tl" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-mlr" name="Missile Launcher (with Frag, Krak, and Flak Missiles)" hidden="false" collective="false" import="true" targetId="536a-06f1-e49b-8c6b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Twin-linked Missile Launcher (with Frag, Krak, and Flak Missiles)"/>
+                  </modifiers>
+                  <infoLinks>
+                    <infoLink id="a705-mlr-tl" name="Twin-linked" hidden="false" targetId="8542-ee9d-e2fa-52fe" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-hm" name="Heavy Mortar" hidden="false" collective="false" import="true" targetId="9012-a345-b678-c9de" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Mortar"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-hml" name="Heavy Mining Laser" hidden="false" collective="false" import="true" targetId="d6e7-8f90-a123-b456" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Turret Mounted Heavy Mining Laser"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a705-may-take" name="2) May take any of the following:" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="a705-sl" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-sl-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-hk" name="Hunter-Killer Missile" hidden="false" collective="false" import="true" targetId="1bf8-72f8-c331-6900" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Hull (Front) Mounted Hunter-Killer Missile"/>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-hk-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-cl" name="Centreline Mounted Twin-linked Heavy Stubber" hidden="false" collective="false" import="true" targetId="4567-8901-abcd-ef34" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-cl-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="a705-aug" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a705-aug-max" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="115"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="The Ætheric Dominion (X)" hidden="false" id="a705-aether" type="selectionEntryGroup" targetId="002f-0e40-9d49-2a22"/>
       </entryLinks>
       <costs>
         <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
